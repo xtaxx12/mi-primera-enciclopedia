@@ -1,0 +1,11 @@
+categorias:
+  - slug: animales
+    articulos:
+      - titulo: León
+  - slug: espacio
+    articulos:
+      - titulo: Sistema solar
+      - titulo: Artículo que no existe en Vikidia
+paises:
+  - titulo: México
+    adm0: MEX
