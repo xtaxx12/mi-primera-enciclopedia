@@ -1,0 +1,59 @@
+---
+import { Image } from 'astro:assets';
+import { imagenDe } from '../lib/medios';
+import type { Bloque, Medio } from '../lib/tipos';
+
+interface Props {
+  bloques: Bloque[];
+  medios: Medio[];
+  respaldo: string;
+}
+const { bloques, medios, respaldo } = Astro.props;
+const partes = bloques.map((b) =>
+  b.tipo === 'html'
+    ? { tipo: 'html' as const, html: b.html }
+    : {
+        tipo: 'figura' as const,
+        imagen: imagenDe(b.archivo),
+        pie: b.pie,
+        alt: b.pie || medios.find((m) => m.archivo === b.archivo)?.alt || '',
+      },
+);
+---
+<div class="texto-articulo">
+  {
+    partes.map((p) =>
+      p.tipo === 'html' ? (
+        <Fragment set:html={p.html} />
+      ) : p.imagen ? (
+        <figure class="figura">
+          <Image src={p.imagen} alt={p.alt} width={480} data-respaldo={respaldo} />
+          {p.pie && <figcaption>{p.pie}</figcaption>}
+        </figure>
+      ) : null,
+    )
+  }
+</div>
+
+<style>
+  .texto-articulo :global(p),
+  .texto-articulo :global(li) {
+    font-size: 1.05rem;
+  }
+  .texto-articulo :global(h2) {
+    margin-top: 1.5rem;
+    color: #1f5fbf;
+  }
+  .figura {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background: #fff;
+    border: 1px solid #c9d8ec;
+    border-radius: var(--radio);
+    max-width: 500px;
+  }
+  .figura figcaption {
+    font-size: 0.9rem;
+    color: var(--texto-suave);
+  }
+</style>

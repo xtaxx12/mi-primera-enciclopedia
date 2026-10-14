@@ -40,6 +40,16 @@ const { titulo, pantalla, descripcion = SITIO.lema, mensajesGuia = [] } = Astro.
       document.addEventListener('click', (e) => {
         if ((e.target as Element).closest('a, button')) sonido.reproducir('clic');
       });
+      document.addEventListener(
+        'error',
+        (e) => {
+          const img = e.target;
+          if (!(img instanceof HTMLImageElement) || !img.dataset.respaldo || img.dataset.fallo) return;
+          img.dataset.fallo = '1';
+          img.src = img.dataset.respaldo;
+        },
+        true,
+      );
     </script>
   </body>
 </html>

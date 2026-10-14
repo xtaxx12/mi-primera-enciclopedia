@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Icono from '../../components/Icono.astro';
+import TarjetaArticulo from '../../components/TarjetaArticulo.astro';
+import { CATEGORIAS } from '../../config';
+import { deCategoria } from '../../lib/articulos';
+import type { Articulo } from '../../lib/tipos';
+
+export async function getStaticPaths() {
+  const articulos = (await getCollection('articulos')).map((e) => e.data as Articulo);
+  return CATEGORIAS.map((categoria) => ({
+    params: { slug: categoria.slug },
+    props: { categoria, articulos: deCategoria(articulos, categoria.slug) },
+  }));
+}
+
+const { categoria, articulos } = Astro.props;
+---
+<Base titulo={categoria.nombre} pantalla="categoria">
+  <header class="encabezado" style={`--color: var(--cat-${categoria.slug})`}>
+    <Icono codigo={categoria.icono} tam={56} />
+    <h1>{categoria.nombre}</h1>
+  </header>
+  {
+    articulos.length ? (
+      <ul class="tarjetas">
+        {articulos.map((a) => (
+          <li>
+            <TarjetaArticulo articulo={a} />
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>Todavía no hay artículos en esta categoría.</p>
+    )
+  }
+</Base>
+
+<style>
+  .encabezado {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1.2rem;
+    padding: 0.6rem 1rem;
+    border-radius: var(--radio);
+    color: #fff;
+    background: var(--brillo), var(--color);
+  }
+  .encabezado h1 {
+    margin: 0;
+  }
+  .tarjetas {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+</style>

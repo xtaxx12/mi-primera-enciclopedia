@@ -1,0 +1,107 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import Atribucion from '../../components/Atribucion.astro';
+import Bloques from '../../components/Bloques.astro';
+import PanelMultimedia from '../../components/PanelMultimedia.astro';
+import { categoriaPorSlug } from '../../config';
+import { imagenDe } from '../../lib/medios';
+import type { Articulo, Cuestionario } from '../../lib/tipos';
+
+export async function getStaticPaths() {
+  const articulos = (await getCollection('articulos')).map((e) => e.data as Articulo);
+  const cuestionarios = (await getCollection('cuestionarios')).map((e) => e.data as Cuestionario);
+  const porSlug = new Map(articulos.map((a) => [a.slug, a]));
+  return articulos.map((articulo) => ({
+    params: { slug: articulo.slug },
+    props: {
+      articulo,
+      relacionados: articulo.relacionados.flatMap((s) => {
+        const r = porSlug.get(s);
+        return r ? [{ slug: r.slug, titulo: r.titulo }] : [];
+      }),
+      cuestionario: cuestionarios.find((c) => c.categoria === articulo.categoria)?.slug,
+      datos: cuestionarios.flatMap((c) => c.preguntas).filter((p) => p.articulo === articulo.slug).map((p) => p.explicacion),
+    },
+  }));
+}
+
+const { articulo, relacionados, cuestionario, datos } = Astro.props;
+const categoria = categoriaPorSlug(articulo.categoria)!;
+const respaldo = `/iconos/${categoria.icono}.svg`;
+const principal = articulo.principal ? imagenDe(articulo.principal.archivo) : undefined;
+---
+<Base titulo={articulo.titulo} pantalla="articulo" descripcion={articulo.resumen} mensajesGuia={datos}>
+  <article class="articulo">
+    <p class="miga"><a href={`/categoria/${categoria.slug}`}>{categoria.nombre}</a></p>
+    <h1>{articulo.titulo}</h1>
+    <div class="cuerpo">
+      <div class="lectura">
+        {
+          principal && articulo.principal && (
+            <figure class="principal">
+              <Image src={principal} alt={articulo.principal.alt} width={560} loading="eager" data-respaldo={respaldo} />
+            </figure>
+          )
+        }
+        <Bloques bloques={articulo.bloques} medios={articulo.medios} respaldo={respaldo} />
+        {cuestionario && <a class="boton boton-grande prueba" href={`/juegos/cuestionario/${cuestionario}`}>¡Pon a prueba lo que sabes!</a>}
+      </div>
+      <aside class="lateral">
+        <PanelMultimedia medios={articulo.medios} respaldo={respaldo} />
+        {
+          relacionados.length > 0 && (
+            <section class="panel relacionados">
+              <h2>Artículos relacionados</h2>
+              <ul>
+                {relacionados.map((r) => (
+                  <li>
+                    <a href={`/articulo/${r.slug}`}>{r.titulo}</a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+      </aside>
+    </div>
+    <Atribucion titulo={articulo.titulo} fuente={articulo.fuente} medios={articulo.medios} />
+  </article>
+</Base>
+
+<style>
+  .miga {
+    margin: 0 0 0.3rem;
+    font-weight: bold;
+  }
+  .articulo h1 {
+    font-size: 2.4rem;
+    color: #1f5fbf;
+  }
+  .cuerpo {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .principal {
+    margin: 0 0 1rem;
+  }
+  .principal :global(img) {
+    border-radius: var(--radio);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  .lateral {
+    display: grid;
+    gap: 1rem;
+  }
+  .prueba {
+    margin-top: 1.5rem;
+  }
+  @media (max-width: 1179px) {
+    .cuerpo {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

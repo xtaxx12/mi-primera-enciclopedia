@@ -1,0 +1,36 @@
+---
+import { textoLicencia } from '../lib/articulos';
+import type { Articulo, Medio } from '../lib/tipos';
+
+interface Props {
+  titulo: string;
+  fuente: Articulo['fuente'];
+  medios: Medio[];
+}
+const { titulo, fuente, medios } = Astro.props;
+---
+<footer class="atribucion">
+  <p>Basado en «<a href={fuente.url}>{titulo}</a>» de Vikidia, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.es">CC BY-SA 3.0</a>, con modificaciones. <a href={fuente.historialUrl}>Ver los autores del texto</a>.</p>
+  {
+    medios.length > 0 && (
+      <details>
+        <summary>Créditos de imágenes y sonidos</summary>
+        <ul>
+          {medios.map((m) => (
+            <li><a href={m.fuenteUrl}>{m.alt || m.archivo}</a>: {m.autor}, {textoLicencia(m.licencia)}{m.licenciaUrl ? <> (<a href={m.licenciaUrl}>licencia</a>)</> : null}</li>
+          ))}
+        </ul>
+      </details>
+    )
+  }
+</footer>
+
+<style>
+  .atribucion {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #c9d8ec;
+    font-size: 0.85rem;
+    color: var(--texto-suave);
+  }
+</style>
