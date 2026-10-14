@@ -1,0 +1,35 @@
+:root {
+  --fuente-texto: Tahoma, Verdana, 'DejaVu Sans', sans-serif;
+  --fuente-titulos: 'Baloo 2', Tahoma, Verdana, sans-serif;
+
+  --fondo-escritorio: #2f6fd0;
+  --fondo-escritorio-2: #39c6f4;
+  --ventana: #f4f8fd;
+  --ventana-borde: #2b5aa8;
+  --texto: #1d2733;
+  --texto-suave: #45525f;
+  --enlace: #0b57b5;
+  --foco: #ffb000;
+
+  --barra-titulo-1: #5aa3f0;
+  --barra-titulo-2: #1f5fbf;
+  --boton-1: #ffffff;
+  --boton-2: #d8e6f7;
+  --boton-borde: #7fa3cf;
+  --activo-1: #ffe9a8;
+  --activo-2: #ffc94d;
+
+  --radio: 14px;
+  --sombra: 0 10px 30px rgb(0 30 80 / 0.35);
+  --brillo: linear-gradient(to bottom, rgb(255 255 255 / 0.55), rgb(255 255 255 / 0.05) 50%, transparent 50%);
+
+  /* Un color por categoría; todos con contraste AA contra texto blanco. */
+  --cat-animales: #1f7a3a;
+  --cat-planeta-tierra: #8a4b12;
+  --cat-espacio: #3437a8;
+  --cat-cuerpo-humano: #b42a48;
+  --cat-historia: #7a4f0e;
+  --cat-arte-y-musica: #8a2f9c;
+  --cat-ciencia-y-tecnologia: #0b6874;
+  --cat-paises: #a85400;
+}

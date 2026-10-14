@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { decodificarEntidades, recortar, textoPlano } from '../../src/lib/texto';
+import { decodificarEntidades, jsonParaScript, recortar, textoPlano } from '../../src/lib/texto';
 
 describe('decodificarEntidades', () => {
   it('decodifica entidades con nombre y numéricas', () => {
@@ -29,5 +29,13 @@ describe('recortar', () => {
     const r = recortar(largo, 300);
     expect(r.length).toBeLessThanOrEqual(300);
     expect(r.endsWith('palabra…')).toBe(true);
+  });
+});
+
+describe('jsonParaScript', () => {
+  it('escapa "<" para que el JSON no pueda cerrar la etiqueta <script>', () => {
+    const s = jsonParaScript([{ texto: '</script><script>alert(1)</script>' }]);
+    expect(s).not.toContain('<');
+    expect(JSON.parse(s)).toEqual([{ texto: '</script><script>alert(1)</script>' }]);
   });
 });

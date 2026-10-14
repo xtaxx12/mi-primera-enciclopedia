@@ -1,0 +1,9 @@
+---
+interface Props {
+  codigo: string;
+  tam?: number;
+  alt?: string;
+}
+const { codigo, tam = 24, alt = '' } = Astro.props;
+---
+<img src={`/iconos/${codigo}.svg`} width={tam} height={tam} alt={alt} class="icono" decoding="async" />

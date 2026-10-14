@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--fuente-texto);
+  color: var(--texto);
+  line-height: 1.55;
+  background: linear-gradient(160deg, var(--fondo-escritorio-2), var(--fondo-escritorio) 60%, #1b3f8f);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fuente-titulos);
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+}
+
+a {
+  color: var(--enlace);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:focus-visible {
+  outline: 3px solid var(--foco);
+  outline-offset: 2px;
+}
+
+.saltar {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: #fff;
+}
+
+.saltar:focus {
+  left: 1rem;
+  top: 1rem;
+}
+
+.boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--boton-borde);
+  color: var(--texto);
+  text-decoration: none;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  background: var(--brillo), linear-gradient(to bottom, var(--boton-1), var(--boton-2));
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.2), inset 0 1px 0 #fff;
+  transition: transform 0.1s ease, filter 0.15s ease;
+}
+
+.boton:hover {
+  filter: brightness(1.05) saturate(1.1);
+}
+
+.boton:active {
+  transform: translateY(1px);
+}
+
+.boton[aria-current='page'],
+.boton[aria-pressed='true'] {
+  background: var(--brillo), linear-gradient(to bottom, var(--activo-1), var(--activo-2));
+  border-color: #c9932a;
+}
+
+.boton-icono {
+  padding: 0.4rem;
+}
+
+.boton-grande {
+  padding: 0.7rem 1.2rem;
+  font-size: 1.1rem;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #c9d8ec;
+  border-radius: var(--radio);
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 6px rgb(0 40 100 / 0.08);
+}
+
+.visualmente-oculto {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}

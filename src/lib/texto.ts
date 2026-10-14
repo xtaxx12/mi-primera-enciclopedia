@@ -25,3 +25,8 @@ export function recortar(texto: string, max = 300): string {
   const espacio = corte.lastIndexOf(' ');
   return `${(espacio > max * 0.6 ? corte.slice(0, espacio) : corte).trimEnd()}…`;
 }
+
+/** JSON que se puede incrustar en <script type="application/json"> sin cerrar la etiqueta. */
+export function jsonParaScript(valor: unknown): string {
+  return JSON.stringify(valor).replace(/</g, '\\u003c');
+}

@@ -23,3 +23,19 @@ export const SLUGS_CATEGORIAS = CATEGORIAS.map((c) => c.slug) as [CategoriaSlug,
 export function categoriaPorSlug(slug: string) {
   return CATEGORIAS.find((c) => c.slug === slug);
 }
+
+/** Códigos de OpenMoji (CC BY-SA 4.0) usados en la interfaz. */
+export const ICONOS = {
+  inicio: '1F3E0',
+  buscar: '1F50D',
+  atlas: '1F5FA',
+  juegos: '1F3B2',
+  acerca: '2139',
+  sonido: '1F50A',
+  silencio: '1F507',
+  atras: '2B05',
+  adelante: '27A1',
+  estrella: '2B50',
+  trofeo: '1F3C6',
+  libros: '1F4DA',
+} as const;

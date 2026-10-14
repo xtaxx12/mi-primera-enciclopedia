@@ -1,12 +1,127 @@
 ---
-import { SITIO } from '../config';
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Icono from '../components/Icono.astro';
+import { CATEGORIAS, ICONOS, SITIO } from '../config';
+import { jsonParaScript } from '../lib/texto';
+
+const articulos = await getCollection('articulos');
+const cuestionarios = await getCollection('cuestionarios');
+const explicaciones = cuestionarios.flatMap((c) =>
+  c.data.preguntas.map((p) => ({ texto: p.explicacion, href: `/articulo/${p.articulo}` })),
+);
+const datos = explicaciones.length
+  ? explicaciones
+  : articulos.map((a) => ({ texto: a.data.resumen, href: `/articulo/${a.data.slug}` }));
+const cuenta = (slug: string) => articulos.filter((a) => a.data.categoria === slug).length;
 ---
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <title>{SITIO.nombre}</title>
-  </head>
-  <body>
+<Base titulo="Inicio" pantalla="inicio">
+  <section class="bienvenida">
     <h1>{SITIO.nombre}</h1>
-  </body>
-</html>
+    <p class="lema">{SITIO.lema}</p>
+  </section>
+
+  <ul class="mosaicos">
+    {
+      CATEGORIAS.map((c) => (
+        <li>
+          <a class="mosaico" href={`/categoria/${c.slug}`} style={`--color: var(--cat-${c.slug})`}>
+            <Icono codigo={c.icono} tam={72} />
+            <span class="nombre">{c.nombre}</span>
+            <span class="cuenta">{`${cuenta(c.slug)} artículos`}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <aside class="sabias-que panel" aria-live="polite">
+    <h2>¿Sabías que…?</h2>
+    <p id="dato-curioso">{datos[0]?.texto}</p>
+    <a id="dato-enlace" href={datos[0]?.href}>Leer más</a>
+  </aside>
+
+  <div class="accesos">
+    <a class="boton boton-grande" href="/atlas"><Icono codigo={ICONOS.atlas} tam={32} /> Explorar el atlas</a>
+    <a class="boton boton-grande" href="/juegos"><Icono codigo={ICONOS.juegos} tam={32} /> Jugar</a>
+  </div>
+
+  <script type="application/json" id="datos-curiosos" set:html={jsonParaScript(datos)} />
+</Base>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const fuente = document.getElementById('datos-curiosos');
+    if (!fuente) return;
+    const datos = JSON.parse(fuente.textContent || '[]') as { texto: string; href: string }[];
+    if (!datos.length) return;
+    const dato = datos[Math.floor(Math.random() * datos.length)];
+    document.getElementById('dato-curioso')!.textContent = dato.texto;
+    document.getElementById('dato-enlace')!.setAttribute('href', dato.href);
+  });
+</script>
+
+<style>
+  .bienvenida {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .bienvenida h1 {
+    font-size: 2.6rem;
+    color: #1f5fbf;
+  }
+  .lema {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--texto-suave);
+  }
+  .mosaicos {
+    list-style: none;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  .mosaico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 1.2rem 0.8rem;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    background: var(--brillo), var(--color);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.2), inset 0 1px 0 rgb(255 255 255 / 0.6);
+    transition: transform 0.15s ease;
+  }
+  .mosaico:hover {
+    transform: translateY(-3px) scale(1.02);
+  }
+  .nombre {
+    font-family: var(--fuente-titulos);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 0.35);
+  }
+  .cuenta {
+    font-size: 0.9rem;
+  }
+  .sabias-que {
+    background: #fffbe6;
+    border-color: #f0d77b;
+  }
+  .accesos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  @media (max-width: 1179px) {
+    .mosaicos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>

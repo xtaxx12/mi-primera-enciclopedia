@@ -1,0 +1,97 @@
+---
+import BarraHerramientas from './BarraHerramientas.astro';
+import Icono from './Icono.astro';
+import { ICONOS, SITIO } from '../config';
+import type { Pantalla } from '../lib/tipos';
+
+interface Props {
+  pantalla: Pantalla;
+}
+const { pantalla } = Astro.props;
+---
+<div class="escritorio">
+  <div class="ventana">
+    <header class="barra-titulo" transition:persist="barra-titulo">
+      <a href="/" class="marca">
+        <Icono codigo={ICONOS.libros} tam={28} />
+        <span>{SITIO.nombre}</span>
+      </a>
+    </header>
+    <div class="herramientas" transition:persist="herramientas">
+      <BarraHerramientas />
+    </div>
+    <main id="contenido" class="contenido" data-pantalla={pantalla}>
+      <slot />
+    </main>
+  </div>
+</div>
+
+<style>
+  .escritorio {
+    padding: 24px;
+    min-height: 100vh;
+  }
+  .ventana {
+    max-width: 1180px;
+    margin: 0 auto;
+    min-height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+    background: var(--ventana);
+    border: 2px solid var(--ventana-borde);
+    border-radius: 18px;
+    box-shadow: var(--sombra);
+    overflow: hidden;
+  }
+  .barra-titulo {
+    padding: 0.5rem 1rem;
+    background: var(--brillo), linear-gradient(to bottom, var(--barra-titulo-1), var(--barra-titulo-2));
+  }
+  .marca {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--fuente-titulos);
+    font-size: 1.35rem;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 0.4);
+  }
+  .herramientas {
+    padding: 0.4rem 0.75rem;
+    background: linear-gradient(to bottom, #eef4fc, #d5e3f5);
+    border-bottom: 1px solid #a9c1e0;
+  }
+  .contenido {
+    flex: 1;
+    position: relative;
+    padding: 1.5rem;
+  }
+  @media (max-width: 767px) {
+    .escritorio {
+      padding: 0;
+    }
+    .ventana {
+      min-height: 100vh;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .barra-titulo {
+      display: none;
+    }
+    .herramientas {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 50;
+      border-top: 1px solid #a9c1e0;
+      border-bottom: 0;
+    }
+    .contenido {
+      padding: 1rem 1rem 6rem;
+    }
+  }
+</style>
