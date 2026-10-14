@@ -9,12 +9,14 @@
   "scripts": {
     "test": "vitest run",
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "npm run validar && astro build",
     "preview": "astro preview",
     "test:e2e": "playwright test",
     "candidatos": "tsx scripts/import/candidatos.ts",
     "import": "tsx scripts/import/importar.ts",
-    "atlas": "tsx scripts/atlas/generar.ts"
+    "atlas": "tsx scripts/atlas/generar.ts",
+    "iconos": "tsx scripts/iconos/descargar.ts",
+    "validar": "tsx scripts/validar.ts"
   },
   "keywords": [],
   "author": "",
