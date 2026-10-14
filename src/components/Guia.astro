@@ -1,0 +1,168 @@
+---
+import { SITIO } from '../config';
+---
+<div class="guia" data-pose="saluda">
+  <p id="globo-guia" class="globo" role="status" aria-live="polite"></p>
+  <button type="button" class="personaje" aria-label={`${SITIO.personaje}, tu guía: mostrar u ocultar su mensaje`} aria-controls="globo-guia" aria-expanded="true">
+    <svg viewBox="0 0 120 124" width="96" height="100" aria-hidden="true">
+      <g class="estrellas">
+        <path d="M14 18l3 6 6 1-5 4 1 6-5-3-5 3 1-6-5-4 6-1z" fill="#ffc94d" />
+        <path d="M104 10l2 5 5 1-4 3 1 5-4-2-4 2 1-5-4-3 5-1z" fill="#ffc94d" />
+      </g>
+      <text class="interrogacion" x="100" y="30" font-size="26" font-weight="bold" fill="#1f5fbf">?</text>
+      <g class="cuerpo">
+        <path d="M30 42 L36 16 L48 36 Z" fill="#8a5a2b" />
+        <path d="M90 42 L84 16 L72 36 Z" fill="#8a5a2b" />
+        <ellipse cx="60" cy="72" rx="38" ry="42" fill="#8a5a2b" />
+        <ellipse cx="60" cy="84" rx="24" ry="27" fill="#f3d9a4" />
+        <g class="ala ala-izq"><ellipse cx="24" cy="82" rx="10" ry="22" fill="#6e4520" /></g>
+        <g class="ala ala-der"><ellipse cx="96" cy="82" rx="10" ry="22" fill="#6e4520" /></g>
+        <circle cx="45" cy="54" r="15" fill="#fff" />
+        <circle cx="75" cy="54" r="15" fill="#fff" />
+        <g class="pupilas">
+          <circle cx="45" cy="56" r="7" fill="#1d2733" />
+          <circle cx="75" cy="56" r="7" fill="#1d2733" />
+        </g>
+        <path class="pico" d="M54 66 L60 77 L66 66 Z" fill="#f0a020" />
+        <path d="M42 112 l6 7 l6 -7 M66 112 l6 7 l6 -7" stroke="#f0a020" stroke-width="4" fill="none" stroke-linecap="round" />
+      </g>
+    </svg>
+  </button>
+</div>
+
+<script>
+  import { elegirMensaje, esPantalla, mensajesPara, POSES, type Pose } from '../lib/guia';
+
+  function hablar(texto: string, pose: Pose) {
+    const guia = document.querySelector<HTMLElement>('.guia');
+    const globo = document.getElementById('globo-guia');
+    if (!guia || !globo) return;
+    guia.dataset.pose = pose;
+    globo.textContent = texto;
+  }
+
+  document.addEventListener('astro:page-load', () => {
+    // En celular el globo empieza cerrado hasta que el usuario toca a Lumi.
+    const boton = document.querySelector<HTMLButtonElement>('.guia .personaje');
+    if (boton && !boton.dataset.tocado && matchMedia('(max-width: 767px)').matches) {
+      boton.setAttribute('aria-expanded', 'false');
+    }
+    const pantalla = document.querySelector<HTMLElement>('#contenido')?.dataset.pantalla;
+    if (!esPantalla(pantalla)) return;
+    const extras = JSON.parse(document.getElementById('guia-extras')?.textContent || '[]') as string[];
+    hablar(elegirMensaje(mensajesPara(pantalla, extras)), POSES[pantalla]);
+  });
+
+  document.addEventListener('mpe:guia', (e) => {
+    const { texto, pose } = (e as CustomEvent<{ texto: string; pose: Pose }>).detail;
+    hablar(texto, pose);
+  });
+
+  document.addEventListener('click', (e) => {
+    const boton = (e.target as Element).closest<HTMLButtonElement>('.guia .personaje');
+    if (!boton) return;
+    boton.dataset.tocado = '1';
+    const abierto = boton.getAttribute('aria-expanded') === 'true';
+    boton.setAttribute('aria-expanded', String(!abierto));
+  });
+</script>
+
+<style>
+  .guia {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 40;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    pointer-events: none;
+  }
+  .globo,
+  .personaje {
+    pointer-events: auto;
+  }
+  .globo {
+    max-width: 260px;
+    margin: 0 0 3.5rem;
+    padding: 0.7rem 0.9rem;
+    background: #fff;
+    border: 2px solid #1f5fbf;
+    border-radius: 16px 16px 4px 16px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.2);
+    font-size: 0.95rem;
+  }
+  .globo:empty {
+    display: none;
+  }
+  .personaje {
+    border: 0;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+  }
+  .guia:has(.personaje[aria-expanded='false']) .globo {
+    display: none;
+  }
+  .estrellas,
+  .interrogacion {
+    display: none;
+  }
+  .ala {
+    transform-box: fill-box;
+    transform-origin: top center;
+    transition: transform 0.3s ease;
+  }
+  .pupilas {
+    transition: transform 0.3s ease;
+  }
+  [data-pose='saluda'] .ala-der {
+    animation: saludar 0.9s ease-in-out 2;
+  }
+  [data-pose='piensa'] .pupilas {
+    transform: translate(3px, -4px);
+  }
+  [data-pose='piensa'] .interrogacion {
+    display: inline;
+  }
+  [data-pose='celebra'] .ala-izq {
+    transform: rotate(40deg);
+  }
+  [data-pose='celebra'] .ala-der {
+    transform: rotate(-40deg);
+  }
+  [data-pose='celebra'] .estrellas {
+    display: inline;
+  }
+  [data-pose='celebra'] .cuerpo {
+    animation: saltar 0.5s ease-in-out 3;
+  }
+  [data-pose='sorprende'] .pupilas {
+    transform: scale(0.6);
+    transform-origin: 60px 56px;
+  }
+  @keyframes saludar {
+    50% {
+      transform: rotate(-60deg);
+    }
+  }
+  @keyframes saltar {
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+  @media (max-width: 767px) {
+    .guia {
+      right: 8px;
+      bottom: 76px;
+    }
+    .personaje svg {
+      width: 56px;
+      height: 58px;
+    }
+    .globo {
+      max-width: 200px;
+      margin-bottom: 2rem;
+    }
+  }
+</style>

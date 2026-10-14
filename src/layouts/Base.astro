@@ -6,13 +6,15 @@ import { ClientRouter } from 'astro:transitions';
 import Ventana from '../components/Ventana.astro';
 import { SITIO } from '../config';
 import type { Pantalla } from '../lib/tipos';
+import { jsonParaScript } from '../lib/texto';
 
 interface Props {
   titulo: string;
   pantalla: Pantalla;
   descripcion?: string;
+  mensajesGuia?: string[];
 }
-const { titulo, pantalla, descripcion = SITIO.lema } = Astro.props;
+const { titulo, pantalla, descripcion = SITIO.lema, mensajesGuia = [] } = Astro.props;
 ---
 <!doctype html>
 <html lang="es">
@@ -29,5 +31,15 @@ const { titulo, pantalla, descripcion = SITIO.lema } = Astro.props;
     <Ventana pantalla={pantalla}>
       <slot />
     </Ventana>
+    <script type="application/json" id="guia-extras" set:html={jsonParaScript(mensajesGuia)} />
+    <script>
+      import { sonido } from '../lib/sonido-sitio';
+
+      document.addEventListener('pointerdown', () => sonido.desbloquear());
+      document.addEventListener('keydown', () => sonido.desbloquear());
+      document.addEventListener('click', (e) => {
+        if ((e.target as Element).closest('a, button')) sonido.reproducir('clic');
+      });
+    </script>
   </body>
 </html>

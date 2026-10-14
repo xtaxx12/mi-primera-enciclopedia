@@ -1,5 +1,7 @@
 ---
 import BarraHerramientas from './BarraHerramientas.astro';
+import BotonSonido from './BotonSonido.astro';
+import Guia from './Guia.astro';
 import Icono from './Icono.astro';
 import { ICONOS, SITIO } from '../config';
 import type { Pantalla } from '../lib/tipos';
@@ -18,11 +20,16 @@ const { pantalla } = Astro.props;
       </a>
     </header>
     <div class="herramientas" transition:persist="herramientas">
-      <BarraHerramientas />
+      <BarraHerramientas>
+        <BotonSonido slot="sonido" />
+      </BarraHerramientas>
     </div>
     <main id="contenido" class="contenido" data-pantalla={pantalla}>
       <slot />
     </main>
+    <div transition:persist="guia">
+      <Guia />
+    </div>
   </div>
 </div>
 
