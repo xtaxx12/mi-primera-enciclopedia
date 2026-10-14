@@ -13,7 +13,8 @@
     "preview": "astro preview",
     "test:e2e": "playwright test",
     "candidatos": "tsx scripts/import/candidatos.ts",
-    "import": "tsx scripts/import/importar.ts"
+    "import": "tsx scripts/import/importar.ts",
+    "atlas": "tsx scripts/atlas/generar.ts"
   },
   "keywords": [],
   "author": "",
