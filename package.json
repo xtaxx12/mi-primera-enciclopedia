@@ -11,7 +11,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "candidatos": "tsx scripts/import/candidatos.ts"
   },
   "keywords": [],
   "author": "",
