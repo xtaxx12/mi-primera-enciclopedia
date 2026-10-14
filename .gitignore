@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.vercel/
+scripts/import/.cache/
+test-results/
+playwright-report/
+*.iso
+*.ISO
+.DS_Store

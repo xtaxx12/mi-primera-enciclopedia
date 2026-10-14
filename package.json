@@ -1,0 +1,40 @@
+{
+  "name": "mi-primera-enciclopedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test:e2e": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^6.0.6",
+    "@fontsource/baloo-2": "^5.3.0",
+    "astro": "^7.3.8",
+    "minisearch": "^7.2.0",
+    "preact": "^10.29.8"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.1",
+    "d3-geo": "^3.1.1",
+    "d3-geo-projection": "^4.0.0",
+    "linkedom": "^0.18.13",
+    "tsx": "^4.23.15",
+    "vitest": "^5.0.4",
+    "yaml": "^2.9.1"
+  }
+}
