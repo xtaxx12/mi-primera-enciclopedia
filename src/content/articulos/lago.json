@@ -1,0 +1,83 @@
+{
+  "slug": "lago",
+  "titulo": "Lago",
+  "categoria": "planeta-tierra",
+  "resumen": "Un lago (del latín lacus) es una gran cantidad permanente de agua profunda la cual se encuentra situada en un terreno. Normalmente está asociada a un origen glaciar. Los lagos se mantienen normalmente gracias a ríos que fluyen en éstos y del afloramiento de aguas subterráneas.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>lago</b> (del latín <i>lacus</i>) es una gran cantidad permanente de <a href=\"/articulo/agua\">agua</a> profunda la cual se encuentra situada en un terreno. Normalmente está asociada a un origen <a href=\"/articulo/glaciar\">glaciar</a>. Los lagos se mantienen normalmente gracias a ríos que fluyen en éstos y del afloramiento de aguas subterráneas.</p>\n<p>A diferencia de un océano, un lago está separado del mar. Algunos lagos son muy grandes y, en el pasado, la gente a veces los llamaba mares. Los lagos no fluyen como los ríos, pero muchos de ellos tienen ríos que entran y salen de ellos.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "bariloche-argentina2-2dc2371c.jpg",
+      "pie": "Un lago en Bariloche, Argentina"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "a-lake-in-the-andes-mountains-dfdb2286.jpg",
+      "pie": "Un lago en la cordillera de los Andes"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "glenridding-cumbria-england-june-2009-9168b915.jpg",
+      "pie": "Un lago en el Distrito de los Lagos, Cumbria, Inglaterra"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La mayoría de los lagos de la superficie terrestre son de agua dulce y se encuentran principalmente en el hemisferio norte. Más del 60&#160;% de los lagos del mundo se encuentran en <a href=\"/articulo/canada\">Canadá</a>. Finlandia es conocida como el País de los Mil Lagos (hay 187 888 lagos en Finlandia, de los cuales 60 000 son grandes).</p>\n<p>Muchos lagos son embalses artificiales construidos para producir <a href=\"/articulo/electricidad\">electricidad</a>, con fines recreativos, para utilizar el agua para el riego, la industria o las viviendas.</p>\n<p>Si no hay ríos que salgan del lago o son pequeños y escasos el lago pierde agua por evaporación o porque el agua fluye a través de los poros del suelo. Cuando el agua se evapora rápidamente y el suelo alrededor del lago tiene un alto nivel de sal, como en los lugares muy secos, el agua del lago tiene una alta concentración de sal y se denomina lago salado. Ejemplos de lagos salados son el Gran Lago Salado, el mar Caspio, el mar de Aral y el mar Muerto.</p>\n<h3>Los lagos más grandes de cada continente</h3>\n<ul><li>En África, el lago Victoria es el segundo lago de agua dulce más grande del mundo. Es uno de los grandes lagos de África.</li>\n<li>En la <a href=\"/articulo/antartida\">Antártida</a> se encuentra el lago Vostok.</li>\n<li>En Asia se encuentra el lago Baikal, el mayor lago que se encuentra completamente en este continente. El mar Caspio, el mayor lago de la Tierra, está en la frontera entre Europa y Asia (una frontera artificial), por lo que ambos continentes comparten este lago.</li>\n<li><a href=\"/articulo/australia\">Australia</a>: lago Eyre, que está casi siempre sin agua, pero la coge cuando llueve mucho.</li>\n<li>En Europa, el lago Ladoga, seguido del lago Onega, ambos en el noroeste de Rusia.</li>\n<li>Norteamérica: lago Superior.</li>\n<li>Sudamérica: lago Maracaibo, que es como una bahía porque tiene una amplia abertura al mar. El lago Titicaca, en Sudamérica, es el mayor lago de agua dulce del continente y también la masa de agua más alta de la Tierra, a 3821 m sobre el nivel del mar, por donde pueden transitar los barcos.</li></ul>\n<h3>Lagos notables</h3>\n<ul><li>El mar Caspio es el <b>mayor lago del mundo</b> por superficie, con 394 299 km². El lago de agua dulce más extenso es el lago Superior (82 414 km²), que forma parte de los Grandes Lagos.</li>\n<li>El lago de agua dulce <b>más largo</b> es el lago Tanganica, con unos 660 km de longitud. El lago Baikal es el segundo más largo (con unos 630 km de punta a punta).</li>\n<li>El lago <b>más profundo</b> es el Baikal, en Siberia, con un fondo de 1.637 metros. El lago Tanganica (1.470 m) es el segundo más profundo.</li>\n<li>El <b>lago más alto</b> del mundo es un pequeño estanque sin nombre a 6390 m de altura en el volcán Ojos del Salado, pero el lago navegable más alto es el Titicaca, en Perú y Bolivia, a 3812 m de altura.</li>\n<li>El <b>lago más bajo</b> del mundo es el Mar Muerto, en la frontera entre Israel y Jordania, a 418 metros por debajo del nivel del mar. También es uno de los lagos con mayor concentración de sal.</li>\n<li>El lago Enriquillo, en la República Dominicana, es el único lago de agua salada del mundo donde habitan cocodrilos.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "bariloche-argentina2-2dc2371c.jpg",
+    "tipo": "imagen",
+    "alt": "Un lago en Bariloche, Argentina",
+    "autor": "Chipppy",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bariloche-_Argentina2.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "bariloche-argentina2-2dc2371c.jpg",
+      "tipo": "imagen",
+      "alt": "Un lago en Bariloche, Argentina",
+      "autor": "Chipppy",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bariloche-_Argentina2.jpg"
+    },
+    {
+      "archivo": "a-lake-in-the-andes-mountains-dfdb2286.jpg",
+      "tipo": "imagen",
+      "alt": "Un lago en la cordillera de los Andes",
+      "autor": "David Adam Kess",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:A_lake_in_the_Andes_Mountains.jpeg"
+    },
+    {
+      "archivo": "glenridding-cumbria-england-june-2009-9168b915.jpg",
+      "tipo": "imagen",
+      "alt": "Un lago en el Distrito de los Lagos, Cumbria, Inglaterra",
+      "autor": "Diliff",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Glenridding,_Cumbria,_England_-_June_2009.jpg"
+    }
+  ],
+  "relacionados": [
+    "agua",
+    "glaciar",
+    "canada",
+    "electricidad",
+    "antartida",
+    "australia"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Lago",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Lago&action=history",
+    "revid": 195211,
+    "fecha": "2026-10-14"
+  }
+}

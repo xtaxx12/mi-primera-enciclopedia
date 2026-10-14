@@ -1,0 +1,109 @@
+{
+  "slug": "india",
+  "titulo": "India",
+  "categoria": "paises",
+  "resumen": "India es un país ubicado en el centro del sur de Asia. Tiene una superficie de 3.287.263 y una población de 1.200 millones; debido a eso es uno de los países más poblados del mundo.kilómetros cuadrados. Su capital es Nueva Delhi.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p><b>India</b> es un país ubicado en el centro del sur de Asia. Tiene una superficie de 3.287.263 y una población de 1.200 millones; debido a eso es uno de los países más poblados del mundo.kilómetros cuadrados. Su capital es Nueva Delhi.</p>\n<p>La India tiene siete vecinos: Pakistán en el noroeste, China y Nepal en el norte, Bután y Bangladesh en el noreste, Myanmar en el este y Sri Lanka, una isla, en el sur.</p>\n<p>La India es una península, limitada por el océano Índico en el sur, el mar Arábigo en el oeste y el golfo de Bengala en el este. La costa de la India tiene unos 7.517&#160;km de largo. La India tiene la tercera fuerza militar más grande del mundo y es también un estado con armas nucleares.</p>\n<p>En la India viven personas que profesan muchas religiones diferentes, incluidas las cinco religiones mundiales más populares: Hinduismo, Budismo, Sikhismo, Islam y Cristianismo.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "emblem-of-india-6e358388.png",
+      "pie": "Emblema de la India"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El emblema nacional de la India muestra cuatro leones parados espalda con espalda. Los leones simbolizan el poder, el orgullo, la confianza y el coraje (valentía). Sólo el gobierno puede usar este emblema.</p>\n<p>El nombre India viene de la palabra griega Indus. Esto vino de la palabra sindhu, que con el tiempo se convirtió en hindú o hindi o hindú. Algunos de los símbolos nacionales son:</p>\n<ul><li>Himno nacional - <i>Jana-Gana-Mana</i></li>\n<li>La canción nacional - <i>Vande Mātaram</i></li>\n<li>Animal nacional - Tigre real de bengala</li>\n<li>Pájaro nacional - Pavo real</li>\n<li>Flor nacional  - Loto</li>\n<li>Árbol nacional - Baniano</li>\n<li>Río nacional - Ganges</li>\n<li>Fruta nacional - Mango</li>\n<li>Patrimonio nacional animal - Efante</li>\n<li>Aves del patrimonio nacional - Águila india</li></ul>\n<h2>Estados de la India</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "indiastatesbyrtocodes-368f9c4c.png",
+      "pie": "Estados de la India"
+    },
+    {
+      "tipo": "html",
+      "html": "<h2>Religiones</h2>\n<p>Varias religiones modernas están ligadas a la India, a saber, el hinduismo moderno, el jainismo, el budismo y el sijismo. Todas estas religiones tienen diferentes escuelas (formas de pensar) y tradiciones que están relacionadas. Como grupo se denominan las religiones orientales. Las religiones indias son similares entre sí en muchos aspectos: Las creencias básicas, la forma de adoración y varias prácticas religiosas son muy similares. Estas similitudes provienen principalmente del hecho de que estas religiones tienen una historia y orígenes comunes. También se influyeron mutuamente.</p>\n<p>La religión del Hinduismo es la fe principal seguida por el 79,80% de la población de la República de la India; el Islam - 14,23%; el Cristianismo - 2,30%; el Sikhismo - 1,72%; el Budismo - 0,70% y el Jainismo - 0,37%.</p>\n<h2>Deportes</h2>\n<p>Los indios destacan en el hockey. Sin embargo, el cricket es el deporte más popular en la India. El equipo de cricket indio ganó la Copa Mundial de Cricket de 1983 y 2011 y la Copa Mundial Twenty20 del ICC en 2007.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "india-orthographic-projection-6a4b5f09.png",
+    "tipo": "imagen",
+    "alt": "India",
+    "autor": "Ssolbergj (talk)",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:India_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "india-orthographic-projection-6a4b5f09.png",
+      "tipo": "imagen",
+      "alt": "India",
+      "autor": "Ssolbergj (talk)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:India_(orthographic_projection).svg"
+    },
+    {
+      "archivo": "emblem-of-india-6e358388.png",
+      "tipo": "imagen",
+      "alt": "Emblema de la India",
+      "autor": "Government of India",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_India.svg"
+    },
+    {
+      "archivo": "bengal-tiger-karnataka-b6936813.jpg",
+      "tipo": "imagen",
+      "alt": "India",
+      "autor": "Paul Mannix",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bengal_Tiger_Karnataka.jpg"
+    },
+    {
+      "archivo": "peacock-east-park-hull-panoramio-2871c9f0.jpg",
+      "tipo": "imagen",
+      "alt": "India",
+      "autor": "Paul Lakin",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Peacock,_East_Park,_Hull_-_panoramio.jpg"
+    },
+    {
+      "archivo": "lotus-nelumbo-nucifera-flower-close-2048px-11cf3ed9.jpg",
+      "tipo": "imagen",
+      "alt": "India",
+      "autor": "Photo (c)2007 Derek Ramsey (Ram-Man)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Lotus_Nelumbo_nucifera_Flower_Close_2048px.jpg"
+    },
+    {
+      "archivo": "indiastatesbyrtocodes-368f9c4c.png",
+      "tipo": "imagen",
+      "alt": "Estados de la India",
+      "autor": "Maximilian Dörrbecker (Chumwa)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:IndiaStatesByRTOcodes.png"
+    }
+  ],
+  "relacionados": [
+    "alemania",
+    "argelia",
+    "argentina"
+  ],
+  "pais": {
+    "adm0": "IND"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/India",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=India&action=history",
+    "revid": 135279,
+    "fecha": "2026-10-14"
+  }
+}

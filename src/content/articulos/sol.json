@@ -1,0 +1,60 @@
+{
+  "slug": "sol",
+  "titulo": "Sol",
+  "categoria": "espacio",
+  "resumen": "El Sol (proveniente del latín sol, solis, y a su vez del protoindoeuropeo *sóh₂u̯l̥) es la estrella del sistema solar. Es la más cercana a la Tierra y produce luz propia.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "celestia-sun-72758e90.jpg",
+      "pie": "El Sol"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>Sol</b> (proveniente del latín <i>sol</i>, <i>solis</i>, y a su vez del protoindoeuropeo <i>*sóh₂u̯l̥</i>) es la estrella del <a href=\"/articulo/sistema-solar\">sistema solar</a>. Es la más cercana a la <a href=\"/articulo/tierra\">Tierra</a> y produce luz propia.</p>\n<p>La energía solar, sustenta a casi todas las formas de vida de la <a href=\"/articulo/tierra\">Tierra</a> a través de la&#160;fotosíntesis, y determina el <a href=\"/articulo/clima\">clima</a> del <a href=\"/articulo/planeta\">planeta</a>.</p>\n<p>El Sol se formó hace aproximadamente 4.500 millones de años. Tiene un diámetro de 1.390.000 km que es cien veces mayor que el de la <a href=\"/articulo/tierra\">Tierra</a>. Se cree que aun le quedan otros 5.000 millones de años para agotar su combustible nuclear, entonces se expandira hasta convertirse en una <a href=\"/articulo/estrella\">estrella</a> gigante roja y luego se comprimirá para terminar como enana blanca.</p>\n<p>Durante mucho tiempo, se pensó que el Sol era una gran bola de fuego, pero hoy se sabe que está compuesto por gas caliente. La <a href=\"/articulo/energia\">energía</a> que libera (que percibimos en forma de luz y calor) se genera cuando su núcleo de hidrógeno se convierte en helio, en un proceso conocido cómo fusión nuclear.</p>\n<p>La temperatura en la superficie del Sol es de 5780 K, mientras que la del núcleo es de aproximadamente 13.600.000 K</p>\n<h2>Astrología</h2>\n<p>En astrología, el Sol es considerado uno de los astros con mayor relevancia. Representa la fuente del valor propio y la autoestima. En la carta natal, el Sol es el regente del signo Leo. El Sol le proporciona a este signo su característica ambición por destacar, su intención de deslumbrar y gusto por la autoexpresión. En cualquier signo en donde el Sol se ubique, inyectará sobre él estas cualidades, quedando teñidas por los rasgos del signo en cuestión.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "celestia-sun-72758e90.jpg",
+    "tipo": "imagen",
+    "alt": "El Sol",
+    "autor": "NikoLang",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Celestia_sun.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "celestia-sun-72758e90.jpg",
+      "tipo": "imagen",
+      "alt": "El Sol",
+      "autor": "NikoLang",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Celestia_sun.jpg"
+    },
+    {
+      "archivo": "soleil-2-21462c41.jpg",
+      "tipo": "imagen",
+      "alt": "Sol",
+      "autor": "No se ha podido leer automáticamente información sobre el autor; se asume que es Rogilbert~commonswiki (según los derechos de autor reclamados).",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Soleil_(2).JPG"
+    }
+  ],
+  "relacionados": [
+    "sistema-solar",
+    "tierra",
+    "clima",
+    "planeta",
+    "estrella",
+    "energia"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Sol",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Sol&action=history",
+    "revid": 176759,
+    "fecha": "2026-10-14"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "planta",
+  "titulo": "Planta",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "En biología, se les llama plantas a los seres vivos que se caracterizan por ser fabricar su propio alimento mediante la fotosíntesis y por no tener capacidad locomotora. El reino Plantae está conformado por aquellas plantas que llamamos plantas terrestres, las cuales son descendientes de las…",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>En biología, se les llama <b>plantas</b> a los seres vivos que se caracterizan por ser fabricar su propio alimento mediante la fotosíntesis y por no tener capacidad locomotora. El reino <b>Plantae</b> está conformado por aquellas plantas que llamamos <b>plantas terrestres</b>, las cuales son descendientes de las algas, las cuales en algún momento de la historia del planeta, colonizaron la superficie.</p>\n<p>Las plantas con flores que adornan nuestros jardines, los árboles y el pasto, los helechos y también el musgo, son diferentes tipos de plantas terrestres.</p>\n<p>Algunas de esas plantas volvieron al agua, por lo que también encontramos \"plantas terrestres\" (descendientes del alga que colonizó la tierra) en forma de pastos marinos, otras plantas ancladas al suelo del mar o los ríos como la <i>elodea</i> que encontramos en los acuarios, y en plantas flotantes como el <i>camalote</i>, la <i>flor de loto</i> o las <i>lentejas de agua</i>.</p>\n<p>No son \"plantas terrestres\", aunque muchos también las llaman plantas, las algas, que se diferencian de aquellas plantas terrestres que volvieron a colonizar el agua, en que tienen una estructura diferente que puede observarse por ejemplo, cuando se hacen cortes que se observan al <a href=\"/articulo/microscopio\">microscopio</a>.</p>\n<h2>Alimentación</h2>\n<p>Las <b>plantas</b> son autótrofas, esto es, que fabrican su propia materia orgánica a partir de materia inorgánica.</p>\n<p>Para hablar de la nutrición de las plantas, es preciso distinguir entre briofitos y cormofitos. Los primeros son plantas no vasculares (es decir, que no tienen tejidos conductores para llevar la savia), mientras que los segundos son plantas vasculares, con organización tipo <b>cormo</b> (eso significa que tiene raíz, tallo y hojas propiamente dichas, a diferencia de los briofitos). Es precisamente este tipo de organización la que determina las características presentes en el proceso de nutrición, que se produce en varias etapas.</p>\n<h3>Proceso de nutrición en plantas vasculares</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "respiracion-reaccion-quimica-3e2e4703.png",
+      "pie": "Reacción química de la respiración celular"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>En primer lugar, las plantas necesitan captar a través de las raíces, y gracias a unas <a href=\"/articulo/celula\">células</a> especializadas (que reciben el nombre de pelos absorbentes), el <a href=\"/articulo/agua\">agua</a> y las sales minerales, que constituyen la savia bruta. Posteriormente esta savia es transportada desde la raíz hasta las hojas a través del tallo, por unos vasos conductores conocidos como xilema (o tejido leñoso). Una vez que la savia bruta llega a las hojas, que previamente han captado el dióxido del carbono a través de unas estructuras llamadas estomas, dirige tanto la savia bruta como el dióxido de carbono a los cloroplastos, donde tiene lugar la fotosíntesis, gracias al aporte de la luz del <a href=\"/articulo/sol\">sol</a>. De la fotosíntesis se obtiene la materia orgánica, es decir, la savia elaborada (que será transportada a distintas partes de la planta gracias a otros vasos, los floemas), y expulsa oxígeno.</p>\n<p>Hay que tener en cuenta que mientras tanto, las plantas también respiran, de hecho lo hacen continuamente. En la respiración de las plantas, absorben OA2, el cual es empleado por sus mitocondrias para obtener energía de la materia orgánica (la savia elaborada) que producen. Como productos de desecho de la respiración, se encuentran el agua y el COA2.</p>\n<h2>Tipos</h2>\n<ol><li><b>Plantas terrestres</b>: todas las descendientes del alga que colonizó la superficie terrestre.</li>\n<li><b>Alga</b>: todos los organismos que adquirieron la capacidad de realizar fotosíntesis, y que no pertenecen al grupo de las plantas terrestres. Esta capacidad evolucionó una sola vez en el alga que se llama cianobacteria (la única alga que además es una bacteria) y luego fue \"tomada\" en diferentes ocasiones por lo que las algas no descienden todas de la misma alga ancestral.</li>\n<li><b>Reino vegetal (<i>Plantae</i>)</b>: Todos los seres que pertenecen a este reino son pluricelulares, autótrofos y tienen núcleo definido. Las células de las plantas poseen un pigmento llamado clorofila, que proporciona el color verde característico de las hojas. También les permite realizar el proceso de la fotosíntesis donde las plantas, a partir del dióxido de carbono -que proviene del aire-, el <a href=\"/articulo/agua\">agua</a> y las sales minerales -que provienen del suelo-, y la <a href=\"/articulo/luz\">luz</a> solar, obtienen su propio alimento.</li></ol>"
+    }
+  ],
+  "principal": {
+    "archivo": "diversity-of-plants-streptophyta-version-2-02ff62c5.png",
+    "tipo": "imagen",
+    "alt": "Planta",
+    "autor": "Rkitko",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Diversity_of_plants_(Streptophyta)_version_2.png"
+  },
+  "medios": [
+    {
+      "archivo": "diversity-of-plants-streptophyta-version-2-02ff62c5.png",
+      "tipo": "imagen",
+      "alt": "Planta",
+      "autor": "Rkitko",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Diversity_of_plants_(Streptophyta)_version_2.png"
+    },
+    {
+      "archivo": "respiracion-reaccion-quimica-3e2e4703.png",
+      "tipo": "imagen",
+      "alt": "Reacción química de la respiración celular",
+      "autor": "RoRo",
+      "licencia": "cc0",
+      "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Respiraci%C3%B3n_reacci%C3%B3n_qu%C3%ADmica.svg"
+    },
+    {
+      "archivo": "joshua-trees-yucca-brevifolia-in-joshua-tree-national-park-c4252df3.jpg",
+      "tipo": "imagen",
+      "alt": "Planta",
+      "autor": "Brocken Inaglory",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Trees_Yucca_brevifolia_in_Joshua_Tree_National_Park.jpg"
+    },
+    {
+      "archivo": "blechnum-discolor-crown-fern-82d5399d.jpg",
+      "tipo": "imagen",
+      "alt": "Planta",
+      "autor": "Brian Gratwicke",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Blechnum_discolor_-_crown_fern.jpg"
+    },
+    {
+      "archivo": "unknown-bryophyta-closeup-21a15288.jpg",
+      "tipo": "imagen",
+      "alt": "Planta",
+      "autor": "Jeff Turner from Santa Clarita, CA, United States",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Unknown_Bryophyta_closeup.jpg"
+    },
+    {
+      "archivo": "posidonia-2-alberto-romeo-7eeee6d7.jpg",
+      "tipo": "imagen",
+      "alt": "Planta",
+      "autor": "Alberto Romeo albertoromeo@neomedia.it http://www.romeofotosub.it",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Posidonia_2_Alberto_Romeo.jpg"
+    }
+  ],
+  "relacionados": [
+    "microscopio",
+    "celula",
+    "agua",
+    "sol",
+    "luz"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Plantae",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Plantae&action=history",
+    "revid": 162992,
+    "fecha": "2026-10-14"
+  }
+}

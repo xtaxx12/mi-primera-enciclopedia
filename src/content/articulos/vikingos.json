@@ -1,0 +1,48 @@
+{
+  "slug": "vikingos",
+  "titulo": "Vikingos",
+  "categoria": "historia",
+  "resumen": "Los vikingos eran gentes de pueblos de Escandinavia (Dinamarca, Noruega y Suecia) que vivieron allí desde aproximadamente el año 700 hasta alrededor del 1100.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "leif-ericson-on-the-shore-of-vinland-7b686993.gif",
+      "pie": "Vikingos desembarcando"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los <b>vikingos</b> eran gentes de pueblos de Escandinavia (Dinamarca, Noruega y Suecia) que vivieron allí desde aproximadamente el año 700 hasta alrededor del 1100.</p>\n<p>Los vikingos viajaban grandes distancias en sus barcos de vela para comerciar, colonizar nuevas tierras o guerrear con otros pueblos. Muchos de los vikingos eran altos y tenían el pelo o la barba rojos o rubios.</p>\n<p>Las gentes de las aldeas cercanas a la costa en Europa vivían con gran temor a los ataques de los vikingos que llegaban con sus barcos hasta los puertos y playas, subían por los ríos y atacaban a los habitantes de las aldeas llevándose todo lo que podían. Eran temidos por su maltrato hacia las mujeres, los niños y los monjes en los lugares donde peleaban.</p>\n<p>Los cristianos llamaban paganos a los vikingos porque adoraban a muchísimos dioses. El dios de la guerra era Odin pero también tenían otros dioses que eran sabios, expertos en magia y podían predecir el futuro.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "leif-ericson-on-the-shore-of-vinland-7b686993.gif",
+    "tipo": "imagen",
+    "alt": "Vikingos desembarcando",
+    "autor": "Monro Orr",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Leif_Ericson_on_the_shore_of_Vinland.gif"
+  },
+  "medios": [
+    {
+      "archivo": "leif-ericson-on-the-shore-of-vinland-7b686993.gif",
+      "tipo": "imagen",
+      "alt": "Vikingos desembarcando",
+      "autor": "Monro Orr",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Leif_Ericson_on_the_shore_of_Vinland.gif"
+    }
+  ],
+  "relacionados": [
+    "antigua-grecia",
+    "antiguo-egipto",
+    "aztecas"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Vikingos",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Vikingos&action=history",
+    "revid": 161175,
+    "fecha": "2026-10-14"
+  }
+}

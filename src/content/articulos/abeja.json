@@ -1,0 +1,57 @@
+{
+  "slug": "abeja",
+  "titulo": "Abeja",
+  "categoria": "animales",
+  "resumen": "La abeja es un insecto volador. Son polinizadores, lo que significa que van de flor a flor para obtener su néctar, de lo que se alimentan y de pasada se llevan el polen. Su color es, por lo general, amarillo y negro a rayas, aunque existen varias especies diferentes. Tienen un aguijón con el que…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "bee-2632994523-ac2c97ec.jpg",
+      "pie": "Una abeja."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>abeja</b> es un insecto volador. Son polinizadores, lo que significa que van de flor a flor para obtener su néctar, de lo que se alimentan y de pasada se llevan el polen. Su color es, por lo general, amarillo y negro a rayas, aunque existen varias especies diferentes. Tienen un aguijón con el que pueden picar animales y personas, pero mueren poco después por la pérdida del mismo.</p>\n<h2>Producción de miel</h2>\n<p>Una especie de abejas, la <i>Apis melifera</i>, es la que produce miel a partir del néctar de las flores. Existe una disciplina llamada apicultura, mediante la cual un grupo de expertos crían abejas y venden la miel que ellas producen.</p>\n<h2>Comunidades</h2>\n<p>Las abejas son insectos muy laboriosos que viven en colmenas, es decir, agrupadas. Suelen formar panales y se organizan en diferentes categorías: existen las abejas obreras, que son las que polinizan las flores y hacen la mayor parte de las tareas de las colonias; los zánganos, que son los machos y fecundan a la reina; y las abejas reinas, que se encargan de la reproducción.</p>\n<h2>Hábitat</h2>\n<p>Las abejas viven en colonias construidas por 3 tipos de individuos: reina, obreras y zánganos; sin embargo, la mayoría de las abejas son solitarias, es decir, que no forman enjambres. Existen también especies semisociales, con capacidad de formar colonias; por ejemplo, los abejorros. Estas colonias no llegan a ser tan grandes ni duraderas como las de las abejas domésticas.</p>\n<h2>Importancia en la naturaleza</h2>\n<p>El famoso científico Albert Einstein dijo en una ocasión que en cuanto desapareciesen las abejas, al hombre le quedarían muy pocos años de vida. Esto se debe a la contaminación: si el ser humano contamina su medio ambiente o extingue a las abejas, estas no podrán polinizar las flores, y, por lo tanto, no habrá más frutas ni productos naturales primarios, con la consecuente escasez de alimentos.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "honey-bee-on-flower-with-pollen-collected-on-rear-leg-51c7d240.jpg",
+    "tipo": "imagen",
+    "alt": "Abeja",
+    "autor": "Michael Palmer",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Honey_bee_on_flower_with_pollen_collected_on_rear_leg.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "honey-bee-on-flower-with-pollen-collected-on-rear-leg-51c7d240.jpg",
+      "tipo": "imagen",
+      "alt": "Abeja",
+      "autor": "Michael Palmer",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Honey_bee_on_flower_with_pollen_collected_on_rear_leg.jpg"
+    },
+    {
+      "archivo": "bee-2632994523-ac2c97ec.jpg",
+      "tipo": "imagen",
+      "alt": "Una abeja.",
+      "autor": "Paul Stein from New Jersey, USA",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bee_(2632994523).jpg"
+    }
+  ],
+  "relacionados": [
+    "ballena",
+    "cocodrilo",
+    "delfin"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Anthophila",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Anthophila&action=history",
+    "revid": 170431,
+    "fecha": "2026-10-14"
+  }
+}

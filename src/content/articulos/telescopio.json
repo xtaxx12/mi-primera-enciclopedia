@@ -1,0 +1,84 @@
+{
+  "slug": "telescopio",
+  "titulo": "Telescopio",
+  "categoria": "espacio",
+  "resumen": "Se denomina telescopio a cualquier herramienta o instrumento óptico que permite ver objetos lejanos con mucho más detalle que a simple vista. Es una herramienta fundamental para la astronomía.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "palomar-arp-600pix-f5080652.jpg",
+      "pie": "El telescopio Hale de Monte Palomar, apuntando al cenit"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Se denomina <b>telescopio</b> a cualquier herramienta o instrumento óptico que permite ver objetos lejanos con mucho más detalle que a simple vista. Es una herramienta fundamental para la astronomía.</p>\n<p>Es una herramienta que los astrónomos usan para ver objetos lejanos. La mayor de los telescopios funcionan utilizando <b>espejos</b> curvos para captar y enfocar la luz del cielo nocturno.</p>\n<h2>Creador</h2>\n<p>Generalmente, se atribuye su invención a Hans Lipershey, un fabricante aleman de lentes, alrededor de 1608. El físico y astrónomo Galileo Galilei tuvo noticias de este invento y decidió crear el suyo propio. Con uno de ellos se descubrieron las 4 lunas de Júpiter.</p>\n<p><b>Clases de Telescopios</b></p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "lingua-libre-illustration-telescope-6ed8128e.png",
+      "pie": "Un telecopio"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Existen diferentes tipos de telescopios, que se clasifican principalmente según cómo captan y enfocan la luz. Aquí están las principales clases:</p>\n<ol><li><b>Telescopios refractores:</b>  Utilizan lentes para enfocar la <a href=\"/articulo/luz\">luz</a>. Son ideales para observar detalles de planetas y la <a href=\"/articulo/luna\">Luna</a> debido a su diseño sencillo y estable. Sin embargo, suelen ser menos efectivos para captar objetos muy lejanos o débiles, ya que los lentes pueden generar aberraciones cromáticas (descomposición de la luz en colores).</li>\n<li><b>Telescopios reflectores:</b>  Funcionan con espejos en lugar de lentes. El espejo principal capta la luz y la refleja hacia un punto focal. Son populares en astronomía debido a su capacidad para observar objetos lejanos y débiles sin aberraciones cromáticas. El diseño más común es el reflector newtoniano.</li>\n<li><b>Telescopios catadióptricos:</b>  Combinan lentes y espejos para aprovechar lo mejor de ambos diseños. Son compactos y versátiles, ideales tanto para observación como para astrofotografía. Dos tipos comunes son el Schmidt-Cassegrain y el Maksutov-Cassegrain.</li></ol>\n<p>Cada tipo de telescopio tiene ventajas y desventajas, y la elección depende del propósito del usuario, como observar planetas, galaxias o incluso tomar fotografías del cielo nocturno.</p>\n<h3>Telescopio newtoniano</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "telescope-3b33f5ee.gif",
+      "pie": "Esquema de un telescopio newtoniano"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Se trata de un sistema compuesto por un espejo parabólico o esférico de gran diámetro encargado de recoger la luz de las <a href=\"/articulo/estrella\">estrellas</a>, seguido de una lente de menor distancia focal (el ocular) que se utiliza como lupa para ver la imagen intermedia. La clave del telescopio newtoniano consiste en interponer un pequeño espejo plano para colocar el ocular a 90°.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "palomar-arp-600pix-f5080652.jpg",
+    "tipo": "imagen",
+    "alt": "El telescopio Hale de Monte Palomar, apuntando al cenit",
+    "autor": "NASA",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Palomar_arp_600pix.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "palomar-arp-600pix-f5080652.jpg",
+      "tipo": "imagen",
+      "alt": "El telescopio Hale de Monte Palomar, apuntando al cenit",
+      "autor": "NASA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Palomar_arp_600pix.jpg"
+    },
+    {
+      "archivo": "lingua-libre-illustration-telescope-6ed8128e.png",
+      "tipo": "imagen",
+      "alt": "Un telecopio",
+      "autor": "0x010C",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Lingua_libre_illustration_-_telescope.svg"
+    },
+    {
+      "archivo": "telescope-3b33f5ee.gif",
+      "tipo": "imagen",
+      "alt": "Esquema de un telescopio newtoniano",
+      "autor": "The original uploader was Dbfls de Wikipedia en francés.",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Telescope.gif"
+    }
+  ],
+  "relacionados": [
+    "luz",
+    "luna",
+    "estrella"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Telescopio",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Telescopio&action=history",
+    "revid": 199306,
+    "fecha": "2026-10-14"
+  }
+}

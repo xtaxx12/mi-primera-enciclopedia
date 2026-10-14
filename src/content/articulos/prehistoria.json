@@ -1,0 +1,70 @@
+{
+  "slug": "prehistoria",
+  "titulo": "Prehistoria",
+  "categoria": "historia",
+  "resumen": "La prehistoria es el nombre con el que conocemos el período más antiguo de la humanidad, en el que los seres humanos no tenían sistemas de escritura. Para facilitar su estudio, la prehistoria se divide en tres etapas:",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>La <b>prehistoria</b> es el nombre con el que conocemos el período más antiguo de la humanidad, en el que los seres humanos no tenían sistemas de <a href=\"/articulo/escritura\">escritura</a>. Para facilitar su estudio, la prehistoria se divide en tres etapas:</p>\n<ul><li>Paleolítico o edad de la piedra antigua: Los seres humanos empezaron a crear herramientas simples a base de piedras, huesos y ramas.</li>\n<li>Mesolítico o edad de la piedra media: Los seres humanos perfeccionaron sus herramientas.</li>\n<li>Neolítico o edad de la piedra nueva: Los seres humanos dejan de ser nómadas para convertirse en sedentarios, es decir, ya no viajaban de un lugar a otro y se establecen en pequeñas aldeas. Se descubre la agricultura y la metalurgia (manipulación de los metales, de los que el primero fue el cobre).</li></ul>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "reconstruction-of-the-fossil-skeleton-of-lucy-the-australopi-de2ff849.jpg",
+      "pie": "El esqueleto casi completo de Lucy."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Dependiendo de si se le asigna o no la Edad de los metales, por oposición a la Edad de piedra, a la prehistoria o a la protohistoria  (esto depende de los prehistoriadores ), se añade o no:</p>\n<ul><li>Edad del Cobre</li>\n<li>Edad del Bronce</li>\n<li>Edad del Hierro</li></ul>\n<p>Estas etapas se dan a título indicativo, ya que la evolución técnica ha variado de unas regiones del mundo a otras.</p>\n<h3>La formación del hombre moderno</h3>\n<p>Poco a poco, el hombre moderno (u homínido bípedo) se va formando a partir de ciertos primates (cuya primera línea  -<i>Purgatorius </i>- se remonta a unos 70 millones de años antes de Cristo, pero los primeros monos verdaderos - con 32 dientes - datan de 45 millones de años). Estos primates fueron capaces de ponerse de pie, el volumen de sus cerebros creció y desarrollaron la capacidad de pensar.</p>\n<p>Este proceso en el cual se establecieron los caracteres específicos para el ser humano se le llama evolución humana (un término nacido en 1950). Cabe señalar que:</p>\n<ul><li>Los primeros signos de bipedalismo se encuentra en África  Central (Chad, hace - 7 millones de años) y África oriental (en Kenia, hace - 6 millones de años y medio) conocidos a través de los <a href=\"/articulo/esqueleto\">esqueletos</a>;</li>\n<li>El primer esqueleto casi completo de un primate bípedo (el de la australopithecus Lucy, 20 años), fue descubierto en 1978  en Etiopía.</li></ul>\n<h3>La evolución en el modo de vida humano</h3>\n<h3>El Paleolítico</h3>\n<p>Hace unos 10.000 años, los hombres eran principalmente nómadas (sin morada fija).</p>\n<p>Vivían en pequeñas bandas que constaban de unas pocas familias, del fruto de su caza y de lo que recolectaban. Estas bandas formaban pequeños clanes, que debían subsistir por sí mismos.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "pinturas-rupestres-416282dd.jpg",
+      "pie": "Las pinturas rupestres fueron realizadas por los hombres durante la prehistoria."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Sus campamentos estaban formados por chozas con un armazón de <a href=\"/articulo/hueso\">huesos</a> (de mamut) o madera, al que los hombres cubrían con pieles. Estos campamentos podían estar al aire libre (en un área abierta), especialmente durante la temporada de caza, al abrigo de rocas, o en las aberturas de cuevas.</p>\n<p>Las herramientas que los hombres utilizaban estaban talladas en piedra, pero también en hueso y luego en madera (por desgracia, estos dos últimos materiales, que son frágiles, no han resistir la degradación por el tiempo). Su forma varía considerablemente. En los períodos más tempranos, son guijarros apenas retocados por el impacto de una piedra sobre otra, lo que crea una arista viva. En los períodos más recientes, los útiles son hojas delgadas y largas en forma de hojas de laurel. Con la misma cantidad de material, el hombre ha logrado aumentar significativamente la cantidad de herramientas y la longitud de la hoja, de manera que es mucho más eficiente para procurarse y preparar los alimentos.</p>\n<p>A partir del hombre de Neandertal, los hombres enterraban a sus muertos a los que preparaban con adornos fabricados de hueso o de conchas.</p>\n<p>En el último período del Paleolítico, el hombre de Cro-Magnon decora las paredes de las cuevas con dibujos tallados o pintados.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "reconstruction-of-the-fossil-skeleton-of-lucy-the-australopi-de2ff849.jpg",
+    "tipo": "imagen",
+    "alt": "El esqueleto casi completo de Lucy.",
+    "autor": "120",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Reconstruction_of_the_fossil_skeleton_of_%22Lucy%22_the_Australopithecus_afarensis.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "reconstruction-of-the-fossil-skeleton-of-lucy-the-australopi-de2ff849.jpg",
+      "tipo": "imagen",
+      "alt": "El esqueleto casi completo de Lucy.",
+      "autor": "120",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Reconstruction_of_the_fossil_skeleton_of_%22Lucy%22_the_Australopithecus_afarensis.jpg"
+    },
+    {
+      "archivo": "pinturas-rupestres-416282dd.jpg",
+      "tipo": "imagen",
+      "alt": "Las pinturas rupestres fueron realizadas por los hombres durante la prehistoria.",
+      "autor": "ArgLop",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Pinturas_rupestres.JPG"
+    }
+  ],
+  "relacionados": [
+    "escritura",
+    "esqueleto",
+    "hueso"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Prehistoria",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Prehistoria&action=history",
+    "revid": 202792,
+    "fecha": "2026-10-14"
+  }
+}

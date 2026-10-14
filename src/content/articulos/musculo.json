@@ -1,0 +1,66 @@
+{
+  "slug": "musculo",
+  "titulo": "Músculo",
+  "categoria": "cuerpo-humano",
+  "resumen": "Un músculo es un tejido que tiene la capacidad de contraerse, es decir, de hacerse más corto. El movimiento de los animales es causado por esta contracción. Hay tres tipos de músculos: esquelético, liso y cardíaco (corazón).",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "twemoji-1f4aa-5403db83.png",
+      "pie": "El músculo bíceps del brazo"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>músculo</b> es un tejido que tiene la capacidad de contraerse, es decir, de hacerse más corto. El movimiento de los animales es causado por esta contracción. Hay tres tipos de músculos: esquelético, liso y cardíaco (corazón).</p>\n<h2>Músculo esquelético</h2>\n<p>Es lo que la mayoría de la gente piensa como músculo, el tipo que se puede contraer para mover las diversas partes del cuerpo.</p>\n<p>Los músculos esqueléticos son haces de fibras contráctiles que se organizan en un patrón regular, de modo que bajo un <a href=\"/articulo/microscopio\">microscopio</a> aparecen como rayas (por lo tanto, también se denominan músculos rayados o estriados).</p>\n<p>Los músculos esqueléticos varían en su velocidad de contracción. Los músculos esqueléticos, que son responsables de la postura y el movimiento, están unidos a los huesos y dispuestos en grupos opuestos alrededor de las articulaciones. Por ejemplo, los músculos que doblan el codo (bíceps) son contrarrestados por músculos que lo enderezan (tríceps). Estos movimientos contrarios son equilibrados. El equilibrio hace que los movimientos sean suaves, lo que ayuda a prevenir daños al sistema musculoesquelético.</p>\n<p>Los músculos esqueléticos son controlados por el <a href=\"/articulo/cerebro\">cerebro</a> y se consideran músculos voluntarios porque operan con el control consciente de la persona.</p>\n<p>El tamaño y la fuerza de los músculos esqueléticos se mantienen o aumentan con el ejercicio regular. Además, la hormona del crecimiento y la testosterona ayudan a los músculos a crecer en la infancia y a mantener su tamaño en la edad adulta.</p>\n<h2>Músculos lisos</h2>\n<p>Controlan ciertas funciones corporales que no están bajo el control de la persona. El músculo liso rodea muchas arterias y se contrae para ajustar el flujo sanguíneo. Rodea los intestinos y se contrae para mover los alimentos y las heces a lo largo del tracto digestivo. El músculo liso también es controlado por el cerebro, pero no voluntariamente. Los desencadenantes de la contracción y relajación de los músculos lisos están controlados por las necesidades del cuerpo, por lo que los músculos lisos se consideran involuntarios porque funcionan sin el control consciente de la persona.</p>\n<h2>Músculo cardíaco</h2>\n<p>Forma el <a href=\"/articulo/corazon\">corazón</a> y no forma parte del sistema musculoesquelético. Al igual que el músculo esquelético, el músculo cardíaco tiene un patrón regular de fibras que también aparecen como rayas bajo el microscopio. Sin embargo, el músculo cardíaco se contrae y se relaja rítmicamente sin que la persona se dé cuenta.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "clases-de-musculos-es-d2c1c31b.png",
+      "pie": "Tres tipos distintos de músculos (de izquierda a derecha): Músculos lisos (no estriados), músculos cardíacos o del corazón y músculos esqueléticos."
+    },
+    {
+      "tipo": "html",
+      "html": "<h2>Tipos de contracción</h2>\n<p>Existen dos clases de contracción: la&#160;isotónica y la isométrica<i>.</i></p>\n<ul><li>La contracción isotónica (con desplazamiento)&#160;implica la contracción de grupos musculares contra una resistencia a lo largo de un recorrido, como al correr, nadar, saltar, lanzar, levantar, patear, etc. Es decir que es una contracción con distancia a recorrer.&#160; A su vez, la contracción isotónica tiene otras dos,&#160;isotónica concéntrica e isotónica excéntrica.</li>\n<li>En la contracción isométrica (sin desplazamiento), los músculos se mueven contra una resistencia sin recorrido, como al empujar o tirar de un objeto inamovible. Es decir sin distancia a recorrer.</li></ul>\n<p>El ejercicio isométrico es mejor para desarrollar los músculos largos, y el ejercicio isotónico es más beneficioso para el sistema cardiovascular: aumenta la cantidad de sangre que bombea el corazón y favorece la proliferación de pequeños vasos que transportan el oxígeno a los músculos.</p>\n<p>Además de la contracción, la otra capacidad que posee el músculo es la elongación.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "twemoji-1f4aa-5403db83.png",
+    "tipo": "imagen",
+    "alt": "El músculo bíceps del brazo",
+    "autor": "Twitter",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Twemoji_1f4aa.svg"
+  },
+  "medios": [
+    {
+      "archivo": "twemoji-1f4aa-5403db83.png",
+      "tipo": "imagen",
+      "alt": "El músculo bíceps del brazo",
+      "autor": "Twitter",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Twemoji_1f4aa.svg"
+    },
+    {
+      "archivo": "clases-de-musculos-es-d2c1c31b.png",
+      "tipo": "imagen",
+      "alt": "Tres tipos distintos de músculos (de izquierda a derecha): Músculos lisos (no estriados), músculos cardíacos o del corazón y músculos esqueléticos.",
+      "autor": "www.scientificanimations.com",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Clases_de_m%C3%BAsculos_es.png"
+    }
+  ],
+  "relacionados": [
+    "microscopio",
+    "cerebro",
+    "corazon"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/M%C3%BAsculo",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=M%C3%BAsculo&action=history",
+    "revid": 179159,
+    "fecha": "2026-10-14"
+  }
+}

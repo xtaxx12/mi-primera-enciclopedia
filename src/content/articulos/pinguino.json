@@ -1,0 +1,88 @@
+{
+  "slug": "pinguino",
+  "titulo": "Pingüino",
+  "categoria": "animales",
+  "resumen": "Los pingüinos (nombre científico: Spheniscidae), son aves no voladoras que viven en el hemisferio sur. De todas las aves que existen, son las mejor adaptadas al medio marino (viven el 75% de su vida en el agua).",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "file-ice-cased-adelie-penguins-after-a-blizzard-at-cape-deni-51761c3b.jpg",
+      "pie": "Pingüinos adelaida juveniles en la Antártida."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los <b>pingüinos</b> (nombre científico: <b>Spheniscidae</b>), son aves no voladoras que viven en el hemisferio sur. De todas las aves que existen, son las mejor adaptadas al medio marino (viven el 75% de su vida en el agua).</p>\n<p>Tienen el cuerpo totalmente cubierto de pequeñas plumas y las alas convertidas en aletas planas, adaptadas a la natación, que no se pliegan y recubiertas de pequeñas plumas semejantes a escamas. Las patas cortas y colocadas muy atrás en el cuerpo; los dedos están unidos por una membrana. La cola es corta y está formada por plumas estrechas y tiesas.</p>\n<p>Anidan formando grandes colonias. Ponen uno o dos huevos de color blanco. Tienen una gruesa capa de grasa bajo la piel que los aísla de las bajas temperaturas que tienen que soportar tanto en el mar como en tierra. Su dieta está compuesta principalmente de crustáceos como el kril, peces, y cefalópodos como el calamar.</p>\n<h2>Especies</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "manchot-royal-king-penguin-ab7efdd8.jpg",
+      "pie": "Pingüinos rey"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Existen varias especies de pingüinos:</p>\n<ul><li>El <b>pingüino rey</b>: de unos 100 cm de altura cuando son adultos. La parte superior es azul grisácea y la inferior blanca. La cabeza negra con manchas anaranjadas a los lados unidas por bandas amarillas a otras manchas en el pecho de color naranja. El pico negro con mancha roja o anaranjada en la base de la mandíbula.</li></ul>\n<p>Se distribuye alrededor del polo Sur</p>\n<ul><li>El <b>pingüino emperador</b>: es el más grande de todos los pingüinos, llega a alcanzar 115 cm de altura. La parte superior es azul grisácea claro y la inferior blanca. Tiene una mancha semicircular amarilla a cada lado del cuello. El pico negro azulado, con una mancha de color anaranjado, rosado coral, púrpura o lila en la base de la mandíbula.</li></ul>\n<p>Distribución alrededor del polo sur. En la <a href=\"/articulo/antartida\">Antártida</a> <a href=\"/articulo/chile\">chilena</a> anida en el islote Dion, en bahía Margarita. En la isla Greenwich, en las Shetland del Sur y en la península Antártica.</p>\n<ul><li><b>Pingüino papúa</b>: con una altura de unos 70 cm, se distingue por tener una mancha blanca en la corona, estrecha en el medio y más ancha sobre los ojos. La parte superior es de color gris y la inferior blanca. El pico rojo anaranjado y las patas amarillo anaranjadas. Anida y vive en el sector antártico chileno.</li>\n<li><b>Pingüino de adelia</b>: de unos 71 cm de altura. La cabeza , el cuello y la parte superior es de color negro y la parte inferior blanca. El pico es de color naranja oscuro y las patas blancas con tinte rosado. Con un anillo blanco alrededor de los ojos. Vive en el círculo polar y anida en la <a href=\"/articulo/antartida\">Antártida</a> chilena.</li>\n<li><b>Pingüino de barbijo</b>: de hasta 76 cm de altura. Tiene la cabeza negruzca, la garganta y el cuello blancos. Una línea delgada negra atraviesa su garganta de oído a oído. Tiene el pico negro y las patas de color carne. Vive en el círculo polar y anida en las islas del cabo de Hornos.</li>\n<li><b>Otras especies</b> son: el pingüino de penacho amarillo, el de Humboldt, el pingüino de Magallanes.</li></ul>\n<h2>Profundidad</h2>\n<p>Cada especie de pingüino es capaz de zambullirse a una determinada profundidad. El pingüino emperador bucea hasta 250 metros para buscar comida, pero su récord está en más de 500 metros, es decir, puede zambullirse a una profundidad similar a la altura de la torre <i>CN Tower</i> de <a href=\"/articulo/canada\">Canadá</a></p>\n<h2>Reproducción</h2>\n<p>Como todas las aves, los pingüinos son animales ovíparos. Se reproducen generalmente en colonias que permanecen año tras año en el mismo lugar, con excepción del pingüino emperador, que se reproduce sobre el hielo y no construye un nido, sino que incuba el huevo sobre un pliegue de su piel situado por encima de sus patas, mientras que los demás lo hacen en tierra.</p>\n<p>Construyen un nido con guijarros y allí depositan un huevo o dos, según la especie. Al término de la incubación, nacen los pollos, que son totalmente dependientes de sus padres. Son  alimentados hasta que pueden valerse por sí mismos y no necesiten de ayuda.</p>\n<h2>El pingüino como símbolo y en el cine</h2>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>En mayo de 1996 se creó la mascota del sistema operativo Linux, llamada <b>Tux</b>, representada por un pingüino.</p>\n<p><b>Los pingüinos de Madagascar</b> (en inglés: <i>The penguins of Madagascar</i>) es una serie de animación CGI estadounidense transmitida por Nickelodeon, protagonizada por los pingüinos de la película de 2005, <i>Madagascar</i></p>"
+    }
+  ],
+  "principal": {
+    "archivo": "penguins-collage-b0b01406.png",
+    "tipo": "imagen",
+    "alt": "Pingüino",
+    "autor": "PaleoMatt",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Penguins_collage.png"
+  },
+  "medios": [
+    {
+      "archivo": "penguins-collage-b0b01406.png",
+      "tipo": "imagen",
+      "alt": "Pingüino",
+      "autor": "PaleoMatt",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Penguins_collage.png"
+    },
+    {
+      "archivo": "penguin-range-23a9b90e.png",
+      "tipo": "imagen",
+      "alt": "Pingüino",
+      "autor": "Phoenix_B_1of3 (talk) (Uploads)",
+      "licencia": "cc0",
+      "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Penguin_range.png"
+    },
+    {
+      "archivo": "file-ice-cased-adelie-penguins-after-a-blizzard-at-cape-deni-51761c3b.jpg",
+      "tipo": "imagen",
+      "alt": "Pingüinos adelaida juveniles en la Antártida.",
+      "autor": "Frank Hurley",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:File-Ice_cased_Adelie_penguins_after_a_blizzard_at_Cape_Denison.jpg"
+    },
+    {
+      "archivo": "manchot-royal-king-penguin-ab7efdd8.jpg",
+      "tipo": "imagen",
+      "alt": "Pingüinos rey",
+      "autor": "This illustration was made by Samuel Blanc. If you plan on using it, an email to samuel @ sblanc.com would be greatly appreciated.",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Manchot_royal_-_King_Penguin.jpg"
+    }
+  ],
+  "relacionados": [
+    "antartida",
+    "chile",
+    "canada"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Spheniscidae",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Spheniscidae&action=history",
+    "revid": 175303,
+    "fecha": "2026-10-14"
+  }
+}

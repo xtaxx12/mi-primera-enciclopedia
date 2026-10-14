@@ -1,0 +1,48 @@
+{
+  "slug": "pablo-picasso",
+  "titulo": "Pablo Picasso",
+  "categoria": "arte-y-musica",
+  "resumen": "Pablo Picasso fue un artista español nacido en Málaga en 1881 y uno de los creadores más importantes del siglo XX. Se formó en La Coruña, Barcelona y Madrid, y más tarde se estableció en París, donde desarrolló sus famosas etapas azul y rosa.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "juangris-portrait-of-picasso-d30af907.jpg",
+      "pie": "Picasso pintado por Juan Gris"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Pablo Picasso</b> fue un artista español nacido en Málaga en 1881 y uno de los creadores más importantes del siglo XX.  Se formó en La Coruña, Barcelona y Madrid, y más tarde se estableció en París, donde desarrolló sus famosas <b>etapas azul y rosa</b>.</p>\n<p>Es considerado uno de los mejores artistas del siglo XX y su cuadro más famoso es el <i>\"Guernica\"</i>.</p>\n<p>En 1907 pintó <i>Las señoritas de Aviñón</i>, considerada el inicio del cubismo, movimiento que desarrolló junto a Georges Braque. A lo largo de su vida también realizó <a href=\"/articulo/escultura\">esculturas</a>, cerámicas, grabados y decorados para ballets.</p>\n<p>Durante la guerra civil española fue nombrado director del Museo del Prado y pintó el <i>Guernica</i>, una de las obras más importantes contra la guerra.</p>\n<p>Vivió la mayor parte de su vida en Francia y continuó creando arte hasta su muerte en 1973. Su obra ha tenido una enorme influencia en la historia del arte y es reconocida en todo el mundo.</p>\n<h3>Obras</h3>\n<ul><li><i>Guernica</i>, óleo sobre lienzo, 350 x 785 cm, 1937</li>\n<li><i>Naturaleza muerta</i>, óleo sobre lienzo, 46 x 65 cm, 1912</li>\n<li><i>La dama oferente</i>, bronce, 1933</li>\n<li><i>Cabeza llorando (VIII)</i>, lápiz y pluma sobre papel amarillento, 901 x 584 mm, 1937</li>\n<li><i>Estudio de composición para «Guernica» (I)</i>, lápiz sobre papel azulado, 210 x 269 mm, 1937</li>\n<li><i>Estudio para el caballo (I)</i>, lápiz sobre papel azulado, 210 x 269 mm, 1937</li>\n<li><i>Caballo y toro</i>, lápiz sobre papel marrón, 227 x 121 mm, 1937</li>\n<li><i>Estudio para la cabeza del caballo (I)</i>, lápiz sobre papel azulado, 210 x 155 mm, 1937</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "juangris-portrait-of-picasso-d30af907.jpg",
+    "tipo": "imagen",
+    "alt": "Picasso pintado por Juan Gris",
+    "autor": "Juan Gris",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:JuanGris.Portrait_of_Picasso.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "juangris-portrait-of-picasso-d30af907.jpg",
+      "tipo": "imagen",
+      "alt": "Picasso pintado por Juan Gris",
+      "autor": "Juan Gris",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:JuanGris.Portrait_of_Picasso.jpg"
+    }
+  ],
+  "relacionados": [
+    "escultura",
+    "arte-prehistorico",
+    "color"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Pablo_Picasso",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Pablo_Picasso&action=history",
+    "revid": 190020,
+    "fecha": "2026-10-14"
+  }
+}

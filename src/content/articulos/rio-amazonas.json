@@ -1,0 +1,27 @@
+{
+  "slug": "rio-amazonas",
+  "titulo": "Río Amazonas",
+  "categoria": "planeta-tierra",
+  "resumen": "El río Amazonas está en América del Sur. Es uno de los ríos más largos del mundo (más o menos 6800 kilómetros) y el que más agua tiene. Nace en los Andes del sur de Perú y desemboca en el océano Atlántico tras recorrer Perú, Colombia y Brasil. El nombre de Amazonas le fue dado por el explorador…",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>río Amazonas</b> está en América del Sur. Es uno de los ríos más largos del mundo (más o menos 6800 kilómetros) y el que más <a href=\"/articulo/agua\">agua</a> tiene. Nace en los Andes del sur de <a href=\"/articulo/peru\">Perú</a> y desemboca en el océano Atlántico tras recorrer Perú, <a href=\"/articulo/colombia\">Colombia</a> y <a href=\"/articulo/brasil\">Brasil</a>. El nombre de Amazonas le fue dado por el explorador español Orellana, quien alrededor de 1540, luchó en las orillas del río, contra indígenas con el pelo largo (que él equiparó con las amazonas, guerreras de la <a href=\"/articulo/antigua-grecia\">antigua Grecia</a>).</p>\n<p>Es alimentado por las lluvias ecuatoriales y tiene la mayor cuenca hidrográfica de todos los ríos del mundo. También tiene el mayor caudal (180.000 metros cúbicos por segundo en la desembocadura) de todos los ríos. Lleva más agua que el río Mississipi, el Nilo y el río Yang-Tseu-Kiang juntos. Recibe más de 200 afluentes. Transporta una cantidad considerable de desechos orgánicos proporcionada por la selva amazónica. Los depósitos han formado en la desembocadura la isla de Marajó, con una extensión más grande que la de Bélgica.</p>\n<p>El Amazonas, que es muy profundo, es navegable por grandes barcos hasta la ciudad de Manaus a 2000 kilómetros de su desembocadura. Desemboca en el océano Atlántico formando un estuario de 300 kilómetros de ancho y con multitud <a href=\"/articulo/isla\">islas</a>. la cantidad de agua aportada es tal que el agua dulce penetra hasta 100 km en el océano.</p>"
+    }
+  ],
+  "medios": [],
+  "relacionados": [
+    "agua",
+    "peru",
+    "colombia",
+    "brasil",
+    "antigua-grecia",
+    "isla"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/R%C3%ADo_Amazonas",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=R%C3%ADo_Amazonas&action=history",
+    "revid": 193474,
+    "fecha": "2026-10-14"
+  }
+}

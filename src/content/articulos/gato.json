@@ -1,0 +1,102 @@
+{
+  "slug": "gato",
+  "titulo": "Gato",
+  "categoria": "animales",
+  "resumen": "El gato doméstico (nombre científico: Felis catus, también Felis silvestris catus) es un mamífero carnívoro de la familia de los felinos. Es digitígrado, lo que significa que sólo apoya los dedos para caminar. Mide alrededor de setenta centímetros (cola incluida).",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>gato doméstico</b> (nombre científico: <i><b>Felis catus</b></i>, también <i><b>Felis silvestris catus</b></i>) es un mamífero carnívoro de la familia de los felinos. Es digitígrado, lo que significa que sólo apoya los dedos para caminar. Mide alrededor de setenta centímetros (cola incluida).</p>\n<p>Su cabeza es redondeada y su lengua, áspera. Posee patas cortas y pelaje espeso y suave principalmente de color blanco, gris, pardo, rojizo o negro. Algunos no tienen pelo e incluso, se encuentran (aunque raramente) gatos sin cola.</p>\n<p>Se cree que esta especie proviene del <b>gato salvaje africano</b>.</p>\n<p>El gato doméstico está incluido entre las 100 de las especies exóticas invasoras más dañinas del mundo de la Unión Internacional para la Conservación de la Naturaleza.</p>\n<p>Tiene otros nombres comunes, como michi, micho, mizo, miz, morroño, morrongo, mish, mishingo, misingo, etc.</p>\n<h2>Origen</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "de-katte-is-alhier-gewis-een-visken-wil-zy-eeten-maar-katten-569e5682.jpg",
+      "pie": "Dibujo antiguo de un gato"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El origen de los gatos se remonta a 12 millones de años, momento en que los felinos comenzaron a poblar la Tierra junto con otras formas de protoanimales como <a href=\"/articulo/elefante\">elefantes</a>, camellos o caballos. Los continentes aún no estaban en su posición definitiva y cordilleras como el Himalaya, los Pirineos o los Alpes se estaban formando.</p>\n<h2>Características</h2>\n<h3>Tamaño</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "scheme-cat-anatomy-75216304.png",
+      "pie": "Anatomía general del gato"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El gato doméstico tiene una longitud de unos 50 cm, sin contar la cola. Si tenemos en cuenta la cola, el gato doméstico mide unos 80 cm, ya que su cola tiene unos 30 cm de largo; aunque lógicamente existen variaciones según la raza con la que tratemos.</p>\n<h3>Peso</h3>\n<p>El peso ideal de un gato adulto sano oscila entre 3.6 kg y 5 kg, dependiendo de su raza y sexo.</p>\n<h3>Longevidad</h3>\n<p>La esperanza de vida promedio de un gato varía, pero según estudios en veterinaria, se sitúa alrededor de los 12 a 15 años. Sin embargo, no es raro que algunos gatos superen los 20 años, especialmente si reciben atención veterinaria regular y se mantienen en un ambiente propicio.</p>\n<h2>Comportamiento</h2>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los gatos son animales cazadores por naturaleza; por eso, ¡intentarán comer pájaros y pequeños animales (como los ratones) cuando puedan! Sin embargo, los gatos domésticos son alimentados por sus dueños, con comida especial para gatos.</p>\n<p>Los gatos son muy utilizados como mascotas y conviven con el hombre desde hace aproximadamente unos 9 500 años. Son muy limpios: ellos mismos se limpian el pelaje con la lengua, y les gusta mantener limpios los lugares donde están. A diferencia de los perros, los gatos generalmente no aprenden trucos ni obedecen órdenes.</p>\n<p>Les gusta dormir mucho: ¡algunos duermen hasta 18 horas al día! Además, se comunican usando el lenguaje corporal, con gruñidos, maullidos, gemidos, silbidos y muchísimas más vocalizaciones.</p>\n<h2>Alimentación</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "cats-eating-fish-01-974b2f87.jpg",
+      "pie": "Gato comiendo."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los gatos son animales carnívoros estrictos. Su alimentación en el medio natural se basaba en la caza de roedores, aves y lagartos y no es raro que ocasionalmente ingieran <a href=\"/articulo/planta\">plantas</a>, supuestamente para complementar su dieta.</p>\n<p>En la actualidad, se puede escoger entre varias opciones, como son la comida casera, el pienso, el alimento húmedo o el deshidratado, pero siempre de acuerdo con la etapa vital en la que se encuentre el gato para no caer en deficiencias nutricionales.</p>\n<h2>Razas</h2>\n<p>En la actualidad existen, aproximadamente, 80 razas distintas de gatos.</p>\n<p>Cada raza de gato doméstico tiene unos patrones propios basadas en características físicas, como la longitud del pelo, el <a href=\"/articulo/color\">color</a> o los dibujos del pelaje.</p>\n<h2>En la cultura popular</h2>\n<h3>Literatura</h3>\n<p>Los gatos han sido personajes recurrentes en la literatura. Uno de los ejemplos más icónicos es el gato de Cheshire en «Alicia en el País de las Maravillas» de Lewis Carroll, un gato que puede aparecer y desaparecer a voluntad, y que es conocido por su sonrisa enigmática.</p>\n<h3>Cine y televisión</h3>\n<p>Los gatos también han sido protagonistas en películas y programas de televisión. Desde «El Gato con Botas» de la franquicia de Shrek hasta «Garfield» y «Tom y Jerry», estos personajes han entretenido a audiencias de todas las edades.</p>\n<h3>Internet</h3>\n<p>En la era de <a href=\"/articulo/internet\">Internet</a>, los gatos se han convertido en estrellas virales. Los videos y fotos de gatos, a menudo acompañados de leyendas humorísticas o adorables, han dado lugar a una subcultura de memes conocida como «cat memes» que ha conquistado la web.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "collage-of-six-cats-02-73781839.jpg",
+    "tipo": "imagen",
+    "alt": "Gato",
+    "autor": "Derivative work: howcheng {chat}",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Collage_of_Six_Cats-02.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "collage-of-six-cats-02-73781839.jpg",
+      "tipo": "imagen",
+      "alt": "Gato",
+      "autor": "Derivative work: howcheng {chat}",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Collage_of_Six_Cats-02.jpg"
+    },
+    {
+      "archivo": "de-katte-is-alhier-gewis-een-visken-wil-zy-eeten-maar-katten-569e5682.jpg",
+      "tipo": "imagen",
+      "alt": "Dibujo antiguo de un gato",
+      "autor": "Rijksmuseum",
+      "licencia": "cc0",
+      "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:De_Katte_is_Alhier_gewis_Een_visken_wil_zy_eeten_Maar_katten_fel_En_muyzen_snel_Zal_zy_ook_niet_vergeeten_(titel_op_object),_RP-P-1984-421.jpg"
+    },
+    {
+      "archivo": "scheme-cat-anatomy-75216304.png",
+      "tipo": "imagen",
+      "alt": "Anatomía general del gato",
+      "autor": "Original bitmap: Persian Poet Gal Vector version: Surachit Afrikaans translation: Winstonza Arabic translation: أبو تائب Azerbaijani translation: Lord Leatherface Bengali translation: Moheen Catalan translation: Leptictidium, AnonMoos Chinese translation: Chongtin Czech translation: RuM Dutch translation: YukiKoKo French translation: Popolon Galician translation: Banjo German translation: Uwe Gille Ido translation: Wyvernoid Latvian translation: Kikos Japanese translation: Hisagi Korean translation: LambdaCorp Malayalam translation: Tux the penguin Polish translation: Patrol110 Portuguese translation: 2(L.L.K.)2 Serbian translation: Мелкијадес, Homo lupus Spanish translation: Erikire, Jcfidy, Angelito7 Sudanese translation: Kandar Ukrainian translation: Router Turkish translation: Lord Leatherface Welsh translation: Llywelyn2000 Multilingual version and Esperanto translation: Whidou",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Scheme_cat_anatomy.svg"
+    },
+    {
+      "archivo": "cats-eating-fish-01-974b2f87.jpg",
+      "tipo": "imagen",
+      "alt": "Gato comiendo.",
+      "autor": "FBenjr123",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Cats_eating_fish_01.jpg"
+    }
+  ],
+  "relacionados": [
+    "elefante",
+    "planta",
+    "color",
+    "internet"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Felis_catus",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Felis_catus&action=history",
+    "revid": 184933,
+    "fecha": "2026-10-14"
+  }
+}

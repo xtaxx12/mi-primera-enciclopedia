@@ -1,0 +1,47 @@
+{
+  "slug": "australia",
+  "titulo": "Australia",
+  "categoria": "paises",
+  "resumen": "Australia es un país ubicado en el hemisferio Sur que ocupa toda la parte continental de Oceanía, el continente más pequeño del mundo, además de varias islas en los océanos Pacífico, Índico y Antártico. Su capital es Canberra.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p><b>Australia</b> es un país ubicado en el hemisferio Sur que ocupa toda la parte continental de Oceanía, el continente más pequeño del mundo, además de varias islas en los océanos Pacífico, Índico y Antártico. Su capital es Canberra.</p>\n<p>Australia es el sexto país más grande del mundo con una extensión de 7.692.030 km², y una población de 19.483.000 habitantes.</p>\n<p>Australia es uno de los 14 países independientes que conforman Oceanía. Rodeada por los océanos: Índico, Océano Glacial Antártico y <a href=\"/articulo/oceano-pacifico\">Océano Pacífico</a>, está separada de Asia por los mares de Arafura y Timor.</p>\n<p>La Gran Barrera de Coral, el arrecife de coral más extenso del mundo, se encuentra a una corta distancia de la costa noreste y se extiende por más de 2.000 kilómetros. De una anchura de 100 a 300 km, conforma una gran cantidad de islas.</p>\n<p>Una enorme parte del país es desértica o semiárida. Australia es el país habitado más seco y llano, y el que menos suelos fértiles posee. Sólo en el sureste y suroeste existe un clima templado. La parte norte del país, con un clima tropical, tiene una vegetación que consiste principalmente en selvas lluviosas, <a href=\"/articulo/bosque\">bosques</a>, praderas, manglares y desiertos.</p>\n<p>Debido al clima seco los dos ríos más importantes, el Darling y el Murray pese a tener longitudes superiores a los 2000 km llevan en casi todo su tramo un escaso caudal que les da el aspecto de estrechos arroyos.</p>\n<h2>Flora y fauna</h2>\n<p>Aunque gran parte de Australia es desértica o semiárida, existe en ella una gran diversidad de hábitats, desde brezales alpinos a selvas lluviosas tropicales. Debido a la gran edad del continente, la poca fertilidad de sus suelos, sus diferentes climas extremadamente variables y su prolongado aislamiento del resto de los continentes, la fauna y la flora australiana es única y diversa. Muchas de las plantas con flor, de los mamíferos, de las aves, y de los peces de las zonas costeras templadas son endémicos, es decir solo se encuentran allí.</p>\n<p>Las especies animales autóctonas más conocidas incluyen al <a href=\"/articulo/ornitorrinco\">ornitorrinco</a> y los equidnas, los canguros, el koala, los wombats, el demonio de Tasmania y el (extinto en los años 1930) Tilacino o \"Tigre de Tasmania\"; y aves como el emú, las cucaburras, el ave lira o la cacatúa.</p>\n<p>En los cursos de agua del norte australiano existen grandes <a href=\"/articulo/cocodrilo\">cocodrilos</a> y otros reptiles como los varanos (en especial el Varanus giganteus), el dragón australiano y algunas de las serpientes más letales del planeta.</p>\n<h2>Sistema político</h2>\n<ul><li>El territorio australiano es dirigido por un Rey. El Rey es representado por un gobernador general.</li>\n<li>El gobernador general (<i>governor-general</i>) es nominado por el rey para un mandato de 5 años.</li>\n<li>Hay un parlamento (<i>parliament</i>) bicameral compuesto de 226 miembros (<i>members</i>), cuyas cámaras son el senado (<i>senate</i>), compuesto por 76 senadores (12 por estado y 2 por territorio) y la cámara de representantes compuesta de 150 representantes, elegidos para 3 años.</li>\n<li>El gobernador general puede disolver el parlamento federal y organizar nuevas elecciones parlamentarias.</li>\n<li>El gobernador general australiano es el comandante en jefe de las Fuerzas Armadas.</li></ul>\n<h2>Subdivisiones</h2>\n<p>El territorio está dividido en 6 estados y 3 territorios. Cada estado tiene su propio gobierno, su propia bandera y su propio consejo ejecutivo, y es dirigido por un gobernador. Cada territorio tiene su propio gobierno y es dirigido por un administrador.</p>\n<p>El gobernador de un estado es nominado por el gobernador general australiano.</p>\n<h2>Localidades principales</h2>\n<p>Las ciudades más pobladas son, por orden:</p>\n<p>Sydney, Melbourne, Brisbane, Perth, Adelaida, Gold Coast, Newcastle y Canberra que es la capital.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "australia-orthographic-projection-5bee1de7.png",
+    "tipo": "imagen",
+    "alt": "Australia",
+    "autor": "Este gráfico vectorial, sin especificar según el W3C, fue creado con Inkscape .",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Australia_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "australia-orthographic-projection-5bee1de7.png",
+      "tipo": "imagen",
+      "alt": "Australia",
+      "autor": "Este gráfico vectorial, sin especificar según el W3C, fue creado con Inkscape .",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Australia_(orthographic_projection).svg"
+    }
+  ],
+  "relacionados": [
+    "oceano-pacifico",
+    "bosque",
+    "ornitorrinco",
+    "cocodrilo"
+  ],
+  "pais": {
+    "adm0": "AUS"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Australia",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Australia&action=history",
+    "revid": 128458,
+    "fecha": "2026-10-14"
+  }
+}

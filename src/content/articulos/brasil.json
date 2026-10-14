@@ -1,0 +1,135 @@
+{
+  "slug": "brasil",
+  "titulo": "Brasil",
+  "categoria": "paises",
+  "resumen": "Brasil, oficialmente República Federativa del Brasil (en portugués, República Federativa do Brasil), es un país de América del Sur que comprende la mitad oriental del subcontinente y algunos grupos de pequeñas islas en el océano Atlántico.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "brazil-map-en-2004-0af21011.png",
+      "pie": "Mapa de Brasil"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Brasil</b>, oficialmente <b>República Federativa del Brasil</b> (en portugués, <i>República Federativa do Brasil</i>), es un país de América del Sur que comprende la mitad oriental del subcontinente y algunos grupos de pequeñas islas en el océano Atlántico.</p>\n<p>Con una superficie estimada en más de 8,5 millones de km², es el quinto país más extendo del mundo.</p>\n<p>Al este está delimitado por el océano Atlántico; al norte, con el departamento ultramarino francés de la Guayana Francesa, Surinam, Guyana y <a href=\"/articulo/venezuela\">Venezuela</a>; al noroeste con <a href=\"/articulo/colombia\">Colombia</a>; al oeste con <a href=\"/articulo/peru\">Perú</a> y <a href=\"/articulo/bolivia\">Bolivia</a>; al sureste con <a href=\"/articulo/paraguay\">Paraguay</a> y <a href=\"/articulo/argentina\">Argentina</a>, y al sur con <a href=\"/articulo/uruguay\">Uruguay</a>.</p>\n<p>En su mayor parte, el país está comprendido entre los trópicos terrestres, por lo que las estaciones climáticas no se sienten de una manera radical en gran parte del mismo. La selva amazónica cubre 3,6 millones de km² de su territorio. Gracias a su vegetación y a su clima, es uno de los países con más especies de animales en el mundo.</p>\n<p>La economía brasileña es la mayor de América Latina y del hemisferio Sur, la sexta mayor del mundo por producto bruto interno nominal.</p>\n<h2>Historia</h2>\n<p>Brasil, hasta entonces habitado por indígenas, fue descubierto por los europeos en 1500, por una expedición portuguesa liderada por Pedro Álvares Cabral.</p>\n<p>Tras el tratado de Tordesillas, el territorio brasileño fue el segmento del continente americano que correspondió al reino de <a href=\"/articulo/portugal\">Portugal</a>, del cual obtuvo su independencia el 7 de septiembre de 1822. Así, el país pasó de ser parte central del reino de Portugal a un imperio para finalmente convertirse en una república.</p>\n<p>Su primera capital fue Salvador de Bahía, que fue sustituida por Río de Janeiro hasta que se construyó una nueva capital, Brasília.</p>\n<h2>Población</h2>\n<p>A pesar de que sus más de 200 millones de habitantes hacen de Brasil el quinto país más poblado del mundo, presenta un bajo índice de densidad poblacional. Esto se debe a que la mayor parte de su población se concentra a lo largo del litoral, mientras el interior del territorio tiene grandes vacíos de población.</p>\n<p>El idioma oficial y el más hablado es el portugués. La religión con más seguidores es el catolicismo, representando casi dos tercios de la poblacion, siendo el país con mayor número de católicos nominales del mundo. Actualmente están creciendo los evangélicos, conformando mas del 20% de la poblacion. La sociedad brasileña es considerada una sociedad multiétnica al estar formada por descendientes de europeos (principalmente) y tambien de indígenas, africanos y asiáticos.</p>\n<h2>Geografía</h2>\n<h3>Límites</h3>\n<ul><li><b>Norte:</b> <a href=\"/articulo/venezuela\">Venezuela</a>, Guyana, Surinam y Guayana Francesa</li>\n<li><b>Sur:</b> <a href=\"/articulo/uruguay\">Uruguay</a></li>\n<li><b>Este:</b> Océano Atlántico</li>\n<li><b>Oeste:</b> <a href=\"/articulo/argentina\">Argentina</a>, <a href=\"/articulo/paraguay\">Paraguay</a>, <a href=\"/articulo/bolivia\">Bolivia</a>, <a href=\"/articulo/peru\">Perú</a> y <a href=\"/articulo/colombia\">Colombia</a></li></ul>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "brazil-topo-8013a31b.jpg",
+      "pie": "Mapa topográfico de Brasil"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El territorio brasilero es atravesado por dos líneas geográficas imaginarias: el Ecuador, que pasa por la desembocadura del Amazonas, y el trópico de Capricornio, que cruza por la ciudad de São Paulo.</p>\n<h3>Relieve</h3>\n<p>La topografía brasileña también es muy diversa: incluye varias colinas, <a href=\"/articulo/montana\">montañas</a>, planicies, mesetas y cerros. Gran parte del terreno se sitúa a una altitud de entre 200 a 800 msnm.</p>\n<p>La mayor parte de las tierras altas se ubican principalmente en la parte sur del país. El noroeste brasileño es una meseta compuesta por un terreno amplio interrumpido por algunos cerros.</p>\n<p>La región sureste es más accidentada, con una masa compleja de cordilleras y sierras que alcanzan altitudes de más de 1200 msnm. Estos accidentes incluyen la <b>sierra de la Mantiqueira</b>, la <b>sierra del Espinazo</b> y la <b>sierra del Mar</b>. En el norte, el escudo guayanés separa los ríos que corren hacia el sur de la cuenca del Amazonas de los ríos que desembocan en el sistema del río Orinoco.</p>\n<p>El punto más alto en Brasil es el Pico da Neblina, en la frontera con <a href=\"/articulo/venezuela\">Venezuela</a>, con 2994 msnm.</p>\n<h3>Hidrografía</h3>\n<p>Brasil cuenta con un sistema denso y complejo de ríos, uno de los más extensos del mundo, con ocho grandes cuencas hidrográficas que drenan en el océano Atlántico.</p>\n<p>Los ríos más importantes son el <a href=\"/articulo/rio-amazonas\">Amazonas</a> —el río más grande del mundo tanto en extensión (6937,08&#160;km) y en términos de volumen de agua (12 500 millones de litros por minuto)- el Paraná —su mayor afluente— el Iguazú —que da origen a las Cataratas del Iguazú—, el Negro, San Francisco, Xingú, Madeira y el Tapajós.</p>\n<h3>Clima</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "brazil-koppen-climate-map-bcd62d81.png",
+      "pie": "Mapa de los climas de Brasil"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Brasil  dispone de una amplia variedad de condiciones climáticas en una región grande y con una topografía variada, aunque se puede considerar que la mayor parte del país cuenta con un clima tropical.</p>\n<p>Cuenta con seis subtipos climáticos principales: ecuatorial, tropical, semiárido, tropical de altitud, templado y subtropical. Las diferentes condiciones climáticas producen ambientes que varían desde el <a href=\"/articulo/bosque\">bosque</a> tropical en el norte y las regiones semiáridas del noreste, hasta el bosque templado de coníferas en el sur y las <a href=\"/articulo/sabana\">sabanas</a> tropicales del centro.</p>\n<p>El clima ecuatorial es el que predomina en gran parte del norte de Brasil. No existe una estación seca como tal. La temperatura media es de 25&#160;°C. Las lluvias en el centro de Brasil son más escasas, característico de un clima de sabana.</p>\n<p>En el nordeste, la diferencia de precipitaciones entre las estaciones son aún más extremas, ya que esta región de clima semiárido generalmente recibe menos de 800&#160;mm lluvia.</p>\n<p>El sur y la región sureste poseen condiciones de clima templado, con inviernos frescos y una temperatura media anual que no supera los 18&#160;°C.  Las heladas invernales son bastante comunes, así como la caída ocasional de nieve en las áreas más elevadas.</p>\n<h3>Flora, fauna y medio ambiente</h3>\n<p>La gran extensión territorial de Brasil comprende diferentes ecosistemas, como la Amazonia, reconocida por albergar la mayor diversidad biológica en el mundo,  la <b>Mata Atlántica</b> y el <b>Cerrado</b>, que también sustentan una gran biodiversidad, por los cuales Brasil es clasificado como un país megadiverso.</p>\n<p>Dentro de los grandes mamíferos brasileños se incluye a pumas, jaguares, ocelotes, tapires, osos hormigueros, perezosos, zarigüeyas y armadillos. Los venados son abundantes en el sur y muchas especies de platyrrhini pueden ser encontradas en la selva tropical del Norte.</p>\n<p>El patrimonio natural de Brasil está seriamente amenazado por la ganadería, la agricultura, la explotación forestal, la minería, la extracción de petróleo y gas natural, la sobrepesca, el comercio de especies salvajes, la contaminación del agua, el cambio climático, el fuego y las especies invasoras.</p>\n<h2>División administrativa</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "brazil-states-345350fd.png",
+      "pie": "Los veintisiete estados federales de Brasil"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Brasil está dividido en 26 estados y un distrito federal. Cada estado tiene su propio gobierno y su propia constitución.</p>\n<h2>Deporte</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "new-maracana-stadium-0152f8b7.jpg",
+      "pie": "Estadio de fútbol de Maracaná en Río de Janeiro"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El fútbol es el deporte más popular en Brasil. La selección de fútbol ha ganado en cinco ocasiones la Copa Mundial de Fútbol de la FIFA, en 1958, 1962, 1970, 1994 y en 2002.</p>\n<p>Brasil fue elegido para ser la sede de la Copa Mundial de Fútbol de 2014. De igual forma, el país fue elegido para ser la sede de los Juegos Olímpicos de Rio de Janeiro en 2016 y la Copa América de 2019.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "brazil-orthographic-projection-47bc7de0.png",
+    "tipo": "imagen",
+    "alt": "Brasil",
+    "autor": "Ssolbergj",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Brazil_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "brazil-orthographic-projection-47bc7de0.png",
+      "tipo": "imagen",
+      "alt": "Brasil",
+      "autor": "Ssolbergj",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Brazil_(orthographic_projection).svg"
+    },
+    {
+      "archivo": "brazil-map-en-2004-0af21011.png",
+      "tipo": "imagen",
+      "alt": "Mapa de Brasil",
+      "autor": "CIA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Brazil_map_en_2004.png"
+    },
+    {
+      "archivo": "brazil-topo-8013a31b.jpg",
+      "tipo": "imagen",
+      "alt": "Mapa topográfico de Brasil",
+      "autor": "The original uploader was Captain Blood de Wikipedia en inglés.",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Brazil_topo.jpg"
+    },
+    {
+      "archivo": "brazil-koppen-climate-map-bcd62d81.png",
+      "tipo": "imagen",
+      "alt": "Mapa de los climas de Brasil",
+      "autor": "South America Köppen_Map.png: Peel, M. C., Finlayson, B. L., and McMahon, T. A. (University of Melbourne) / *derivative work: HenrikKbh (talk)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Brazil_K%C3%B6ppen_Climate_Map.png"
+    },
+    {
+      "archivo": "brazil-states-345350fd.png",
+      "tipo": "imagen",
+      "alt": "Los veintisiete estados federales de Brasil",
+      "autor": "Darlan P. de Campos",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Brazil_States.svg"
+    },
+    {
+      "archivo": "new-maracana-stadium-0152f8b7.jpg",
+      "tipo": "imagen",
+      "alt": "Estadio de fútbol de Maracaná en Río de Janeiro",
+      "autor": "Brazilian Government / Empresa de Obras Públicas do Estado do Rio de Janeiro (EMOP)",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0/br/deed.en",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:New_Maracana_Stadium.jpg"
+    }
+  ],
+  "relacionados": [
+    "venezuela",
+    "colombia",
+    "peru",
+    "bolivia",
+    "paraguay",
+    "argentina"
+  ],
+  "pais": {
+    "adm0": "BRA"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Brasil",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Brasil&action=history",
+    "revid": 213829,
+    "fecha": "2026-10-14"
+  }
+}

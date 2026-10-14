@@ -1,0 +1,52 @@
+{
+  "slug": "tiburon",
+  "titulo": "Tiburón",
+  "categoria": "animales",
+  "resumen": "El tiburón es un pez que habita principalmente en los mares de agua cálida. Es el predador más importante entre los peces por sus afilados dientes, que se reemplazan rápidamente a medida que los va perdiendo y reservan energías y mantienen reservas y nunca dejan de nadar.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<h2>El nombre científico del tiburón gris es Selachimorpha</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "tiburon-265026f9.jpg",
+      "pie": "Tiburón gris."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>tiburón</b> es un pez que habita principalmente en los mares de agua cálida. Es el predador más importante entre los peces por sus afilados dientes, que se reemplazan rápidamente a medida que los va perdiendo y reservan energías y mantienen  reservas y nunca dejan de nadar.</p>\n<h2>La descripción del tiburón marino</h2>\n<p>La <a href=\"/articulo/piel\">piel</a> del tiburón, que puede ser de color azul, blanca, marrón, gris o de tonos mixtos, es muy áspera porque tiene escamas en punta que se parecen a los dientes. Tienen un hígado que los ayuda a flotar, por ser más liviano que el agua salada.</p>\n<h2>Aletas</h2>\n<p>El tiburón tiene aletas pectorales muy desarrolladas y una típica aleta dorsal, ubicada detrás del cuello, de forma triangular. Cuando el tiburón nada cerca de la superficie, el típico triángulo que sobresale es la aleta dorsal. Su hocico también acaba en punta, los peces rémora ayudan a limpiar sus aletas de parásitos, el contiene por sus aletas tiene una velocidad de 50 km/h.</p>\n<h2>Tamaño y peligrosidad</h2>\n<p>El tamaño y la peligrosidad varían según el tipo de tiburón. El más grande es el tiburón ballena, que alcanza los quince metros de largo y pesa hasta dieciocho toneladas, pero que no le hace daño a los humanos. El tiburón blanco mide hasta cinco metros y es mucho más pequeño que el ballena, pero tiene una dentadura muy afilada. No ataca humanos por naturaleza, pero si éste invade su territorio, el tiburón puede lastimarlo gravemente o hasta la muerte. También existen otros tipos de tiburones, como el peregrino (de doce metros de longitud), el tiburón toro, el tiburón sierra, el tiburón ángel y el tiburón tigre, entre otros.</p>\n<h2>Reproducción</h2>\n<p>La reproducción también es diferente según la clase de tiburón. Algunos son ovíparos, es decir, nacen de huevos que han sido colocados previamente en <a href=\"/articulo/planta\">plantas</a> o rocas en el mar; otros son ovovivíparos, lo cual quiere decir que la hembra incuba los huevos en el interior y las crías ya nacen vivas; y los últimos son vivíparos, ya que se gestan en un útero parecido al que tienen las hembras de los mamíferos si quieres buscar mas información de más animales dale a los hipervínculos</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "tiburon-265026f9.jpg",
+    "tipo": "imagen",
+    "alt": "Tiburón gris.",
+    "autor": "original author is Fbattail , the image is cropped by Chris huh",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Tibur%C3%B3n.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "tiburon-265026f9.jpg",
+      "tipo": "imagen",
+      "alt": "Tiburón gris.",
+      "autor": "original author is Fbattail , the image is cropped by Chris huh",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Tibur%C3%B3n.jpg"
+    }
+  ],
+  "relacionados": [
+    "piel",
+    "planta",
+    "abeja"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Selachimorpha",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Selachimorpha&action=history",
+    "revid": 154003,
+    "fecha": "2026-10-14"
+  }
+}

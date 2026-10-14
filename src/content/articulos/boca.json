@@ -1,0 +1,48 @@
+{
+  "slug": "boca",
+  "titulo": "Boca",
+  "categoria": "cuerpo-humano",
+  "resumen": "La boca es un orificio que se encuentra en la parte inferior del rostro. Es el comienzo del sistema digestivo, por donde se ingiere los alimentos al cuerpo.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "illu-mouth-new-6b436b5a.jpg",
+      "pie": "Diagrama de la boca de un ser humano."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>boca </b> es un orificio que se encuentra en la parte inferior del rostro. Es el comienzo del sistema digestivo, por donde se ingiere los alimentos al cuerpo.</p>\n<h2>Órganos</h2>\n<p>Dentro de la boca, encontraremos varios órganos que permitirán la ingestión de la comida y la prepararán para su digestión.además de ayudarnos con la ingestión y absorción.</p>\n<h3>Labios</h3>\n<p>Los labios son pliegues de carne que delimitan el orificio de la boca y, al ser <a href=\"/articulo/musculo\">musculosos</a>, pueden moverse para, por ejemplo, chupar. Algunos animales (los que no son mamíferos) no tienen labios ya que no necesitan succionar la teta para alimentarse durante su infancia.</p>\n<h3>Lengua</h3>\n<p>La lengua es un órgano muscular. Sirve para ayudar a tragar, succionar, hablar (en aquellos seres vivos que pueden), sentir los sabores y empujar los alimentos para que puedan ser masticados.</p>\n<h3>Dientes</h3>\n<p>Los dientes son órganos duros de un material similar al <a href=\"/articulo/hueso\">hueso</a>. Estos sirven para desgarrar, triturar y cortar los alimentos antes de tragarlos. Los niños poseen veinte dientes y los adultos treinta y dos. Es necesario masticar los alimentos para formar un bolo alimenticio para facilitar el trabajo a los demás órganos del sistema digestivo.</p>\n<h3>Glándulas salivales</h3>\n<p>Existen tres tipos de glándulas salivales en la boca: las parótidas, las submaxilares y las sublinguales. Su función es producir un líquido viscoso llamado saliva. La utilidad de la saliva es, principalmente, comenzar la digestión y ayudar a formar el bolo alimenticio. Sin embargo, también elimina algunas bacterias de la boca y la limpia de restos de alimentos.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "illu-mouth-new-6b436b5a.jpg",
+    "tipo": "imagen",
+    "alt": "Diagrama de la boca de un ser humano.",
+    "autor": "derivative work: Pumpunxita _Illu_mouth.jpg: Pumpunxita",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Illu_mouth_new.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "illu-mouth-new-6b436b5a.jpg",
+      "tipo": "imagen",
+      "alt": "Diagrama de la boca de un ser humano.",
+      "autor": "derivative work: Pumpunxita _Illu_mouth.jpg: Pumpunxita",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Illu_mouth_new.jpg"
+    }
+  ],
+  "relacionados": [
+    "musculo",
+    "hueso",
+    "cerebro"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Boca",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Boca&action=history",
+    "revid": 171401,
+    "fecha": "2026-10-14"
+  }
+}

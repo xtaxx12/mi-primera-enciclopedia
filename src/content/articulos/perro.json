@@ -1,0 +1,43 @@
+{
+  "slug": "perro",
+  "titulo": "Perro",
+  "categoria": "animales",
+  "resumen": "El perro (Canis lupus familiaris) es un mamífero carnívoro (es decir que se alimenta de carne). El tamaño, la forma y el pelaje de los perros es diferente según la raza a la que pertenezcan.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>perro</b> (<i>Canis lupus familiaris</i>) es un mamífero carnívoro (es decir que se alimenta de carne). El tamaño, la forma y el pelaje de los perros es diferente según la raza a la que pertenezcan.</p>\n<p>Los perros tienen el <a href=\"/articulo/oido\">oído</a> y el olfato muy desarrollado, esto significa que son los que más utilizan porque son mas fuertes que los de los humanos. El tiempo de vida de un perro depende de la raza, variando entre 8 y 15 años generalmente. Algunos perros con muy buena salud pueden vivir hasta 20 años. Normalmente las razas pequeñas viven más tiempo que las razas grandes.</p>\n<p>Su especie ha sido domesticada por los seres humanos desde hace mucho tiempo. Se emplea generalmente como mascota, y se le conoce comúnmente como \"el mejor amigo del hombre\" porque es amigable y leal a sus amos.</p>\n<h2>Razas</h2>\n<p>Cuando hablamos de raza en los perros nos referimos a los diferentes tipos o variedades de perros que hay.</p>\n<p>Existen muchas razas de perros. (aproximadamente unas 400), son muchas mas razas que las que tiene cualquier otro animal.</p>\n<p>Cada raza tiene características propias, así que dos perros de razas distintas pueden verse muy diferente, pueden ser de varios tamaños, tipos de pelaje, color y tener comportamientos y carácter distinto.</p>\n<p>Para que un perro tenga raza pura, debe ser hijo de padres de la misma raza. Por ejemplo: un cachorro que sea hijo de dos dálmatas, será un dálmata también. Los perros que no son hijos de padres de la misma raza no tienen raza definida, y se ven como una mezcla de ambos padres.</p>\n<h2>Comportamiento</h2>\n<p>Los perros generalmente se comportan bien con sus amos (a menos que sean maltratados).</p>\n<p>Hay muchos perros que se comportan de forma amigable con los extraños, pero otros pueden ser agresivos y peligrosos. El comportamiento de cada uno depende de la forma como fue criado desde pequeño, y de la raza, porque algunas razas son agresivas por naturaleza.</p>\n<h3>Domesticación</h3>\n<p>Los perros son una especie doméstica, utilizada por el ser humano para muchas cosas:</p>\n<ul><li>Como mascotas, para acompañar a las personas que viven solas, o a las familias y los niños.</li>\n<li>Ayudar a los humanos en las cacerías.</li>\n<li>Ayudar a los bomberos y patrullas de rescate a salvar personas atrapadas en desastres.</li>\n<li>Guiar personas invidentes.</li>\n<li>Vigilar y cuidar las casas de las personas.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "coat-types-3-99474231.jpg",
+    "tipo": "imagen",
+    "alt": "Perro",
+    "autor": "Томасина, Taru T Torpström, Tuomas Rinta, danny O., Pat028, Sevenfatdogs, whartonds, dancing with wolves, Shnauzer, Missledwidge",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Coat_types_3.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "coat-types-3-99474231.jpg",
+      "tipo": "imagen",
+      "alt": "Perro",
+      "autor": "Томасина, Taru T Torpström, Tuomas Rinta, danny O., Pat028, Sevenfatdogs, whartonds, dancing with wolves, Shnauzer, Missledwidge",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Coat_types_3.jpg"
+    }
+  ],
+  "relacionados": [
+    "oido",
+    "abeja",
+    "ballena"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Canis_lupus_familiaris",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Canis_lupus_familiaris&action=history",
+    "revid": 170847,
+    "fecha": "2026-10-14"
+  }
+}

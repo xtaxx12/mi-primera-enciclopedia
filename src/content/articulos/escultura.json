@@ -1,0 +1,48 @@
+{
+  "slug": "escultura",
+  "titulo": "Escultura",
+  "categoria": "arte-y-musica",
+  "resumen": "La escultura es el arte de crear figuras con volumen, y es considerada una de las Bellas Artes. También se le llama escultura a las figuras.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "line3996-flickr-noaa-photo-library-21d06eaf.jpg",
+      "pie": "Estatua de la Libertad, Nueva York."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>escultura</b> es el arte de crear figuras con volumen, y es considerada una de las Bellas Artes. También se le llama escultura a las figuras.</p>\n<p>Una escultura puede estar hecha de diversos materiales, ya sea arcilla, piedra, madera, metal o algún otro elemento. El escultor es el artista que crea la escultura.</p>\n<p>Las esculturas pueden tener forma humana, de animales o incluso ser algo abstracto. Para crearlas, el artista elige un material y lo moldea. El moldeado puede ser tallando o esculpiendo el material, o modelándolo a mano y luego uniendo las piezas.</p>\n<p>En la antigüedad, las esculturas se utilizaban para transmitir mensajes al pueblo, que en su mayoría no sabía leer. Así, usando las esculturas, podían explicar al pueblo determinados acontecimientos y conceptos. Actualmente la escultura es considerada un arte y se la admira por su belleza.</p>\n<p>Algunas esculturas muy famosas son la Estatua de la Libertad, en la ciudad de Nueva York, la Gran Esfinge de Giza, en <a href=\"/articulo/egipto\">Egipto</a>, y el David de Miguel Ángel.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "line3996-flickr-noaa-photo-library-21d06eaf.jpg",
+    "tipo": "imagen",
+    "alt": "Estatua de la Libertad, Nueva York.",
+    "autor": "Personnel of NOAA Ship THOMAS JEFFERSON.",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Line3996_-_Flickr_-_NOAA_Photo_Library.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "line3996-flickr-noaa-photo-library-21d06eaf.jpg",
+      "tipo": "imagen",
+      "alt": "Estatua de la Libertad, Nueva York.",
+      "autor": "Personnel of NOAA Ship THOMAS JEFFERSON.",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Line3996_-_Flickr_-_NOAA_Photo_Library.jpg"
+    }
+  ],
+  "relacionados": [
+    "egipto",
+    "arte-prehistorico",
+    "color"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Escultura",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Escultura&action=history",
+    "revid": 171167,
+    "fecha": "2026-10-14"
+  }
+}

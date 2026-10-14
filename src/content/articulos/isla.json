@@ -1,0 +1,52 @@
+{
+  "slug": "isla",
+  "titulo": "Isla",
+  "categoria": "planeta-tierra",
+  "resumen": "Una isla es una zona de tierra, más o menos extensa, de tamaño menor que un continente, rodeada completamente por una masa de agua.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>Una <b>isla</b> es una zona de tierra, más o menos extensa, de tamaño menor que un continente, rodeada completamente por una masa de <a href=\"/articulo/agua\">agua</a>.</p>\n<p>Existen islas en los ríos, <a href=\"/articulo/lago\">lagos</a>, mares y océanos. El tamaño de las islas es variable, pudiendo tener desde unos pocos metros cuadrados de superficie hasta más de dos millones de kilómetros cuadrados, como es el caso de Groenlandia.</p>\n<h2>Islas coralinas</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "nukulaelae1-a15410dc.jpg",
+      "pie": "Vista satelital de una isla coralina."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Las islas y arrecifes coralinos se encuentran en mares tropicales y subtropicales. Están formadas por los esqueletos de un grupo de organismos marinos primitivos, denominados corales. Se forman cuando el coral crece hasta la superficie del océano, desde plataformas submarinas no muy profundas, siendo muchas veces <a href=\"/articulo/volcan\">conos volcánicos</a>. Cuando el cono está completamente sumergido se forma un atolón coralino. El coral dejará de crecer hacia arriba cuando llega a la superficie. Por este motivo estas islas son planas y bajas. Ejemplos de este tipo de islas son:</p>\n<ul><li>Las Maldivas.</li>\n<li>El archipiélago Chagos.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "nukulaelae1-a15410dc.jpg",
+    "tipo": "imagen",
+    "alt": "Vista satelital de una isla coralina.",
+    "autor": "NASA",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Nukulaelae1.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "nukulaelae1-a15410dc.jpg",
+      "tipo": "imagen",
+      "alt": "Vista satelital de una isla coralina.",
+      "autor": "NASA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Nukulaelae1.jpg"
+    }
+  ],
+  "relacionados": [
+    "agua",
+    "lago",
+    "volcan"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Isla",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Isla&action=history",
+    "revid": 165124,
+    "fecha": "2026-10-14"
+  }
+}

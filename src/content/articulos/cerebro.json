@@ -1,0 +1,52 @@
+{
+  "slug": "cerebro",
+  "titulo": "Cerebro",
+  "categoria": "cuerpo-humano",
+  "resumen": "El cerebro es uno de los órganos más importantes del cuerpo. Está situado en la cabeza, exactamente en el cráneo y su tamaño varía. Forma parte del encéfalo, y es el órgano mas grande de los tres que lo forman (cerebro, cerebelo y tronco del encéfalo).",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "human-brain-midsagittal-cut-color2-af6725fd.png",
+      "pie": "Imagen seccionada del encéfalo humano. El cerebro forma parte del encéfalo. En el diagrama coloreado, el cerebro corresponde a la parte anaranjada, la verde al cerebelo y las demás al tronco del encéfalo"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>cerebro</b> es uno de los órganos más importantes del cuerpo. Está situado en la cabeza, exactamente en el cráneo y su tamaño varía. Forma parte del encéfalo, y es el órgano mas grande de los tres que lo forman (cerebro, cerebelo y tronco del encéfalo).</p>\n<p>El cerebro controla la mayoría de nuestras acciones, incluso cuando dormimos.</p>\n<p>Encerrado en el cráneo, tiene la misma estructura general que los cerebros de otros mamíferos, pero es más de tres veces mayor que el cerebro de otros mamíferos con un tamaño corporal equivalente.</p>\n<h2>Composición</h2>\n<p>Se ha estimado que el cerebro humano contiene de 50 a 100 mil millones (10<sup>11</sup>) de neuronas. Estas células transmiten las señales a través de hasta 1000 billones (10<sup>15</sup>) de conexiones sinápticas.</p>\n<h2>Nacimiento de nuevas neuronas</h2>\n<p>Constantemente hay neuronas formándose en el cerebro. El proceso por el cual nuevas neuronas se forman se llama <i>neurogénesis</i>. Esta palabra es una compuesta, <i>neuro</i> se refiere a neuronas y <i>génesis</i> a comienzo o nacimiento. Por tanto neurogénesis significa nacimiento de nuevas neuronas.</p>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La neurogénesis se da en las primeras etapas de desarrollo del bebé y en la etapa adulta del ser humano. La neurogénesis en adulto no se ha confirmado hasta hace unos pocos años. Los científicos han hecho varios estudios con animales en donde se confirma el proceso de neurogénesis, por ejemplo en el cerebro de las ratas se da neurogénesis adulta.</p>\n<p>Las neuronas son un componente principal en el sistema nervioso ya que ellas son las que transmiten los impulsos nerviosos desde cualquier parte del cuerpo hasta llegar al cerebro.</p>\n<h2>Funciones</h2>\n<p>El cerebro controla y regula las acciones y reacciones del cuerpo. Recibe continuamente información sensorial, rápidamente analiza estos datos y luego responde, controlando las acciones y funciones corporales.</p>\n<p>El tronco encefálico controla la respiración, el <a href=\"/articulo/corazon\">ritmo cardíaco</a>, y otros procesos autónomos. El neocórtex es el centro del pensamiento de orden superior, del aprendizaje y de la memoria. El cerebelo es responsable del equilibrio corporal, coordinando la posturas y el movimiento. Todas estas partes trabajan en conjunto para que el cerebro funcione a su máxima capacidad.</p>\n<h2>Daños y enfermedades del cerebro</h2>\n<p>A pesar del hecho de que el cerebro esté protegido por los espesos huesos del cráneo, suspendido en líquido cefalorraquídeo, y aislado de la sangre por la <i>barrera hematoencefálica</i>, la delicada naturaleza del cerebro humano lo hace susceptible a muchos tipos de daños y enfermedades.</p>\n<p>Las formas más comunes de daño físico son los daños internos por un golpe en la cabeza, un accidente cerebrovascular, o una intoxicación por ingerir diversas sustancias químicas que pueden actuar como neurotoxinas.</p>\n<p>La infección del cerebro es rara debido a las barreras que lo protegen, pero es muy grave cuando se produce. El cerebro humano también es susceptible de padecer enfermedades degenerativas, como la enfermedad de Parkinson, la esclerosis múltiple y la enfermedad de Alzheimer. Algunos trastornos psiquiátricos, como la esquizofrenia y la depresión se cree que son causados, al menos parcialmente, por disfunciones cerebrales, aunque la naturaleza de tales anomalías cerebrales no es bien entendida actualmente.\n<br></p>"
+    }
+  ],
+  "principal": {
+    "archivo": "human-brain-midsagittal-cut-color2-af6725fd.png",
+    "tipo": "imagen",
+    "alt": "Imagen seccionada del encéfalo humano. El cerebro forma parte del encéfalo. En el diagrama coloreado, el cerebro corresponde a la parte anaranjada, la verde al cerebelo y las demás al tronco del encéfalo",
+    "autor": "John A Beal, PhD. Dep't. of Cellular Biology & Anatomy, Louisiana State University Health Sciences Center Shreveport (colored by was_a_bee.)",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Human_brain_midsagittal_cut_color2.png"
+  },
+  "medios": [
+    {
+      "archivo": "human-brain-midsagittal-cut-color2-af6725fd.png",
+      "tipo": "imagen",
+      "alt": "Imagen seccionada del encéfalo humano. El cerebro forma parte del encéfalo. En el diagrama coloreado, el cerebro corresponde a la parte anaranjada, la verde al cerebelo y las demás al tronco del encéfalo",
+      "autor": "John A Beal, PhD. Dep't. of Cellular Biology & Anatomy, Louisiana State University Health Sciences Center Shreveport (colored by was_a_bee.)",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Human_brain_midsagittal_cut_color2.png"
+    }
+  ],
+  "relacionados": [
+    "corazon",
+    "boca",
+    "diente"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Cerebro",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Cerebro&action=history",
+    "revid": 203830,
+    "fecha": "2026-10-14"
+  }
+}

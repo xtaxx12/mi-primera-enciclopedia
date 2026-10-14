@@ -1,0 +1,53 @@
+{
+  "slug": "cometa",
+  "titulo": "Cometa",
+  "categoria": "espacio",
+  "resumen": "Los cometas (del latín cometa y el griego kometes, \"cabellera\"), junto con los asteroides, planetas y satélites, forman parte del Sistema Solar.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "comet-hale-bopp-29-03-1997-hires-adj-830a8a51.jpg",
+      "pie": "Fotografía del cometa Hale sobre un árbol. Esta imagen se tomó en las cercanías de Pazin, en Istria (Croacia),"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los <b>cometas</b> (del latín <i>cometa</i> y el griego <i>kometes</i>, \"cabellera\"), junto con los <a href=\"/articulo/asteroide\">asteroides</a>, planetas y satélites, forman parte del <a href=\"/articulo/sistema-solar\">Sistema Solar</a>.</p>\n<p>Los cometas son restos de los albores de nuestro Sistema Solar hace unos 4.600 millones de años, y están formados principalmente por hielo recubierto de material orgánico oscuro. Podrían haber traído <a href=\"/articulo/agua\">agua</a> y compuestos orgánicos, los componentes básicos de la vida, a la Tierra primitiva y a otras partes del Sistema Solar.</p>\n<p>Los cometas tienen una órbita ovalada, y se mantienen cerca del sol un gran tiempo. A diferencia de los <a href=\"/articulo/asteroide\">asteroides</a>, los cometas están hechos de materiales sólidos que se evaporan al acercase al Sol.</p>\n<h2>Composición</h2>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los cometas están compuestos de <a href=\"/articulo/agua\">agua</a>, hielo, amoníaco, metano, hierro, magnesio y silicatos. Esas sustancias se encuentran congeladas debido a las bajas temperaturas de los lugares donde los cometas se hallan.</p>\n<p>El diámetro de los cometas puede llegar a ser de varios kilómetros.</p>\n<p>Cuando un cometa se acerca al <a href=\"/articulo/sol\">Sol</a>, las sustancias que lo componen se calientan y se subliman, pasando a un estado gaseoso. Los gases se proyectan en dirección opuesta al Sol, formando una cola de gas que se extiende millones de kilómetros.</p>\n<p>Los cometas tienen otra cola además de la de gas, compuesta de polvo. Esa cola se alinea entre la cola de gas y la trayectoria del cometa.</p>\n<p>Cuando la Tierra pasa a través de la órbita de un cometa, los fragmentos que quedan en el espacio de la cola de gas del cometa entran en la atmósfera en forma de estrellas fugaces.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "comet-hale-bopp-29-03-1997-hires-adj-830a8a51.jpg",
+    "tipo": "imagen",
+    "alt": "Fotografía del cometa Hale sobre un árbol. Esta imagen se tomó en las cercanías de Pazin, en Istria (Croacia),",
+    "autor": "Philipp Salzgeber",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0/at/deed.en",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Comet-Hale-Bopp-29-03-1997_hires_adj.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "comet-hale-bopp-29-03-1997-hires-adj-830a8a51.jpg",
+      "tipo": "imagen",
+      "alt": "Fotografía del cometa Hale sobre un árbol. Esta imagen se tomó en las cercanías de Pazin, en Istria (Croacia),",
+      "autor": "Philipp Salzgeber",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0/at/deed.en",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Comet-Hale-Bopp-29-03-1997_hires_adj.jpg"
+    }
+  ],
+  "relacionados": [
+    "asteroide",
+    "sistema-solar",
+    "agua",
+    "sol"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Cometa",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Cometa&action=history",
+    "revid": 198637,
+    "fecha": "2026-10-14"
+  }
+}

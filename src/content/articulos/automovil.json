@@ -1,0 +1,76 @@
+{
+  "slug": "automovil",
+  "titulo": "Automóvil",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "Un automóvil, coche o carro es un vehículo que se autopropulsa. Normalmente, tiene cuatro ruedas, de las cuales las dos de adelante pueden orientarse hacia los lados para tomar las distintas direcciones. Se utiliza para el transporte de personas, animales y objetos.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "kia-seltos-car-htx-model-eacf0eed.jpg",
+      "pie": "Un coche"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>automóvil</b>, <b>coche</b> o <b>carro</b> es un vehículo que se autopropulsa. Normalmente, tiene cuatro ruedas, de las cuales las dos de adelante pueden orientarse hacia los lados para tomar las distintas direcciones. Se utiliza para el transporte de personas, animales y objetos.</p>\n<p>Tuvieron su origen cuando se inventaron los primeros motores de combustión interna y, cuando Karl Benz tuvo su patentado, creó el primer automóvil del mundo, el Benz-Patent Motorwagen. Se convirtió en un producto de alta demanda cuando el legado de Henry Ford desarrolló el Ford Modelo T, el primer auto desarrollado en serie</p>\n<p>En el año 2002, había 590 millones de conductores en el mundo (un auto por cada 11 personas). En el año 2007 había 806 millones de automóviles, y se usaban 260 billones de galones de gasolina y diesel. Estas cifras crecen rápidamente, especialmente en China y la <a href=\"/articulo/india\">India</a>.</p>\n<h2>Historia</h2>\n<h3>El carruaje de vapor de Cugnot</h3>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El primer automóvil fue un chasis de madera de tres ruedas, impulsado por una máquina de vapor, con dirección y frenos rudimentarios y un asiento corrido. En 1769, el ingeniero francés Joseph Cugnot inventó un carro a vapor, un pesado vagón diseñado para transportar cañones para el ejército. El volante, que también era la rueda motriz, soportaba el peso de la caldera. Se dice que en su primera prueba, el carro destruyó un muro.</p>\n<p>En 1771, Cugnot puso en marcha un segundo carro. Podía arrastrar 5 toneladas y alcanzaba una velocidad de 3,5 km/h . Sin embargo, para reponer la presión de la caldera y así suministrarle combustible, era necesario detenerse cada 10 minutos. Este invento llegó demasiado pronto para ser práctico, y la idea permaneció latente durante un siglo. Sin embargo, es el antecesor directo de los camiones, los automóviles e incluso las locomotoras. Los primeros automóviles a vapor se crearon en 1882.</p>\n<h3>Primer código de circulación</h3>\n<p>Entre 1861 y 1865, en el <a href=\"/articulo/reino-unido\">Reino Unido</a>, se promulgaron decretos gubernamentales (las Leyes de Locomotoras) para limitar la velocidad de las locomotoras de vapor&#160;: no debían superar los 6 km/h en carreteras y los 3.5 km/h en ciudades. Debían ir precedidas por un ayudante a pie que ondeaba una bandera roja para advertir del peligro.</p>\n<h3>Motor de combustión interna: el Patent-Motorwagen</h3>\n<p>En 1862, el francés Alphonse Beau de Rochas formuló el principio del motor de cuatro tiempos. En 1864, el <a href=\"/articulo/alemania\">alemán</a> Nikolaus August Otto desarrolló el primer motor de combustión interna de cuatro tiempos.</p>\n<p>En 1886, el alemán Carl Benz construyó su triciclo \"Patent-Motorwagen\", el primer automóvil de la historia impulsado por un motor de combustión interna. Al igual que los automóviles modernos, el Patent-Motorwagen tenía un motor de gasolina, encendido eléctrico, un carburador, un radiador de agua y un chasis de acero. Su velocidad máxima era de 15 km/h.</p>\n<p>Gottlieb Daimler ya había realizado el primer intento de construir una motocicleta de madera en 1885. En 1886, adaptó motores de gasolina a una canoa y a un carruaje  de madera de cuatro ruedas.</p>\n<p>Los primeros automóviles disponibles comercialmente aparecieron ya a principios de la década de 1890, con la pequeña serie del triciclo Patent-Motorwagen de Benz.</p>\n<p>Después llegaron los primeros automóviles de Peugeot, Renault y muchos otros.</p>\n<h3>Carros de vapor</h3>\n<p>Al mismo tiempo, se fabricaban automóviles, pero sobre todo camiones de vapor.</p>\n<p>En 1872, Amédée Bollée, un fundidor de campanas de Le Mans, construyó un carruaje a vapor llamado \"L'Obéissante\" (El Obediente), con capacidad para 12 pasajeros. En 1875, L'Obéissante viajó de Le Mans a París, una distancia de 230 km , en 18 horas. En 1879, un nuevo automóvil a vapor, apodado \"La Marie-Anne\" (María Ana), remolcó 100 toneladas a 10 km/h .</p>\n<p>En 1886, el marqués Albert de Dion puso en marcha el primer triciclo a vapor. En 1889, Léon Serpollet construyó su primer automóvil a vapor.</p>\n<p>Los camiones de vapor se fabricaron hasta mediados del siglo XX, principalmente en Inglaterra.</p>\n<h3>Inventos que promueven el progreso del automóvil</h3>\n<ul><li>En 1895, los hermanos Michelin, franceses originarios de Clermont-Ferrand, inventaron el neumático desmontable.</li></ul>\n<ul><li>En 1895, Louis Renault desarrolló la caja de cambios de transmisión directa con marcha atrás.</li></ul>\n<ul><li>En 1905, Alexandre Darracq inventó los frenos de disco.</li></ul>\n<ul><li>En 1912, el fabricante estadounidense Cadillac instaló los primeros sistemas de arranque eléctrico en sus automóviles. </li></ul>\n<h3>Producción en masa: el Ford Modelo T</h3>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Para reducir costes y vender más, Henry Ford, afincado en Detroit (Michigan), inauguró el trabajo en cadena con el Modelo T, sencillo y robusto, fácil de reparar, que se mantendría prácticamente sin cambios durante dos décadas, de 1908 a 1927.</p>\n<p>Estos coches con ruedas de madera tipo artillería se siguieron utilizando en las zonas rurales de Estados Unidos hasta bien entrada la década de 1940, a menudo convertidos en camionetas simplemente añadiéndoles una caja de madera en la parte trasera. El motor era grande (2,9 litros de cilindrada) y consumía mucho combustible (de 15 a 18 litros por cada 100 km ), pero eso no importaba, ya que el petróleo estadounidense era abundante en aquella época. El coche podía alcanzar una velocidad de 72 km/h .</p>\n<p>El éxito fue mundial: se fabricaron 15 millones de unidades del Modelo T. El automóvil también se ensambló en Inglaterra, Alemania, Dinamarca, Irlanda, <a href=\"/articulo/brasil\">Brasil</a> y <a href=\"/articulo/argentina\">Argentina</a>. Ford fabricó motores de repuesto hasta 1941.</p>\n<h3>Avances técnicos: el Citroën Traction</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "tractionfr02-5c694f20.jpg",
+      "pie": ""
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El Citroën Traction Avant , lanzado en 1934, presentaba varias innovaciones que aún se conservan en los coches modernos: carrocería monocasco (sin chasis), aerodinámica y de perfil bajo, motor con válvulas en cabeza, tracción delantera y frenos hidráulicos . El Traction Avant tenía un buen manejo, era más rápido y más eficiente en consumo de combustible. Según la versión, podía alcanzar velocidades de entre 95 y 130 km/h. Solo el DS logró destronarlo, a partir de 1955.</p>\n<h2>Funcionamiento</h2>\n<p>Los automóviles eran el reemplazo de los carros que animales de carga pesada como los caballos o mulas, usando un esquema que consta de un motor de combustión que ejerce torsión al eje central para rotar las ruedas ante una carga para moverlo. A esto se le llama potencia, y esta se puede medir en caballos de potencia o CV. Los coches desde finales de los años 1890, solían tener una marcha o dos, junto a la reversa</p>\n<p>Los coches, con el paso del tiempo, estas iban aplicando mejoras en trasmisión y en el motor, adaptándose a las carreteras que se iban desarrollando con el tiempo. En la actualidad, existe coches eléctricos e incluso potenciado con células de hidrógeno. Estas últimas funcionan de forma diferente, mediante el impulso eléctrico, genera torsión a través de la energía cinética liberada por el motor eléctrico.</p>\n<p>Cada vez, los coches, tanto prototipos como de serie, se hacían mucho más rápidos. El más rápido hasta la fecha es el Bugatti Bolide, que alcanza casi 520 km/h.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "kia-seltos-car-htx-model-eacf0eed.jpg",
+    "tipo": "imagen",
+    "alt": "Un coche",
+    "autor": "Thesureshg",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Kia_Seltos_car_Htx_model.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "kia-seltos-car-htx-model-eacf0eed.jpg",
+      "tipo": "imagen",
+      "alt": "Un coche",
+      "autor": "Thesureshg",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Kia_Seltos_car_Htx_model.jpg"
+    },
+    {
+      "archivo": "tractionfr02-5c694f20.jpg",
+      "tipo": "imagen",
+      "alt": "Automóvil",
+      "autor": "Traction.fr",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Tractionfr02.jpg"
+    }
+  ],
+  "relacionados": [
+    "india",
+    "reino-unido",
+    "alemania",
+    "brasil",
+    "argentina"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Autom%C3%B3vil",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Autom%C3%B3vil&action=history",
+    "revid": 209266,
+    "fecha": "2026-10-14"
+  }
+}

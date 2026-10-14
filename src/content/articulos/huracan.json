@@ -1,0 +1,66 @@
+{
+  "slug": "huracan",
+  "titulo": "Huracán",
+  "categoria": "planeta-tierra",
+  "resumen": "Un ciclón tropical es un movimiento circular de aire que se inicia sobre las aguas cálidas del océano en la parte cálida de la Tierra, cerca del Ecuador. La mayoría de los ciclones tropicales generan vientos rápidos y lluvias torrenciales. Mientras que algunos ciclones tropicales permanecen en el…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "cyclone-catarina-from-the-iss-on-march-26-2004-2361e221.jpg",
+      "pie": "Imagen del huracán Catarina"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>ciclón tropical</b> es un movimiento circular de aire que se inicia sobre las aguas cálidas del océano en la parte cálida de la Tierra, cerca del Ecuador. La mayoría de los ciclones tropicales generan vientos rápidos y lluvias torrenciales. Mientras que algunos ciclones tropicales permanecen en el mar, otros pasan por tierra. Pueden ser peligrosos por las inundaciones y porque los vientos levantan objetos, incluso cosas tan grandes como pequeñas embarcaciones. Los ciclones tropicales pueden arrojar estos objetos a gran velocidad.</p>\n<p>Los ciclones tropicales, <b>huracanes</b> o <b>tifones</b> se forman cuando la convección hace que se eleve el aire cálido y húmedo sobre el océano. Comienzan como un grupo de tormentas cuando el agua se calienta hasta 27 °C o más. El efecto Coriolis provocado por la rotación de la Tierra hace que los vientos giren. El aire caliente asciende rápidamente.</p>\n<p>Los ciclones tropicales suelen desplazarse hacia el oeste en los trópicos, y posteriormente pueden desplazarse hacia el norte o el sur en la zona templada. El \"ojo de la tormenta\" es el centro. Tiene poca lluvia o viento. La pared del ojo tiene la lluvia más intensa y los vientos más rápidos. Está rodeado de bandas de lluvia que también tienen vientos rápidos.</p>\n<p>Los ciclones tropicales son impulsados por el aire cálido y húmedo del océano. Cuando tocan tierra, se debilitan. Mueren cuando pasan mucho tiempo sobre tierra o  el agua fría del océano.</p>\n<p>El término \"ciclón tropical\" es un término resumido. En varios lugares los ciclones tropicales tienen otros nombres locales como \"huracán\" y \"tifón\". Un ciclón tropical que se forma en el océano Atlántico se denomina huracán. La palabra huracán también se utiliza para los que se forman en el <a href=\"/articulo/oceano-pacifico\">Pacífico</a> oriental, central y septentrional. En el Pacífico occidental un ciclón tropical se denomina tifón. En el océano Índico se denomina \"ciclón\".</p>\n<h2>Impacto</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "assignment-48-dpa-n-katrina-9-13-05-visit-of-secretary-gale--152e4e14.jpg",
+      "pie": "Inundaciones causadas por el huracán Katrina"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>En el pasado, estas tormentas hundían muchos barcos. La mejora de las previsiones meteorológicas en el siglo XX ayudó a la mayoría de los barcos a evitarlas. Cuando los ciclones tropicales llegan a tierra, pueden destruir cosas. A veces matan a personas y destrozan ciudades. En los últimos 200 años, cerca de 1,5 millones de personas han muerto a causa de los ciclones tropicales. Los restos rotos de los objetos destruidos pueden convertirse en mortales trozos voladores. También pueden producirse inundaciones cuando cae mucha lluvia y/o cuando las mareas de tempestad empujan el agua hacia la tierra.</p>\n<p>Existe la posibilidad de muertes \"indirectas\" tras el paso de un ciclón tropical. Por ejemplo, Nueva Orleans (Luisiana) sufrió unas condiciones sanitarias pésimas tras el paso del huracán Katrina en 2005.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "cyclone-catarina-from-the-iss-on-march-26-2004-2361e221.jpg",
+    "tipo": "imagen",
+    "alt": "Imagen del huracán Catarina",
+    "autor": "Astronaut photograph ISS008-E-19646 was taken March 7, 2004, with a Kodak DCS760 digital camera equipped with an 50-mm lens, and is provided by the Earth Observations Laboratory, Johnson Space Center.",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Cyclone_Catarina_from_the_ISS_on_March_26_2004.JPG"
+  },
+  "medios": [
+    {
+      "archivo": "cyclone-catarina-from-the-iss-on-march-26-2004-2361e221.jpg",
+      "tipo": "imagen",
+      "alt": "Imagen del huracán Catarina",
+      "autor": "Astronaut photograph ISS008-E-19646 was taken March 7, 2004, with a Kodak DCS760 digital camera equipped with an 50-mm lens, and is provided by the Earth Observations Laboratory, Johnson Space Center.",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Cyclone_Catarina_from_the_ISS_on_March_26_2004.JPG"
+    },
+    {
+      "archivo": "assignment-48-dpa-n-katrina-9-13-05-visit-of-secretary-gale--152e4e14.jpg",
+      "tipo": "imagen",
+      "alt": "Inundaciones causadas por el huracán Katrina",
+      "autor": "Department of the Interior. National Business Center. Administrative Operations Directorate. Division of Employee and Public Services. Creative Communications Branch. Photographic Services. 2000",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Assignment-_48-DPA-N_Katrina_9-13-05)_Visit_of_Secretary_Gale_Norton,_(aides_to_Gulf_Coast_to_view_damage_from)_Hurricane_Katrina_(48-DPA-N_Katrina_9-13-05_IMG_0052.jpg_-_DPLA_-_72f7639aa6d00759d04446aff4b23416.jpg"
+    }
+  ],
+  "relacionados": [
+    "oceano-pacifico",
+    "agua",
+    "antartida"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Cicl%C3%B3n_tropical",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Cicl%C3%B3n_tropical&action=history",
+    "revid": 169795,
+    "fecha": "2026-10-14"
+  }
+}

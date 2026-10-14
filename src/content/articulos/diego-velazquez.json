@@ -1,0 +1,48 @@
+{
+  "slug": "diego-velazquez",
+  "titulo": "Diego Velázquez",
+  "categoria": "arte-y-musica",
+  "resumen": "Diego Velázquez fue un pintor español de la época conocida como Barroco y del Siglo de Oro español. Es considerado una de las figuras más influyentes en la historia del arte occidental.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "diego-velazquez-autorretrato-45-x-38-cm-coleccion-real-acade-46f1d99d.jpg",
+      "pie": ""
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Diego Velázquez</b> fue un pintor español de la época conocida como Barroco y del Siglo de Oro español. Es considerado una de las figuras más influyentes en la historia del arte occidental.</p>\n<p>Nació en Sevilla el 6 de junio de 1599 y murió en Madrid el 6 de agosto de 1660.</p>\n<p>Sus cuadros más famosos son <i>Las Meninas</i> (1656), <i>La Venus del espejo</i> (1644–1648), y <i>La rendición de Breda</i> (1634–1635).</p>\n<p>Velázquez mostró desde joven un talento excepcional para la pintura, lo que lo llevó a formarse en el taller del artista Francisco Pacheco. Más tarde, se casaría con la hija de su maestro, Juana Pacheco, consolidando su posición en el entorno artístico de la época.</p>\n<p>Velázquez es conocido principalmente por su virtuosismo técnico, su uso magistral del claroscuro y su capacidad para capturar la realidad con una precisión casi fotográfica, pero también impregnada de una profundidad psicológica y emocional única. En 1623, se trasladó a Madrid, donde fue nombrado pintor de cámara del rey Felipe IV, cargo que le permitió retratar a miembros de la corte y acceder a un entorno cultural privilegiado.</p>\n<p>Entre sus obras más icónicas se encuentran <b>\"Las Meninas\"</b>, considerada una de las pinturas más analizadas y admiradas de la historia, por su compleja composición, perspectiva y simbolismo. Otra de sus piezas emblemáticas es <b>\"La rendición de Breda\"</b> (también conocida como \"Las Lanzas\"), que destaca por su representación humanizada de la guerra. Además, su retrato de <b>\"El Papa Inocencio X\"</b> es ampliamente reconocido por la intensidad y carácter de la figura.</p>\n<p>Velázquez también viajó a Italia en dos ocasiones, donde estudió las obras de maestros como Tiziano, Tintoretto y Miguel Ángel, lo que enriqueció su estilo y amplió su paleta cromática. Su obra influyó notablemente en artistas posteriores como <a href=\"/articulo/francisco-de-goya\">Francisco de Goya</a>, Edouard Manet y <a href=\"/articulo/pablo-picasso\">Pablo Picasso</a>.</p>\n<p>A lo largo de su carrera, Velázquez no solo destacó como retratista, sino que también incursionó en otros géneros, como escenas mitológicas, religiosas y de género. Su legado perdura como un símbolo de innovación, maestría y sensibilidad artística, convirtiéndolo en un referente eterno del arte universal.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "diego-velazquez-autorretrato-45-x-38-cm-coleccion-real-acade-46f1d99d.jpg",
+    "tipo": "imagen",
+    "alt": "Diego Velázquez",
+    "autor": "Diego Velázquez",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_Autorretrato_45_x_38_cm_-_Colecci%C3%B3n_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "diego-velazquez-autorretrato-45-x-38-cm-coleccion-real-acade-46f1d99d.jpg",
+      "tipo": "imagen",
+      "alt": "Diego Velázquez",
+      "autor": "Diego Velázquez",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_Autorretrato_45_x_38_cm_-_Colecci%C3%B3n_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg"
+    }
+  ],
+  "relacionados": [
+    "francisco-de-goya",
+    "pablo-picasso",
+    "arte-prehistorico"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Diego_Vel%C3%A1zquez",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Diego_Vel%C3%A1zquez&action=history",
+    "revid": 160060,
+    "fecha": "2026-10-14"
+  }
+}

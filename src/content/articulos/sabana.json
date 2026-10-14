@@ -1,0 +1,84 @@
+{
+  "slug": "sabana",
+  "titulo": "Sabana",
+  "categoria": "planeta-tierra",
+  "resumen": "La sabana es un ecosistema que se caracteriza por la abundancia de hierbas altas y por la escasez de árboles, que suelen ser pequeños cuando los hay. Se encuentran ubicadas en zonas tropicales y subtropicales, sobre todo con climas tropicales secos.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "biome-map-07-332f06aa.png",
+      "pie": "Localización mundial de las zonas de pastizales tropicales y subtropicales, sabanas y matorrales"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La sabana es un ecosistema que se caracteriza por la abundancia de hierbas altas y por la escasez de árboles, que suelen ser pequeños cuando los hay. Se encuentran ubicadas en zonas tropicales y subtropicales, sobre todo con climas tropicales secos.</p>\n<p>La sabana está unida a la existencia de una larga estación seca. En la estación de las lluvias se cubre de una densa vegetación de hierbas que cubre todo el suelo. Las hierbas mueren al final de la estación seca, pero gracias a los tallos subterráneos (rizomas), que acumulan sustancias de reserva, vuelven a nacer al comienzo de la estación de las lluvias.</p>\n<h2>Fauna</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "gazelles-3195944437-e1c6ab40.jpg",
+      "pie": "Gacelas en la sabana africana."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La abundancia de hierba favorece la existencia de grandes manadas de animales herbívoros: gacelas, ñus, <a href=\"/articulo/elefante\">elefantes</a>, cebras y búfalos que se desplazan en busca de los mejores pastos y de los puntos de agua. Estos son perseguidos por los animales carnívoros: <a href=\"/articulo/leon\">leones</a>, guepardos, leopardos, hienas. También habitan la sabana multitud de insectos, como las termitas y otros animales adaptados a ella como las aves corredoras (avestruces).</p>\n<h2>Vegetación</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "etosha-pan-3688067242-9aa1060b.jpg",
+      "pie": "Acacia en la sabana de Namibia"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los árboles de la sabana son de especies diferentes a los de la selva densa. Son árboles resistentes a la sequía y a los efectos del fuego. Tienen raíces muy desarrolladas y profundas, vuelven a brotar del tronco si se queman en los incendios que periódicamente arrasan la vegetación al final de la estación seca, tienen hojas pequeñas y con espinas para evitar la transpiración y la pérdida de agua y suelen tener la copa en forma de sombrilla para protegerse del sol.  Entre estos árboles destacan la acacia espinosa, que pierde sus hojas durante la estación seca y el baobab.</p>\n<h2>Localización</h2>\n<p>Existen sabanas en el norte de <a href=\"/articulo/australia\">Australia</a>, en América del Sur, en África tropical y en Asia. Entre los ejemplos más representativos se encuentran la del Serengueti que está en Tanzania (África) y los Llanos colombo-venezolanos</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "biome-map-07-332f06aa.png",
+    "tipo": "imagen",
+    "alt": "Localización mundial de las zonas de pastizales tropicales y subtropicales, sabanas y matorrales",
+    "autor": "Terpsichores",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Biome_map_07.svg"
+  },
+  "medios": [
+    {
+      "archivo": "biome-map-07-332f06aa.png",
+      "tipo": "imagen",
+      "alt": "Localización mundial de las zonas de pastizales tropicales y subtropicales, sabanas y matorrales",
+      "autor": "Terpsichores",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Biome_map_07.svg"
+    },
+    {
+      "archivo": "gazelles-3195944437-e1c6ab40.jpg",
+      "tipo": "imagen",
+      "alt": "Gacelas en la sabana africana.",
+      "autor": "mwanasimba from La Réunion",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Gazelles_(3195944437).jpg"
+    },
+    {
+      "archivo": "etosha-pan-3688067242-9aa1060b.jpg",
+      "tipo": "imagen",
+      "alt": "Acacia en la sabana de Namibia",
+      "autor": "Greg Willis from Denver, CO, usa",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Etosha_Pan_(3688067242).jpg"
+    }
+  ],
+  "relacionados": [
+    "elefante",
+    "leon",
+    "australia"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Sabana",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Sabana&action=history",
+    "revid": 136204,
+    "fecha": "2026-10-14"
+  }
+}

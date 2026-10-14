@@ -1,0 +1,84 @@
+{
+  "slug": "rueda",
+  "titulo": "Rueda",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "La rueda es una pieza mecánica circular que gira alrededor de un eje. Puede ser considerada una máquina simple, y forma parte del conjunto denominado elementos de máquinas.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "topferscheibe-4159c19b.jpg",
+      "pie": "Rueda en un torno de alfarero."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>rueda</b> es una pieza mecánica circular que gira alrededor de un eje. Puede ser considerada una máquina simple, y forma parte del conjunto denominado elementos de máquinas.</p>\n<p>Es uno de los inventos fundamentales en la Historia de la humanidad, por su gran utilidad en la elaboración de alfarería, en el transporte terrestre, y como componente fundamental de diversas máquinas. El conocimiento de su origen se pierde en el tiempo, y sus múltiples usos han sido esenciales en el desarrollo del progreso humano.</p>\n<h2>Historia de la rueda</h2>\n<p>La invención de la rueda corresponde a la época final del Neolítico, y puede ser vista en relación con los demás avances tecnológicos que dieron lugar al inicio de la Edad de Bronce. Los estudios estiman que fue inventada en el quinto milenio a.C. en Mesopotamia, durante el período de El Obeid, en la antigua región conocida como Creciente Fértil, inicialmente, con la función de rueda de alfarero.</p>\n<p>Posteriormente se empleó en la construcción de carros; se difundió por el Viejo Mundo junto con los carros y los animales de tiro. La rueda llegó a Europa y Asia occidental en el cuarto milenio a. C., y al Valle del Indo hacia el tercer milenio a.C.</p>\n<p>Entre las culturas americanas no prosperó, probablemente por la ausencia de grandes bestias que pudieran tirar de los vehículos, y porque las civilizaciones más avanzadas ocupaban terrenos escarpados. Han sido encontradas ruedas en objetos olmecas identificados como juguetes que se datan alrededor de 1500 a.C.</p>\n<h2>Evolución de la rueda de transporte</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "ruedas-carro-2f1a43f9.jpg",
+      "pie": "Ruedas de carro usadas en Cantabria (España)."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Las primeras ruedas eran simples discos de madera con un agujero central para insertarlas en un eje. La posterior invención de la rueda con radios permitió la construcción de vehículos más rápidos y ligeros; surge durante la cultura de Andronovo (2000 - 1200&#160;a.&#160;C.), al norte de Asia Central.</p>\n<p>La inclusión de llantas de hierro alrededor de las ruedas de los carros surge en el primer siglo antes de Cristo, en los pueblos celtas, además, fueron los primeros que usaron un tipo rudimentario de rodamiento en el eje: unos discos de madera muy dura. Posteriormente, los romanos utilizaron anillos de bronce como rodamiento, a modo de buje. Por esa época, constructores daneses también probaron con éxito un sistema de cojinetes con rodillos de madera, que hacían girar la rueda con menor fricción.</p>\n<p>No hubo grandes modificaciones hasta el siglo XIX, cuando se generaliza el uso de metales en la elaboración de maquinarias. En la década de 1880, se inventaron los neumáticos para ruedas. En el siglo XX se construyen ruedas de las más variadas aleaciones. La evolución de la rueda fue pareja con el desarrollo del <a href=\"/articulo/automovil\">automóvil</a>, que exigía mayor resistencia, mayor adherencia al suelo y menor desgaste. El problema principal, los pinchazos, fue resuelto con la aparición de las primeras cubiertas sin cámara, a partir de 1960.</p>\n<h2>Otros usos</h2>\n<p>En la <a href=\"/articulo/edad-media\">Edad Media</a> y el <a href=\"/articulo/renacimiento\">Renacimiento</a> se idearon perfeccionamientos técnicos que encontraron aplicación en ingenios de hidráulica y militares. Con la Revolución Industrial la rueda comenzó a utilizarse para la transmisión de pares motrices, preferentemente, siendo el principal elemento de la civilización de las máquinas.</p>\n<h2>Restos arqueológicos</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "ur-chariot-c9016004.jpg",
+      "pie": "Imagen de un carruaje encontrado en la ciudad de Ur, 2500 a.C"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Cerca de la zona norte del Cáucaso se encontraron varias fosas, en las que desde 3700&#160;a.&#160;C. habían sido enterradas personas con sus carros. En Eslovenia (2003) se halló una rueda cuya antigüedad se dató entre 5100 y 5350 años (3100 - 3350&#160;a.&#160;C.) En la ciudad de Ur se descubrió un bajorrelieve de mediados del siglo XXV&#160;a.&#160;C., el carro de los felinos, la representación más antigua conservada de la rueda como elemento propulsor.\n<br></p>"
+    }
+  ],
+  "principal": {
+    "archivo": "topferscheibe-4159c19b.jpg",
+    "tipo": "imagen",
+    "alt": "Rueda en un torno de alfarero.",
+    "autor": "Oliver Kurmis",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:T%C3%B6pferscheibe.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "topferscheibe-4159c19b.jpg",
+      "tipo": "imagen",
+      "alt": "Rueda en un torno de alfarero.",
+      "autor": "Oliver Kurmis",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:T%C3%B6pferscheibe.jpg"
+    },
+    {
+      "archivo": "ruedas-carro-2f1a43f9.jpg",
+      "tipo": "imagen",
+      "alt": "Ruedas de carro usadas en Cantabria (España).",
+      "autor": "Ruizo",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Ruedas_carro.jpg"
+    },
+    {
+      "archivo": "ur-chariot-c9016004.jpg",
+      "tipo": "imagen",
+      "alt": "Imagen de un carruaje encontrado en la ciudad de Ur, 2500 a.C",
+      "autor": "AnónimoUnknown author",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Ur_chariot.jpg"
+    }
+  ],
+  "relacionados": [
+    "automovil",
+    "edad-media",
+    "renacimiento"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Rueda",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Rueda&action=history",
+    "revid": 211939,
+    "fecha": "2026-10-14"
+  }
+}

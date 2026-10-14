@@ -1,0 +1,73 @@
+{
+  "slug": "cultura-olmeca",
+  "titulo": "Cultura olmeca",
+  "categoria": "historia",
+  "resumen": "La cultura olmeca es el nombre de la civilización que se desarrolló en el actual México desde unos 1500 años antes de Cristo hasta cerca del año 400 de nuestra eraen la parte sureste del actual estado de Veracruz y el oeste de Tabasco. Se trata de una zona de un clima cálido y muy húmedo, irrigada…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "olmecas-01bf2a45.png",
+      "pie": "Ubicación de la cultura olmeca en Centroamérica y México."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>cultura olmeca</b> es el nombre de la civilización que se desarrolló en el actual México desde unos 1500 años antes de Cristo hasta cerca del año 400 de nuestra eraen la parte sureste del actual estado de Veracruz y el oeste de Tabasco. Se trata de una zona de un clima cálido y muy húmedo, irrigada por caudalosos ríos como el Coatzacoalcos, San Juan y Tonalá.</p>\n<p>Debido a la humedad de la zona y de las fuentes de estos ríos, en temporada de lluvias los desbordamientos de las corrientes son una constante. La vegetación de esta región antiguamente estuvo recubierta por una espesa selva tropical, que era el hábitat de numerosas especies que en la actualidad se encuentran a punto de desaparecer en el territorio mexicano, entre ellas el jaguar, las aves de plumajes preciosos como <a href=\"/articulo/guacamayo\">guacamayos</a> y quetzales; reptiles de diversas especies, y mamíferos como el tapir.</p>\n<h2>Historia</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "la-venta-piramide-cara-sur-3eb48b7e.jpg",
+      "pie": "Pirámide principal de La Venta, la pirámide más antigua de Mesoamérica."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La civilización Olmeca se constituyó principalmente alrededor de 3 centros ceremoniales: San Lorenzo, La Venta y Tres Zapotes, además de manifestarse en otros sitios como Laguna de los Cerros.</p>\n<p>Más allá de las fronteras mexicanas, vestigios de una presencia olmeca se encuentran en <a href=\"/articulo/guatemala\">Guatemala</a> (Takalik Abaj), Belice, <a href=\"/articulo/el-salvador\">El Salvador</a>, <a href=\"/articulo/honduras\">Honduras</a> y <a href=\"/articulo/nicaragua\">Nicaragua</a>.</p>\n<h2>Religión</h2>\n<p>Tenían una religión politeísta, gran número de sus dioses estaban relacionados con la agricultura y otros elementos como el <a href=\"/articulo/sol\">sol</a>, el <a href=\"/articulo/agua\">agua</a> o los <a href=\"/articulo/volcan\">volcanes</a>.</p>\n<p>El centro de su religión es el culto al jaguar, y aparece representado en la iconografía olmeca. Se le representaba con la característica boca olmeca, de forma trapezoidal, con las comisuras hacia abajo y el labio superior muy engrosado y en muchos casos con colmillos muy pronunciados.</p>\n<p>Hay muchos animales considerados dioses, como el caimán, sapos, reptiles, todos animales de la zona. Normalmente, aparecen mezclados entre ellos, cabezas de unos y cuerpos de otros, creando seres mitológicos.</p>\n<h2>Cultura</h2>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Ya que la cultura olmeca fue la primera civilización en Mesoamérica, se afirma que muchos logros mesoamericanos tuvieron lugar por primera vez en esta cultura. Entre otras cosas, se acredita a los olmecas el desarrollo del calendario, y la <a href=\"/articulo/escritura\">escritura</a>.</p>\n<p>Se cree que los olmecas fueron los primeros americanos en desarrollar una escritura de glifos (dibujos) para representar su lenguaje.</p>\n<h2>Arte</h2>\n<p>Los objetos más importantes y conocidos son las <i>Cabezas colosales olmecas</i> que son un ejemplo de escultura monumental. Se cree que pueden representar a guerreros o a jefes. Se conocen 17 ejemplares.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "olmecas-01bf2a45.png",
+    "tipo": "imagen",
+    "alt": "Ubicación de la cultura olmeca en Centroamérica y México.",
+    "autor": "Yavidaxiu",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Olmecas.png"
+  },
+  "medios": [
+    {
+      "archivo": "olmecas-01bf2a45.png",
+      "tipo": "imagen",
+      "alt": "Ubicación de la cultura olmeca en Centroamérica y México.",
+      "autor": "Yavidaxiu",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Olmecas.png"
+    },
+    {
+      "archivo": "la-venta-piramide-cara-sur-3eb48b7e.jpg",
+      "tipo": "imagen",
+      "alt": "Pirámide principal de La Venta, la pirámide más antigua de Mesoamérica.",
+      "autor": "Alfonsobouchot",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:La_Venta_Pir%C3%A1mide_cara_sur.jpg"
+    }
+  ],
+  "relacionados": [
+    "guacamayo",
+    "guatemala",
+    "el-salvador",
+    "honduras",
+    "nicaragua",
+    "sol"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Cultura_olmeca",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Cultura_olmeca&action=history",
+    "revid": 203620,
+    "fecha": "2026-10-14"
+  }
+}

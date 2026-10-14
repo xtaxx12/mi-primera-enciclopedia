@@ -1,0 +1,24 @@
+{
+  "slug": "pintura",
+  "titulo": "Pintura",
+  "categoria": "arte-y-musica",
+  "resumen": "La palabra pintura, además de referirse al objeto o producto que sirve para dar color a algo, se usa también para hacer referencia la actividad creativa (como la literatura o la música) que consiste en representar imágenes reales o imaginadas utilizando colores.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>La palabra <b>pintura</b>, además de referirse al objeto o producto que sirve para dar <a href=\"/articulo/color\">color</a> a algo, se usa también para hacer referencia la actividad creativa (como la literatura o la música) que consiste en representar imágenes reales o imaginadas utilizando colores.</p>\n<p>Pintar consiste en utilizar colores para crear arte visual. También se denomina así a una obra de arte pictórica. Existen muchos tipos de pintura diferentes. Por ejemplo, acuarelas, acrílicos y óleos. A otros artistas les gusta trabajar con lápiz o tiza. En ocasiones también se utiliza el carboncillo.</p>\n<p>Los cuadros famosos suelen conservarse en galerías de arte, como la National Gallery de Londres y el Louvre de París, donde cuelga uno de los cuadros más famosos del mundo: la Mona Lisa, pintada por <a href=\"/articulo/leonardo-da-vinci\">Leonardo da Vinci</a>. No es necesario ir a una galería famosa para ver arte. Hay galerías de arte privadas en muchas ciudades del mundo.</p>\n<p>Hay una diferencia básica entre el dibujo y la pintura. En el dibujo, una sola capa constituye toda la imagen. En la pintura, se pinta una capa sobre otra hasta obtener la imagen final. Por lo general, la imagen no quedará clara hasta que se llegue a la etapa final.\nEl proceso de pintura se divide en cuatro etapas básicas: <b>preparación</b>, <b>división</b>, <b>capas</b> y <b>retoque</b>.</p>\n<ol><li><b>Preparación</b>: Se acondiciona la superficie aplicando una base, como <i>gesso</i> o un lavado blanco, para mejorar la adhesión de las capas posteriores y reflejar luz. Superficies irregulares requieren técnicas especiales, como el fresco en yeso.</li>\n<li><b>División</b>: Se divide el lienzo en zonas según la composición de la imagen y se trazan los fondos.</li>\n<li><b>Capas</b>: Se aplican varias capas de pintura para dar forma a los elementos de la imagen, definiendo claramente todos los objetos.</li>\n<li><b>Retoque</b>: Se añaden detalles finales, como bordes precisos y efectos visuales, para mejorar el acabado.</li></ol>"
+    }
+  ],
+  "medios": [],
+  "relacionados": [
+    "color",
+    "leonardo-da-vinci",
+    "arte-prehistorico"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Pintura",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Pintura&action=history",
+    "revid": 159879,
+    "fecha": "2026-10-14"
+  }
+}

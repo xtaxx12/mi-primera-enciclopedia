@@ -1,0 +1,51 @@
+{
+  "slug": "luna",
+  "titulo": "Luna",
+  "categoria": "espacio",
+  "resumen": "La luna es el único satélite natural del planeta Tierra y normalmente lo vemos en el cielo nocturno. Algunos otros planetas también tienen lunas o satélites naturales.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "atlas-mond-438691023-5076ff49.jpg",
+      "pie": "La luna"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>luna</b> es el único satélite natural del planeta <a href=\"/articulo/tierra\">Tierra</a> y normalmente lo vemos en el cielo nocturno. Algunos otros <a href=\"/articulo/planeta\">planetas</a> también tienen lunas o satélites naturales.</p>\n<p>Nuestra luna tiene un tamaño aproximado de un cuarto del tamaño de la <a href=\"/articulo/tierra\">Tierra</a>. Debido a que está lejos parece pequeña. La <a href=\"/articulo/gravedad\">gravedad</a> en la luna es un sexto de la gravedad de la Tierra. Significa que algo pesará seis veces menos en la luna que en la Tierra. La Luna es un lugar rocoso y polvoriento.</p>\n<h2>Historia</h2>\n<p>La mayoría de los científicos afirman que la luna se produjo por un choque entre un planetoide a la Tierra. Se llamaba Theia, y tenía el tamaño aproximadamente de <a href=\"/articulo/marte\">Marte</a>. Esto sucedió hace 4&#160;500 billones de años. Después de la colisión, los restos que quedaron podrían haber formado la Luna.</p>\n<h2>Fases</h2>\n<p>Siendo la Luna redonda, la mitad de ella está iluminada por el sol. A medida que gira (u orbita) alrededor de la Tierra, a veces el lado que en la Tierra podemos ver está todo iluminado brillantemente. Otras veces sólo una pequeña parte del lado que vemos está iluminado. Esto se debe a que la Luna no envía su propia luz. La gente sólo ve las partes que están siendo iluminadas por la luz solar. Estas diferentes etapas se llaman <i>Fases de la Luna</i>.</p>\n<p>La Luna tarda unos 29,53 días (29 días, 12 horas y 44 minutos) completar una vuelta alrededor de la Tierra.</p>\n<p>Las fases de la Luna son:</p>\n<ul><li>Fase 1.ª: <b>Luna nueva</b>, habitualmente es imposible ver esta fase de la Luna a simple vista, ya que se encuentra oculta tras el resplandor solar, y solo es posible observarla cuando ocurre un eclipse total de Sol</li>\n<li>Fase 2.ª: <b>Cuarto creciente</b>,  en esta fase de la Luna, el 50&#160;% de su cara visible es iluminada por el Sol, por lo que la Luna muestra, en el hemisferio norte, la mitad derecha iluminada y la mitad izquierda oscura, y en el hemisferio sur muestra la mitad derecha oscura y la mitad izquierda iluminada.</li>\n<li>Fase 3.ª: <b>Luna llena</b> es cuando la Luna logra verse en la totalidad hasta formar un círculo.</li>\n<li>Fase 4.ª: <b>Cuarto menguante</b>, exactamente igual que el <i>cuarto creciente</i>, pero en sentido contrario.</li></ul>\n<h2>Historia de la exploración de la Luna</h2>\n<p>Antes de que la gente llegara a la Luna, los <a href=\"/articulo/estados-unidos\">Estados Unidos</a> y la URSS enviaron <a href=\"/articulo/robot\">robots</a> a la Luna. Estos robots orbitan la Luna o aterrizan en su superficie. Los robots fueron los primeros objetos hechos por el hombre en llegar a la Luna.</p>\n<p>Los humanos finalmente aterrizaron en la Luna el 21 de julio de 1969. Los astronautas Neil Armstrong y Buzz Aldrin aterrizaron su nave lunar (el Águila) en la superficie de la Luna. Luego, mientras la mitad del mundo lo veía por televisión, Armstrong bajó la escalera del Águila y fue el primer humano que tocó la Luna mientras decía, \"Ese es un pequeño paso para un hombre, un salto gigante para la humanidad\".</p>\n<p>Aunque dejó sus huellas en la Luna hace mucho tiempo, es probable que todavía estén allí, ya que no hay viento ni lluvia, lo que hace que la erosión sea extremadamente lenta. Las huellas no se rellenan ni se alisan.\n<br></p>"
+    }
+  ],
+  "principal": {
+    "archivo": "atlas-mond-438691023-5076ff49.jpg",
+    "tipo": "imagen",
+    "alt": "La luna",
+    "autor": "Bernd Sieker from Germany",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Atlas_(Mond)_(438691023).jpg"
+  },
+  "medios": [
+    {
+      "archivo": "atlas-mond-438691023-5076ff49.jpg",
+      "tipo": "imagen",
+      "alt": "La luna",
+      "autor": "Bernd Sieker from Germany",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Atlas_(Mond)_(438691023).jpg"
+    }
+  ],
+  "relacionados": [
+    "tierra",
+    "planeta",
+    "gravedad",
+    "marte",
+    "estados-unidos",
+    "robot"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Luna",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Luna&action=history",
+    "revid": 211903,
+    "fecha": "2026-10-14"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "montana",
+  "titulo": "Montaña",
+  "categoria": "planeta-tierra",
+  "resumen": "Una montaña es una elevación natural del terreno. Se agrupan en cordilleras o sierras. Las montañas se forman a través de las fuerzas tectónicas o el volcanismo. Se erosionan lentamente por la acción de los ríos, las condiciones climáticas y los glaciares.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "damavand-in-winter-6b7606f1.jpg",
+      "pie": "La montaña Damavand."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Una <b>montaña</b> es una elevación natural del terreno.  Se agrupan en cordilleras o sierras.  Las montañas se forman a través de las fuerzas tectónicas o el <a href=\"/articulo/volcan\">volcanismo</a>. Se erosionan lentamente por la acción de los ríos, las condiciones climáticas y los <a href=\"/articulo/glaciar\">glaciares</a>.</p>\n<p>Algunas montañas son cumbres aisladas, pero la mayoría se encuentran en enormes cadenas montañosas.</p>\n<p>Las altas elevaciones de las montañas producen climas más fríos que al nivel del mar. Estos climas más fríos afectan fuertemente a los ecosistemas de las montañas: las diferentes elevaciones tienen diferentes plantas y animales.</p>\n<p>Debido a que el terreno y el clima son menos hospitalarios, las montañas tienden a utilizarse menos para la agricultura y más para la extracción de recursos y el ocio, como el alpinismo y el ski.</p>\n<p>La montaña más alta de la Tierra es el Monte Everest, en el Himalaya de Asia, cuya cumbre se encuentra a 8.850 m sobre el nivel medio del mar.</p>\n<p>La montaña más alta conocida en cualquier planeta del <a href=\"/articulo/sistema-solar\">Sistema Solar</a> es el Monte Olimpo en <a href=\"/articulo/marte\">Marte</a> con 21.171 m.</p>\n<h2>Partes de la montaña</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "partes-montana-da9c7983.png",
+      "pie": "Partes de una montaña"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li><b>Cima:</b> La cumbre o punto más alto.</li>\n<li><b>Ladera:</b> La falda o pendiente que baja desde la cima.</li>\n<li><b>Pie:</b> La base o parte más baja del terreno.</li></ul>\n<h2>Tipos de agrupaciones de montañas</h2>\n<ul><li><b>Sierra:</b> Un conjunto de montañas alineadas.</li>\n<li><b>Cordillera:</b> Un grupo grande de sierras unidas.</li>\n<li><b>Macizo:</b> Un grupo de montañas agrupadas en forma compacta.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "damavand-in-winter-6b7606f1.jpg",
+    "tipo": "imagen",
+    "alt": "La montaña Damavand.",
+    "autor": "Hamed Khorramyar",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Damavand_in_winter.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "damavand-in-winter-6b7606f1.jpg",
+      "tipo": "imagen",
+      "alt": "La montaña Damavand.",
+      "autor": "Hamed Khorramyar",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Damavand_in_winter.jpg"
+    },
+    {
+      "archivo": "partes-montana-da9c7983.png",
+      "tipo": "imagen",
+      "alt": "Partes de una montaña",
+      "autor": "Kazmi",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Partes_monta%C3%B1a.png"
+    }
+  ],
+  "relacionados": [
+    "volcan",
+    "glaciar",
+    "sistema-solar",
+    "marte"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Monta%C3%B1a",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Monta%C3%B1a&action=history",
+    "revid": 190557,
+    "fecha": "2026-10-14"
+  }
+}

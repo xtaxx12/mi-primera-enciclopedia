@@ -1,0 +1,139 @@
+{
+  "slug": "el-salvador",
+  "titulo": "El Salvador",
+  "categoria": "paises",
+  "resumen": "El Salvador, oficialmente República de El Salvador es un país de América Central. Su capital es San Salvador.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p><b>El Salvador</b>, oficialmente <b>República de El Salvador</b> es un país de América Central. Su capital es San Salvador.</p>\n<p>Limita al norte y al este con <a href=\"/articulo/honduras\">Honduras</a>, al sur con el <a href=\"/articulo/oceano-pacifico\">océano Pacífico</a>, y al oeste con <a href=\"/articulo/guatemala\">Guatemala</a>. Su territorio está organizado en 14 departamentos. Su capital es la ciudad de San Salvador, y las ciudades de Santa Ana y San Miguel son también importantes centros urbanos del país.</p>\n<p>El actual territorio de El Salvador comprende lo que antes fuera la Provincia de Sonsonate y lo que fue la Intendencia de San Salvador que conformó la mayor parte del territorio. Ambas provincias adquirieron su independencia de España en 1821 y en 1824 se unieron para formar el \"Estado de El Salvador\", como parte de la República Federal de Centro América. En la época precolombina, existía un importante núcleo indígena conocido como el Señorío de Cuscatlán, que significa \"Lugar de joyas o de collares\", en Náhuatl</p>\n<p>Una guerra civil de 12 años, cuyo costo humano llegó aproximadamente a 75 000 vidas, finalizó el 16 de enero de 1992, cuando el gobierno y la guerrilla firmaron los Acuerdos de Paz que dieron lugar a reformas militares, sociales y políticas.</p>\n<p>El país tiene una población de alrededor de 6,17 millones de habitantes y está dividido en 14 departamentos:</p>\n<ol><li>Ahuachapán (Ahuachapán)</li>\n<li>Cabañas (Sensuntepeque)</li>\n<li>Chalatenango (Chalatenango)</li>\n<li>Cuscatlán (Cojutepeque)</li>\n<li>La Libertad (Santa Tecla)</li>\n<li>La Paz (Zacatecoluca)</li>\n<li>La Unión (La Unión)</li>\n<li>Morazán (San Francisco Gotera)</li>\n<li>San Miguel (San Miguel)</li>\n<li>San Salvador (San Salvador)</li>\n<li>San Vicente (San Vicente)</li>\n<li>Santa Ana (Santa Ana)</li>\n<li>Sonsonate (Sonsonate)</li>\n<li>Usulután (Usulután)</li></ol>\n<p>Su actual presidente es Nayib Armando Bukele Ortez.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "division-administrativa-de-el-salvador-4d6f8cbd.png",
+      "pie": "Mapa de los departamentos de El Salvador"
+    },
+    {
+      "tipo": "html",
+      "html": "<h2>Historia</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "es-joyadeceren-06-2011-estructura-9-area-2-tamazcal-2106-zoo-1cf73b78.jpg",
+      "pie": "Joya de Cerén, antiguo asentamiento maya"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El territorio salvadoreño forma parte del área de Mesoamérica. Las primeras evidencias culturales en El Salvador se remontan a ocho mil años. Se asentaron grupos proto <a href=\"/articulo/mayas\">mayas</a> en la región occidental. En el área de Chalchuapa se han encontrado restos de antiguos asentamientos. Entre los núcleos indígenas más importantes se encontraban los izalcos y principalmente el Señorío de Cuscatlán.</p>\n<p>En 1524 el conquistador Pedro de Alvarado inició el sometimiento de los nativos en el actual territorio salvadoreño. Los colonizadores establecieron en los años posteriores diversas poblaciónes: San Salvador, San Miguel y la villa de la Trinidad (Sonsonate). Todo el territorio comprendería las Alcaldías Mayores de Sonsonate y San Salvador, ambas parte del Reino de Guatemala. Junto a la conquista española también se desarrolló el mestizaje, el proceso de evangelización católica, la enseñanza del idioma castellano, y la llegada de esclavos africanos</p>\n<p>Para 1785, en virtud de las Reformas borbónicas, se instituyó la Intendencia de San Salvador.</p>\n<p>La República Federal de Centro América se constituyó el día 22 de noviembre de 1824, y El Salvador era uno de sus cinco Estados. Para 1841, El Salvador se proclamó como República soberana e independiente.</p>\n<p>Una guerra civil de 12 años, cuyo costo humano llegó aproximadamente a 75 000 vidas, finalizó el 16 de enero de 1992, cuando el gobierno y la guerrilla firmaron los Acuerdos de Paz que dieron lugar a diversas reformas.</p>\n<h2>Geografía</h2>\n<h3>Relieve e hidrografía</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "el-salvador-topography-9690a0bf.png",
+      "pie": "Mapa topográfico de El Salvador"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El relieve de  es muy accidentado. Se divide en seis regiones fisiográficas: planicie costera, cadena costera, fosa central, fosa interior, cadena interior y cordillera fronteriza. También se distinguen una serie de valles. La fosa central es zona de una intensa actividad volcánica destacando los volcanes  a los volcanes Chingo, Santa Ana, Izalco, San Salvador, San Vicente, Tecapa, Usulután y cerro Guazapa.  El Pital es la cima más elevada del país con 2.730 msnm.</p>\n<p>El Salvador es el único país de Centroamérica cuyo territorio drena totalmente a la vertiente del <a href=\"/articulo/oceano-pacifico\">océano Pacífico</a>. La cuenca más importante es la del río Lempa (10.167&#160;km²), de la que un 56% pertenece a El Salvador, y el resto a Guatemala y Honduras.</p>\n<h2>Volcanes</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "izalco-volcano-7eab2d67.jpg",
+      "pie": "Volcán Izalco."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El Salvador se encuentra en el cinturón de Fuego del Pacífico, y su territorio volcánico es muy activo. De hecho, el 90% de su suelo es conformado por materiales volcánicos. Por su cadena volcánica y su ubicación en un sistema de fallas geológicas y el proceso de subducción entre las placas tectónicas de Cocos y el Caribe, se encuentra en una región de alto índice de actividad sísmica, siendo frecuentes los <a href=\"/articulo/terremoto\">terremotos</a>.</p>\n<h2>Clima</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "pie": "Climas en América del Sur y Central"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El Salvador se encuentra en la zona climática tropical</p>\n<p>La temperatura media anual  es de 24,8&#160;°C, presentándose la temperatura media más baja en los meses de diciembre (23,8&#160;°C) y enero (23,9&#160;°C), mientras que el mes más cálido es abril (32,0&#160;°C). La precipitación media anual es de 1823&#160;mm.</p>\n<p>El Salvador tiene dos estaciones: la seca (noviembre-abril) y la lluviosa (mayo-octubre). Además, el país se ve afectado por la estación de huracanes del Caribe (junio-noviembre). Las frecuentes tormentas tropicales y huracanes aumentan el caudal de los ríos locales, afectando algunas de las áreas con inundaciones.</p>\n<h2>Economía</h2>\n<p>El dólar estadounidense m es la moneda oficial.  Sus principales industrias son la de alimentos y bebidas, productos del petróleo, tabaco, productos químicos, textiles y muebles.</p>\n<p>Más de la mitad de la energía se produce a partir de recursos renovables como lo son la <a href=\"/articulo/electricidad\">hidroeléctrica</a> y la geotérmica</p>\n<h2>Demografía</h2>\n<p>La mayor parte de la población vive en la meseta central (donde se encuentra la población de origen Mestizo), San Salvador es la ciudad mas poblada con 1,605,000 personas (2007). Aproximadamente el 20% de la población vive en el exterior.</p>\n<ul><li><b>Población Total:</b>: 6,288,899</li>\n<li><b>Edad Ternaria:</b>\n<ul><li>Hombres: 3,382,839</li>\n<li>Mujeres: 3,565,234</li>\n<li>0-14 años: 36.1% (hombres 882,185/mujeres 837,646)</li>\n<li>15-64 años: 58.7% (hombres 1,942,674/mujeres 2,134,154)</li>\n<li>65 años y más: 5.2% (hombres 158,276/mujeres 202,602)</li></ul></li>\n<li><b>Tasa de Crecimiento de la Población:</b>\n<ul><li>0.27%</li></ul></li>\n<li><b>Tasa de Natalidad:</b>\n<ul><li>16.79 nacidos/1,000 personas</li></ul></li>\n<li><b>Tasa de Mortalidad:</b>\n<ul><li>5.67 difuntos/1,000 personas</li></ul></li>\n<li><b>Tasa de Migración Neta:</b>\n<ul><li>-8.44 emigrantes/1,000 personas</li></ul></li>\n<li><b>Proporción de Hombres y Mujeres:</b>\n<ul><li>Al nacer: 1.05 hombres/mujeres</li>\n<li>Menor de 15 años: 1.04 hombres/mujeres</li>\n<li>15-64 años: 0.9 hombres/mujeres</li>\n<li>65 años y más: 0.83 hombres/mujeres</li>\n<li>Población total: 0.95 hombres/mujeres</li></ul></li>\n<li><b>Esperanza de Vida al Nacer:</b>\n<ul><li>Población Total: 74.18 años</li>\n<li>Hombres: 70.09 años</li>\n<li>Mujeres: 77.62 años</li></ul></li>\n<li><b>Situación de Pobreza:</b>\n<ul><li>Pobreza Extrema: 19%</li>\n<li>Pobreza Total: 36%</li></ul></li>\n<li><b>Grupos Étnicos:</b>\n<ul><li>Mestizo: 88%</li>\n<li>Blanco: 11%</li>\n<li>Amerindio: 1%</li></ul></li>\n<li><b>Religiones:</b>\n<ul><li>Catolicismo Romano: 50%</li>\n<li>Protestantismo: 38,5%</li>\n<li>Ninguna: 8,9%</li>\n<li>Otros: 2,6%</li></ul></li>\n<li><b>Alfabetismo:</b>\n<ul><li>Definición: Personas de 15 años a mas que saben leer y escribir.</li>\n<li>Total: 84,5%</li>\n<li>Mujeres: 82.3%</li>\n<li>Hombres: 87.1%</li></ul></li></ul>\n<p>En 2007 se hizo un censo demográfico en El Salvador</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "el-salvador-orthographic-projection-e0fd53fd.png",
+    "tipo": "imagen",
+    "alt": "El Salvador",
+    "autor": "Eddo",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:El_Salvador_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "el-salvador-orthographic-projection-e0fd53fd.png",
+      "tipo": "imagen",
+      "alt": "El Salvador",
+      "autor": "Eddo",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:El_Salvador_(orthographic_projection).svg"
+    },
+    {
+      "archivo": "division-administrativa-de-el-salvador-4d6f8cbd.png",
+      "tipo": "imagen",
+      "alt": "Mapa de los departamentos de El Salvador",
+      "autor": "User:Notscott",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Divisi%C3%B3n_administrativa_de_El_Salvador.svg"
+    },
+    {
+      "archivo": "es-joyadeceren-06-2011-estructura-9-area-2-tamazcal-2106-zoo-1cf73b78.jpg",
+      "tipo": "imagen",
+      "alt": "Joya de Cerén, antiguo asentamiento maya",
+      "autor": "Mariordo (Mario Roberto Durán Ortiz)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:ES_JoyadeCeren_06_2011_Estructura_9_Area_2_Tamazcal_2106_zoom_out.jpg"
+    },
+    {
+      "archivo": "el-salvador-topography-9690a0bf.png",
+      "tipo": "imagen",
+      "alt": "Mapa topográfico de El Salvador",
+      "autor": "Sadalmelik",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:El_Salvador_Topography.png"
+    },
+    {
+      "archivo": "izalco-volcano-7eab2d67.jpg",
+      "tipo": "imagen",
+      "alt": "Volcán Izalco.",
+      "autor": "David Stanley",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Izalco_Volcano.jpg"
+    },
+    {
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "tipo": "imagen",
+      "alt": "Climas de Bolivia",
+      "autor": "Peel, M. C., Finlayson, B. L., and McMahon, T. A. (University of Melbourne)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:South_America_K%C3%B6ppen_Map.png"
+    }
+  ],
+  "relacionados": [
+    "honduras",
+    "oceano-pacifico",
+    "guatemala",
+    "mayas",
+    "terremoto",
+    "electricidad"
+  ],
+  "pais": {
+    "adm0": "SLV"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/El_Salvador",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=El_Salvador&action=history",
+    "revid": 188856,
+    "fecha": "2026-10-14"
+  }
+}

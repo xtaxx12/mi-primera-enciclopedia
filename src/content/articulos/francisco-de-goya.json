@@ -1,0 +1,66 @@
+{
+  "slug": "francisco-de-goya",
+  "titulo": "Francisco de Goya",
+  "categoria": "arte-y-musica",
+  "resumen": "Francisco de Goya y Lucientes nació en Fuendetodos, provincia de Zaragoza, (España), en 1746.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "vicente-lopez-portana-el-pintor-francisco-de-goya-ecffbe02.jpg",
+      "pie": "Retrato de Francisco de Goya"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Francisco de Goya y Lucientes</b> nació en Fuendetodos, provincia de Zaragoza, (<a href=\"/articulo/espana\">España</a>), en 1746.</p>\n<p>Compartió desde temprano las ideas de los ilustrados españoles. Durante su primera etapa, destaca como pintor religioso, género que practicará el resto de su vida.</p>\n<p>Desde 1774 se afincó en Madrid y se inició como pintor de corte, protegido por Francisco Bayeu.</p>\n<p>Diseñó tapices para la Casa Real, gana fama como retratista y llega a ser Pintor del Rey. Su genio no se agotaba en la pintura y el retrato; destacó también como grabador.</p>\n<p>En los años anteriores a la invasión francesa, volvió al dibujo, etapa a la que pertenecen sus series de grabados críticos. En éstos se percibe una evolución en su estilo.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "el-tres-de-mayo-by-francisco-de-goya-from-prado-thin-black-m-04fb5343.jpg",
+      "pie": "«El Tres de Mayo», de Francisco de Goya, Museo del Prado"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>En 1792 sufrió una grave enfermedad que lo dejó sordo, hecho que cambió profundamente su estilo artístico, haciéndolo más personal y expresivo. Entre sus obras más famosas destacan <i>Los Caprichos, La maja desnuda, La maja vestida, El dos de mayo, Los fusilamientos del tres de mayo</i> y las <i>Pinturas negras</i>.</p>\n<p>Durante la Guerra de la Independencia reflejó el sufrimiento del pueblo español en sus pinturas y grabados. En sus últimos años vivió en Burdeos (Francia), donde continuó trabajando hasta su muerte en 1828. Es considerado uno de los artistas más importantes de la historia del arte español.</p>\n<p>En su honor, la Academia de las Artes y las Ciencias Cinematográficas de España organiza cada año —desde 1987— los Premios Goya, para galardonar a profesionales del cine español.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "vicente-lopez-portana-el-pintor-francisco-de-goya-ecffbe02.jpg",
+    "tipo": "imagen",
+    "alt": "Retrato de Francisco de Goya",
+    "autor": "Vicente López Portaña",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "vicente-lopez-portana-el-pintor-francisco-de-goya-ecffbe02.jpg",
+      "tipo": "imagen",
+      "alt": "Retrato de Francisco de Goya",
+      "autor": "Vicente López Portaña",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg"
+    },
+    {
+      "archivo": "el-tres-de-mayo-by-francisco-de-goya-from-prado-thin-black-m-04fb5343.jpg",
+      "tipo": "imagen",
+      "alt": "«El Tres de Mayo», de Francisco de Goya, Museo del Prado",
+      "autor": "El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_in_Google_Earth.jpg: Francisco de Goya derivative work: Papa Lima Whiskey 2",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg"
+    }
+  ],
+  "relacionados": [
+    "espana",
+    "arte-prehistorico",
+    "color"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Francisco_de_Goya",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Francisco_de_Goya&action=history",
+    "revid": 190374,
+    "fecha": "2026-10-14"
+  }
+}

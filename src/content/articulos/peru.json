@@ -1,0 +1,126 @@
+{
+  "slug": "peru",
+  "titulo": "Perú",
+  "categoria": "paises",
+  "resumen": "Perú, oficialmente la República del Perú, es un país ubicado en el centro-oeste de América del Sur.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "peru-cia-map-0f927bde.gif",
+      "pie": "Mapa de Perú"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Perú</b>, oficialmente la <b>República del Perú</b>,  es un país ubicado en el centro-oeste de América del Sur.</p>\n<h2>Geografía</h2>\n<p><b>Límites:</b></p>\n<p>- <b>Norte:</b> <a href=\"/articulo/ecuador\">Ecuador</a> y <a href=\"/articulo/colombia\">Colombia</a><br>- <b>Sur:</b> <a href=\"/articulo/chile\">Chile</a><br>- <b>Sureste:</b> <a href=\"/articulo/bolivia\">Bolivia</a><br>- <b>Este:</b> <a href=\"/articulo/brasil\">Brasil</a><br>- <b>Oeste:</b> <a href=\"/articulo/oceano-pacifico\">Océano Pacífico</a></p>\n<p>Su capital es Lima. Su idioma oficial es el español, aunque un número significativo de peruanos habla diversas lenguas nativas, siendo la más extendida el quechua. Geográficamente, se divide en veinticuatro departamentos y una provincia constitucional aunque en cuanto a administración política se divide en 25 regiones y un área metropolitana (Lima).</p>\n<p>Su actual presidenta es Keiko Sofía Fujimori Higuchi, quien ganó las elecciones generales de 2026 tras imponerse en el balotaje a Roberto Sánchez Palomino.</p>\n<h2>Historia</h2>\n<p>El Antiguo Perú fue una región de sucesivas civilizaciones. La principal fue el <a href=\"/articulo/incas\">Imperio incaico</a>, el cual dominó gran parte del oeste sudamericano hacia el siglo XV. En el siglo XVI este imperio fue conquistado por el Imperio español, tras la cual el territorio se convirtió en el Virreinato del Perú, dependiente de España.</p>\n<p>La Independencia se proclamó el 28 de julio de 1821, y fue efectiva después de la batalla de Ayacucho tres años después. Los españoles demoraron mucho tiempo el reconocimiento de la independencia de los pueblos sudamericanos, especialmente la peruana.</p>\n<p>Después de varios gobiernos militares, el gobierno democrático fue restablecido en 1980 (paralelamente comenzó un sangriento conflicto armado contra el grupo terrorista <i>Sendero Luminoso</i> y <i>Movimiento Revolucionario Túpac Amaru</i>). Después de la caída de la dictadura de Alberto Fujimori (1990-2000), se ha restablecido nuevamente la democracia que prevalece hasta la fecha.</p>\n<p>A comienzos del siglo XXI el país tiene un importante crecimiento económico y se reduce mucho la pobreza. Entre sus principales actividades económicas está: la agricultura de exportación, la pesca, la minería y la manufactura de productos como los textiles.</p>\n<h2>Geografía</h2>\n<p>La superficie es de 1'285,216&#160;km<sup>2</sup>.</p>\n<p>Perú se ubica en los Andes. Tiene tres regiones muy distintas:</p>\n<ul><li><b>La costa del Pacífico</b>: al Oeste, cerca del <a href=\"/articulo/oceano-pacifico\">Pacífico</a>. Tiene planicies y valles. Su anchura máxima es de 200 km y del Norte al Sur tiene alrededor 2000&#160;km (representa el 10% de la superficie). A lo largo de la costa se pueden encontrar pampas cubiertas de arena que forman los desiertos del país, tales como el de Sechura (Piura) y el de Pisco (Ica). En invierno se presentan lloviznas.</li></ul>\n<ul><li><b>La sierra andina</b>: con tres cordilleras, una altiplanicie (el Altiplano) y la cuenca del lago Titicaca. Su altura varía de 3 000 a 5000 m. El clima es muy frío y seco. Los andes centrales son los más altos, es aquí donde se encuentra el pico más alto del país, el nevado Huascarán, con 6768 msnm. La vegetación es la puna. Viven llamas y alpacas. Tiene valles fértiles. Representa el 60% del territorio. Es la región más poblada del Perú.</li></ul>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "peru-regiones-naturales-7f8e79eb.png",
+      "pie": "Regiones naturales de Perú"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li><b>La selva amazónica</b>, situada hacia el este, es una vasta región llana cubierta por vegetación. Constituye casi el 60&#160;% de la superficie del país.. En esta zona se encuentran los ríos más extensos y navegables del país como es el caso del <a href=\"/articulo/rio-amazonas\">Amazonas</a> (unión de los ríos Marañón y Ucayali) , que pasa por la ciudad de Iquitos. La forma del relieve es llana. Representa el 30% de la superficie. Está cubierta de selvas tropicales. Hay poca población.</li></ul>\n<h2>Biodiversidad</h2>\n<p>Perú está considerado uno de los 18 países megadiversos, con una gran variedad de ecosistemas y, consecuentemente, de flora y fauna.</p>\n<p>El bioma más extendido del país (59&#160;% del territorio) así como el más biodiverso se encuentra al oriente: la selva amazónica peruana.</p>\n<p>En el mar hacia el norte se presenta la corriente de Humboldt que presenta abundancia de plancton, lo cual favorece a una gran productividad y cantidad de recursos marinos, tal es el caso de la anchoveta y la consecuente producción en gran cantidad de harina de pescado. La flor nacional es la cantuta y el árbol más representativo del país es el árbol de la quina. En cuanto a fauna, las especies más emblemáticas son la vicuña y el gallito de las rocas.</p>\n<h2>Agricultura</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "la-flor-cantuta-3598f6bb.jpg",
+      "pie": "La cantuta, flor nacional del Perú"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La agricultura ha sido la actividad económica tradicional del Perú prehispánico, donde se cultivó de forma intensa productos como el maíz y la papa. Los pobladores prehispánicos se adaptaron a las condiciones del ambiente y debido a carencia de espacios abiertos se crearon sistemas de terrazas (andenes) convirtiendo las limitaciones de la pendiente en ventajas en el uso del espacio. También se domesticaron animales como la alpaca, la llama y el cuy. Los principales productos agrícolas peruanos son: papa, arroz, maíz, camote, maca, trigo, quinua, café y espárragos así como también las frutas: manzana, pera, uva, albaricoque, plátano y las verduras: habas, cebollas, tomates y ajos.</p>\n<h2>Clima</h2>\n<p>El clima del Perú está determinado por su situación geográfica, ya que el país se encuentra dentro de la zona intertropical de la Tierra, es decir, a baja latitud y cerca del ecuador terrestre. Esto implica que no haya grandes diferencias entre las temperaturas medias de invierno y verano en todo el país, además determina que al oriente tenga un clima tropical lluvioso.</p>\n<h2>Gas y minería</h2>\n<p>La explotación del gas natural, junto con la minería, son los sectores con mayor potencial de crecimiento por la calidad y abundancia de recursos.</p>\n<p>El país es el líder minero en Latinoamérica. En el mercado latinoamericano, es el mayor productor de oro, cinc, plomo y estaño. Asimismo, es el segundo productor de plata y de cobre</p>\n<p>La mina de Yanacocha es la principal fuente de extracción de oro en el Perú. Es considerada la mayor mina aurífera de Sudamérica y la segunda más grande a nivel mundial.</p>\n<h2>Turismo</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "peru-sacred-valley-incan-ruins-238-ollantaytambo-ruins-81150-b279cadd.jpg",
+      "pie": "Ruinas del Valle Sagrado de los Incas."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Las ciudades más visitadas por los turistas son Lima, Cusco, Arequipa y Trujillo.</p>\n<h2>Población</h2>\n<p>Al finalizar 2015, Perú tenía una población de 31&#160;911&#160;000 habitantes, siendo el cuarto país más poblado de Sudamérica. Su densidad poblacional es de 25 habitantes por&#160;km².</p>\n<p>Fuera de Lima, las mayores ciudades se encuentran en la costa, como Piura, Chiclayo, Trujillo, Chimbote, Ica. En la sierra destacan las ciudades de Arequipa, Cusco, Huancayo, Cajamarca y Juliaca. Finalmente, en la selva es Pucallpa la más importante.</p>\n<p>El 81.3% de peruanos tiene como religión el catolicismo. El 12.5% de la población es evangélica. Un 3.3% profesa otra religión mientras que un 2.9% es ateo o agnóstico.</p>\n<h2>Literatura</h2>\n<p>En el siglo XX sobresalen el poeta César Vallejo y en la narrativa Ciro Alegría, José María Arguedas, Julio Ramón Ribeyro, Alfredo Bryce Echenique, y el Premio Nobel Mario Vargas Llosa.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "peru-orthographic-projection-3bf2453d.png",
+    "tipo": "imagen",
+    "alt": "Perú",
+    "autor": "Addicted04, Connormah",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Peru_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "peru-orthographic-projection-3bf2453d.png",
+      "tipo": "imagen",
+      "alt": "Perú",
+      "autor": "Addicted04, Connormah",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Peru_(orthographic_projection).svg"
+    },
+    {
+      "archivo": "peru-cia-map-0f927bde.gif",
+      "tipo": "imagen",
+      "alt": "Mapa de Perú",
+      "autor": "Directorate of Intelligence, CIA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Per%C3%B9_CIA_map.gif"
+    },
+    {
+      "archivo": "peru-regiones-naturales-7f8e79eb.png",
+      "tipo": "imagen",
+      "alt": "Regiones naturales de Perú",
+      "autor": "Rafaelkelvin",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Peru_regiones_naturales.png"
+    },
+    {
+      "archivo": "la-flor-cantuta-3598f6bb.jpg",
+      "tipo": "imagen",
+      "alt": "La cantuta, flor nacional del Perú",
+      "autor": "Edgar Amador Espinoza M.",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:La_Flor_Cantuta.jpg"
+    },
+    {
+      "archivo": "peru-sacred-valley-incan-ruins-238-ollantaytambo-ruins-81150-b279cadd.jpg",
+      "tipo": "imagen",
+      "alt": "Ruinas del Valle Sagrado de los Incas.",
+      "autor": "McKay Savage from London, UK",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Peru_-_Sacred_Valley_%26_Incan_Ruins_238_-_Ollantaytambo_ruins_(8115049949).jpg"
+    },
+    {
+      "archivo": "altiplano-peru-01f1cab3.jpg",
+      "tipo": "imagen",
+      "alt": "Perú",
+      "autor": "Maurice Chédel",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Altiplano_Peru.JPG"
+    }
+  ],
+  "relacionados": [
+    "ecuador",
+    "colombia",
+    "chile",
+    "bolivia",
+    "brasil",
+    "oceano-pacifico"
+  ],
+  "pais": {
+    "adm0": "PER"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Per%C3%BA",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Per%C3%BA&action=history",
+    "revid": 190287,
+    "fecha": "2026-10-14"
+  }
+}

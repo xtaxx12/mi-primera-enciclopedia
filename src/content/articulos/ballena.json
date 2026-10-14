@@ -1,0 +1,57 @@
+{
+  "slug": "ballena",
+  "titulo": "Ballena",
+  "categoria": "animales",
+  "resumen": "Las ballenas (nombre científico: balaenidae) son mamíferos marinos que viven en los océanos. Como otros mamíferos, las ballenas respiran oxígeno del aire, tienen una cantidad pequeña de pelo y son de sangre caliente.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "faroe-stamp-198-baleana-mysticetus-a3aa9704.jpg",
+      "pie": "Balaena mysticetus en un sello de las Islas Feroe"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Las <b>ballenas</b> (nombre científico: <i>balaenidae</i>) son mamíferos marinos que viven en los océanos. Como otros mamíferos, las ballenas respiran oxígeno del aire, tienen una cantidad pequeña de pelo y son de sangre caliente.</p>\n<p>Hay dos tipos básicos de ballena: las ballenas barbadas y las ballenas dentadas. Las ballenas dentadas disponen de dientes muy afilados para cazar y alimentarse. Las ballenas barbadas no tienen dientes, sino barbas de ballena que utilizan para filtrar la comida.</p>\n<p>La ballena barbada se alimenta de plancton. Para ello, abre su enorme boca y toma una gran cantidad de agua. Luego, cierra la boca y expulsa el agua a través de sus barbas de ballena, que impiden que el alimento salga. La ballena dentada se alimenta de peces de mayor tamaño.</p>\n<p>¿Quieres saber más sobre las ballenas?</p>\n<p>Las ballenas son los animales más grandes que jamás hayan existido. Pertenecen a un grupo de mamíferos marinos conocidos como cetáceos. No son peces porque tienen sangre caliente, respiran aire a través de pulmones y dan a luz a crías vivas que se alimentan de leche materna.</p>\n<p>Tienen un oído excelente y son dos o tres veces más eficientes que los mamíferos terrestres para utilizar el oxígeno del aire que respiran. Las ballenas tienen cajas torácicas colapsables que las ayudan cuando se sumergen a profundidad. Además, poseen una capa de grasa muy gruesa que las aísla para protegerlas del frío.</p>\n<p>Los científicos creen que las ballenas evolucionaron de mamíferos terrestres de cuatro patas. Ahora, están perfectamente adaptadas a una vida submarina. Tienen un cuerpo aerodinámico y han perdido casi todo el pelo externo para evitar la fricción y mejorar el deslizamiento por el agua. Sus extremidades se transformaron en aletas.</p>\n<p>Existen dos tipos principales de ballenas: las dentadas (como el cachalote y la orca) y las barbadas (como la ballena jorobada y la azul). Las barbadas tienen placas en forma de peines que están formadas por estructuras compuestas de pelos rígidos. Estos forman una red que filtra la comida del agua del mar. La gran mayoría de las grandes ballenas son barbadas y se alimentan fundamentalmente de minúsculas criaturas llamadas krill, parecidas a los camarones.</p>\n<p>Las ballenas tienen unos orificios en la parte superior de la cabeza llamados “aventadores”, los cuales actúan como nuestros orificios de la nariz. Las ballenas barbadas tienen dos aventadores y las dentadas solo uno.</p>\n<p>El origen de la caza de ballenas</p>\n<p>La utilización de los océanos como fuente de alimentación data de los orígenes de la humanidad.</p>\n<p>Antiguamente, cazar una ballena garantizaba la subsistencia de una comunidad. Los métodos de cacería iniciales eran muy sencillos y casi no cambiaron durante 300 años. Este tipo de cacería no amenazaba a las especies, la cacería masiva comenzó en el siglo XVII.</p>\n<p>Los modernos métodos de captura pusieron a varias especies de ballenas en peligro de extinción en los siglos XIX y XX.</p>\n<p>Desde fines del siglo XIX los avances alcanzados en la navegación, particularmente en la propulsión y autonomía de las embarcaciones, provocaron que la industrialización ballenera llegara a altamar. De esta manera, la antigua cacería costera de diversos países se dirigía a los lugares más remotos del planeta en busca de los grandes cetáceos.</p>\n<p>En el siglo XX, el uso de la tecnología y el aumento de la demanda superaron el límite sostenible por las ballenas, poniendo en riesgo a sus poblaciones.</p>\n<p>Hoy, la cacería sostiene el casi inexistente comercio de carne de ballena, y otros productos como el aceite, siempre a una escala menor.</p>\n<p><i>¨La historia de la caza de ballenas es testigo del agotamiento de una zona tras otra y de una especie tras otra, hasta tal punto que resulta esencial la protección de todas las especies de ballenas para evitar su extinción¨.</i> Comisión Ballenera Internacional [CBI], 1946.</p>\n<p>información sacada de green peace&#160;: https://www.greenpeace.org/colombia/quieres-saber-mas-sobre-las-ballenas/</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "humpbackwhale37-6c1cdbf4.jpg",
+    "tipo": "imagen",
+    "alt": "Ballena",
+    "autor": "J. Waite (OAR/National Undersea Research Program (NURP); National Marine Mammal Lab)",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Humpbackwhale37.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "humpbackwhale37-6c1cdbf4.jpg",
+      "tipo": "imagen",
+      "alt": "Ballena",
+      "autor": "J. Waite (OAR/National Undersea Research Program (NURP); National Marine Mammal Lab)",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Humpbackwhale37.jpg"
+    },
+    {
+      "archivo": "faroe-stamp-198-baleana-mysticetus-a3aa9704.jpg",
+      "tipo": "imagen",
+      "alt": "Balaena mysticetus en un sello de las Islas Feroe",
+      "autor": "Artist: Bárður Jákupsson",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Faroe_stamp_198_Baleana_mysticetus.jpg"
+    }
+  ],
+  "relacionados": [
+    "abeja",
+    "cocodrilo",
+    "delfin"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Balaenidae",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Balaenidae&action=history",
+    "revid": 211933,
+    "fecha": "2026-10-14"
+  }
+}

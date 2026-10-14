@@ -1,0 +1,48 @@
+{
+  "slug": "wolfgang-amadeus-mozart",
+  "titulo": "Wolfgang Amadeus Mozart",
+  "categoria": "arte-y-musica",
+  "resumen": "Wolfgang Amadeus Mozart o simplemente Mozart, fue un compositor y pianista, maestro del Clasicismo, considerado como uno de los músicos más influyentes y destacados de la historia.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "mozart-by-croce-1780-81-6e3a004c.jpg",
+      "pie": "Retrato de Mozart"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Wolfgang Amadeus Mozart</b>&#160;o simplemente&#160;<b>Mozart</b>, fue un&#160;compositor&#160;y&#160;pianista, maestro del&#160;Clasicismo, considerado como uno de los músicos más influyentes y destacados de la historia.</p>\n<h2>Biografía</h2>\n<p>Nació el&#160;27 de enero&#160;de&#160;1756&#160;en&#160;Salzburgo, en la actual&#160;Austria. Fue el último hijo de&#160;Leopold Mozart. Leopold era el segundo&#160;maestro de capilla&#160;en la corte del arzobispo aunque fue un experimentado profesor. Su madre se llamaba&#160;Anna Maria Pertl. Debido a la alta mortalidad infantil en la&#160;Europa&#160;de la época, de los siete hijos que tuvo el matrimonio sólo sobrevivieron&#160;Maria Anna, apodada cariñosamente&#160;<i>Nannerl</i>, y Wolfgang Amadeus. Fue&#160;bautizado&#160;en la&#160;catedral de San Ruperto&#160;el día después de su nacimiento con los nombres de Joannes Chrysostomus Wolfgangus Theophilus Mozart; a lo largo de su vida firmaría con&#160;diversas variaciones sobre su nombre original, siendo una de las más recurrentes «Wolfgang Amadè Mozart».</p>\n<p>La casa natal de Mozart se encuentra en la Getreidegasse de la ciudad de Salzburgo. Se trata de una casa que actualmente cuenta con una gran cantidad de objetos de la época e instrumentos que pertenecieron a Mozart durante su niñez.</p>\n<p>Durante su niñez y juventud, creaba composiciones de notable dificultad. Siendo adulto, realizó giras por Europa, componiendo alrededor de más de 200 obras.</p>\n<p>Murió en 1791, a los 35 años a causa de faringitis estreptocócica, aunque también se cree que fue por envenenamiento por mercurio.</p>\n<h2>Obras más conocidas</h2>\n<p>Entre sus obras y composiciones destacan las siguientes:</p>\n<ul><li>Las Bodas de Fígaro, ópera compuesta entre&#160;1785&#160;y&#160;1786&#160;y estrenada en&#160;Viena&#160;el&#160;1 de mayo&#160;de 1786 bajo la dirección del propio compositor.</li>\n<li>La Sinfonía no.° 40, compuesta en 1788 y con cuatro movimientos</li>\n<li>La Piano Sonata no.°14, por sus movimientos y ágiles avanzados para la época</li>\n<li>La Piano Sonata no.°16.</li>\n<li>La ópera Don Giovanni.</li>\n<li>La ópera La Flauta mágica.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "mozart-by-croce-1780-81-6e3a004c.jpg",
+    "tipo": "imagen",
+    "alt": "Retrato de Mozart",
+    "autor": "Posible Johann Nepomuk della Croce",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mozart-by-Croce-1780-81.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "mozart-by-croce-1780-81-6e3a004c.jpg",
+      "tipo": "imagen",
+      "alt": "Retrato de Mozart",
+      "autor": "Posible Johann Nepomuk della Croce",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mozart-by-Croce-1780-81.jpg"
+    }
+  ],
+  "relacionados": [
+    "arte-prehistorico",
+    "color",
+    "diego-velazquez"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Wolfgang_Amadeus_Mozart&action=history",
+    "revid": 175642,
+    "fecha": "2026-10-14"
+  }
+}

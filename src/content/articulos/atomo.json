@@ -1,0 +1,48 @@
+{
+  "slug": "atomo",
+  "titulo": "Átomo",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "Un átomo es la unidad básica que compone toda la materia. Hay muchos tipos diferentes de átomos, cada uno con su propio nombre, su masa y tamaño. Los diferentes tipos de átomos se denominan elementos químicos. Los elementos químicos se organizan en la tabla periódica. Ejemplos de elementos son el…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "stylised-atom-with-three-bohr-model-orbits-and-stylised-nucl-6a2cb1d6.png",
+      "pie": "Modelo de un átomo de litio. El núcleo de un átomo de litio tiene cuatro neutrones (azul) y tres protones (rojo); y es orbitado por tres electrones (negro)."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>átomo</b> es la unidad básica que compone toda la materia. Hay muchos tipos diferentes de átomos, cada uno con su propio nombre, su masa y tamaño. Los diferentes tipos de átomos se denominan elementos químicos. Los elementos químicos se organizan en la tabla periódica. Ejemplos de elementos son el hidrógeno y el oro.</p>\n<p>Son las partículas más pequeñas de la materia en las cuales se conservan sus propiedades. El átomo esta formado por un núcleo y una corteza o nube de electrones orbitando alrededor del núcleo.</p>\n<p>Los átomos son muy pequeños, pero su tamaño depende del elemento. El tamaño de los átomos está entre un intervalo de 0,1 a 0,5 nanómetros de ancho.  Un nanómetro es alrededor de 100.000 veces menor que la anchura de un cabello humano.  Esto hace a los átomos imposibles de ver sin ayuda de herramientas especiales.</p>\n<p>Los átomos se unen para formar moléculas o partículas: por ejemplo, dos átomos de hidrógeno y uno de oxígeno se combinan para hacer una molécula de <a href=\"/articulo/agua\">agua</a>, esta combinación es una forma de reacción química.</p>\n<p>Aunque el átomo es el elemento más pequeño de la materia que conserva sus propiedades, no es la partícula más pequeña posible, ya que los propios átomos se dividen en protones, neutrones y electrones. Para entender esto, imaginemos que alguien obligara a una persona muy tacaña a dar a alguien oro, pero sin especificar la cantidad. Le daría un átomo de oro, ya que esa es la cantidad de oro más pequeña posible. Cualquier cosa más pequeña ya no podría ser considerada oro.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "stylised-atom-with-three-bohr-model-orbits-and-stylised-nucl-6a2cb1d6.png",
+    "tipo": "imagen",
+    "alt": "Modelo de un átomo de litio. El núcleo de un átomo de litio tiene cuatro neutrones (azul) y tres protones (rojo); y es orbitado por tres electrones (negro).",
+    "autor": "Halfdan.",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.png"
+  },
+  "medios": [
+    {
+      "archivo": "stylised-atom-with-three-bohr-model-orbits-and-stylised-nucl-6a2cb1d6.png",
+      "tipo": "imagen",
+      "alt": "Modelo de un átomo de litio. El núcleo de un átomo de litio tiene cuatro neutrones (azul) y tres protones (rojo); y es orbitado por tres electrones (negro).",
+      "autor": "Halfdan.",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.png"
+    }
+  ],
+  "relacionados": [
+    "agua",
+    "automovil",
+    "celula"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/%C3%81tomo",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=%C3%81tomo&action=history",
+    "revid": 184103,
+    "fecha": "2026-10-14"
+  }
+}

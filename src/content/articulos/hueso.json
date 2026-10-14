@@ -1,0 +1,67 @@
+{
+  "slug": "hueso",
+  "titulo": "Hueso",
+  "categoria": "cuerpo-humano",
+  "resumen": "Los huesos son las partes sólidas del esqueleto de los animales vertebrados (como los mamíferos y entre ellos los humanos).",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "bone-cross-section-esp-c5b729bb.jpg",
+      "pie": "Esquema de un hueso en el que pueden observarse algunos de componentes principales, incluyendo la médula ósea roja y la médula ósea amarilla."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los <b>huesos</b> son las partes sólidas del <a href=\"/articulo/esqueleto\">esqueleto</a> de los animales vertebrados (como los mamíferos y entre ellos los humanos).</p>\n<p>Los huesos que forman la estructura del cuerpo humano son 206. Están unidos por los cartílagos.</p>\n<p>Los huesos son un tejido vivo, compuesto por <a href=\"/articulo/celula\">células</a> óseas y una <i>matriz</i> compuesta principalmente de colágeno, una proteína que da forma al hueso y de <i>oxalato de calcio</i>, una sal mineral que da su dureza al hueso. El hueso sirve como contenedor para la médula ósea, que produce las células de la <a href=\"/articulo/sangre\">sangre</a>.</p>\n<p>Los <a href=\"/articulo/musculo\">músculos</a> se unen a los huesos por los tendones, permitiendo el movimiento.</p>\n<h2>Algunos huesos</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "triceratops-side-view-be8eacb2.jpg",
+      "pie": "El cráneo de un triceratops"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li>El cráneo</li>\n<li>El fémur (el más largo de los huesos humanos)</li>\n<li>Las vértebras</li>\n<li>Las costillas</li>\n<li>La rótula</li>\n<li>El esternón</li>\n<li>La tibia</li>\n<li>El peroné</li>\n<li>martillo</li></ul>\n<h2>Vocabulario</h2>\n<p>El radical <i>ostéo-</i> es utilizado en las palabras relacionadas con los huesos. Por lo tanto, <i>osteogenesis</i> se refiere a la producción de células óseas, <i>osteocito</i> y <i>osteoblasto </i>,  nombran células óseas.</p>\n<h2>Medicina</h2>\n<p>Existen enfermedades de los huesos, como la oseteoporosis y también pueden sufrir fracturas por impacto. Como los huesos son tejidos vivos, se curan después de la fractura. Cuando el hueso se fractura, se coloca un molde (o férula). Si es en la pierna, se puede caminar con muletas. Algunas personas también tienen huesos muy frágiles (<i>enfermedad de los huesos de cristal</i>), o que crecen sin parar (<i>acromegalia</i>).</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "bone-cross-section-esp-c5b729bb.jpg",
+    "tipo": "imagen",
+    "alt": "Esquema de un hueso en el que pueden observarse algunos de componentes principales, incluyendo la médula ósea roja y la médula ósea amarilla.",
+    "autor": "Modificado de Pbroks13",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bone_cross-section_esp.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "bone-cross-section-esp-c5b729bb.jpg",
+      "tipo": "imagen",
+      "alt": "Esquema de un hueso en el que pueden observarse algunos de componentes principales, incluyendo la médula ósea roja y la médula ósea amarilla.",
+      "autor": "Modificado de Pbroks13",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bone_cross-section_esp.jpg"
+    },
+    {
+      "archivo": "triceratops-side-view-be8eacb2.jpg",
+      "tipo": "imagen",
+      "alt": "El cráneo de un triceratops",
+      "autor": "Quadell",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Triceratops_side_view.jpg"
+    }
+  ],
+  "relacionados": [
+    "esqueleto",
+    "celula",
+    "sangre",
+    "musculo"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Hueso",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Hueso&action=history",
+    "revid": 194035,
+    "fecha": "2026-10-14"
+  }
+}

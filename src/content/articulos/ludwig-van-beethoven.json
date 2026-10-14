@@ -1,0 +1,48 @@
+{
+  "slug": "ludwig-van-beethoven",
+  "titulo": "Ludwig van Beethoven",
+  "categoria": "arte-y-musica",
+  "resumen": "Ludwig van Beethoven (Bonn, Alemania, 16 de diciembre de 1770 - Viena, Austria, 26 de marzo de 1827) fue un compositor, director de orquesta y pianista.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "dbp-1959-beethoven-halle-bonn-4cccbe89.jpg",
+      "pie": "block souvenir - Beethoven"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Ludwig van Beethoven</b> (Bonn, <a href=\"/articulo/alemania\">Alemania</a>, 16 de diciembre de 1770 - Viena, Austria, 26 de marzo de 1827) fue un compositor, director de orquesta y pianista.</p>\n<h2>Historia</h2>\n<p>Durante su vida compuso muchas obras, incluyendo nueve sinfonías.</p>\n<p>A los 32 años empezó a quedarse sordo, aunque él lo ocultó. Al mismo tiempo la personalidad le fue cambiando, convirtiéndose poco a poco en un hombre solitario y de mal carácter según iba envejeciendo. De ahí vino que Beethoven compuso gran parte de su obra semisordo o incapacitado para escuchar ni su música ni ningún otro sonido.</p>\n<h2>Producción musical</h2>\n<p>Beethoven es reconocido como uno de los más grandes compositores de la historia. Su obra está destinada de manera importante al piano. Compuso treinta y dos <i>sonatas para piano solo</i>, diez <i>sonatas para violín</i> y cinco <i>sonatas para violoncello</i> con acompañamiento del piano y cinco <i>conciertos para piano y <a href=\"/articulo/orquesta\">orquesta</a></i>.</p>\n<p>Escribió nueve sinfonías. En la novena empleó la voz humana al ponerle música al texto de la <i>Oda a la Alegría</i> de Federico Schiller. Son muy importantes sus diecisiete <i>cuartetos de cuerdas</i>. Su sinfonía más famosa es la quinta.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "dbp-1959-beethoven-halle-bonn-4cccbe89.jpg",
+    "tipo": "imagen",
+    "alt": "block souvenir - Beethoven",
+    "autor": "scanned by NobbiP",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:DBP_1959_Beethoven-Halle_Bonn.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "dbp-1959-beethoven-halle-bonn-4cccbe89.jpg",
+      "tipo": "imagen",
+      "alt": "block souvenir - Beethoven",
+      "autor": "scanned by NobbiP",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:DBP_1959_Beethoven-Halle_Bonn.jpg"
+    }
+  ],
+  "relacionados": [
+    "alemania",
+    "orquesta",
+    "arte-prehistorico"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Ludwig_van_Beethoven",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Ludwig_van_Beethoven&action=history",
+    "revid": 108161,
+    "fecha": "2026-10-14"
+  }
+}

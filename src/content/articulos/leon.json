@@ -1,0 +1,52 @@
+{
+  "slug": "leon",
+  "titulo": "León",
+  "categoria": "animales",
+  "resumen": "El león (Panthera leo) es un mamífero carnívoro perteneciente a la familia de los felinos y también es uno de las cinco especies del género Panthera.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El&#160;<b>león</b>&#160;(<i><b>Panthera leo</b></i>) es un mamífero carnívoro perteneciente a la familia de los felinos y también es uno de las cinco especies del género <i>Panthera</i>.</p>\n<h2>Hábitat</h2>\n<p>Los leones salvajes viven en pequeñas poblaciones dispersas en&#160;el África subsahariana&#160;(a excepción de las regiones selváticas cercanas a las costas del&#160;Atlántico&#160;y la&#160;cuenca del Congo) y una pequeña parte del noroeste de&#160;<a href=\"/articulo/india\">India</a>&#160;(una población en&#160;peligro crítico&#160;en el&#160;Parque nacional del Bosque de Gir&#160;y alrededores), habiendo desaparecido del resto de&#160;Asia del Sur,&#160;Asia Occidental,&#160;África del Norte&#160;y la&#160;península balcánica desde tiempos históricos. Hasta finales del&#160;Pleistoceno (hace aproximadamente 10&#160;000&#160;años), de los grandes mamíferos terrestres, el león era el mamífero que mayor dispersión y hábitat (después de los&#160;humanos). Su distribución cubría una gran parte de África, de&#160;Eurasia (desde el oeste de&#160;Europa&#160;hasta la <a href=\"/articulo/india\">India</a>), y en&#160;América, desde el&#160;río Yukón&#160;hasta el sur de&#160;<a href=\"/articulo/mexico\">México</a>.</p>\n<h2>Características</h2>\n<p>Los adultos miden hasta 2 metros, y pesan de 120 a 150 kilogramos (algunos pesan más de 200 kilogramos). Es fácil diferenciar a un león macho de una leona por la melena, que solamente tienen los machos.</p>\n<h2>En cautiverio</h2>\n<p>Actualmente numerosos leones viven en cautiverio, en zoológicos o circos. Es muy difícil domesticar a un león, y generalmente son muy peligrosos para el hombre.</p>\n<h2>En la cultura popular</h2>\n<p>En diversas películas o series de televisión, el león suele ser apodado comúnmente como: \"El rey de la selva\", aunque el león tenga su hábitat en las praderas y sabanas calurosas de África.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "lion-waiting-in-namibia-7834f31c.jpg",
+    "tipo": "imagen",
+    "alt": "León",
+    "autor": "Kevin Pluck",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Lion_waiting_in_Namibia.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "lion-waiting-in-namibia-7834f31c.jpg",
+      "tipo": "imagen",
+      "alt": "León",
+      "autor": "Kevin Pluck",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Lion_waiting_in_Namibia.jpg"
+    },
+    {
+      "archivo": "lion-distribution-b3e01cd4.png",
+      "tipo": "imagen",
+      "alt": "León",
+      "autor": "Tommyknocker (talk)",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Lion_distribution.png"
+    }
+  ],
+  "relacionados": [
+    "india",
+    "mexico",
+    "abeja"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Panthera_leo",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Panthera_leo&action=history",
+    "revid": 158442,
+    "fecha": "2026-10-14"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "argelia",
+  "titulo": "Argelia",
+  "categoria": "paises",
+  "resumen": "Argelia es un país de África. Su nombre oficial es República Argelina Democrática y Popular, y su capital es Argel.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p><b>Argelia</b> es un país de África. Su nombre oficial es <b>República Argelina Democrática y Popular</b>, y su capital es Argel.</p>\n<p>El país tiene una superficie de 2,381,740 km², y una población de 33,333,216 habitantes.</p>\n<h2>Historia</h2>\n<p>El territorio del actual Argelia estuvo habitado desde la <a href=\"/articulo/prehistoria\">Prehistoria</a> por diversos grupos humanos. Durante la Antigüedad, la región estuvo poblada principalmente por pueblos bereberes y mantuvo contactos con fenicios y otros pueblos del Mediterráneo. A partir del siglo III a. C. se desarrolló el Reino de Numidia, que tuvo entre sus gobernantes a Masinisa y Yugurta.</p>\n<p>En el siglo I a. C., Numidia quedó progresivamente incorporada al ámbito de Roma. Parte del territorio del actual Argelia pasó a formar las provincias romanas de Mauritania Cesariense y Numidia. Durante los siglos siguientes se desarrollaron ciudades, redes comerciales y una importante presencia del cristianismo, aunque también se produjeron conflictos internos y rebeliones contra el dominio romano.</p>\n<p>A partir del siglo V, el territorio pasó por diferentes dominios. En 429, los vándalos invadieron el norte de África y establecieron el Reino vándalo, que fue conquistado por el Imperio bizantino durante el reinado de Justiniano I en el siglo VI. En el siglo VII, los ejércitos árabes conquistaron progresivamente el Magreb y extendieron el islam y la lengua árabe, aunque las poblaciones bereberes conservaron importantes tradiciones culturales y lingüísticas.</p>\n<p>Durante la Edad Media, el territorio argelino estuvo dividido entre diferentes Estados y dinastías, entre ellas los fatimíes, ziríes, almohades y meriníes. En el siglo XVI, las ciudades costeras adquirieron una creciente importancia estratégica debido a la expansión del Imperio otomano y a los conflictos con España. Argel pasó a ser un importante centro de poder otomano en el Mediterráneo y la región quedó integrada en la Regencia de Argel.</p>\n<p>En 1830, <a href=\"/articulo/francia\">Francia</a> invadió Argelia y comenzó un proceso de conquista que se prolongó durante varias décadas. El territorio fue incorporado progresivamente al sistema colonial francés y se produjo una importante colonización europea. La población indígena sufrió expropiaciones de tierras y diferentes formas de discriminación, mientras se desarrollaban movimientos de resistencia y rebeliones contra el dominio francés.</p>\n<p>Durante finales del siglo XIX y la primera mitad del XX, Argelia permaneció integrada en el sistema colonial francés, aunque con un estatuto diferente al de otras colonias. La población europea, conocida como pieds-noirs, adquirió una importante presencia económica y política. Al mismo tiempo, surgieron movimientos nacionalistas argelinos que reclamaban derechos políticos y, posteriormente, la independencia.</p>\n<p>En 1954, el Frente de Liberación Nacional inició una insurrección armada contra el dominio francés, dando comienzo a la Guerra de Independencia de Argelia. El conflicto provocó una intensa violencia y desplazamientos de población, y enfrentó a las fuerzas francesas con el FLN y otros grupos. Los Acuerdos de Evian de 1962 pusieron fin a la guerra y reconocieron el derecho de Argelia a la independencia.</p>\n<p>Argelia proclamó su independencia el 5 de julio de 1962. Ahmed Ben Bella se convirtió en el primer presidente del nuevo Estado, aunque en 1965 fue depuesto por un golpe de Estado encabezado por Houari Boumédiène. Durante las décadas siguientes, el país adoptó un modelo económico basado en la intervención estatal y en la explotación de sus importantes recursos de petróleo y gas natural.</p>\n<p>A finales del siglo XX, Argelia experimentó una grave crisis política. Las elecciones legislativas de 1991 fueron interrumpidas después de que las autoridades cancelaran el proceso electoral ante el avance del Frente Islámico de Salvación. El país entró posteriormente en un periodo de conflicto armado conocido como Guerra Civil argelina, que se prolongó principalmente durante la década de 1990 y provocó decenas de miles de víctimas.</p>\n<p>Desde comienzos del siglo XXI, Argelia ha mantenido un sistema político presidencial y una economía fuertemente vinculada a los hidrocarburos. En 2019, las protestas del Hirak provocaron la dimisión del presidente Abdelaziz Bouteflika, que había gobernado desde 1999. Posteriormente se aprobó una nueva Constitución en 2020, mientras el país continuó afrontando desafíos económicos, sociales y políticos.</p>\n<h2>Idiomas</h2>\n<p>Su idioma oficial es el árabe. Una parte de la población habla el tamazight, o bereber.</p>\n<h2>Geografía</h2>"
+    }
+  ],
+  "principal": {
+    "archivo": "argelia-orthographic-projection-0f5b16bc.png",
+    "tipo": "imagen",
+    "alt": "Argelia",
+    "autor": "L'Américain",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Argelia_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "argelia-orthographic-projection-0f5b16bc.png",
+      "tipo": "imagen",
+      "alt": "Argelia",
+      "autor": "L'Américain",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Argelia_(orthographic_projection).svg"
+    },
+    {
+      "archivo": "central-atlas-tamazight-en-32af6433.png",
+      "tipo": "imagen",
+      "alt": "Argelia",
+      "autor": "Omar-Toons",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Central_Atlas_Tamazight_-_EN.PNG"
+    },
+    {
+      "archivo": "alger-st-raphael-8e6e4dc8.jpg",
+      "tipo": "imagen",
+      "alt": "Argelia",
+      "autor": "Mohamed Amine BOUKHOULDA",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Alger-St_Rapha%C3%ABl.jpg"
+    },
+    {
+      "archivo": "imsouhal-ff6a8cdd.jpg",
+      "tipo": "imagen",
+      "alt": "Argelia",
+      "autor": "avdennur at qasi",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Imsouhal.JPG"
+    },
+    {
+      "archivo": "sersou-0d6e9626.jpg",
+      "tipo": "imagen",
+      "alt": "Argelia",
+      "autor": "Yelles",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Sersou.JPG"
+    },
+    {
+      "archivo": "sahara-b38eb0fd.jpg",
+      "tipo": "imagen",
+      "alt": "Argelia",
+      "autor": "Florence Devouard (User:Anthere)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Sahara.jpg"
+    }
+  ],
+  "relacionados": [
+    "prehistoria",
+    "francia",
+    "alemania"
+  ],
+  "pais": {
+    "adm0": "DZA"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Argelia",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Argelia&action=history",
+    "revid": 204439,
+    "fecha": "2026-10-14"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "agujero-negro",
+  "titulo": "Agujero negro",
+  "categoria": "espacio",
+  "resumen": "Un agujero negro es un lugar del espacio en el que la gravedad es tan fuerte que nada puede escapar de él, ni siquiera la luz. Su intensidad es tan grande que es capaz de atraer cualquier objeto espacial como estrellas, planetas o incluso la luz.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "mayor-agujero-negro-f7c7fa80.jpg",
+      "pie": "Mayor agujero negro descubierto (ubicación: Galaxia IC10)"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>agujero negro</b> es un lugar del espacio en el que la gravedad es tan fuerte que nada puede escapar de él, ni siquiera la luz. Su intensidad es tan grande que es capaz de atraer cualquier objeto espacial como estrellas, planetas o incluso la <a href=\"/articulo/luz\">luz</a>.</p>\n<p>Un agujero negro se produce cuando una <a href=\"/articulo/estrella\">estrella</a> de gran cantidad de masa explota, y su <a href=\"/articulo/energia\">energía</a> se desvanece. La energía desvanecida de esa estrella hace tanta fuerza sobre sí misma que produce la compresión de la masa restante, hasta alcanzar un tamaño muy reducido, entonces se genera una fuerza gravitatoria que atrae a todos los objetos a su alrededor, y es más fuerte cuanta más masa acumula. Todavía se investiga lo que se esconde en su interior, existiendo sobre ello varias teorías.</p>\n<h2>Función</h2>\n<p>Los <b>agujeros negros</b> son objetos espaciales con una enorme masa y una gravedad muy intensa. Se cree que en el centro de muchas galaxias existe uno y que ayudan a <b>mantener organizadas las galaxias</b>, haciendo que las estrellas giren a su alrededor.</p>\n<p>No crecen continuamente, sino principalmente cuando <b>absorben materia o se fusionan con otros objetos</b>.</p>\n<p>No son agujeros ni puertas a otros universos; esta última idea pertenece a la <b>ciencia ficción</b> y no tiene evidencia científica.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "mayor-agujero-negro-f7c7fa80.jpg",
+    "tipo": "imagen",
+    "alt": "Mayor agujero negro descubierto (ubicación: Galaxia IC10)",
+    "autor": "Satélites de la NASA",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mayor_agujero_negro.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "mayor-agujero-negro-f7c7fa80.jpg",
+      "tipo": "imagen",
+      "alt": "Mayor agujero negro descubierto (ubicación: Galaxia IC10)",
+      "autor": "Satélites de la NASA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mayor_agujero_negro.jpg"
+    }
+  ],
+  "relacionados": [
+    "luz",
+    "estrella",
+    "energia"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Agujero_negro",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Agujero_negro&action=history",
+    "revid": 198652,
+    "fecha": "2026-10-14"
+  }
+}

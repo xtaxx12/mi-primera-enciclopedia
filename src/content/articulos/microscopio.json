@@ -1,0 +1,48 @@
+{
+  "slug": "microscopio",
+  "titulo": "Microscopio",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "El microscopio es un instrumento que permite observar objetos que son demasiado pequeños para ser vistos a simple vista. El tipo más común y el primero que se inventó es el microscopio óptico. Se trata de un instrumento óptico que contiene una o varias lentes que permiten obtener una imagen…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "microscope-schema-commente-es-68dd14b9.png",
+      "pie": "Esquema de un microscopio óptico."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>microscopio</b> es un instrumento que permite observar objetos que son demasiado pequeños para ser vistos a simple vista. El tipo más común y el primero que se inventó es el microscopio óptico. Se trata de un instrumento óptico que contiene una o varias lentes que permiten obtener una imagen aumentada del objeto</p>\n<h2>Historia del microscopio</h2>\n<p>El microscopio fue inventado hacia los años 1610, por Galileo Galilei, según los italianos, o por Zacharias Janssen, en opinión de los holandeses. En 1628 aparece en la obra de William Harvey sobre la circulación sanguínea al observar al microscopio los capilares sanguíneos y Robert Hooke publica su obra <i>Micrographia</i>.</p>\n<p>En 1665 Hooke observó con un microscopio un delgado corte de corcho y notó que el material era poroso, en su conjunto, formaban cavidades poco profundas a modo de celditas a las que llamó <i><a href=\"/articulo/celula\">células</a></i>. Se trataba de la primera observación de células muertas. Unos años más tarde, Malpighi, anatomista y biólogo italiano, observó células vivas. Fue el primero en estudiar tejidos vivos al microscopio.</p>\n<p>A principios de los años 1930 se había alcanzado el límite teórico para los microscopios ópticos, no consiguiendo éstos aumentos superiores a 500X o 1000X. Sin embargo, existía un deseo científico de observar los detalles de estructuras celulares (núcleo, mitocondria, etc.).</p>\n<p>El microscopio electrónico de transmisión (TEM) fue el primer tipo de microscopio electrónico desarrollado. Utiliza un haz de electrones en lugar de <a href=\"/articulo/luz\">luz</a> para enfocar la muestra consiguiendo aumentos de 100.000X. En 1942 se desarrolla el microscopio electrónico de barrido (SEM).</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "microscope-schema-commente-es-68dd14b9.png",
+    "tipo": "imagen",
+    "alt": "Esquema de un microscopio óptico.",
+    "autor": "Microscope_(schéma_commenté).png: Original uploader was Cdang at fr.wikipedia derivative work: Ortisa (talk)",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Microscope_(sch%C3%A9ma_comment%C3%A9).es.png"
+  },
+  "medios": [
+    {
+      "archivo": "microscope-schema-commente-es-68dd14b9.png",
+      "tipo": "imagen",
+      "alt": "Esquema de un microscopio óptico.",
+      "autor": "Microscope_(schéma_commenté).png: Original uploader was Cdang at fr.wikipedia derivative work: Ortisa (talk)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Microscope_(sch%C3%A9ma_comment%C3%A9).es.png"
+    }
+  ],
+  "relacionados": [
+    "celula",
+    "luz",
+    "atomo"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Microscopio",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Microscopio&action=history",
+    "revid": 173872,
+    "fecha": "2026-10-14"
+  }
+}

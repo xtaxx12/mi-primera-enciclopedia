@@ -1,0 +1,67 @@
+{
+  "slug": "gravedad",
+  "titulo": "Gravedad",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "La gravedad es una fuerza que se produce entre los objetos y que hace que estos se atraigan, como la Tierra y el Sol e incluso la manzana que cae de un árbol, atraída par el suelo.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "solar-sys8-dd5f148b.jpg",
+      "pie": "La fuerza de la gravedad mantiene a los planetas en órbita alrededor del Sol."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>gravedad</b> es una fuerza que se produce entre los objetos y que hace que estos se atraigan, como la <a href=\"/articulo/tierra\">Tierra</a> y el <a href=\"/articulo/sol\">Sol</a> e incluso la manzana que cae de un árbol, atraída par el suelo.</p>\n<p>Los <a href=\"/articulo/planeta\">planetas</a> son muy grandes así que producen mucha gravedad. Cuanta más masa tenga un objeto, más fuerza de gravedad ejercerá sobre otro objeto. La gravedad entre dos objetos pequeños no es notable.</p>\n<p>Los imanes ejercen una atracción diferente llamada magnetismo. Es más notable y sólo se quedan pegados a los metales con hierro. Las llaves no tienen hierro así que los imanes no ejercen gravedad sobre ellas.</p>\n<p>La aceleración de la gravedad en la <a href=\"/articulo/tierra\">Tierra</a> es de 9,8&#160;m/s<sup>2</sup>.</p>\n<p>Se calcula con la fórmula:</p>\n<p><b>F = m · g</b></p>\n<ul><li><b>F</b> = fuerza de gravedad o peso, en <b>newtons (N)</b></li>\n<li><b>m</b> = masa, en <b>kilogramos (kg)</b></li>\n<li><b>g</b> = aceleración de la gravedad, aproximadamente <b>9,8 m/s²</b> en la Tierra.</li></ul>\n<h2>La gravitación de Newton</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "newton-s-apple-c58791d0.jpg",
+      "pie": "Viñeta que ilustra la famosa anécdota sobre Isaac Newton y cómo podría haber descubierto la ley de la gravedad: al ver caer una manzana mientras observaba la luna, se da cuenta de que tanto los objetos terrestres como los celestes están sujetos a la misma fuerza: la gravedad."
+    },
+    {
+      "tipo": "html",
+      "html": "<p><a href=\"/articulo/isaac-newton\">Isaac Newton</a> fue un científico británico nacido en 1643. Fue el primero en escribir una teoría científica de la gravedad. Cuenta la leyenda que al ver una manzana caer de un árbol tuvo esta idea.</p>\n<p>Los principios de esta teoría son simples:</p>\n<ul><li>Cuanto más grande sea un cuerpo, más atracción ejercerá sobre otro cuerpo;</li>\n<li>Cuanto más alejados estén dos objetos mucho menos se atraerán entre sí;</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "solar-sys8-dd5f148b.jpg",
+    "tipo": "imagen",
+    "alt": "La fuerza de la gravedad mantiene a los planetas en órbita alrededor del Sol.",
+    "autor": "Harman Smith and Laura Generosa (nee Berwin), graphic artists and contractors to NASA's Jet Propulsion Laboratory, with Pluto removed by User:Frokor",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Solar_sys8.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "solar-sys8-dd5f148b.jpg",
+      "tipo": "imagen",
+      "alt": "La fuerza de la gravedad mantiene a los planetas en órbita alrededor del Sol.",
+      "autor": "Harman Smith and Laura Generosa (nee Berwin), graphic artists and contractors to NASA's Jet Propulsion Laboratory, with Pluto removed by User:Frokor",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Solar_sys8.jpg"
+    },
+    {
+      "archivo": "newton-s-apple-c58791d0.jpg",
+      "tipo": "imagen",
+      "alt": "Viñeta que ilustra la famosa anécdota sobre Isaac Newton y cómo podría haber descubierto la ley de la gravedad: al ver caer una manzana mientras observaba la luna, se da cuenta de que tanto los objetos terrestres como los celestes están sujetos a la misma fuerza: la gravedad.",
+      "autor": "Alexander Borek",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Newton%27s-apple.jpg"
+    }
+  ],
+  "relacionados": [
+    "tierra",
+    "sol",
+    "planeta",
+    "isaac-newton"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Gravedad",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Gravedad&action=history",
+    "revid": 195632,
+    "fecha": "2026-10-14"
+  }
+}

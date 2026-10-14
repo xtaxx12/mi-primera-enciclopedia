@@ -1,0 +1,85 @@
+{
+  "slug": "atmosfera",
+  "titulo": "Atmósfera",
+  "categoria": "planeta-tierra",
+  "resumen": "La atmósfera es la capa de gas que puede rodear un cuerpo celeste.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "portrait-of-jupiter-from-cassini-0c6b7224.jpg",
+      "pie": "Vista de la atmósfera de Júpiter"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>atmósfera </b> es la capa de gas que puede rodear un cuerpo celeste.</p>\n<p>Si su temperatura es baja y tiene una masa suficiente, es atraída por la <a href=\"/articulo/gravedad\">fuerza de la gravedad</a> del cuerpo celeste.</p>\n<p>La palabra <i>atmósfera</i> proviene del griego ἀτμός, <i>vapor</i>, <i>aire</i>, y σφαῖρα, <i>esfera</i>.</p>\n<h2>La atmósfera terrestre</h2>\n<p>La <b>atmósfera terrestre</b> es la parte gaseosa de la <a href=\"/articulo/tierra\">Tierra</a>, siendo por esto la capa más externa del planeta. Está constituida por varios gases. Esta mezcla de gases que forma la atmósfera recibe genéricamente el nombre de <i><b>aire</b></i>. tres partes de cuatro de la masa atmosférica se encuentra en los primeros 11 km de altura, desde la superficie del mar. Los principales elementos que la componen son el oxígeno (21%) y el nitrógeno (78%).</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "composition-of-earth-s-atmosphere-es-56a9268a.png",
+      "pie": "Diagrama de la composición de gases de la atmósfera."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La atmósfera protege la vida sobre la Tierra absorbiendo gran parte de la <a href=\"/articulo/luz\">radiación solar</a> ultravioleta en la capa de ozono. Además, actúa como escudo protector contra los meteoritos, los cuales se desintegran en polvo a causa del calor que sufren al hacer contacto con el aire.</p>\n<p>Durante millones de años la atmósfera se ha visto transformado una y otra vez en su composición . Por ejemplo; su considerable cantidad de oxígeno libre es posible gracias a las formas de vida -<i>como son las <a href=\"/articulo/planta\">plantas</a></i>- que convierten el dióxido de carbono en oxígeno, el cual es respirable -<i>a su vez</i>- por las demás formas de vida, tales como los seres humanos y los animales en general.</p>\n<h2>Capas de la atmósfera terrestre[2]</h2>\n<h3>Troposfera</h3>\n<p>Sus principales características son:</p>\n<ul><li>Su espesor alcanza desde la superficie terrestre (tanto terrestre como acuática o marina) hasta una altitud variable entre los 6 km en las zonas polares y los 18 o 20 km en la zona intertropical.</li>\n<li>A medida que se sube, disminuye la temperatura en la troposfera. En la troposfera suceden los fenómenos que componen lo que llamamos tiempo meteorológico.</li></ul>\n<h3>Estratosfera</h3>\n<p>Su nombre obedece a que está dispuesta en capas más o menos horizontales (o estratos). Se extiende entre los 9 o 18&#160;km hasta los 50&#160;km de altitud. La estratosfera es la segunda capa de la atmósfera de la Tierra. A medida que se sube, la temperatura en la estratosfera aumenta.</p>\n<ul><li><b>Ozonosfera</b></li></ul>\n<p>Se denomina capa de ozono, u ozonosfera, a la zona de la estratosfera terrestre que contiene una concentración relativamente alta de ozono. Esta capa, que se extiende aproximadamente de los 15 km a los 40 km de altitud, reúne el 90% del ozono presente en la atmósfera y absorbe del 97% al 99% de la radiación ultravioleta de alta frecuencia.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "atmosfera-02a6d365.png",
+      "pie": "Capas de la atmósfera"
+    },
+    {
+      "tipo": "html",
+      "html": "<h3>Mesosfera</h3>\n<p>Es la tercera capa de la atmósfera de la Tierra. Se extiende entre los 50 y 80 km de altura, contiene solo el 0.1% de la masa total del aire. Es la zona más fría de la atmósfera, pudiendo alcanzar los -80&#160;°C.</p>\n<h3>Termosfera o ionosfera</h3>\n<p>En la termosfera o ionosfera (de 69/90 a los 600/800 km), la temperatura aumenta con la altitud, de ahí su nombre. La ionosfera es la cuarta capa de la atmósfera de la Tierra. Se encuentra encima de la mesosfera. A esta altura, el aire es muy tenue y la temperatura cambia con la mayor o menor radiación solar tanto durante el día como a lo largo del año. Si el sol está activo, las temperaturas en la termosfera pueden llegar a 1.500° C e incluso más altas.</p>\n<h3>Exosfera</h3>\n<p>La última capa de la atmósfera de la Tierra es la exosfera (600/800 - 2.000/10.000 km). Esta es el área donde los átomos se escapan hacia el espacio. Como su nombre indica, es la región atmosférica más distante de la superficie terrestre. Su límite superior se localiza a altitudes que alcanzan los 960 e incluso 1000 km. Es la zona intermedia entre la atmósfera terrestre y el espacio interplanetario.</p>\n<h2>Fuente</h2>"
+    }
+  ],
+  "principal": {
+    "archivo": "portrait-of-jupiter-from-cassini-0c6b7224.jpg",
+    "tipo": "imagen",
+    "alt": "Vista de la atmósfera de Júpiter",
+    "autor": "NASA/JPL/Space Science Institute",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Jupiter_from_Cassini.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "portrait-of-jupiter-from-cassini-0c6b7224.jpg",
+      "tipo": "imagen",
+      "alt": "Vista de la atmósfera de Júpiter",
+      "autor": "NASA/JPL/Space Science Institute",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Jupiter_from_Cassini.jpg"
+    },
+    {
+      "archivo": "composition-of-earth-s-atmosphere-es-56a9268a.png",
+      "tipo": "imagen",
+      "alt": "Diagrama de la composición de gases de la atmósfera.",
+      "autor": "User:Dbc334, User:Liftarn",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Composition_of_Earth%27s_atmosphere_es.svg"
+    },
+    {
+      "archivo": "atmosfera-02a6d365.png",
+      "tipo": "imagen",
+      "alt": "Capas de la atmósfera",
+      "autor": "XXXL",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Atmosfera.png"
+    }
+  ],
+  "relacionados": [
+    "gravedad",
+    "tierra",
+    "luz",
+    "planta"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Atm%C3%B3sfera",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Atm%C3%B3sfera&action=history",
+    "revid": 195226,
+    "fecha": "2026-10-14"
+  }
+}

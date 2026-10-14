@@ -1,0 +1,73 @@
+{
+  "slug": "ciclo-del-agua",
+  "titulo": "Ciclo del agua",
+  "categoria": "planeta-tierra",
+  "resumen": "El ciclo del agua es un ciclo terrestre que consiste en el intercambio de agua entre las diferentes partes de la Tierra: la atmósfera, la hidrósfera y el suelo Gran parte del agua existente en la tierra, queda bloqueada en las rocas, sólo alrededor del 5% del agua se puede mover, ese cinco por…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "the-blue-marble-9870eab1.jpg",
+      "pie": "En esta imagen de nuestro planeta Tierra observamos el agua en sus tres estados: líquido, en color azul, sólido en el hielo de la Antártida y gaseoso en las nubes."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>ciclo del agua</b> es un ciclo <a href=\"/articulo/tierra\">terrestre</a>  que consiste en el intercambio de agua entre las diferentes partes de la Tierra: la <a href=\"/articulo/atmosfera\">atmósfera</a>, la hidrósfera  y el suelo  Gran parte del agua existente en la tierra, queda bloqueada en las rocas, sólo alrededor del 5% del agua se puede mover, ese cinco por ciento da lugar al ciclo del agua y permite la vida. Se llama ciclo porque las fases que ocurren se repiten una y otra vez en el mismo orden. El agua se mueve en un ciclo.</p>\n<h2>¿Qué es el ciclo del agua?</h2>\n<p>El agua de los <a href=\"/articulo/lago\">lagos</a>, ríos, y especialmente de los océanos y de los mares, calentada por el sol se evapora, es lo que se llama la evaporación. Algunos tipos de vegetación (por ejemplo, la selva) también despiden agua a causa de la evaporación y la transpiración de las plantas por las hojas. Esta agua luego llega a la atmósfera en forma de vapor. El aire caliente y húmedo se eleva y a medida que se eleva se enfría y las gotas de agua se unen para formar nubes, es el efecto de la condensación. Esta agua contenida en las nubes cae en los océanos y continentes cuando llueve y nieva (precipitaciones).</p>\n<p>Cerca de los tres cuartos de las precipitación caen en los océanos y mares. En este caso el ciclo del agua es muy corto. Cuando el agua cae sobre los continentes, corre o se infiltra (infiltración o flujo de agua subterránea). Parte de esta agua caída naturalmente se resta a la infiltración gracias a las <a href=\"/articulo/planta\">plantas</a>. El agua infiltrada llega en un tiempo más o menos largo, a un curso de agua. El agua vuelve así hasta los océanos, los lagos, y volverá a emprender otra vez el mismo camino, por lo que es un ciclo que se inicia cada vez.</p>\n<p>Sin embargo, parte del agua infiltrada es completamente atrapada por las rocas: forma las aguas subterráneas y es accesible excavando un pozo. Así se formaron durante la historia geológica de la Tierra, las capas freáticas que contienen el agua fósil.</p>\n<p>El agua está presente en tres estados durante el ciclo del agua:</p>\n<ul><li><b>Líquido</b>: en el mar, <a href=\"/articulo/lago\">lagos</a>, ríos, la lluvia ...</li>\n<li><b>Sólido:</b> como el hielo</li>\n<li><b>Gas</b>: en la evaporación (vapor de agua) y la condensación</li></ul>\n<h2>La desigual distribución del agua disponible para el hombre</h2>\n<p>El agua de mar, que es salada, representa más del 97% de las reservas disponibles (aguas superficiales). El agua dulce representa menos del 3% del agua disponible y está en su mayor parte en forma de hielo sólido en los polos y en los <a href=\"/articulo/glaciar\">glaciares</a> de montaña. Sin embargo, por procesos físicos pueden ser desalinizada para convertirla en agua dulce (pero la operación es costosa en <a href=\"/articulo/energia\">energía</a>).</p>\n<p>Algunos países utilizan más agua de la que reciben en forma de precipitación. Por lo que recurren a las reservas fósiles que se renuevan muy lentamente o no se renuevan y por lo tanto pueden ser agotables. El gran problema del siglo XXI será el de la gestión de los recursos hídricos, y los riesgos de conflictos entre usuarios y también entre los países.</p>\n<h2>Fases del ciclo del agua</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "el-ciclo-del-agua-49d1a860.jpg",
+      "pie": "Diagrama del ciclo del agua"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El ciclo del agua tiene una interacción constante con el ecosistema ya que los seres vivos dependen de ésta para sobrevivir, y a su vez ayudan al funcionamiento del mismo. Por su parte, el ciclo hidrológico depende de una <a href=\"/articulo/atmosfera\">atmósfera</a> poco contaminada y de un grado de pureza del agua bueno, ya que de otra manera, el ciclo se entorpecería por la variación en los tiempos de evaporación o condensación.</p>\n<p>Los principales procesos implicados en el ciclo del agua son:</p>\n<ul><li><b>Evaporación:</b> El agua se evapora en la superficie oceánica, sobre la superficie terrestre y también por los organismos, en el fenómeno de la transpiración en plantas y sudoración en animales. Los seres vivos, especialmente las <a href=\"/articulo/planta\">plantas</a>, contribuyen con un 10% al agua que se incorpora a la <a href=\"/articulo/atmosfera\">atmósfera</a>.</li>\n<li><b>Condensación:</b> El agua en forma de vapor sube y se condensa formando las nubes, constituidas por agua en pequeñas gotas.</li>\n<li><b>Precipitación:</b> Se produce cuando las gotas de agua que forman las nubes se enfrían acelerándose la condensación y uniéndose las gotitas de agua para formar gotas mayores que terminan por precipitarse a la superficie terrestre en razón a su mayor peso. La precipitación puede ser sólida (nieve o granizo) o líquida (lluvia).</li></ul>"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li><b>Infiltración:</b> Ocurre cuando el agua que alcanza el suelo, penetra a través de sus poros y pasa a ser subterránea. La proporción de agua que se infiltra y la que circula en superficie (escorrentía) depende de la permeabilidad de las rocas, de la pendiente y de la cobertura vegetal. Parte del agua infiltrada vuelve a la atmósfera por evaporación o, más aún, por la transpiración de las <a href=\"/articulo/planta\">plantas</a>, que la extraen con sus raíces. Otra parte se incorpora a los acuíferos, niveles que contienen agua estancada o circulante. Parte del agua subterránea alcanza la superficie allí donde los acuíferos aparecen en la superficie del terreno formando fuentes naturales, pozos, o manantiales.</li>\n<li><b>Escorrentía:</b> Este término se refiere a los diversos medios por los que el agua líquida se desliza cuesta abajo por la superficie del terreno. En la mayoría de los climas y sobre todo en los llamados desérticos, la escorrentía es el principal agente geológico de erosión y de transporte de sedimentos.</li>\n<li><b>Fusión:</b> Este cambio de estado se produce cuando la nieve pasa a estado líquido al producirse el deshielo.</li>\n<li><b>Solidificación:</b> Al disminuir la temperatura en el interior de una nube por debajo de 0&#160;°C, el vapor de agua o el agua misma se congelan, precipitándose en forma de nieve o granizo, siendo la principal diferencia entre los dos conceptos que en el caso de la nieve se trata de una solidificación del agua de la nube que se presenta por lo general a baja altura. Al irse congelando la humedad y las pequeñas gotas de agua de la nube, se forman copos de nieve, cristales de hielo  que adoptan numerosas formas visibles al <a href=\"/articulo/microscopio\">microscopio</a>, mientras que en el caso del granizo, es el ascenso rápido de las gotas de agua que forman una nube lo que da origen a la formación de hielo, el cual va formando el granizo y aumentando de tamaño con ese ascenso.</li></ul>\n<p>Este proceso se repite desde el inicio, consecutivamente por lo que nunca se termina, ni se agota el agua.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "the-blue-marble-9870eab1.jpg",
+    "tipo": "imagen",
+    "alt": "En esta imagen de nuestro planeta Tierra observamos el agua en sus tres estados: líquido, en color azul, sólido en el hielo de la Antártida y gaseoso en las nubes.",
+    "autor": "The photo was taken by the crew of Apollo 17 on their way to the Moon. Antarctica, Africa, the Arabian Peninsula, Madagascar, and part of Asia are visible. Deglr6328's comments on modifying the image: I cropped the image and adjusted only the brightness/contrast and gamma in photoshop to, what appears to my eye, be a better color match to what might actually be seen from space than the color in Image:The Earth seen from Apollo 17.jpg, which I feel is too dark/red and just odd looking (like an old faded photo). I tried to match the color in the version I uploaded to other examples of this shot as provided by NASA on various pages of theirs.",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "the-blue-marble-9870eab1.jpg",
+      "tipo": "imagen",
+      "alt": "En esta imagen de nuestro planeta Tierra observamos el agua en sus tres estados: líquido, en color azul, sólido en el hielo de la Antártida y gaseoso en las nubes.",
+      "autor": "The photo was taken by the crew of Apollo 17 on their way to the Moon. Antarctica, Africa, the Arabian Peninsula, Madagascar, and part of Asia are visible. Deglr6328's comments on modifying the image: I cropped the image and adjusted only the brightness/contrast and gamma in photoshop to, what appears to my eye, be a better color match to what might actually be seen from space than the color in Image:The Earth seen from Apollo 17.jpg, which I feel is too dark/red and just odd looking (like an old faded photo). I tried to match the color in the version I uploaded to other examples of this shot as provided by NASA on various pages of theirs.",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble.jpg"
+    },
+    {
+      "archivo": "el-ciclo-del-agua-49d1a860.jpg",
+      "tipo": "imagen",
+      "alt": "Diagrama del ciclo del agua",
+      "autor": "Malama",
+      "licencia": "cc0",
+      "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:EL_CICLO_DEL_AGUA.jpg"
+    }
+  ],
+  "relacionados": [
+    "tierra",
+    "atmosfera",
+    "lago",
+    "planta",
+    "glaciar",
+    "energia"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Ciclo_del_agua",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Ciclo_del_agua&action=history",
+    "revid": 178652,
+    "fecha": "2026-10-14"
+  }
+}

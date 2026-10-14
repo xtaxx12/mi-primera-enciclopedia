@@ -1,0 +1,75 @@
+{
+  "slug": "dinosaurio",
+  "titulo": "Dinosaurio",
+  "categoria": "animales",
+  "resumen": "Los dinosaurios fueron una clase de vertebrados Tetrápodos que vivieron en el Mesozoico y que dominaron hasta hace 65 millones de años alcanzando una gran diversidad y, algunos, tamaños gigantescos. Los ornitiquias erán herbívoros, mientras que los saurisquios carnívoros. Como las aves son grupo…",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>Los <b>dinosaurios</b> fueron una clase de vertebrados Tetrápodos que vivieron en el Mesozoico y que dominaron hasta hace 65 millones de años alcanzando una gran diversidad y, algunos, tamaños gigantescos. Los ornitiquias erán herbívoros, mientras que los saurisquios carnívoros. Como las aves son grupo hermano de estos, se podría pensar que el filo no está completamente extinto.</p>\n<p>Una de las principales características de los dinosaurios es la propiedad de tener las patas situadas en posición vertical por debajo del cuerpo, como los mamíferos, y no hacia los costados, como la mayor parte de los reptiles.</p>\n<p>Durante los últimos años se han acumulado pruebas científicas de que pequeños dinosaurios carnívoros dieron origen a las aves durante el periodo Jurásico.</p>\n<p>Los huesos fósiles de estos extintos animales fueron conocidos desde la antigüedad, pero fue el paleontólogo inglés Richard Owen quien en 1842 los bautizó como dinosaurios. En griego,&#160;<i>deinos</i>&#160;es terrible o aterradoramente grande, y&#160;<i>saurio</i>&#160;es reptil. Terribles reptiles. Para entonces se habían encontrado suficientes huesos para reconstruir diversos ejemplares y clasificarlos por sus características estructurales. En 1879, Othniel Charles Marsh bautizó al brontosaurio (reptil trueno). Calculó que medía más de 22 metros y pesaba más de 15 toneladas</p>\n<h2>Extremos</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "largestdinosaursbysuborder-scale-a9033046.png",
+      "pie": "relación de tamaño ref.el hombre"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "evolution-of-dinosaurs-es-30ac2333.png",
+      "pie": "relación evolutiva de los dinosaurios con las aves modernas"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El más alto y pesado de los dinosaurios de los cuales se recuperó el esqueleto completo fue <i>Brachiosaurus</i>, espécimen que fue descubierto en Tanzania entre 1907 y 1912. Se encuentra expuesto en el <i>Museo Humboldt de Berlín</i>, y tiene 12 metros de alto y probablemente haya pesado de 40 a 60 toneladas.</p>\n<p>El más largo de los hallados completos es un <i>Diplodocus</i>, de unos 30 metros, recuperado en Wyoming, en los <a href=\"/articulo/estados-unidos\">Estados Unidos</a> y exhibido en el <i>Museo de Historia Natural de Carnegie</i> en 1907.</p>\n<p>Otros mas antiguos de 1890 eran los primeros dinosaurios descubiertos (como iguanodon)\nEstas cifras empalidecen cuando se las compara con nuevas especies halladas después de 1970, como <i>Argentinosaurus</i>, que podría haber pesado unas 100 toneladas; <i>Seismosaurus</i>, que habría alcanzado los 50 metros de largo; o <i>Sauroposeidon</i>, de unos 17 metros de altura.</p>\n<h2>Extinción</h2>\n<p>Las investigaciones indican, que la última extinción de los dinosaurios, se produjo por el impacto de un meteorito de diez kilómetros de tamaño, en el golfo de Mexico, hace 65 millones de años. Este meteorito provocó un gran incendio que oculto el sol durante muchos años. A causa de esto el planeta se enfrió y las plantas dejaron de crecer, lo que provocó la desaparición por hambre de los grandes animales terrestres. Los pequeños animales mamíferos de sangre caliente en cambio comenzaron a extenderse hasta desembocar en la aparición del hombre.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "various-dinosaurs002-3114cfe2.jpg",
+    "tipo": "imagen",
+    "alt": "Dinosaurio",
+    "autor": "Various photographers, see source",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Various_dinosaurs002.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "various-dinosaurs002-3114cfe2.jpg",
+      "tipo": "imagen",
+      "alt": "Dinosaurio",
+      "autor": "Various photographers, see source",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Various_dinosaurs002.jpg"
+    },
+    {
+      "archivo": "largestdinosaursbysuborder-scale-a9033046.png",
+      "tipo": "imagen",
+      "alt": "relación de tamaño ref.el hombre",
+      "autor": "Largestdinosaursbysuborder_scale.png: Dinoguy2 derivative work: Niczar (talk)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Largestdinosaursbysuborder_scale.svg"
+    },
+    {
+      "archivo": "evolution-of-dinosaurs-es-30ac2333.png",
+      "tipo": "imagen",
+      "alt": "relación evolutiva de los dinosaurios con las aves modernas",
+      "autor": "Evolution_of_dinosaurs_EN.svg: *Evolution_of_dinosaurs_by_Zureks.svg: Zureks derivative work: Woudloper (talk) derivative work: PePeEfe (talk)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Evolution_of_dinosaurs_ES.svg"
+    }
+  ],
+  "relacionados": [
+    "estados-unidos",
+    "abeja",
+    "ballena"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Dinosauria",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Dinosauria&action=history",
+    "revid": 161380,
+    "fecha": "2026-10-14"
+  }
+}

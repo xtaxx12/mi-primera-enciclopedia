@@ -1,0 +1,51 @@
+{
+  "slug": "agua",
+  "titulo": "Agua",
+  "categoria": "planeta-tierra",
+  "resumen": "El agua es el líquido más común en la superficie de la Tierra. El agua es indispensable para todas las formas de vida en la Tierra. El hombre está compuesto de 65% de agua, las plantas de más del 85%. El agua es utilizada para cultivar plantas.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "h2o-17aee587.jpg",
+      "pie": "Fotomontaje sobre el tema del agua: la nieve, las nubes, el océano y dos animales acuáticos."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>agua</b> es el líquido más común en la superficie de la <a href=\"/articulo/tierra\">Tierra</a>. El agua es indispensable para todas las formas de vida en la Tierra. El hombre está compuesto de 65% de agua, las <a href=\"/articulo/planta\">plantas</a> de más del 85%. El agua es utilizada para cultivar <a href=\"/articulo/planta\">plantas</a>.</p>\n<p>La molécula de agua tiene la fórmula <b>H<sub>2</sub>O</b>. Está formada por dos átomos de hidrógeno y un átomo de oxígeno.</p>\n<h2>Características</h2>\n<p>El agua es, quizás, la sustancia más importante para todos los seres vivos. Si en el planeta no hubiese agua, no existiría la vida tal como la conocemos. Además, el agua tiene características muy particulares. Por ejemplo, es la única sustancia que puede hallarse en la superficie terrestre en los tres estados físicos: como líquido, como sólido (hielo) y como gas (vapor de agua): hay agua en estado líquido en los mares, lagos y ríos; en estado sólido, en la nieve y en el hielo, y en estado gaseoso formando parte del aire de la atmósfera.</p>\n<p>Además, el agua que se encuentra en la naturaleza es una mezcla de diversos materiales, y no sustancia pura. Por ejemplo, el agua del río es una suspensión que contiene partículas de limo suspendidas en agua, además de gases mezclados con ella. En cambio, el agua de la canilla es una solución que contiene como soluto gases, sales minerales y cloro. También son soluciones (con agua como solvente) el agua mineral y el agua de lluvia: en el agua mineral, los solutos son particulas higienicas son diversas sales minerales. En la segunda, el soluto está representado por gases provenientes del aire. El agua como sustancia pura se denomina agua destilada, y se obtiene por destilación, al separar el agua de las sales que contiene.</p>\n<p>El agua es el único material que al congelarse ocupa un mayor espacio o volumen. La cantidad de partículas de agua presentes en 1 centímetro cúbico de agua líquida es mayor a la que hay en 1 centímetro cúbico de hielo. Por ello, el hielo es más liviano y flota sobre el agua líquida. Es decir, la densidad del hielo es menor que la del agua líquida. La densidad es una propiedad específica de la materia e indica cuánto pesa un volumen determinado de un material.</p>\n<h2>Ciclo</h2>\n<p>El vapor de agua se condensa en nubes, que luego cae como lluvia. La cantidad de lluvia que cae cada año en una región es más o menos constante. Cuando la temperatura es baja, como en las regiones polares, la lluvia puede caer en forma de copos de nieve.</p>\n<p>Luego, la lluvia se filtra en la tierra. La vegetación absorbe gran parte de esta agua y la regresa a la <a href=\"/articulo/atmosfera\">atmósfera</a> en forma de transpiración.</p>\n<p>El resto del agua acaba en ríos y <a href=\"/articulo/lago\">lagos</a> y de ahí va a los océanos. Parte de esta agua es evaporada por el <a href=\"/articulo/sol\">sol</a> y regresa a la <a href=\"/articulo/atmosfera\">atmósfera</a>.</p>\n<p>El agua también es determinante para el desarrollo de los seres vivos, no solamente porque sin ella no podrían vivir, sino también para el crecimiento. Por ejemplo, en un ambiente donde llueve mucho, habrá una vegetación abundante, como en los <a href=\"/articulo/bosque\">bosques</a> y en las selvas, mientras que en los ambientes donde llueve muy poco, cómo en los desiertos, habrá muy poca vegetación</p>\n<h2>Agua potable</h2>\n<p>El agua potable es muy necesaria para los seres humanos. Un adulto necesita alrededor de 1,5 litros por día. Hay aguas que naturalmente son potables, como el agua de los pozos y de los ríos.</p>\n<p>Aún así, el agua para consumo humano debe ser filtrada para evitar ingerir los microorganismos que puedan vivir en ella. Algunas enfermedades que se adquieren de agua contaminada son la diarrea y el cólera.</p>\n<p>Millones de personas en todo el mundo no tienen acceso a agua potable. Decenas de miles de niños mueren cada año por beber agua contaminada, al contraer diarrea de ésta y luego morir de deshidratación. Los niños africanos son los más afectados.</p>\n<h2>Agua como nutriente inorgánico</h2>\n<p>Los nutrientes inorgánicos son aquellos que están presentes tanto como en la materia inerte como en los seres vivos. Uno de los nutrientes inorgánicos es el <b>agua</b>, que se encuentra en un 75% de agua al nacer y 60% en la edad adulta.</p>\n<ul><li>En el agua se disuelven todo tipo de sustancias</li>\n<li>Actúa de vehículo de transporte de sustancias</li>\n<li>Es el medio donde ocurren todas las reacciones químicas del organismo, incluidas las reacciones metabólicas</li>\n<li>Regula la temperatura del cuerpo</li></ul>\n<p>Se obtiene agua bebiéndola o al consumir alimentos ricos en ella. Es expulsada al exterior mediante la orina, el sudor y las heces.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "h2o-17aee587.jpg",
+    "tipo": "imagen",
+    "alt": "Fotomontaje sobre el tema del agua: la nieve, las nubes, el océano y dos animales acuáticos.",
+    "autor": "Serg!o",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0/es/deed.en",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:H2O.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "h2o-17aee587.jpg",
+      "tipo": "imagen",
+      "alt": "Fotomontaje sobre el tema del agua: la nieve, las nubes, el océano y dos animales acuáticos.",
+      "autor": "Serg!o",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0/es/deed.en",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:H2O.jpg"
+    }
+  ],
+  "relacionados": [
+    "tierra",
+    "planta",
+    "atmosfera",
+    "lago",
+    "sol",
+    "bosque"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Agua",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Agua&action=history",
+    "revid": 184133,
+    "fecha": "2026-10-14"
+  }
+}

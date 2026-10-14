@@ -1,0 +1,135 @@
+{
+  "slug": "costa-rica",
+  "titulo": "Costa Rica",
+  "categoria": "paises",
+  "resumen": "Costa Rica también conocido como República de Costa Rica, es un país latinoamericano ubicado en América Central. Su capital es San José y su idioma oficial es el español.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "costa-rica-cia-wfb-map-e55c852a.png",
+      "pie": "Mapa de Costa Rica"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Costa Rica</b>  también conocido como República de Costa Rica, es un país latinoamericano ubicado en América Central. Su capital es San José y su idioma oficial es el español.</p>\n<p>Limita al norte con la <a href=\"/articulo/nicaragua\">República de Nicaragua</a> y al sureste con la <a href=\"/articulo/panama\">República de Panamá</a>. Es bañado al este por el mar Caribe y al oeste por el <a href=\"/articulo/oceano-pacifico\">océano Pacífico</a>.</p>\n<p>Costa Rica tiene siete provincias: San José, Alajuela, Heredia, Cartago, Puntarenas, Limón y Guanacaste</p>\n<p>El país tiene una extensión de 51.100&#160;km² y una población de 4.016.173 habitantes (2014). Aproximadamente el 87% de la población es blanca, de ascendencia española y griega, incluyendo a inmigrantes blancos de <a href=\"/articulo/colombia\">Colombia</a>, <a href=\"/articulo/argentina\">Argentina</a>, <a href=\"/articulo/estados-unidos\">Estados Unidos</a>, <a href=\"/articulo/brasil\">Brasil</a> y de Europa.</p>\n<p>Una gran mayoría de la población es Católica Romana (más del 80%).</p>\n<p>Costa Rica comprende muchas islas. Destacan la isla del Coco (24&#160;km²) y la isla Calero que es la isla más grande del país con 151.6&#160;km².</p>\n<p>Este país es uno de los pocos que no tiene ejercito nacional. Su actual presidenta es Laura Fernández Delgado desde 2026.</p>\n<h2>Historia</h2>\n<p>Costa Rica fue descubierta por <a href=\"/articulo/cristobal-colon\">Cristóbal Colón</a> el 25 de septiembre de 1502, en su cuarto viaje.</p>\n<p>Las riquezas encontradas a hicieron que el gobernador de Panamá, enviara una misión que bordeando el litoral pacífico desembarcó en el río Grande de Tárcoles y logró fundar Villa Bruselas en 1524, siendo esta la primera población colonial en territorio costarricense.</p>\n<p>En 1562, Juan Vázquez de Coronado recorrió los cuatro costados del territorio costarricense y participó en dos expediciones. Se le conoce como el verdadero conquistador de Costa Rica por el papel pacificador que desempeñó al lado de los indígenas.</p>\n<p>Durante el período colonial, el territorio de la actual Costa Rica formó parte del Virreinato de Nueva España y se independizó del Imperio Español el 15 de septiembre de 1821, junto a las demás provincias que formaban parte de la <b>Capitanía General de Guatemala</b>.</p>\n<h2>Geografía</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "costa-rica-topography-d3096054.png",
+      "pie": "Mapa del relieve de Costa Rica."
+    },
+    {
+      "tipo": "html",
+      "html": "<h3>Relieve</h3>\n<p>Costa Rica es un país muy <a href=\"/articulo/montana\">montañoso</a> y la mayor parte del territorio está formado por elevaciones de entre 900 y 1800 metros sobre el nivel del mar.</p>\n<p>Existen tres sistemas montañosos principales: la Cordillera Volcánica de Guanacaste, la Sierra Minera de Tilarán, la Cordillera Volcánica Central y la Cordillera de Talamanca.</p>\n<p>En el centro del país se encuentra el Gran Valle Central, una especie de meseta caracterizada por su fertilidad y abundancia de fuentes hídricas, rodeada por montañas y volcanes. En esa zona reside la mayor parte de la población del país, aproximadamente 60% de los habitantes.</p>\n<p>La llanura costera del Caribe tiene poca altitud y está parcialmente cubierta de selvas tropicales.</p>\n<p>El punto más alto en el país es el cerro Chirripó a 3820 msnm . El volcán más alto es el volcán Irazú con 3432 msnm.</p>\n<h2>Hidrografía</h2>\n<p>Costa Rica cuenta con una red hidrográfica extensa, la cual se encuentra distribuida en tres vertientes y se clasifican según su desembocadura en vertientes norte, Caribe y <a href=\"/articulo/oceano-pacifico\">Pacífico</a>.</p>\n<p>Los ríos que forman la vertiente norte desembocan en el lago de Nicaragua o en el río San Juan, son generalmente cortos y tienen un régimen torrencial. Los ríos más importantes de esta vertiente son: Sapoá (32&#160;km), Frío (70&#160;km), Haciendas y San Carlos (125&#160;km). El otro sistema hidrográfico de esta vertiente lo forman los ríos Toro, Cuarto y Sucio, que se unen para formar el río Sarapiquí (103&#160;km), el cual es navegable en más de la mitad de su curso.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "pie": "Clima en Costa Rica"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li>Los ríos de la vertiente del Caribe tienen un torrente constante durante todo el año, relacionado con las abundantes precipitaciones de la región atlántica. El más importante es el río Sixaola (76&#160;km), que forma límite natural con Panamá, es navegable.</li>\n<li>Los ríos de la vertiente del Pacífico suelen ser tranquilos, con un caudal menos torrentoso. El río más importante es el río Tempisque, cuya longitud es de 144&#160;km, es navegable</li>\n<li>En la región del Pacífico Central se ubican los ríos Jesús María y Grande de Tárcoles</li></ul>\n<p>La cuenca del río Grande de Tárcoles (111&#160;km) es muy importante para el país, dado que aporta toda la riqueza de sus recursos naturales. Tiene un área de 2.121 km2, una precipitación de 2 456&#160;mm y un caudal de 48 litros por segundo y kilómetro cuadrado.</p>\n<p>El río Grande de Térraba (o Díquis, su nombre aborigen), formado por los ríos General y Coto Brus, es el más extenso (186&#160;km) y caudaloso del país. Desemboca mediante un amplio delta cubierto de manglares en el Golfo Dulce.</p>\n<h2>Flora y fauna</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "manglar-de-tamarindo-rio-matapalo-tamarindo-guanacaste-costa-688945ab.jpg",
+      "pie": "Manglar en el parque nacional Las Baulas."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Entre las especies más sobresalientes que habitan el país están el puma, el jaguar, el venado, el mono, el coyote, el armadillo y varias especies de aves entre las que destacan el quetzal, el yigüirro y el colibrí. Costa Rica es el primer país del continente americano en prohibir la cacería de animales por deporte.</p>\n<p>Un 46.8% de la superficie continental total del país se encuentra cubierta de bosques y selvas, aproximadamente el 25% del territorio se encuentra protegido.</p>\n<p>Costa Rica posee aproximadamente el 6% de la biodiversidad de nuestro planeta. Es el país con mayor biodiversidad del planeta por kilómetro cuadrado de territorio. Costa Rica da cobijo a: 232 especies de mamíferos, 838 especies de aves, 183 especies de anfibios, 258 especies de reptiles y 130 especies de peces de agua dulce.</p>\n<h2>Economía</h2>\n<p>Costa Rica ha sufrido una fuerte evolución en su economía, pasando de ser un país eminentemente agrícola a una economía de servicios.</p>\n<p>Las exportaciones de Costa Rica que proceden de productos agrícolas tradicionales son el banano, el café, el azúcar, el cacao y la piña.</p>\n<p>El turismo es la industria con mayor crecimiento y desde inicios de la década de 2000 genera más divisas que cualquiera de los principales productos agrícolas de exportación.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "arial-photo-of-carrillo-4e51ca79.jpg",
+      "pie": "Foto aérea de Carrillo"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>A mediados de los años 90 se inició la producción de materiales y productos tecnológicos y de micro tecnología. Se han instalado las centrales de servicios de diversas multinacionales destacando: Procter &amp; Gamble, Coca-Cola, Intel, Hewlett-Packard, Sykes, Sony, DHL, Amazon, GlaxoSmithKline, Pfizer, Western Union, Baxter, IBM, Oracle, Walmart y Dole Food Company.</p>\n<h2>Turismo</h2>\n<p>El ecoturismo es muy popular entre los turistas extranjeros que visitan los parques nacionales y áreas protegidas que existen por todo el país.</p>\n<p>La mayoría de los visitantes extranjeros proviene de los <a href=\"/articulo/estados-unidos\">Estados Unidos</a> (39%) y <a href=\"/articulo/canada\">Canadá</a> (7%), y de países de la Unión Europea.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "cri-orthographic-75efc7fd.png",
+    "tipo": "imagen",
+    "alt": "Costa Rica",
+    "autor": "Addicted04",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:CRI_orthographic.svg"
+  },
+  "medios": [
+    {
+      "archivo": "cri-orthographic-75efc7fd.png",
+      "tipo": "imagen",
+      "alt": "Costa Rica",
+      "autor": "Addicted04",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:CRI_orthographic.svg"
+    },
+    {
+      "archivo": "costa-rica-cia-wfb-map-e55c852a.png",
+      "tipo": "imagen",
+      "alt": "Mapa de Costa Rica",
+      "autor": "United States Central Intelligence Agency",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Costa_Rica-CIA_WFB_Map.png"
+    },
+    {
+      "archivo": "costa-rica-topography-d3096054.png",
+      "tipo": "imagen",
+      "alt": "Mapa del relieve de Costa Rica.",
+      "autor": "Sadalmelik",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Costa_Rica_Topography.png"
+    },
+    {
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "tipo": "imagen",
+      "alt": "Climas de Bolivia",
+      "autor": "Peel, M. C., Finlayson, B. L., and McMahon, T. A. (University of Melbourne)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:South_America_K%C3%B6ppen_Map.png"
+    },
+    {
+      "archivo": "manglar-de-tamarindo-rio-matapalo-tamarindo-guanacaste-costa-688945ab.jpg",
+      "tipo": "imagen",
+      "alt": "Manglar en el parque nacional Las Baulas.",
+      "autor": "ReservasdeCoches.com",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Manglar_de_Tamarindo_-_Rio_Matapalo_-_Tamarindo_-_Guanacaste_-_Costa_Rica.JPG"
+    },
+    {
+      "archivo": "arial-photo-of-carrillo-4e51ca79.jpg",
+      "tipo": "imagen",
+      "alt": "Foto aérea de Carrillo",
+      "autor": "Jackiemora01",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Arial_photo_of_Carrillo.jpg"
+    }
+  ],
+  "relacionados": [
+    "nicaragua",
+    "panama",
+    "oceano-pacifico",
+    "colombia",
+    "argentina",
+    "estados-unidos"
+  ],
+  "pais": {
+    "adm0": "CRI"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Costa_Rica",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Costa_Rica&action=history",
+    "revid": 190278,
+    "fecha": "2026-10-14"
+  }
+}

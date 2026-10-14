@@ -1,0 +1,77 @@
+{
+  "slug": "electricidad",
+  "titulo": "Electricidad",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "La electricidad (del griego ήλεκτρον elektron, cuyo significado es ámbar) es un fenómeno físico que está relacionado con las propiedades de la materia. Su origen son las cargas eléctricas y su energía se manifiesta en fenómenos mecánicos (motor), térmicos (tostadora), luminosos (bombilla) y…",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>La <b>electricidad</b> (del griego ήλεκτρον <i>elektron</i>, cuyo significado es ámbar) es un fenómeno físico que está relacionado con las propiedades de la materia. Su origen son las cargas eléctricas y su <a href=\"/articulo/energia\">energía</a> se manifiesta en fenómenos mecánicos (motor), térmicos (tostadora), luminosos (bombilla) y químicos (pila o batería), entre otros.</p>\n<p>Se puede definir también, de forma más sencilla, como el movimiento de los electrones .</p>\n<p>Se produce en los generadores de electricidad o alternadores. En ellos, al moverse unos imanes alrededor de unas bobinas de cables conductores, se produce la corriente eléctrica en los cables. También pueden moverse las bobinas y permanecer fijos los imanes, no importa quienes se muevan, lo importante es el movimiento rotatorio del generador.</p>\n<h2>Circuito eléctrico</h2>\n<p>Un circuito eléctrico es un medio de transportar la energía producida por un <b>generador</b> hacia un <b>receptor</b>, que convierte la energía eléctrica en otra  forma de energía: energía mecánica (movimiento) a través de un motor, energía térmica (calor) o energía química para el tratamiento de materiales (por ejemplo, producir metales a partir de minerales). Por su parte, un generador hace lo contrario: es un objeto que transforma una forma cualquiera de energía (solar, química, térmica, etc.) en energía eléctrica.</p>\n<h2>Partículas de materia cargadas</h2>\n<p>Las cargas eléctricas están presentes en algunos componentes de la materia. Hay dos tipos de partículas cargadas:</p>\n<ul><li>El <b>protón</b>, que tiene una carga positiva, se encuentra <b>dentro</b> del núcleo de los <a href=\"/articulo/atomo\">átomos</a>;</li>\n<li>El <b>electrón</b>, que tiene una carga negativa (opuesta) y se encuentra <b>alrededor</b> del núcleo atómico. Dependiendo del material (en los metales o el <a href=\"/articulo/agua\">agua</a>, por ejemplo), algunos de los electrones pueden fluir libremente, lo que permite que haya un movimiento de electrones, es decir, una corriente eléctrica.</li></ul>\n<p>El estudio de los fenómenos eléctricos se llama:</p>\n<ul><li><b>electro<i>estática</i></b> cuando las cargas son estacionarias en relación con su entorno;</li>\n<li><b>electro<i>dinámica</i></b> cuando se desplazan.</li></ul>\n<h2>Transmisión de la electricidad</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "electricity-grid-simple-north-america-es-c895c40f.png",
+      "pie": "Esquema simple de la red de electricidad en Norteamérica."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La corriente eléctrica se transmite muy rápidamente: varios miles de kilómetros por segundo. Sin embargo, los electrones (que son su apoyo), no se mueven tan rápido: se agitan mucho, pero lo hacen en minúsculas idas y vueltas en torno a su posición y por lo tanto no \"avanzan\" más que en un promedio de sólo unos pocos centímetros, hasta varios metros por segundo. La propagación de la corriente es sin embargo posible, pues los electrones se empujan y golpean entre sí, y la energía que ellos transportan se propaga a través estos choques.</p>\n<p>Esta transmisión se puede hacer con corriente alterna o corriente directa.</p>\n<p>La electricidad es un medio muy práctico y muy importante en nuestra sociedad para transportar la energía necesaria para muchos usos: iluminación, máquinas o aparatos con un motor, electrónica o calefacción.</p>\n<h2>Producción de electricidad</h2>\n<p>Generar electricidad es utilizar una energía diferente que se convierte en electricidad. Actualmente se utilizan varios tipos de energía para la generación de electricidad.</p>\n<p>La energía eléctrica se produce mediante la conversión de otra forma de <a href=\"/articulo/energia\">energía</a>.</p>\n<ul><li><i>La energía solar</i> puede ser captada por paneles solares y transformarse en electricidad. Fue Albert Einstein quien explicó este fenómeno, lo que le valió recibir el Premio Nobel. La eficiencia de los paneles solares aún es baja y el costo de producción es aún demasiado costosos para que esta fuente de energía se ampliamente utilizada. La cantidad de electricidad producida depende de la intensidad del sol.</li>\n<li><i>La energía hidroeléctrica</i> se utiliza en las presas de energía hidroeléctrica. El agua embalsada por la presa se hace fluir a través de una tubería en la que se encuentra una turbina. La rotación de la turbina (energía mecánica), mueve un generador que produce electricidad. Las centrales hidroeléctricas no son contaminantes pero requieren la construcción de una presa. La posibilidad de construir presas depende del río.</li>\n<li><i>Energía de las mareas,</i> que utiliza la diferencia en el nivel del mar durante la marea alta y marea baja para hacer funcionar las turbinas.</li></ul>"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li><i>El viento</i> puede activar las enormes hélices conectadas a los generadores que producen electricidad. La principal desventaja es que estos molinos de gran tamaño no son muy estéticos y se deben colocar en lugares donde haya viento todo el año. Algunos países los han puesto en lugares como desiertos o en el mar.</li>\n<li><i>La energía térmica</i> producida por la energía contenida en el carbón o en el petróleo (energía química) se utiliza para calentar <a href=\"/articulo/agua\">agua</a> y generar vapor bajo presión en las centrales eléctricas. El vapor hace mover las turbinas, y como en los embalses, se utiliza para generar electricidad. Estas centrales son contaminantes, requieren petróleo o carbón y no tienen un rendimiento muy alto. El petróleo y el carbón son combustibles fósiles, es decir, que hay que extraer de la tierra y no son inagotables.</li>\n<li><i>la energía nuclear</i>: en plantas de energía nuclear, es la energía contenida en la materia que permite calentar el agua y generar electricidad; es similar a la de las centrales térmicas. Estas plantas pueden ser peligrosos para el medio ambiente en caso de problemas (caso de la central nuclear de Chernobyl). Requieren una técnica difícil de controlar y el uso del mineral de uranio, que debe ser enriquecido. Los residuos radiactivos duran cientos de millones de años. Por último, estas plantas pueden producir plutonio a partir del uranio, lo que permite, en teoría, la construcción de un bomba atómica.</li>\n<li><i>La energía <a href=\"/articulo/musculo\">muscular</a></i>, por lo tanto química, permite también generar electricidad. En algunas bicicletas, una dinamo acoplada a una <a href=\"/articulo/rueda\">rueda</a>, puede transformar la energía de rotación de la rueda en energía eléctrica que puede iluminar una bombilla.</li></ul>\n<p>Cabe señalar que la electricidad puede almacenarse difícilmente, a diferencia de otras formas de energía. La producción debe ser igual al consumo. No se puede generar electricidad por adelantado.</p>\n<h3>Ventajas y desventajas</h3>\n<p>Todos los sistemas que producen energía eléctrica tienen sus ventajas y desventajas. Algunos son altamente contaminantes, mientras que otros no lo son, entonces se habla de fuentes de energía limpia.</p>\n<p>Algunas fuentes de energía se dice que son renovables (fuentes de energía que nunca se agotan), mientras que otros son fuentes no renovables de energía. El uso de determinadas fuentes de energía puede ser muy costoso. Por último, algunos sistemas pueden producir una gran cantidad de energía eléctrica.</p>\n<ul><li><i>Fuentes de energía renovables: eólica, energía hidroeléctrica, la fuerza muscular, los paneles solares.</i></li>\n<li><i>Fuentes de energía limpia: eólica, paneles solares, pilas de combustible.</i></li>\n<li><i>Fuentes de energía sin emisión de dióxido de carbono</i>: las fuentes de energía limpia y las centrales nucleares (a pesar de que generan residuos radiactivos).</li>\n<li><i>Gran producción de energía</i>: plantas de energía nuclear, centrales térmicas, algunas centrales hidroeléctricas.</li></ul>\n<h2>Distribución de la energía eléctrica</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "pylone-and-line-drawing-22ccecc6.png",
+      "pie": "Esquema de torres de conducción de electricidad por medio de líneas de alta tensión"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>A través de una red de cables conductores, la electricidad se distribuye en los hogares, fábricas, siempre que haya un dispositivo eléctrico.</p>\n<p>Para facilitar el transporte desde el lugar de producción, existen líneas de alta tensión. El voltaje es de varios cientos de miles de voltios. Son realmente las carreteras de la electricidad. La tensión entre los conductores de estas líneas se convierte muchas veces en los transformadores. El valor de la tensión utilizada por los particulares es de 230 voltios, en la Unión Europea, o de 110 voltios en los <a href=\"/articulo/estados-unidos\">Estados Unidos</a> y algunos otros países.</p>\n<h2>La importancia de la electricidad</h2>\n<p>En el pasado, para distribuir la energía en un taller o una fábrica, se utilizaron sistemas mecánicos, principalmente poleas y correas que muchas veces causaban accidentes. Por otra parte, la energía no se podía llevar muy lejos. Es por eso que estos talleres y fábricas se construyeron cerca de las fuentes de energía: las orillas de los ríos o cerca de fuentes de combustibles que permitieran hacer funcionar las máquinas de vapor, tales como grandes bosques o las minas de carbón. La electricidad permite transportar la energía a largas distancias con pérdidas relativamente bajas.</p>\n<p>Algunos metales, como el aluminio, solo pueden ser producidos por la electrólisis, es decir, gracias a la electricidad.</p>\n<p>Nuestro mundo moderno es muy dependiente de la electricidad. Como prueba de ello, tratemos de imaginar lo que sería un día sin luz eléctrica, sin <a href=\"/articulo/tren\">trenes</a> eléctricos, sin ascensores, sin aire acondicionado (en los países cálidos), sin fábricas, ... Tener una buena fuente de electricidad es una preocupación importante para todos los gobiernos del mundo.</p>\n<h2>Magnitudes y unidades</h2>\n<p>Para estudiar la electricidad o trabajar en sus aplicaciones, utilizamos varias magnitudes y unidades:</p>\n<ul><li>La <a href=\"/articulo/energia\">energía</a>, que se mide en julio s (J) según el sistema métrico, y más a menudo en kilovatio-hora (kW.h)</li>\n<li>El trabajo, que se mide en vatios (W);</li>\n<li>La tensión, que se mide en voltios (V) (en lugar de tensión, a veces se dice <i>voltaje</i>, un término importado del inglés);</li>\n<li>La intensidad, que se mide en amperios (A);</li>\n<li>La carga eléctrica, que se mide en culombios (C);</li>\n<li>La resistencia, que se mide en ohmios (Ω);</li>\n<li>La capacidad, que se mide en faradios (F) y permite caracterizar un condensador;</li>\n<li>La inductancia, que se mide en henrios (H) y permite caracterizar una bobina.</li></ul>\n<p>Dependiendo de la materia estudiada, puede ser más probable encontrarse con múltiplos de estas unidades: miliamperios (mA) microfaradios (µF), megavatios (MW), etc.</p>\n<h2>Fechas importantes de los descubrimientos sobre la electricidad</h2>\n<p>La electricidad existe desde el inicio del mundo, como los rayos, por ejemplo; por contra, se fue descubriendo poco a poco y se han ido inventado los medios de producirla y usarla.</p>\n<p>La electricidad estática se conoce desde la Antigüedad.</p>\n<p>En 1800, es oficialmente cuando se inventó la primera pila eléctrica por Alessandro Volta. En 1821, Michael Faraday construyó un dispositivo que hacía girar un objeto pequeño con la electricidad, lo que fue un antepasado de los motores eléctricos. Más tarde, todavía en el siglo XIX, hubo un avances muy significativos, y al final de este siglo, comenzaron a instalar las líneas de ferrocarril electrificadas: lo que quiere decir que entre 1821 y 1900, aprendimos a generar energía en grandes cantidades, a ser transportada a largas distancias y a hacer motores de gran potencia.</p>\n<ul><li>Antigüedad: el sabio griego Tales hizo varias observaciones sobre la electricidad y el magnetismo.</li>\n<li>1760: Benjamin Franklin inventó el pararrayos.</li>\n<li>1800: Alessandro Volta inventó la batería.</li>\n<li>1879 Thomas Edison inventó la bombilla incandescente.</li>\n<li>Año 1880: hacen su aparición las primeras líneas eléctricas.</li>\n<li>A partir de 1900: la electricidad entra en la vida diaria.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "electricity-grid-simple-north-america-es-c895c40f.png",
+    "tipo": "imagen",
+    "alt": "Esquema simple de la red de electricidad en Norteamérica.",
+    "autor": "Manlleus",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Electricity_grid_simple-_North_America_es.svg"
+  },
+  "medios": [
+    {
+      "archivo": "electricity-grid-simple-north-america-es-c895c40f.png",
+      "tipo": "imagen",
+      "alt": "Esquema simple de la red de electricidad en Norteamérica.",
+      "autor": "Manlleus",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Electricity_grid_simple-_North_America_es.svg"
+    },
+    {
+      "archivo": "pylone-and-line-drawing-22ccecc6.png",
+      "tipo": "imagen",
+      "alt": "Esquema de torres de conducción de electricidad por medio de líneas de alta tensión",
+      "autor": "Benoit Serrier El código fuente de esta imagen SVG es válido. Este gráfico vectorial fue creado con Inkscape-default",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Pylone_and_line_drawing.svg"
+    }
+  ],
+  "relacionados": [
+    "energia",
+    "atomo",
+    "agua",
+    "musculo",
+    "rueda",
+    "estados-unidos"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Electricidad",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Electricidad&action=history",
+    "revid": 210784,
+    "fecha": "2026-10-14"
+  }
+}

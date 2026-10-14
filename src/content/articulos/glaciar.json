@@ -1,0 +1,84 @@
+{
+  "slug": "glaciar",
+  "titulo": "Glaciar",
+  "categoria": "planeta-tierra",
+  "resumen": "Un glaciar es una gruesa masa de hielo que se origina en la superficie terrestre por acumulación y endurecimiento de la nieve y que se mueve lentamente. Se forman en los valles de las altas montañas o en las zonas polares cuando la precipitación anual de nieve supera a la que se funde en verano.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "perito-moreno-glaciar-8f9b4540.jpg",
+      "pie": "Glaciar Perito Moreno, en el Parque nacional Los Glaciares, sur de Argentina."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>glaciar</b> es una gruesa masa de hielo que se origina en la superficie terrestre por acumulación y endurecimiento de la nieve y que se mueve lentamente. Se forman en los valles de las altas montañas o en las zonas polares cuando la precipitación anual de nieve supera a la que se funde en verano.</p>\n<p>Un 11&#160;% de la Tierra está cubierta de glaciares en ambos polos. En la actualidad la mayoría de los glaciares está en la <a href=\"/articulo/antartida\">Antártida</a>, una parte menor en Groenlandia y el resto en otras zonas elevadas del planeta.</p>\n<h2>Movimiento</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "arranque-glaciar-f9f76223.png",
+      "pie": "Erosión glaciar"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los glaciares que se forman en las montañas se deslizan pendiente abajo, como lo hace un río, pero con velocidades lentas de entre 10 y 100 metros por año. Al tiempo que se mueven, van erosionando con su peso y arrastre las laderas y el fondo del valle por donde discurre.</p>\n<h2>Partes de un glaciar</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "paisaje-glaciar-lmb-f502b17c.png",
+      "pie": "Descripción de un glaciar."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>En un glaciar se distinguen tres partes:</p>\n<ul><li><b>Circo</b>, depresión rodeada de montañas, situado por encima del nivel de las nieves perpetuas. Aquí la nieve se transforma en hielo glaciar permanente y de un tono azulado.</li>\n<li><b>Lengua</b>, llamada así por su forma. Es la masa de hielo que avanza por el valle, al que erosiona en forma de “U”. La erosión en esta zona es muy fuerte debido al enorme peso de la masa de hielo acumulado y a la fricción de los materiales que arrastra.</li>\n<li><b>Frente del glaciar</b>, es la parte donde se funde la lengua y se depositan los materiales arrastrados, llamados <b>morrena frontal</b>. Si llega a desaparecer el glaciar esas morrenas pueden taponar el valle, dando lugar a la formación de un lago, ( por ejemplo, el lago Argentino, en la provincia <a href=\"/articulo/argentina\">argentina</a> de Santa Cruz )  </li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "perito-moreno-glaciar-8f9b4540.jpg",
+    "tipo": "imagen",
+    "alt": "Glaciar Perito Moreno, en el Parque nacional Los Glaciares, sur de Argentina.",
+    "autor": "Christian Van Der Henst, http://www.cvander.com",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Perito-moreno-glaciar.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "perito-moreno-glaciar-8f9b4540.jpg",
+      "tipo": "imagen",
+      "alt": "Glaciar Perito Moreno, en el Parque nacional Los Glaciares, sur de Argentina.",
+      "autor": "Christian Van Der Henst, http://www.cvander.com",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Perito-moreno-glaciar.jpg"
+    },
+    {
+      "archivo": "arranque-glaciar-f9f76223.png",
+      "tipo": "imagen",
+      "alt": "Erosión glaciar",
+      "autor": "Original:Lmb at es.wikipedia Vectorized version: Chabacano",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Arranque_glaciar.svg"
+    },
+    {
+      "archivo": "paisaje-glaciar-lmb-f502b17c.png",
+      "tipo": "imagen",
+      "alt": "Descripción de un glaciar.",
+      "autor": "Lmb de Wikipedia en español",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Paisaje_glaciar_Lmb.png"
+    }
+  ],
+  "relacionados": [
+    "antartida",
+    "argentina",
+    "agua"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Glaciar",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Glaciar&action=history",
+    "revid": 211927,
+    "fecha": "2026-10-14"
+  }
+}

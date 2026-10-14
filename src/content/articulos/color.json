@@ -1,0 +1,24 @@
+{
+  "slug": "color",
+  "titulo": "Color",
+  "categoria": "arte-y-musica",
+  "resumen": "El color es un atributo de los objetos que percibimos cuando hay luz. El ojo humano puede distinguir hasta unos 10 000 colores.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>color</b> es un atributo de los objetos que percibimos cuando hay <a href=\"/articulo/luz\">luz</a>. El <a href=\"/articulo/ojo\">ojo humano</a> puede distinguir hasta unos 10 000 colores.</p>\n<p>Fue el físico <a href=\"/articulo/isaac-newton\">Isaac Newton</a> (1642-1727) quien estableció el principio aceptado hasta hoy de que la <b>luz es color</b>. Descubrió que al pasar un rayo de luz por un prisma de cristal éste se dividía en siete colores: violeta, añil, azul, verde, amarillo, naranja y rojo. Estos son los colores del arco iris, que se puede observar en el cielo cuando llueve y a la vez hace sol, las gotas de lluvia actúan como prismas que descomponen la luz blanca del sol en los siete colores del espectro.</p>\n<p>Los cuerpos tienen la propiedad de absorber o reflejar todas o parte de las radiaciones que forman la luz. Si el cuerpo refleja todas las radiaciones percibimos el objeto de color blanco, si absorbe todas las radiaciones el ojo no percibe ninguna y lo veremos de color negro y si refleja una sola lo veremos del color de esa radiación: verde, azul, rojo...</p>\n<h2>Clasificación de los colores</h2>\n<p>Los colores rojo, amarillo y azul son llamados <b>colores primarios</b> porque al mezclarlos se obtienen los demás colores. la primera combinación da por resultado los <b>colores secundarios</b> que son: el verde (combinación del amarillo y del azul), el morado (combinando el rojo y el azul) y el anaranjado (combinando el rojo y el amarillo).</p>"
+    }
+  ],
+  "medios": [],
+  "relacionados": [
+    "luz",
+    "ojo",
+    "isaac-newton"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Color",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Color&action=history",
+    "revid": 153125,
+    "fecha": "2026-10-14"
+  }
+}

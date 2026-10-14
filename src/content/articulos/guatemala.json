@@ -1,0 +1,153 @@
+{
+  "slug": "guatemala",
+  "titulo": "Guatemala",
+  "categoria": "paises",
+  "resumen": "Guatemala es un país ubicado en América Central. Su capital es Ciudad de Guatemala.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "guatemala-cia-wfb-map-2b5951d8.png",
+      "pie": "Mapa de Guatemala"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Guatemala</b> es un país ubicado en América Central. Su capital es Ciudad de Guatemala.</p>\n<p>Limita al oeste y norte con <a href=\"/articulo/mexico\">México</a>, al este con Belice y el golfo de <a href=\"/articulo/honduras\">Honduras</a>, al sureste con <a href=\"/articulo/honduras\">Honduras</a> y <a href=\"/articulo/el-salvador\">El Salvador</a>, y al sur con el <a href=\"/articulo/oceano-pacifico\">océano Pacífico</a>.</p>\n<p>El idioma oficial es el español, asimismo cuenta con 23 idiomas mayas.</p>\n<h2>Historia</h2>\n<h3>Época prehispánica</h3>\n<p>Dentro de sus límites territoriales se desarrollaron varias culturas. Entre ellas la <a href=\"/articulo/mayas\">Civilización Maya</a> que sobresalió en varias disciplinas científicas tales como la arquitectura, la escritura, un avanzado cálculo del tiempo por medio de las matemáticas y la astronomía.</p>\n<p>Eran cazadores, agricultores, practicaban la pesca, domesticaron animales como pavos y patos; se trasportaban en canoas para navegar por los ríos y para viajar a las <a href=\"/articulo/isla\">islas</a> cercanas.</p>\n<p>También destacaron en la <a href=\"/articulo/pintura\">pintura</a>, la <a href=\"/articulo/escultura\">escultura</a>, la orfebrería y la metalurgia del cobre, tejían el algodón y la fibra de agave, desarrollaron el más completo sistema de <a href=\"/articulo/escritura\">escritura</a> en América prehispánica.</p>\n<h3>Colonización española</h3>\n<p>En 1523 los conquistadores españoles llegaron por el oeste, provenientes de <a href=\"/articulo/mexico\">México</a>, bajo el mando del capitán Pedro de Alvarado, fundando su primer asentamiento en 1524 en las cercanías de Iximché, capital de los kaqchikeles, villa que recibió por nombre Santiago de los Caballeros de Guatemala en honor al apóstol.</p>\n<p>Durante la dominación española, que duró casi 300 años, Guatemala fue (Capitanía General del Reino de Guatemala), formando parte del Virreinato de la Nueva España. La Capitanía General de Guatemala se extendía desde la región de Chiapas (en la actualidad perteneciente a <a href=\"/articulo/mexico\">México</a>) hasta la actual <a href=\"/articulo/costa-rica\">Costa Rica</a>.</p>\n<p>La independencia del imperio Español fue el 15 de septiembre de 1821.</p>\n<h2>Geografía</h2>\n<h3>Relieve</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "guatemala-topography-f8bde544.png",
+      "pie": "Mapa topográfico de Guatemala"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Su geografía es en gran parte montañosa. Posee suaves playas en su litoral del <a href=\"/articulo/oceano-pacifico\">océano Pacífico</a> y planicies bajas al norte del país. Es atravesada en su parte central por la Cordillera de los Cuchumatanes y parte de la Sierra Madre del Sur.</p>\n<p>La cumbre más elevada del país es el volcán Tajumulco (4.220 msnm); destacan también el Tacaná (4.030 msnm) entre la frontera de Guatemala-México, el Santa María (3.772 msnm), el Agua (3.766 msnm), el Fuego (3.763 msnm), el volcán Atitlán (3.537 msnm), situado junto al bellísimo lago de su mismo nombre, y el volcán de Pacaya (2.552 msnm) situado junto al lago de Amatitlán.</p>\n<h3>Flora y fauna</h3>\n<p>A pesar de ser un país pequeño en tamaño Guatemala es excepcional, con siete biomas y catorce ecorregiones, en términos de diversidad biológica en comparación a otros países.</p>\n<p>Su diversidad biológica incluye mamíferos, reptiles, anfibios, aves y <a href=\"/articulo/planta\">plantas</a>. Más del 13% de las especies de mamíferos, reptiles, anfibios, aves y plantas son endémicas. Este rasgo es particularmente notorio para la flora, ya que más del 15% de las especies que existen en el país son consideradas endémicas. Guatemala alberga más de 9 mil especies de plantas y animales vertebrados y tiene la mayor diversidad de salamandras pulmonadas (familia Plethodonitiadae), en el mundo.</p>\n<p>La vertiente septentrional, la región de Petén, comprende desde zonas de pastoreo hasta selvas altas (bosques húmedos tropicales) y está poco poblada.</p>\n<h3>Hidrografía</h3>\n<p>Los ríos de Guatemala de mayor longitud son: río Motagua; el río Usumacinta nace como río Chixoy o Negro y luego se convierte en el río Usumacinta.</p>\n<p>En el litoral atlántico se encuentra el mayor lago del país, el Izabal.</p>\n<h2>Clima</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "pie": "Mapa de los climas de Guatemala"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Guatemala tiene un clima cálido tropical, más templado en el altiplano. La mayoría de las ciudades principales están situadas en la parte sur del país.</p>\n<h2>Economía</h2>\n<p>El sector más grande en la economía guatemalteca es la agricultura. Los productos que exporta son: cardamomo, azúcar y café.</p>\n<p>El sector del turismo es el segundo generador de divisas para el país, la industria es una importante rama de la economía guatemalteca.</p>\n<p>Entre los destinos turísticos destaca Tikal, uno de los mayores yacimientos arqueológicos y centros urbanos de la civilización maya precolombina. Está situado en la región de Petén</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "tikal-temples-1-2-3-5-2009-9df007fc.jpg",
+      "pie": "Tikal en Petén (Guatemala)"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El níquel cuya extracción se destina mayoritariamente a la exportación es importante y también existen en minas de oro y plata.</p>\n<h2>Ciudades</h2>\n<p>Las ciudades principales son la capital Ciudad de Guatemala, Quetzaltenango y Escuintla. El gran Lago de Izabal está situado cerca de la costa Caribeña.</p>\n<p>En la estrecha vertiente del Pacífico, muy húmeda y fértil en su parte central, se localiza la mayor densidad de población.</p>\n<h2>Patrimonio cultural</h2>\n<p>La reserva de la biosfera maya es el espacio natural protegido más grande de Guatemala.</p>\n<p>Ocupa la mitad septentrional del departamento de Petén y está bordeada por México (al norte y al oeste). Por ella discurre el río San Pedro.</p>\n<p>La Reserva fue creada en 1990 para proteger la mayor superficie de bosque tropical que aún existe en Centroamérica.</p>\n<p>En la reserva se incluye varios parques nacionales, biotopos bajo protección y sitios arqueológicos.</p>\n<h2>Guatemaltecos famosos</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "miguelangelasturias-43731134.jpg",
+      "pie": "Miguel Ángel Asturias, Premio Nobel de Literatura en 1967"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li>Miguel Ángel Asturias, novelista y poeta, ganador del Premio Nobel de Literatura en 1967.</li>\n<li>Federico Lehnhoff, desarrolló el café soluble.</li></ul>\n<h2>Días festivos</h2>\n<ul><li>1 de enero: Año nuevo</li>\n<li>6 de enero: Día de Reyes</li>\n<li>Marzo-Abril: Jueves y Viernes Santo (no es un día fijo, sino que cambia cada año)</li>\n<li>1 de mayo: Día del trabajo</li>\n<li>10 de mayo: Día de las Madres</li>\n<li>17 de junio: Día del Padre</li>\n<li>25 de junio: Día del maestro</li>\n<li>30 de junio: Día de la Revolución</li>\n<li>15 de agosto: Día de la Asunción de la Virgen</li>\n<li>15 de septiembre: Día de la Independencia</li>\n<li>1 de octubre: Día del niño.</li>\n<li>1 de noviembre: Fiesta de Todos los Santos</li>\n<li>24 de diciembre: Nochebuena</li>\n<li>25 de diciembre: Navidad</li>\n<li>31 de diciembre: Fin de año</li></ul>\n<h2>Organización territorial</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "guatemala-base-map-cropped-cf70142e.png",
+      "pie": "Mapa de los departamentos de Guatemala"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Guatemala está organizada en ocho regiones, veintidós departamentos y trescientos cuarenta municipios.</p>\n<h2>Demografía</h2>\n<p>Guatemala tiene una población de 16'301,286 habitantes, siendo el país menos poblado de Centroamérica. De ellos, el 33.4% está entre los 0 y 14 años, el 61% está entre los 15 y 64 años y el 5.6% de los 65 en adelante. Es el país más poblado de Centroamérica.</p>\n<h3>Grupos étnicos</h3>\n<p>El 59,4% de la población es mestiza y blanca de origen europeo, descendientes principalmente de españoles y también de alemanes, ingleses, franceses y nórdicos.</p>\n<h3>Religión</h3>\n<p>El país no cuenta con un censo oficial sobre las creencias religiosas de los guatemaltecos, aunque las estadísticas señalan que la religión cristiana predomina en el territorio, ya que alcanza entre un 87% y 88%.​ Contrastando con lo anterior, Guatemala —junto a Costa Rica— también es uno de los países menos religiosos de Centroamérica: reunidos los agnósticos (0,93%), ateos (0,84%) y no religiosos, entre todos oscilarían entre un 9&#160;% de la población. Otras creencias como las religiones étnicas (0,84%), espiritistas (0,21%) y demás alcanzarían juntas hasta un 3% de los guatemaltecos.</p>\n<h3>Idioma</h3>\n<p>Cerca del 60% de la población habla el&#160;idioma español que también es el idioma oficial. El 40% restante habla lenguas indígenas, el garíguna y el xinca que ya casi esta extinto con solo 16 hablantes.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "guatemala-orthographic-projection-78b3877d.png",
+    "tipo": "imagen",
+    "alt": "Guatemala",
+    "autor": "Addicted04",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Guatemala_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "guatemala-orthographic-projection-78b3877d.png",
+      "tipo": "imagen",
+      "alt": "Guatemala",
+      "autor": "Addicted04",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Guatemala_(orthographic_projection).svg"
+    },
+    {
+      "archivo": "guatemala-cia-wfb-map-2b5951d8.png",
+      "tipo": "imagen",
+      "alt": "Mapa de Guatemala",
+      "autor": "CIA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Guatemala-CIA_WFB_Map.png"
+    },
+    {
+      "archivo": "guatemala-topography-f8bde544.png",
+      "tipo": "imagen",
+      "alt": "Mapa topográfico de Guatemala",
+      "autor": "Sadalmelik",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Guatemala_Topography.png"
+    },
+    {
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "tipo": "imagen",
+      "alt": "Climas de Bolivia",
+      "autor": "Peel, M. C., Finlayson, B. L., and McMahon, T. A. (University of Melbourne)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:South_America_K%C3%B6ppen_Map.png"
+    },
+    {
+      "archivo": "tikal-temples-1-2-3-5-2009-9df007fc.jpg",
+      "tipo": "imagen",
+      "alt": "Tikal en Petén (Guatemala)",
+      "autor": "chensiyuan",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Tikal_temples_1_2_3_5_2009.JPG"
+    },
+    {
+      "archivo": "miguelangelasturias-43731134.jpg",
+      "tipo": "imagen",
+      "alt": "Miguel Ángel Asturias, Premio Nobel de Literatura en 1967",
+      "autor": "DesconocidoUnknown author",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:MiguelAngelAsturias.JPG"
+    },
+    {
+      "archivo": "guatemala-base-map-cropped-cf70142e.png",
+      "tipo": "imagen",
+      "alt": "Mapa de los departamentos de Guatemala",
+      "autor": "EC, ECHO",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Guatemala_Base_Map_(cropped).png"
+    }
+  ],
+  "relacionados": [
+    "mexico",
+    "honduras",
+    "el-salvador",
+    "oceano-pacifico",
+    "mayas",
+    "isla"
+  ],
+  "pais": {
+    "adm0": "GTM"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Guatemala",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Guatemala&action=history",
+    "revid": 185521,
+    "fecha": "2026-10-14"
+  }
+}

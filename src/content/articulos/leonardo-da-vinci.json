@@ -1,0 +1,53 @@
+{
+  "slug": "leonardo-da-vinci",
+  "titulo": "Leonardo da Vinci",
+  "categoria": "arte-y-musica",
+  "resumen": "Leonardo da Vinci fue un pintor, científico, escultor y arquitecto italiano que representó el espíritu universal del Renacimiento. Su obra más famosa es La Gioconda. Además de sus pinturas, realizó importantes aportes científicos y sigue siendo una figura admirada y estudiada en todo el mundo.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p><b>Leonardo da Vinci</b> fue un <a href=\"/articulo/pintura\">pintor</a>, científico, <a href=\"/articulo/escultura\">escultor</a> y arquitecto italiano que representó el espíritu universal del <a href=\"/articulo/renacimiento\">Renacimiento</a>. Su obra más famosa es <i>La Gioconda</i>. Además de sus pinturas, realizó importantes aportes científicos y sigue siendo una figura admirada y estudiada en todo el mundo.</p>\n<h2>Biografía</h2>\n<h3>Infancia</h3>\n<p>Leonardo da Vinci nació en 1452 cerca de Vinci, en <a href=\"/articulo/italia\">Italia</a>. Fue hijo ilegítimo de un notario y una campesina, y creció con su padre y su madrastra, quien lo cuidó con cariño. Más tarde se trasladó a Florencia, donde descubrió el ambiente cultural del Renacimiento. Tuvo una educación poco organizada, pero desde joven mostró gran creatividad y curiosidad. Aprendió a escribir con la mano izquierda y al revés, una característica que mantuvo toda su vida. Aunque tenía dificultades en algunas materias, su capacidad de observación y pensamiento lo convirtió en un genio excepcional.</p>\n<h3>El taller del Verrochio: La confrontación entre el alumno y el maestro</h3>\n<p>A los 14 años, Leonardo da Vinci se mudó con su familia a Florencia. Su talento para el dibujo impresionó al pintor Andrea del Verrocchio, quien lo aceptó en su taller. Allí aprendió pintura, escultura, arquitectura y otras artes junto a artistas importantes como Sandro Botticelli. Leonardo destacó por el realismo y la precisión de sus obras, como su primer dibujo firmado, “Paisaje con un río”. Una obra famosa de esta etapa es <i>El bautismo de Cristo</i>.</p>\n<h3>Estancia en Milán</h3>\n<p>A los 26 años, Leonardo da Vinci dejó el taller de Andrea del Verrocchio y fue enviado a Milán por los Médicis para trabajar con Ludovico Sforza. Allí organizó fiestas, creó máquinas teatrales y pintó retratos de la corte. También diseñó una enorme estatua ecuestre para homenajear a Francesco Sforza, aunque nunca se construyó porque el bronce se usó para fabricar cañones. Durante este período realizó obras maestras como <i>La Virgen de las Rocas</i> y <i>La última cena.</i> Además, desarrolló numerosos estudios científicos y dibujos reunidos en sus códices. En 1499 abandonó Milán tras la caída de los Sforza.</p>\n<h3>Fin de su vida</h3>\n<p>En 1515, Francisco I de Francia invitó a Leonardo da Vinci a vivir en Francia. Leonardo llevó consigo obras importantes como <i>La Gioconda</i>, <i>San Juan Bautista y La Virgen,</i> <i>el Niño Jesús y Santa Ana</i>. Se instaló en el castillo de Clos-Lucé, cerca de Amboise, donde organizó fiestas y trabajó en proyectos de ingeniería y arquitectura. Murió el 2 de mayo de 1519 a los 67 años. Antes de morir dejó sus manuscritos y documentos a su discípulo Francesco Melzi. Fue enterrado en el castillo de Amboise.</p>\n<h2>Obras</h2>\n<h3>Dibujos y pintura</h3>\n<p>Leonardo da Vinci pintó su obra más famosa, La Gioconda, que se conserva en el Museo del Louvre. En sus obras utilizó conceptos matemáticos como la perspectiva y el número áureo. Sus personajes suelen aparecer señalando hacia arriba con el dedo índice. Actualmente se conservan miles de sus notas y dibujos, además de varias pinturas, aunque algunas obras se han perdido, como <i>La Batalla de Anghiari</i>. También creó la técnica del sfumato, que daba un efecto de bruma y suavidad a las pinturas, y destacó por sus detallados paisajes en obras como <i>La Virgen de las Rocas</i> y <i>La Anunciación</i>.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "da-vinci-studies-of-embryos-luc-viatour-c12f3506.jpg",
+    "tipo": "imagen",
+    "alt": "Leonardo da Vinci",
+    "autor": "Leonardo da Vinci",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Studies_of_Embryos_Luc_Viatour.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "da-vinci-studies-of-embryos-luc-viatour-c12f3506.jpg",
+      "tipo": "imagen",
+      "alt": "Leonardo da Vinci",
+      "autor": "Leonardo da Vinci",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Studies_of_Embryos_Luc_Viatour.jpg"
+    },
+    {
+      "archivo": "la-gioconda-0079d241.jpg",
+      "tipo": "imagen",
+      "alt": "Leonardo da Vinci",
+      "autor": "Leonardo da Vinci",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:La_Gioconda.jpg"
+    }
+  ],
+  "relacionados": [
+    "pintura",
+    "escultura",
+    "renacimiento",
+    "italia"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Leonardo_da_Vinci",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Leonardo_da_Vinci&action=history",
+    "revid": 190407,
+    "fecha": "2026-10-14"
+  }
+}

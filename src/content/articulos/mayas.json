@@ -1,0 +1,84 @@
+{
+  "slug": "mayas",
+  "titulo": "Mayas",
+  "categoria": "historia",
+  "resumen": "La cultura maya se desarrolló en la península de Yucatán, Tabasco y Chiapas en México y también en zonas de Guatemala, Honduras, Belice y otros lugares de Mesoamérica. Es considerada la de mayor desarrollo de todas las culturas aborígenes americanas.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "maya-civilization-location-map-blank-2f7d2d82.png",
+      "pie": "Localización de los lugares donde se desarrolló la civilización maya"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>cultura maya</b> se desarrolló en la península de Yucatán, Tabasco y Chiapas en <a href=\"/articulo/mexico\">México</a> y también en zonas de <a href=\"/articulo/guatemala\">Guatemala</a>, <a href=\"/articulo/honduras\">Honduras</a>, Belice y otros lugares de Mesoamérica. Es considerada la de mayor desarrollo de todas las culturas aborígenes americanas.</p>\n<p>Alcanzó su mayor desarrollo entre los siglos III y IX de nuestra era y produjo multitud de ciudades y centros ceremoniales que contaban con pirámides, templos, palacios, juegos de pelota y observatorios astronómicos.</p>\n<p>Su escritura era jeroglífica estaba formada por más de 700 signos que han aparecido grabados en piedras y en vasos de cerámica.</p>\n<p>Las ciudades mayas eran independientes unas de otras, eran lo que en Historia se ha llamado ciudades-estado, cuya base eran la agricultura y el comercio.</p>\n<p>En la actualidad millones de mayas hablan el idioma de sus antepasados y cultivan la herencia recibida en actividades como la música, la cosmogonía y otras ciencias y realizan diferentes ritos que se remontan al pasado precolombino.</p>\n<h2>Características físicas de los mayas</h2>\n<p>Eran de baja estatura, hombros anchos, pecho robusto, piernas cortas y musculosas, el rostro alargado y los pómulos salientes. Su estatura era, en término medio, de 1,65 m los varones y 1,42 m las mujeres. El cabello negro y lacio y la piel de color cobrizo confirma su procedencia del norte de Asia.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "mayan00-19-b0cd1702.png",
+      "pie": "Números mayas hasta el 19"
+    },
+    {
+      "tipo": "html",
+      "html": "<h2>Calendario maya</h2>\n<p>Entre los siglos IV y IX de nuestra era, los mayas eran los primeros matemáticos y los primeros astrónomos del mundo.</p>\n<p>La unidad del calendario maya era el <i>kin</i> (día); el mes, que tenía 20 días, era el <i>uinal</i> y el <i>tun</i> (año) se componía de 18 meses o <i>uinales</i>, de los que resultan 360 días a los que añadían 5 «inútiles» en el último mes.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "003-el-castillo-o-templo-de-kukulkan-chichen-itza-mexico-mpl-9a0a7a4b.jpg",
+      "pie": "El Castillo o templo de Kukulkan. Chichén Itzá, México. Cultura maya"
+    },
+    {
+      "tipo": "html",
+      "html": "<h2>Sistema de numeración</h2>\n<p>El sistema matemático de los mayas no era decimal, como el nuestro, sino vigesimal. Conocían la cifra cero y el valor de los números según su posición. Las cifras se colocaban verticales no horizontales y utilizaban puntos para los números 1, 2, 3 y 4&#160;; el 5 era una rayita y tenía ese valor hasta el número 19 que era tres rayas una encima de las otra y cuatro puntos. La cifra cero se escribía con una conchita.</p>\n<h2>Centros ceremoniales mayas</h2>\n<p>Existen muchos lugares descubiertos por los arqueólogos que fueron centros ceremoniales religiosos de los mayas. Entre los más conocidos están: Tikal (Guatemala), Copán (Honduras), Chichén-Itzá y Uxmal en Yucatán.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "maya-civilization-location-map-blank-2f7d2d82.png",
+    "tipo": "imagen",
+    "alt": "Localización de los lugares donde se desarrolló la civilización maya",
+    "autor": "Sémhur",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Maya_civilization_location_map-blank.svg"
+  },
+  "medios": [
+    {
+      "archivo": "maya-civilization-location-map-blank-2f7d2d82.png",
+      "tipo": "imagen",
+      "alt": "Localización de los lugares donde se desarrolló la civilización maya",
+      "autor": "Sémhur",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Maya_civilization_location_map-blank.svg"
+    },
+    {
+      "archivo": "mayan00-19-b0cd1702.png",
+      "tipo": "imagen",
+      "alt": "Números mayas hasta el 19",
+      "autor": "sarang",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mayan00_19.svg"
+    },
+    {
+      "archivo": "003-el-castillo-o-templo-de-kukulkan-chichen-itza-mexico-mpl-9a0a7a4b.jpg",
+      "tipo": "imagen",
+      "alt": "El Castillo o templo de Kukulkan. Chichén Itzá, México. Cultura maya",
+      "autor": "Manuel de Corselas",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:003_El_Castillo_o_templo_de_Kukulkan._Chich%C3%A9n_Itz%C3%A1,_M%C3%A9xico._MPLC.jpg"
+    }
+  ],
+  "relacionados": [
+    "mexico",
+    "guatemala",
+    "honduras"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Civilizaci%C3%B3n_maya",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Civilizaci%C3%B3n_maya&action=history",
+    "revid": 163317,
+    "fecha": "2026-10-14"
+  }
+}

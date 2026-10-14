@@ -1,0 +1,66 @@
+{
+  "slug": "rinon",
+  "titulo": "Riñón",
+  "categoria": "cuerpo-humano",
+  "resumen": "Los riñones son dos órganos del cuerpo cuyo trabajo es limpiar y filtrar la sangre. Se localizan en el abdomen y tienen una forma similar a una alubia y su tamaño es aproximadamente el de un puño cerrado. Su color es marrón. Cuando un riñón no funciona correctamente o ha dejado de funcionar el…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "fullusys-copy-60fd2bf4.png",
+      "pie": "Situación de los riñones en el cuerpo humano"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los <b>riñones</b> son dos órganos del cuerpo cuyo trabajo es limpiar y filtrar la <a href=\"/articulo/sangre\">sangre</a>.  Se localizan en el abdomen y tienen una forma similar a una alubia y su tamaño es aproximadamente el de un puño cerrado. Su color es marrón. Cuando un riñón no funciona correctamente o ha dejado de funcionar el paciente se somete a un diálisis, donde todos los\ndías, después de comer, se le inyectarán sustancias y la sangre será filtrada en una máquina que sustituirá a los riñones. Otra forma de curación es el transplante de riñón.</p>\n<h2>Filtración de la sangre</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "blausen-0592-kidneyanatomy-01-es-529350fe.png",
+      "pie": "Partes del riñón"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Toda la sangre pasa por los riñones. Los riñones filtran la sangre separando las sustancias de desecho procedentes de los alimentos. Como resultado del proceso  se forma la orina, que es una mezcla de agua con todas las sustancias de desecho.</p>\n<p>La orina sale de los riñones, recorre los uréteres y llega a la vejiga urinaria. Allí se junta toda la orina hasta que es expulsada al exterior de nuestro cuerpo por la uretra.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "fullusys-copy-60fd2bf4.png",
+    "tipo": "imagen",
+    "alt": "Situación de los riñones en el cuerpo humano",
+    "autor": "Madhero88",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:FullUSys_copy.png"
+  },
+  "medios": [
+    {
+      "archivo": "fullusys-copy-60fd2bf4.png",
+      "tipo": "imagen",
+      "alt": "Situación de los riñones en el cuerpo humano",
+      "autor": "Madhero88",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:FullUSys_copy.png"
+    },
+    {
+      "archivo": "blausen-0592-kidneyanatomy-01-es-529350fe.png",
+      "tipo": "imagen",
+      "alt": "Partes del riñón",
+      "autor": "BruceBlaus. When using this image in external sources it can be cited as: Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.010. ISSN 2002-4436.",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Blausen_0592_KidneyAnatomy_01-es.png"
+    }
+  ],
+  "relacionados": [
+    "sangre",
+    "boca",
+    "cerebro"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Ri%C3%B1%C3%B3n",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Ri%C3%B1%C3%B3n&action=history",
+    "revid": 160731,
+    "fecha": "2026-10-14"
+  }
+}

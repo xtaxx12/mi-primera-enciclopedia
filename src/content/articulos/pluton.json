@@ -1,0 +1,52 @@
+{
+  "slug": "pluton",
+  "titulo": "Plutón",
+  "categoria": "espacio",
+  "resumen": "Plutón es un planeta enano del sistema solar. Tiene un diámetro de 2400 km.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "pluto-and-moons-art-54c5d9be.png",
+      "pie": "Plutón y sus lunas"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Plutón</b> es un planeta enano del <a href=\"/articulo/sistema-solar\">sistema solar</a>. Tiene un diámetro de 2400 km.</p>\n<p>Su período de rotación equivale a 6 días y 9 horas terrestres aproximadamente; y su período de traslación, a 247 años, 249 días y 6 horas terrestres.</p>\n<h2>Rotación de Plutón</h2>\n<p>El período de rotación de Plutón es de 6.387 días, igual que el de su satélite Caronte. Aunque es común que un satélite viaje alrededor de su primario siguiendo una órbita síncrona, Plutón es el único planeta que rota síncronamente con la órbita de su satélite. Debido a esto, Plutón y Caronte siempre presentan la misma cara uno a otro durante su viaje a través del espacio.</p>\n<p>Al contrario que la mayoría de los planetas, pero igual que Urano, Plutón rota con los polos casi en su plano orbital. El eje rotacional de Plutón está inclinado 122 grados. Cuando Plutón fue descubierto por primera vez, su relativamente brillante polo sur fue lo primero que se vio desde la <a href=\"/articulo/tierra\">Tierra</a>. Plutón parecía apagarse a medida que nuestro punto de vista cambiaba desde la vista polar en 1954 hasta una vista ecuatorial en 1973.</p>\n<h2>Exploración de Plutón</h2>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Plutón es el único planeta del sistema solar que no ha sido visitado por ninguna astronave o sonda espacial, incluso el telescopio espacial Hubble tiene dificultades de observación. Gracias a precisas observaciones espectroscópicas de la luz reflejada por Plutón, se ha obtenido la confirmación de que la superficie del planeta está compuesta de metano en estado de hielo, a temperaturas inferiores a los 200°C bajo cero. Se cree que, además, contiene gran abundancia de nitrógeno helado con pequeñas cantidades de monóxido de carbono en las zonas brillantes de su superficie. Las áreas oscuras son todavía más desconocidas.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "pluto-and-moons-art-54c5d9be.png",
+    "tipo": "imagen",
+    "alt": "Plutón y sus lunas",
+    "autor": "NASA",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Pluto_and_moons_art.png"
+  },
+  "medios": [
+    {
+      "archivo": "pluto-and-moons-art-54c5d9be.png",
+      "tipo": "imagen",
+      "alt": "Plutón y sus lunas",
+      "autor": "NASA",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Pluto_and_moons_art.png"
+    }
+  ],
+  "relacionados": [
+    "sistema-solar",
+    "tierra",
+    "agujero-negro"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Plut%C3%B3n_(planeta_enano)",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Plut%C3%B3n_(planeta_enano)&action=history",
+    "revid": 168114,
+    "fecha": "2026-10-14"
+  }
+}

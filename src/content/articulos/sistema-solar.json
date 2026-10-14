@@ -1,0 +1,51 @@
+{
+  "slug": "sistema-solar",
+  "titulo": "Sistema solar",
+  "categoria": "espacio",
+  "resumen": "El Sistema solar incluye al Sol, ocho planetas (Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno), satélites, asteroides, cometas y planetas enanos. Tiene 4,568 millones de años de antigüedad y se formó a partir de una nube molecular colapsada por gravedad.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "uklad-sloneczny-2006-es-cc490802.png",
+      "pie": "Mapa del sistema solar"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>Sistema solar</b> incluye al <a href=\"/articulo/sol\">Sol</a>, ocho <a href=\"/articulo/planeta\">planetas</a> (<a href=\"/articulo/mercurio\">Mercurio</a>, Venus, <a href=\"/articulo/tierra\">Tierra</a>, <a href=\"/articulo/marte\">Marte</a>, Júpiter, Saturno, Urano y Neptuno), satélites, asteroides, cometas y planetas enanos. Tiene 4,568 millones de años de antigüedad y se formó a partir de una nube molecular colapsada por <a href=\"/articulo/gravedad\">gravedad</a>.</p>\n<h2>El Sol</h2>\n<p>El Sol es la estrella central que concentra el 99,9% de la masa del sistema. Su energía proviene de la fusión nuclear de hidrógeno en helio. &#160;</p>\n<h2>Planetas</h2>\n<p>Se dividen en terrestres (rocosos) y gigantes (gaseosos o helados). Seis tienen lunas, destacando Ganímedes (de Júpiter) y Titán (de Saturno), la única con atmósfera. &#160;</p>\n<h2>Cinturones y cometas</h2>\n<p>El cinturón de asteroides se ubica entre Marte y Júpiter, mientras que el cinturón de Kuiper y el disco disperso están más allá de Neptuno, conteniendo objetos pequeños como Plutón y otros planetas enanos. &#160;</p>\n<h2>Evolución</h2>\n<p>Según la hipótesis nebular, el Sistema Solar surgió hace 4.600 millones de años de un disco protoplanetario. La migración planetaria y colisiones influyeron en su formación y evolución. &#160;</p>\n<h2>Órbitas</h2>\n<p>Los planetas orbitan el Sol en trayectorias elípticas. &#160;</p>\n<h2>Historia y exploración</h2>\n<p>Desde Aristarco hasta Copérnico, se desarrolló la idea heliocéntrica. Galileo, Kepler y <a href=\"/articulo/isaac-newton\">Newton</a> aclararon sus fundamentos físicos, y los <a href=\"/articulo/telescopio\">telescopios</a> y sondas han permitido estudios más detallados de sus cuerpos.</p>\n<h2>Eclíptica</h2>\n<p>El plano de la eclíptica está definido por la órbita de la Tierra alrededor del Sol. Todos los planetas orbitan alrededor del Sol en este mismo plano orbital.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "uklad-sloneczny-2006-es-cc490802.png",
+    "tipo": "imagen",
+    "alt": "Mapa del sistema solar",
+    "autor": "No se ha podido leer automáticamente información sobre el autor; se asume que es SwPawel~commonswiki (según los derechos de autor reclamados).",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Uklad_Sloneczny_2006-es.png"
+  },
+  "medios": [
+    {
+      "archivo": "uklad-sloneczny-2006-es-cc490802.png",
+      "tipo": "imagen",
+      "alt": "Mapa del sistema solar",
+      "autor": "No se ha podido leer automáticamente información sobre el autor; se asume que es SwPawel~commonswiki (según los derechos de autor reclamados).",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Uklad_Sloneczny_2006-es.png"
+    }
+  ],
+  "relacionados": [
+    "sol",
+    "planeta",
+    "mercurio",
+    "tierra",
+    "marte",
+    "gravedad"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Sistema_solar",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Sistema_solar&action=history",
+    "revid": 179669,
+    "fecha": "2026-10-14"
+  }
+}

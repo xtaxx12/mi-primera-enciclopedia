@@ -1,0 +1,66 @@
+{
+  "slug": "escritura",
+  "titulo": "Escritura",
+  "categoria": "historia",
+  "resumen": "La escritura es un método de comunicación que utiliza signos visuales para representar ideas y lenguaje, permitiendo el almacenamiento y la transmisión de conocimientos. Es considerada uno de los mayores inventos de la humanidad, surgido alrededor del 3300 a.C. en Oriente Medio, asociado al…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "edwin-smith-papyrus-v2-9e867229.jpg",
+      "pie": "El papiro Edwin Smith es el documento quirúrgico más antiguo que se conserva en el mundo. Fue escrito en escritura hierática en el antiguo Egipto hacia el 1600 a.C. El texto describe 48 tipos de problemas médicos."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>escritura</b> es un método de comunicación que utiliza signos visuales para representar ideas y lenguaje, permitiendo el almacenamiento y la transmisión de conocimientos. Es considerada uno de los mayores inventos de la humanidad, surgido alrededor del 3300 a.C. en Oriente Medio, asociado al desarrollo de las ciudades y la agricultura.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "early-writing-tablet-recording-the-allocation-of-beer-b0b0f298.jpg",
+      "pie": "Tablilla de escritura primitiva que registra el reparto de cerveza; 3100-3000 a.C."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los sistemas de escritura han evolucionado desde pictogramas hasta alfabetos que representan sonidos del habla. Ejemplos históricos incluyen:</p>\n<ul><li><b>Cuneiforme</b>: desarrollado por los sumerios, utilizado por varias civilizaciones de Mesopotamia durante más de 3000 años.</li>\n<li><b>Jeroglíficos egipcios</b>: combinados con sistemas hierático y demótico, descifrados gracias a la Piedra de Rosetta.</li>\n<li><b>Alfabetos</b>: como el griego, derivado del fenicio, y el romano, base de muchas lenguas modernas.</li></ul>\n<p>Algunos sistemas, como los de la civilización del valle del Indo o los símbolos de Vinča, permanecen sin descifrar.</p>\n<p>En la actualidad, la alfabetización masiva es relativamente reciente, alcanzada principalmente en los siglos XIX y XX en Europa y Norteamérica. Sin embargo, el analfabetismo sigue siendo un desafío global. Además, la escritura ha pasado de ser manual, con materiales diversos, a digital gracias a los avances tecnológicos.</p>\n<p>La escritura permite conservar mensajes a través del tiempo y superar las limitaciones de la comunicación oral, siendo fundamental en el desarrollo cultural y social.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "edwin-smith-papyrus-v2-9e867229.jpg",
+    "tipo": "imagen",
+    "alt": "El papiro Edwin Smith es el documento quirúrgico más antiguo que se conserva en el mundo. Fue escrito en escritura hierática en el antiguo Egipto hacia el 1600 a.C. El texto describe 48 tipos de problemas médicos.",
+    "autor": "Jeff Dahl",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Edwin_Smith_Papyrus_v2.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "edwin-smith-papyrus-v2-9e867229.jpg",
+      "tipo": "imagen",
+      "alt": "El papiro Edwin Smith es el documento quirúrgico más antiguo que se conserva en el mundo. Fue escrito en escritura hierática en el antiguo Egipto hacia el 1600 a.C. El texto describe 48 tipos de problemas médicos.",
+      "autor": "Jeff Dahl",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Edwin_Smith_Papyrus_v2.jpg"
+    },
+    {
+      "archivo": "early-writing-tablet-recording-the-allocation-of-beer-b0b0f298.jpg",
+      "tipo": "imagen",
+      "alt": "Tablilla de escritura primitiva que registra el reparto de cerveza; 3100-3000 a.C.",
+      "autor": "BabelStone",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Early_writing_tablet_recording_the_allocation_of_beer.jpg"
+    }
+  ],
+  "relacionados": [
+    "antigua-grecia",
+    "antiguo-egipto",
+    "aztecas"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Escritura",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Escritura&action=history",
+    "revid": 200722,
+    "fecha": "2026-10-14"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "estomago",
+  "titulo": "Estómago",
+  "categoria": "cuerpo-humano",
+  "resumen": "El estómago es uno de los órganos principales del sistema digestivo. Tiene forma de saco y allí se realizan múltiples procesos digestivos.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "estomago-25e6cc0a.png",
+      "pie": "Dibujo indicando las partes del Estómago"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>estómago</b> es uno de los órganos principales del sistema digestivo. Tiene forma de saco y allí se realizan múltiples procesos digestivos.</p>\n<h2>Estructura</h2>\n<p>Es un órgano con forma de saco que recibe al esófago por la parte superior llamada <i>cardias</i> y está conectado con el intestino delgado por debajo en una sección llamada <i>píloro</i>.</p>\n<p>Como en el estómago actúan muchos ácidos, está compuesto de varias capas para resistir.</p>\n<h2>Proceso digestivo</h2>\n<p>El estómago puede recibir gran cantidad de líquidos y sólidos ya que si bien en un comienzo es muy pequeño, se va agrandando poco a poco debido a que tiene muchos <a href=\"/articulo/musculo\">músculos</a>. Estos mismos músculos generan movimientos en el estómago que <i>baten</i> lo que posee adentro y los mezcla con los ácidos. Una vez que acaba, los envía por el <i>píloro</i> hacia el intestino delgado.</p>\n<h3>Producción química</h3>\n<p>Para digerir los alimentos, el estómago fabrica sustancias como el ácido clorhídrico y la pepsina.</p>\n<h2>Vómito</h2>\n<p>A veces, el contenido del estómago hace el camino inverso y vuelve por el esófago, la faringe y la <a href=\"/articulo/boca\">boca</a> hacia afuera. Esto puede producirse por enfermedades, consumir algún tóxico o irritante en exceso y problemas en el comienzo del intestino delgado.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "estomago-25e6cc0a.png",
+    "tipo": "imagen",
+    "alt": "Dibujo indicando las partes del Estómago",
+    "autor": "Rhcastilhos",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Estomago.svg"
+  },
+  "medios": [
+    {
+      "archivo": "estomago-25e6cc0a.png",
+      "tipo": "imagen",
+      "alt": "Dibujo indicando las partes del Estómago",
+      "autor": "Rhcastilhos",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Estomago.svg"
+    }
+  ],
+  "relacionados": [
+    "musculo",
+    "boca",
+    "cerebro"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Est%C3%B3mago",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Est%C3%B3mago&action=history",
+    "revid": 181325,
+    "fecha": "2026-10-14"
+  }
+}

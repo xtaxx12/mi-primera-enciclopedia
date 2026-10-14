@@ -1,0 +1,69 @@
+{
+  "slug": "nervio",
+  "titulo": "Nervio",
+  "categoria": "cuerpo-humano",
+  "resumen": "Un nervio es un grupo especial de células agrupadas en manojos. Otra palabra para definir la célula nerviosa es neurona.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "nerf-detaille-es-e3773739.png",
+      "pie": "Diagrama de la composición de un nervio"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>nervio</b> es un grupo especial de <a href=\"/articulo/celula\">células</a> agrupadas en manojos. Otra palabra para definir la célula nerviosa es neurona.</p>\n<p>Las neuronas especiales agrupadas en nervios toman información (mensajes) hacia y desde el cuerpo humano hasta el sistema nervioso central. El sistema nervioso central (acrónimo SNC) está formado por el <a href=\"/articulo/cerebro\">cerebro</a> y la médula espinal.</p>\n<p>La médula espinal es el gran cordón que se extiende por el interior de la columna vertebral. Lleva los impulsos nerviosos a los 31 pares de nervios raquídeos, comunicando el encéfalo con el cuerpo</p>\n<p>Todos los nervios del cuerpo forman el sistema nervioso periférico (acrónimo SNP). El cerebro y la médula espinal forman el SNC. Los nervios que salen de la médula espinal forman el SNP. Juntos, el SNC y el SNP forman el sistema nervioso.</p>\n<h2>Estructura nerviosa</h2>\n<p>El sistema nervioso contiene neuronas y otras células llamadas glía. Las células gliales mantienen las neuronas seguras y en buen estado. Las neuronas llevan mensajes hacia y desde el SNC hacia el resto. La dendrita y el axón son fibras que salen desde el cuerpo celular de la neurona. Las dendritas llevan la información al cuerpo celular. Los axones conducen los impulsos desde el interior de la célula hacia otra neurona u órgano diana.</p>\n<h2>Tipos de nervios</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "afferent-psf-es-d6fc6078.png",
+      "pie": "Diagrama explicativo del recorrido aferente y el eferente."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Nervios <i>aferentes</i> transportan impulsos nerviosos desde los receptores u órganos sensoriales hacia el sistema nervioso central. Toman mensajes acerca de las sensación de la <a href=\"/articulo/piel\">piel</a>. Acerca de la posición del cuerpo teniendo en cuenta las señales que emiten los <a href=\"/articulo/musculo\">músculos</a>. También de la función de órganos como el <a href=\"/articulo/corazon\">corazón</a> y el <a href=\"/articulo/estomago\">estómago</a>.</p>\n<p>Nervios <i>eferentes</i> transportan mensajes desde el SNC a todo el cuerpo. Mensajes que indican a los músculos que deben moverse. Mensajes a las glándulas. Activan glándulas como  las <i>glándulas sudoríparas</i> para que formen el sudor (el agua que sale de la piel cuando el cuerpo siente excesivo calor.)</p>\n<h2>Enfermedades de los nervios</h2>\n<p>Los nervios pueden enfermar. Una enfermedad de los nervios se puede llamar una <i>neuropatía</i>.</p>\n<ul><li>Trauma: los nervios pueden dañarse por una lesión como al cortarse con un cuchillo o también al ser aplastados cuando un hueso se  fractura.</li>\n<li> Toxinas: los nervios pueden ser dañados por las toxinas. Se trata de sustancias también llamados venenos que pueden dañar un organismo. Algunas toxinas que dañan los nervios son: el alcohol, el plomo y algunas drogas y medicinas.</li>\n<li>Las enfermedades infecciosas: los nervios puede ser dañados por las infecciones.</li>\n<li>Enfermedades - Pueden dañarse al sufrir algunas enfermedades. La enfermedad más común en causar una <i>neuropatía</i> es la diabetes. Esto se conoce como <i>neuropatía diabética</i>.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "nerf-detaille-es-e3773739.png",
+    "tipo": "imagen",
+    "alt": "Diagrama de la composición de un nervio",
+    "autor": "Dailly Anthony De la traducción Ortisa",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Nerf_detaill%C3%A9-es.png"
+  },
+  "medios": [
+    {
+      "archivo": "nerf-detaille-es-e3773739.png",
+      "tipo": "imagen",
+      "alt": "Diagrama de la composición de un nervio",
+      "autor": "Dailly Anthony De la traducción Ortisa",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Nerf_detaill%C3%A9-es.png"
+    },
+    {
+      "archivo": "afferent-psf-es-d6fc6078.png",
+      "tipo": "imagen",
+      "alt": "Diagrama explicativo del recorrido aferente y el eferente.",
+      "autor": "Afferent_(PSF).jpg: Igno2 derivative work: Ortisa (talk)",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Afferent_(PSF).es.png"
+    }
+  ],
+  "relacionados": [
+    "celula",
+    "cerebro",
+    "piel",
+    "musculo",
+    "corazon",
+    "estomago"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Nervio",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Nervio&action=history",
+    "revid": 203818,
+    "fecha": "2026-10-14"
+  }
+}

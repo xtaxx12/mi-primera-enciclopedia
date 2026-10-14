@@ -1,0 +1,70 @@
+{
+  "slug": "piramide",
+  "titulo": "Pirámide",
+  "categoria": "historia",
+  "resumen": "Una pirámide es una estructura, generalmente hecha de piedra, construida en forma de pirámide. Desde la antigüedad hasta los tiempos modernos, las personas han construido tales estructuras en muchas partes diferentes del mundo.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "all-gizah-pyramids-8285966e.jpg",
+      "pie": "Las Pirámides de Giza (Egipto)."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Una <b>pirámide</b> es una estructura, generalmente hecha de piedra, construida en forma de pirámide. Desde la antigüedad hasta los tiempos modernos, las personas han construido tales estructuras en muchas partes diferentes del mundo.</p>\n<p>La Gran Pirámide de Giza fue una de las Siete Maravillas del mundo antiguo.</p>\n<p>Las primeras pirámides fueron construidas en 2630 a. C. La pirámide más antigua conocida fue construida en Saqqara para el tercer rey de la dinastía Zoser.</p>\n<h2>Pirámides egipcias</h2>\n<p>En Egipto, reyes y reinas, llamados faraones, fueron enterrados en enormes pirámides de planta cuadrada y construidas de piedra. Por lo general, fueron construidas para ser utilizados como tumbas para los faraones. Las antiguas pirámides egipcias están muy bien construidas. Algunas de las pirámides siguen en pie hoy en día.</p>"
+    },
+    {
+      "tipo": "html",
+      "html": "<h2>Pirámides en América</h2>\n<p>Los <a href=\"/articulo/aztecas\">aztecas</a> y los <a href=\"/articulo/mayas\">mayas</a> también construyeron muchas pirámides grandes. Ninguna es tan antigua o tan grande como las pirámides egipcias más antiguas.</p>\n<p>A diferencia de las pirámides egipcias, que fueron utilizadas como tumbas para gobernantes y personas adineradas, se cree que las pirámides mayas y aztecas se usaron para exhibiciones públicas de sacrificios humanos.</p>\n<h2>Pirámides modernas</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "louvre-museum-wikimedia-commons-ae7063dc.jpg",
+      "pie": "Pirámide de la explanada del Louvre"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La pirámide del Louvre en París, <a href=\"/articulo/francia\">Francia</a>, en el patio del Museo del Louvre. Es una estructura de vidrio de 20,6 metros que sirve como una entrada al museo.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "all-gizah-pyramids-8285966e.jpg",
+    "tipo": "imagen",
+    "alt": "Las Pirámides de Giza (Egipto).",
+    "autor": "Ricardo Liberato",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "all-gizah-pyramids-8285966e.jpg",
+      "tipo": "imagen",
+      "alt": "Las Pirámides de Giza (Egipto).",
+      "autor": "Ricardo Liberato",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg"
+    },
+    {
+      "archivo": "louvre-museum-wikimedia-commons-ae7063dc.jpg",
+      "tipo": "imagen",
+      "alt": "Pirámide de la explanada del Louvre",
+      "autor": "Benh LIEU SONG (Flickr)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg"
+    }
+  ],
+  "relacionados": [
+    "aztecas",
+    "mayas",
+    "francia"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Pir%C3%A1mide",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Pir%C3%A1mide&action=history",
+    "revid": 175483,
+    "fecha": "2026-10-14"
+  }
+}

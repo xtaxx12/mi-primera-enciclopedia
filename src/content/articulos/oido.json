@@ -1,0 +1,88 @@
+{
+  "slug": "oido",
+  "titulo": "Oído",
+  "categoria": "cuerpo-humano",
+  "resumen": "El oído es el órgano responsable de la audición y del equilibrio. Capta los sonidos del entorno y los transforma en señales que el cerebro puede interpretar.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>oído</b> es el órgano responsable de la audición y del equilibrio. Capta los <a href=\"/articulo/sonido\">sonidos</a> del entorno y los transforma en señales que el <a href=\"/articulo/cerebro\">cerebro</a> puede interpretar.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "anatomy-of-the-human-ear-e9b74aac.png",
+      "pie": "Esquema del oído humano."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>oído humano</b> se divide en tres partes:</p>\n<ol><li>el <b>oído externo</b>, que canaliza la energía acústica.</li>\n<li>el <b>oído medio</b>, que transforma la energía acústica en energía mecánica, transmitiéndola - y amplificándola- hasta el oído interno.</li>\n<li>el <b>oído interno</b>, donde se realiza la definitiva transformación de la energía mecánica en impulsos eléctricos.</li></ol>\n<h2>Oído externo</h2>\n<p>El oído esta situado en el hueso temporal del cráneo. Está diseñado estructuralmente para, durante el proceso de audición, recoger las ondas sonoras y dirigirlas hacia el interior.</p>\n<p>El oído externo consta de:</p>\n<ul><li>el <i>pabellón auricular</i>, un cartílago plano elástico que tiene forma del extremo de una trompeta y esta cubierto por piel gruesa.</li>\n<li>el <i>canal auditivo externo</i>, un conducto (tubo) curvo de aproximadamente 2.5&#160;cm de longitud que se encuentra en el hueso temporal. Además posee folículos pilosos y glándulas sebáceas (productoras de cera).</li>\n<li>la <i>membrana timpánica</i>, también denominada tímpano, que es una porción fina de tejido conectivo fibroso, semitransparente, que se encuentra entre el conducto auditivo externo y el oído medio.</li></ul>\n<p>El oído externo, es el responsable de conducir el sonido hasta el oído medio y de ahí al interno; que a través del nervio auditivo transmite la información al cerebro.</p>\n<h2>Oído medio</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "blausen-0330-earanatomy-middleear-espanol-7c6c85ce.png",
+      "pie": "Anatomía del oído medio"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El oído medio es una cavidad casi cuadrada, ubicada en la región interior del hueso temporal. Es una de las tres partes del oído (siendo las otras dos: el oído externo y el oído interno), y se encuentra en la parte superior del cerebelo, entre las masas encefálicas y el tímpano de Falopio.</p>\n<h3>Partes del oído medio</h3>\n<p>El oído medio comprende:</p>\n<ul><li>La <i>caja timpánica</i>.</li>\n<li>Los <i>huesecillos del oído</i>: Martillo, Yunque y Estribo, aunque algunos autores incluyen un cuarto huesecillo denominado Lenticular</li>\n<li>Los <i>músculos</i> de los huesecillos.</li>\n<li>Las <i>celdas mastoideas</i>.</li>\n<li>La <i>trompa de Eustaquio</i>.</li></ul>\n<h2>Oído interno</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "blausen-0329-earanatomy-internalear-es-3322701b.png",
+      "pie": "Anatomía del oído interno"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El oído interno  se encuentra dentro del hueso temporal. Puede dividirse morfológicamente en <b>laberinto óseo</b> y <b>laberinto membranoso</b>. El laberinto óseo es la cápsula ósea que rodea al laberinto membranoso, y éste último consiste en un sistema hueco que contiene la endolinfa. Entre laberinto óseo y laberinto membranoso se encuentra la perilinfa, que es en parte un filtrado de la sangre y en parte difusión de líquido cefalorraquídeo. La endolinfa se produce en la estría vascular.\nTambién se encarga de llevar la información al cerebro.</p>\n<p>En el oído interno se realiza la transformación de la energía mecánica producida por las ondas sonoras en energía nerviosa. Esta transformación se realiza a través de los órganos de Corti.</p>\n<p>Comprende las siguientes estructuras:</p>\n<ul><li>El vestíbulo, cavidad dividida en dos partes: el <i>utrículo</i> y el <i>sáculo</i>.</li></ul>\n<p>El utrículo está en comunicación con los canales semicirculares, y el sáculo se comunica con el caracol.</p>\n<ul><li>Los canales semicirculares son tres tubos de forma semicircular, dos de ellos tienen posición vertical y otro posición horizontal (anterior, posterior y lateral). La función de los canales semicirculares es mantener el equilibrio, junto con los propioceptores del cuerpo y los ojos.</li></ul>\n<ul><li>El caracol, llamado también <i>cóclea</i>, es un órgano en forma de tubo enrollado; posee tres cavidades longitudinales llamadas <i>rampas</i> (<i>rampa timpánica</i>, <i>rampa vestibular</i> y <i>rampa coclear</i>), separadas por dos membranas llamadas <i>membrana basilar</i> y <i>membrana de Reissner</i>.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "anatomy-of-the-human-ear-e9b74aac.png",
+    "tipo": "imagen",
+    "alt": "Esquema del oído humano.",
+    "autor": "Lars Chittka; Axel Brockmann",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear.svg"
+  },
+  "medios": [
+    {
+      "archivo": "anatomy-of-the-human-ear-e9b74aac.png",
+      "tipo": "imagen",
+      "alt": "Esquema del oído humano.",
+      "autor": "Lars Chittka; Axel Brockmann",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear.svg"
+    },
+    {
+      "archivo": "blausen-0330-earanatomy-middleear-espanol-7c6c85ce.png",
+      "tipo": "imagen",
+      "alt": "Anatomía del oído medio",
+      "autor": "BruceBlaus",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Blausen_0330_EarAnatomy_MiddleEar_-_Espa%C3%B1ol.png"
+    },
+    {
+      "archivo": "blausen-0329-earanatomy-internalear-es-3322701b.png",
+      "tipo": "imagen",
+      "alt": "Anatomía del oído interno",
+      "autor": "BruceBlaus De la traducción Ortisa",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Blausen_0329_EarAnatomy_InternalEar-es.png"
+    }
+  ],
+  "relacionados": [
+    "sonido",
+    "cerebro",
+    "boca"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/O%C3%ADdo",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=O%C3%ADdo&action=history",
+    "revid": 185910,
+    "fecha": "2026-10-14"
+  }
+}

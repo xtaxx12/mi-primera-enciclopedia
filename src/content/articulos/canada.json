@@ -1,0 +1,72 @@
+{
+  "slug": "canada",
+  "titulo": "Canadá",
+  "categoria": "paises",
+  "resumen": "Canadá es un país ubicado en América del Norte. Su capital es Ottawa y su ciudad más poblada es Toronto.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "canada-cia-wfb-map-e4f9422a.png",
+      "pie": "Mapa de Canadá"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Canadá</b> es un país ubicado en América del Norte. Su capital es Ottawa y su ciudad más poblada es Toronto.</p>\n<p>El país tiene una extensión de 9.984.670 km², y una población de 33,311,389 habitantes.</p>\n<h2>Situación</h2>\n<p>Ubicado en el extremo norte del subcontinente norteamericano, se extiende desde el océano Atlántico al este, el <a href=\"/articulo/oceano-pacifico\">océano Pacífico</a> al oeste, y hacia el norte hasta el océano Ártico. Comparte frontera con los <a href=\"/articulo/estados-unidos\">Estados Unidos</a> al sur, y al noroeste con su estado federado Alaska. Es el segundo país más extenso del mundo después de Rusia, y también el más septentrional. Ocupa cerca de la mitad del territorio de Norteamérica.</p>\n<h2>Historia</h2>\n<p>El territorio ocupado por Canadá fue habitado por los diversos grupos de su población aborigen durante milenios.</p>\n<p>Los europeos llegaron por primera vez al continente americano cuando los vikingos se asentaron brevemente en <b>L'Anse aux Meadows</b> en la isla de Terranova alrededor del año 1000.</p>\n<p>Desde finales del siglo XV, numerosas expediciones británicas y francesas exploraron a lo largo de la costa atlántica, donde más tarde se establecieron.</p>\n<p>Entre los colonos franceses de Nueva Francia, los canadiens se asentaron en el Valle de río San Lorenzo, mientras que los acadiens en las provincias marítimas actuales. Los comerciantes de pieles franceses y los misioneros católicos exploraron la zona de los Grandes Lagos, la bahía de Hudson y la cuenca del Río Misisipi hasta Luisiana.</p>\n<p>Los ingleses establecieron puestos de pesca avanzada en Terranova alrededor del año 1610 y establecieron las Trece colonias al sur.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "new-france-11e96cc6.jpg",
+      "pie": "Mapa de Nueva Francia"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Al finalizar la <b>Guerra Franco-india</b> en 1763, con la firma del Tratado de París <a href=\"/articulo/francia\">Francia</a> cedió Canadá y la mayor parte de Nueva Francia a Gran Bretaña.</p>\n<p>La independencia del Reino Unido se firmó en 1867.</p>\n<h2>Guerras mundiales</h2>\n<p>Debido a que el Reino Unido todavía mantuvo el control de los asuntos exteriores nacionales, según lo acordado en la Ley de la Confederación, su declaración de guerra en 1914 automáticamente llevó a Canadá a la Primera Guerra Mundial.</p>\n<p>Canadá le declaró la guerra a <a href=\"/articulo/alemania\">Alemania</a> de forma independiente durante la Segunda Guerra Mundial, sólo tres días después de que lo hiciera el Reino Unido.</p>\n<h2>Actualidad</h2>\n<p>Canadá es una nación industrial y tecnológicamente pionera y avanzada, ampliamente autosuficiente en <a href=\"/articulo/energia\">energía</a> gracias a sus extensos depósitos de combustibles fósiles, y a la generación de <a href=\"/articulo/electricidad\">electricidad</a> de origen nuclear e hidroeléctrica.</p>\n<p>Sus grandes yacimientos y abundantes recursos naturales la hacen independiente económicamente de otros países.</p>\n<p>El comercio, particularmente con los <a href=\"/articulo/estados-unidos\">Estados Unidos</a> y <a href=\"/articulo/mexico\">México</a> es muy importante. Está considerado uno de los países con mejor calidad de vida.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "canada-cia-wfb-map-e4f9422a.png",
+    "tipo": "imagen",
+    "alt": "Mapa de Canadá",
+    "autor": "CIA",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Canada-CIA_WFB_Map.png"
+  },
+  "medios": [
+    {
+      "archivo": "canada-cia-wfb-map-e4f9422a.png",
+      "tipo": "imagen",
+      "alt": "Mapa de Canadá",
+      "autor": "CIA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Canada-CIA_WFB_Map.png"
+    },
+    {
+      "archivo": "new-france-11e96cc6.jpg",
+      "tipo": "imagen",
+      "alt": "Mapa de Nueva Francia",
+      "autor": "Aikonido",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:New_France.jpg"
+    }
+  ],
+  "relacionados": [
+    "oceano-pacifico",
+    "estados-unidos",
+    "francia",
+    "alemania",
+    "energia",
+    "electricidad"
+  ],
+  "pais": {
+    "adm0": "CAN"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Canad%C3%A1",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Canad%C3%A1&action=history",
+    "revid": 185494,
+    "fecha": "2026-10-14"
+  }
+}

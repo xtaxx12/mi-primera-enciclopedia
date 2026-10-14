@@ -1,0 +1,66 @@
+{
+  "slug": "aztecas",
+  "titulo": "Aztecas",
+  "categoria": "historia",
+  "resumen": "El Imperio Azteca fue una de las civilizaciones más importantes de mesoamérica durante el horizonte posclásico.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "mexica-8e5393e9.png",
+      "pie": "Extensión del estado mexica, llamado en algunas fuentes imperio azteca, que se desarrolló en Mesoamérica durante los siglos XIV-XVI de nuestra era."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>Imperio Azteca</b> fue una de las civilizaciones más importantes de mesoamérica durante el horizonte posclásico.</p>\n<h2>Origen</h2>\n<p>Su origen se remonta a siglos despues de la fundación de Tenochtitlan. Eran originarios de Aztlán, lugar de las garzas. Por más de dos siglos hicieron una peregrinación hasta que en el año 1325 fundaron su ciudad, México-Tenochtitlan. El pueblo azteca descendía de los toltecas, mientras que sus gobernantes eran originarios del señorío de Culhuacán. Tenochtitlan se parecía en muchos aspectos a Teotihuacan.</p>\n<h2>Sociedad</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "scalemodeltemplomayor-40b3a0bb.jpg",
+      "pie": "Maqueta del Templo Mayor (Templo Mayor) de Tenochtitlan que muestra sus diversas etapas, ya que se amplió con el tiempo."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La sociedad azteca era regida por un supremo gobernante al que apodaban \"<i>Tlatoani</i>\". La siguiente clase social era la nobleza, también conocida como \"<i>Pipiltin</i>\", eran los que se encargaban de la recolección de impuestos, vestían ropas de algodón y portaban ornamentos de jade, pluma y pieles. El siguiente escalón en su sistema social correspondía a los <i>macehuales</i>, el pueblo. Se dedicaban a las actividades pesadas como la agricultura. Los artesanos y comerciantes eran macehuales, pero estaban exentos de las actividades pesadas a cambio de dar tributos. Los esclavos o \"<i>tlacotin</i>\" tenían esa condición por tener deudas.</p>\n<p>En el lago de Texcoco los aztecas fundaron dos ciudades, México-Tenochtitlan y México-Tlatelolco. Tlatelolco fue fundada en 1338 d.C. Esta ciudad se expandió de manera independiente de Tenochtitlan. Tlatelolco se dedicó principalmente al comercio, teniendo así el mercado más grande del Imperio Azteca. En lugar de monedas, se utilizaba cacao, cobre y polvo de oro como factor de cambio.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "mexica-8e5393e9.png",
+    "tipo": "imagen",
+    "alt": "Extensión del estado mexica, llamado en algunas fuentes imperio azteca, que se desarrolló en Mesoamérica durante los siglos XIV-XVI de nuestra era.",
+    "autor": "Yavidaxiu",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mexica.png"
+  },
+  "medios": [
+    {
+      "archivo": "mexica-8e5393e9.png",
+      "tipo": "imagen",
+      "alt": "Extensión del estado mexica, llamado en algunas fuentes imperio azteca, que se desarrolló en Mesoamérica durante los siglos XIV-XVI de nuestra era.",
+      "autor": "Yavidaxiu",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mexica.png"
+    },
+    {
+      "archivo": "scalemodeltemplomayor-40b3a0bb.jpg",
+      "tipo": "imagen",
+      "alt": "Maqueta del Templo Mayor (Templo Mayor) de Tenochtitlan que muestra sus diversas etapas, ya que se amplió con el tiempo.",
+      "autor": "Thelmadatter",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:ScaleModelTemploMayor.JPG"
+    }
+  ],
+  "relacionados": [
+    "antigua-grecia",
+    "antiguo-egipto",
+    "cristobal-colon"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Imperio_azteca",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Imperio_azteca&action=history",
+    "revid": 159292,
+    "fecha": "2026-10-14"
+  }
+}

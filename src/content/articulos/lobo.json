@@ -1,0 +1,24 @@
+{
+  "slug": "lobo",
+  "titulo": "Lobo",
+  "categoria": "animales",
+  "resumen": "El lobo es un animal mamífero perteneciente a la familia de los cánidos.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>lobo</b> es un animal mamífero perteneciente a la familia de los cánidos.</p>\n<h2>Descripción</h2>\n<p>Los lobos son carnívoros (se alimentan de carne) y están emparentados con los <a href=\"/articulo/perro\">perros</a>. Miden aproximadamente noventa centímetros de alto y pesan entre 32 y 68 kilogramos. Su pelaje es de diferentes colores: puede ser gris, blanco, negro, marrón, pardo o una mezcla de varios tonos.</p>\n<h2>Hábitat</h2>\n<p>Son animales que prefieren el clima frío, como los <a href=\"/articulo/bosque\">bosques</a>, las <a href=\"/articulo/montana\">montañas</a> y las tundras. Su espeso pelaje los protege del viento y la nieve. Viven en Norteamérica, norte de Asia y parte de Europa.</p>\n<h2>Comportamiento</h2>\n<p>Los lobos viven en manadas; dentro de cada una, los diferentes miembros realizan funciones determinadas. Por ejemplo, una de las lobas se encarga exclusivamente de criar a las crías recién nacidas (nacen ciegos y sordos). Suelen aullar para comunicarse entre sí y para marcar su presencia. Son excelentes cazadores y pueden ser peligrosos para el ser humano si éste invade su territorio.</p>"
+    }
+  ],
+  "medios": [],
+  "relacionados": [
+    "perro",
+    "bosque",
+    "montana"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Canis_lupus",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Canis_lupus&action=history",
+    "revid": 136032,
+    "fecha": "2026-10-14"
+  }
+}

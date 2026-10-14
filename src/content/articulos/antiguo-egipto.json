@@ -1,0 +1,48 @@
+{
+  "slug": "antiguo-egipto",
+  "titulo": "Antiguo Egipto",
+  "categoria": "historia",
+  "resumen": "El Antiguo Egipto fue una civilización que se originó a lo largo del medio y bajo río Nilo, y alcanzó tres periodos de esplendor faraónico en los periodos denominados: Imperio Antiguo, Imperio Medio e Imperio Nuevo.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "egypt-giza-sphinx-01-80b01fb6.jpg",
+      "pie": "Pirámide de Kefrén y la Gran Esfinge de Guiza."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>Antiguo Egipto</b> fue una civilización que se originó a lo largo del medio y bajo río Nilo, y alcanzó tres periodos de esplendor faraónico en los periodos denominados: Imperio Antiguo, Imperio Medio e Imperio Nuevo.</p>\n<p>Alcanzaba desde el delta del Nilo por el norte hasta la isla Elefantina (Asuan, en la primera catarata del Nilo, por el sur), llegando a influir desde el Éufrates hasta Gebel Barkal, en la cuarta catarata del Nilo, en épocas de máxima expansión. Su territorio también rodeó, en diferentes períodos, el desierto oriental y la costa del Mar Rojo, la península del Sinaí y un gran territorio occidental que dominaba los oasis dispersos. Históricamente, se dividió en Alto (sur) y Bajo Egipto (norte).</p>\n<p>La civilización egipcia se desarrolló durante más de 3.000 años. Comenzó con la unificación de varias ciudades en el Valle del Nilo, alrededor del 3150 a.C. C., y se da por terminado en el 31 a. C., cuando el <a href=\"/articulo/imperio-romano\">Imperio Romano</a> conquista y absorbe el Egipto ptolemaico, que desaparece como estado. Este evento no representó el primer período de dominación extranjera. Fue el que propició una transformación paulatina en la vida política y religiosa del valle del Nilo, marcando el final del desarrollo independiente de su cultura.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "egypt-giza-sphinx-01-80b01fb6.jpg",
+    "tipo": "imagen",
+    "alt": "Pirámide de Kefrén y la Gran Esfinge de Guiza.",
+    "autor": "en:User:Hajor",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Egypt.Giza.Sphinx.01.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "egypt-giza-sphinx-01-80b01fb6.jpg",
+      "tipo": "imagen",
+      "alt": "Pirámide de Kefrén y la Gran Esfinge de Guiza.",
+      "autor": "en:User:Hajor",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Egypt.Giza.Sphinx.01.jpg"
+    }
+  ],
+  "relacionados": [
+    "imperio-romano",
+    "antigua-grecia",
+    "aztecas"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Antiguo_Egipto",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Antiguo_Egipto&action=history",
+    "revid": 168485,
+    "fecha": "2026-10-14"
+  }
+}

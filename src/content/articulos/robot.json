@@ -1,0 +1,48 @@
+{
+  "slug": "robot",
+  "titulo": "Robot",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "Un robot es un agente artificial, lo que significa que actúa en lugar de una persona, haciendo las cosas para las que está diseñado.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "honda-asimo-7a37a872.jpg",
+      "pie": "El robot Honda ASIMO"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>robot</b> es un agente artificial, lo que significa que actúa en lugar de una persona, haciendo las cosas para las que está diseñado.</p>\n<p>Los robots generalmente son máquinas controlados por un programa de computadora o un circuito electrónico. Pueden ser controlados directamente por humanos. Pueden estar diseñados para parecerse a humanos, en cuyo caso su comportamiento puede sugerir que tienen inteligencia o que piensan. La mayoría de los robots hacen un trabajo determinado, y no siempre se parecen a los humanos. Pueden ser de muchas formas.</p>\n<p>En la ciencia ficción, sin embargo, los robots suelen parecer personas y parecen tener vida propia. Hay muchos libros, películas y videojuegos con robots como personajes. La colección de relatos <i>Yo, Robot</i>  de Isaac Asimov es quizás el libro más famoso escrito sobre robots.</p>\n<h2>Leyes de los robots</h2>\n<p>En las historias que contó Isaac Asimov sobre robots, estos se guiaban por las tres leyes de los robots, hechas para que los humanos estuvieran siempre protegidos de ellos.</p>\n<ol><li>Un robot no puede dañar a un ser humano o, por inacción, permitir que un ser humano sufra daños.</li>\n<li>Un robot debe obedecer las órdenes que le den los seres humanos, excepto cuando tales órdenes sean contrarias a la Primera Ley.</li>\n<li>Un robot debe proteger su propia existencia siempre que dicha protección no sea contraria a la Primera o Segunda Ley.</li></ol>\n<p>Estas leyes se mencionan en los videojuegos Mega Man.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "honda-asimo-7a37a872.jpg",
+    "tipo": "imagen",
+    "alt": "El robot Honda ASIMO",
+    "autor": "Gnsin",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:HONDA_ASIMO.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "honda-asimo-7a37a872.jpg",
+      "tipo": "imagen",
+      "alt": "El robot Honda ASIMO",
+      "autor": "Gnsin",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:HONDA_ASIMO.jpg"
+    }
+  ],
+  "relacionados": [
+    "atomo",
+    "automovil",
+    "celula"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Robot",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Robot&action=history",
+    "revid": 123946,
+    "fecha": "2026-10-14"
+  }
+}

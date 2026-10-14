@@ -1,0 +1,78 @@
+{
+  "slug": "italia",
+  "titulo": "Italia",
+  "categoria": "paises",
+  "resumen": "Italia es un país europeo. Tiene una extensión de 301,270 km². Su capital es Roma. Está situado en la Península Itálica, a la que da nombre.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "leaning-tower-of-pisa-83b6b3c5.jpg",
+      "pie": "La Torre de Pisa"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Italia</b> es un país europeo. Tiene una extensión de 301,270 km². Su capital es Roma. Está situado en la Península Itálica, a la que da nombre.</p>\n<h2>Geografía</h2>\n<p>El país tiene una población de 59'337,888 habitantes. Los italianos componen la mayor parte de la poblacion (98%), existen minorías étnicas como los descendientes de alemanes, españoles, suizos y franceses, así como de africanos, asiáticos y árabes.</p>\n<p>El Euro es la moneda que se maneja en Italia. Italia es la quinta potencia de Europa, por detrás de <a href=\"/articulo/francia\">Francia</a>, <a href=\"/articulo/alemania\">Alemania</a>, Inglaterra, Suiza y Rusia.</p>\n<p>El 85% de los italianos son de la religión católica romana, seguidos por los protestantes, musulmanes, judíos, ortodoxos, ateos, agnósticos y entre otras religiones.</p>\n<h2>Historia</h2>\n<p>Entre el siglo XVIII antes de Cristo y el siglo II existió en Cerdeña la cultura nurágica. Durante la Edad del Hierro se sucedieron varias culturas que pueden ser diferenciadas en tres grandes núcleos geográficos, la del Lacio Antiguo, la de Magna Grecia y la de Etruria.</p>\n<p>Otro pueblo, los etruscos, poseían su núcleo histórico en la Toscana, y tuvieron un origen incierto. Desde la Toscana se extendieron por el sur hacia el Lacio y parte septentrional de la Campania, en donde chocaron con las colonias griegas; hacia el norte de la península itálica ocuparon la zona alrededor del valle del río Po, en la actual región de Lombardía. Hacia el siglo V a. C. comenzó a deteriorarse fuertemente su poderío, en gran medida, al tener que afrontar casi al mismo tiempo las invasiones de los celtas y los ataques de griegos y cartagineses. Hacia el 40 a. C., Etruria (nombre del país de los etruscos) fue conquistada por los romanos y, antes o después, lo fueron el resto de pueblos periféricos.</p>\n<p>Durante la <a href=\"/articulo/edad-media\">Edad Media</a>, los ostrogodos eran un grupo de godos que habían sido sojuzgados por los hunos, pero tras su liberación de éstos, Teodorico el Grande, con la bendición del emperador de Oriente, condujo a su pueblo a Italia en 488 d.C.</p>\n<h2>Gobierno y política</h2>\n<p>La política se basa en un sistema republicano parlamentarista con democracia representativa desde el 2 de junio de 1946, cuando la monarquía fue abolida por referéndum popular.</p>\n<p>El actual presidente de la República es Sergio Mattarella.</p>\n<h2>Economía</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "eurozone-b274a483.png",
+      "pie": "Eurozona."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La actividad industrial ha sido el motor del desarrollo italiano, y el actual eje de su economía. El Euro es la moneda que se maneja en Italia.</p>\n<p>El turismo es uno de los sectores con más crecimiento de la economía nacional con 43,7 millones de turistas por año y un total de 42.700 millones de dólares generados, siendo así el cuarto país con más turismo del mundo. Roma, la capital, es uno de los destinos más visitados del mundo, con una media de 7 a 10 millones de turistas al año</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "italy-orthographic-projection-02faeb04.png",
+    "tipo": "imagen",
+    "alt": "Italia",
+    "autor": "Neq00",
+    "licencia": "cc0",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Italy_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "italy-orthographic-projection-02faeb04.png",
+      "tipo": "imagen",
+      "alt": "Italia",
+      "autor": "Neq00",
+      "licencia": "cc0",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Italy_(orthographic_projection).svg"
+    },
+    {
+      "archivo": "leaning-tower-of-pisa-83b6b3c5.jpg",
+      "tipo": "imagen",
+      "alt": "La Torre de Pisa",
+      "autor": "Softeis",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Leaning_Tower_of_Pisa.jpg"
+    },
+    {
+      "archivo": "eurozone-b274a483.png",
+      "tipo": "imagen",
+      "alt": "Eurozona.",
+      "autor": "Glentamara",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Eurozone.svg"
+    }
+  ],
+  "relacionados": [
+    "francia",
+    "alemania",
+    "edad-media"
+  ],
+  "pais": {
+    "adm0": "ITA"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Italia",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Italia&action=history",
+    "revid": 165762,
+    "fecha": "2026-10-14"
+  }
+}

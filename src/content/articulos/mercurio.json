@@ -1,0 +1,44 @@
+{
+  "slug": "mercurio",
+  "titulo": "Mercurio",
+  "categoria": "espacio",
+  "resumen": "Mercurio es el planeta más pequeño del sistema solar. De diámetro 4878 kilómetros, atmósfera muy débil y sin satélites, es el más cercano al Sol: está a 58 millones de kilómetros de distancia media. Esa distancia, sin embargo, cambia mucho porque la órbita del planeta es muy elíptica ya que varía…",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p><b>Mercurio</b> es el <a href=\"/articulo/planeta\">planeta</a> más pequeño del <a href=\"/articulo/sistema-solar\">sistema solar</a>. De diámetro 4878&#160;kilómetros, atmósfera muy débil y sin satélites, es el más cercano al Sol: está a 58 millones de kilómetros de distancia media. Esa distancia, sin embargo, cambia mucho porque la órbita del planeta es muy elíptica ya que varía entre 46 y 69 millones de kilómetros.</p>\n<p>La superficie de Mercurio está cubierta de cráteres, similares a los de la <a href=\"/articulo/luna\">Luna</a>. Sin embargo, la mayoría de los cráteres de Mercurio son de origen <a href=\"/articulo/volcan\">volcánico</a>, mientras que los de la Luna se deben a impactos de meteoritos.</p>\n<p>Mercurio gira muy lentamente sobre sí mismo: su período de rotación es de 58 días y 16 horas terrestres; ¡esto significa que un día en Mercurio son casi dos meses aquí en la tierra! Como gira tan lentamente, la parte del planeta que está expuesta al Sol tiene mucho tiempo calentándose, alcanzando temperaturas de hasta 430&#160;°C, mientras que la parte que está oculta del Sol se enfría durante mucho tiempo, y su temperatura baja hasta -180&#160;°C.</p>\n<p>El período de traslación del planeta es de 87 días y 23 horas terrestres.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "messenger-first-photo-of-unseen-side-of-mercury-155de26a.jpg",
+    "tipo": "imagen",
+    "alt": "Mercurio",
+    "autor": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:MESSENGER_first_photo_of_unseen_side_of_mercury.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "messenger-first-photo-of-unseen-side-of-mercury-155de26a.jpg",
+      "tipo": "imagen",
+      "alt": "Mercurio",
+      "autor": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:MESSENGER_first_photo_of_unseen_side_of_mercury.jpg"
+    }
+  ],
+  "relacionados": [
+    "planeta",
+    "sistema-solar",
+    "luna",
+    "volcan"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Mercurio",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Mercurio&action=history",
+    "revid": 184208,
+    "fecha": "2026-10-14"
+  }
+}

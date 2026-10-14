@@ -1,0 +1,27 @@
+{
+  "slug": "planeta",
+  "titulo": "Planeta",
+  "categoria": "espacio",
+  "resumen": "Un planeta es un cuerpo celeste en el espacio, redondo y que no emite luz propia, pero que refleja los rayos del Sol.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>planeta</b> es un cuerpo celeste en el espacio, redondo y que no emite luz propia, pero que refleja los rayos del Sol.</p>\n<h2>Etimología</h2>\n<p>La palabra \"planeta\" proviene del&#160;latín&#160;<i>planeta</i>, la cual se deriva del&#160;griego <i>πλανήτης</i>&#160;('planētēs', que en griego tiene dos definiciones: «<b>vagabundo</b>» y «<b>errante</b>»).</p>\n<h2>Características</h2>\n<p>Según la Unión Astronómica Internacional, un <b>planeta</b> es un cuerpo celeste que cumple con las siguientes características:</p>\n<ol><li>Orbita (se mueve) alrededor de una estrella.</li>\n<li>Tiene suficiente gravedad y masa para mantenerse en equilibrio (lo cual hace que sea prácticamente esférico).</li>\n<li>En su órbita no hay objetos&#160;planetesimales.</li>\n<li>No emite luz propia</li></ol>\n<p>Según esta definición, el <a href=\"/articulo/sistema-solar\">Sistema Solar</a> tiene ocho planetas: <a href=\"/articulo/mercurio\">Mercurio</a>, Venus, <a href=\"/articulo/tierra\">Tierra</a>, <a href=\"/articulo/marte\">Marte</a>, Júpiter, Saturno, Urano y Neptuno. <a href=\"/articulo/pluton\">Plutón</a> sería considerado un planeta hasta el año 2006, cuando pasaría a clasificarse como planeta enano, junto a Ceres y Eris.</p>\n<p>Los cuerpos que giran en torno a otras estrellas diferentes del <a href=\"/articulo/sol\">Sol</a> se denominan generalmente planetas extrasolares o exoplanetas.</p>\n<h2>Clasificación de los planetas del Sistema Solar</h2>\n<p>Los planetas del <a href=\"/articulo/sistema-solar\">Sistema Solar</a> se clasifican según su estructura: se llaman <b>planetas terrestres</b> (o <b>planetas telúricos</b>) si son sólidos, y <b>planetas jovianos</b> si son gaseosos.</p>\n<ul><li><b>Planetas terrestres o telúricos</b>: son planetas pequeños, de superficie rocosa y sólida, y alta densidad. Son <a href=\"/articulo/mercurio\">Mercurio</a>, Venus, la <a href=\"/articulo/tierra\">Tierra</a> y <a href=\"/articulo/marte\">Marte</a>. Los planetas terrestres también son llamados <b>planetas interiores</b> debido a que se encuentran más cercanos al Sol que el Cinturón de asteroides.</li>\n<li><b>Planetas jovianos</b>: son planetas enormes, esencialmente gaseosos, y de baja densidad. Son Júpiter, Saturno, Urano y Neptuno. Los planetas jovianos también son llamados <b>planetas exteriores</b> debido a que se encuentran más alejados del Sol que el Cinturón de asteroides.</li></ul>"
+    }
+  ],
+  "medios": [],
+  "relacionados": [
+    "sistema-solar",
+    "mercurio",
+    "tierra",
+    "marte",
+    "pluton",
+    "sol"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Planeta",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Planeta&action=history",
+    "revid": 127353,
+    "fecha": "2026-10-14"
+  }
+}

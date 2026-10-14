@@ -1,0 +1,48 @@
+{
+  "slug": "pulpo",
+  "titulo": "Pulpo",
+  "categoria": "animales",
+  "resumen": "El pulpo, científicamente conocida como Octopoda, (No se debe confundir con el Calamar) es una especie marina, clasificado como un molusco cefalópodo octopodiforme. Es un ser carnívoro. Tiene una cabeza ovalada que carece de cáscara y 8 tentáculos.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "octopus2-41f37857.jpg",
+      "pie": "Un pulpo"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>pulpo,</b> científicamente conocida como <b>Octopoda</b>, (No se debe confundir con el Calamar) es una especie marina, clasificado como un molusco cefalópodo octopodiforme. Es un ser carnívoro. Tiene una cabeza ovalada que carece de cáscara  y 8 tentáculos.</p>\n<h2>Anatomía</h2>\n<p>Los ocho brazos de los pulpos cuentan con ventosas pegajosas. La boca está provista de un pico córneo. En la cabeza se alojan los ojos, muy desarrollados, el cerebro y tres corazones, dos de ellos bombean sangre a las dos branquias y el tercero al resto del cuerpo. En el manto se ubican el resto de vísceras, como el depósito de tinta que emplean para escapar de sus depredadores; también cuentan con un sifón, con el que expulsa una gran cantidad de agua, impulsándose así a gran velocidad.</p>\n<p>Los pulpos más pequeños alcanzan tallas de unos 15 cm. El pulpo común puede alcanzar los 3 m de largo y 12 kg de peso. Las especies más grandes llegan a los 6 metros y los 70 kg.</p>\n<h2>Alimentación</h2>\n<p>Los pulpos se alimentan de peces, crustáceos pequeños y  de bivalvos como las almejas.</p>\n<h2>Reproducción</h2>\n<p>Tras la fecundación el macho abandona a la hembra y ésta cuelga sus huevos (hasta 150&#160;000) en forma de racimos en el techo de su cueva.</p>\n<p>La hembra cuida sus huevos hasta que eclosionan, un mes aproximadamente. Durante ese tiempo la hembra mantiene a raya los depredadores y oxigena la cueva.</p>\n<h2>Comportamiento</h2>\n<p>Los pulpos tienen mucha fuerza en comparación a su tamaño, pero incluso los más grandes son animales muy tímidos, pasan la mayor parte del día escondidos en grietas y por la noche salen a cazar.</p>\n<p>Es un animal que se mimetiza con su entorno, haciendo difícil verlo, incluso arruga su piel para hacer parecer una roca con algas. Sin embargo cuando es atacado cambia de color enseguida.</p>\n<p>Los grandes peces como la morena, el congrio o el mero suelen atacarle, para evitarlos el pulpo expulsa un poco de tinta negra por su propulsor.</p>\n<h2>Inteligencia</h2>\n<p>Se considera a los pulpos como los invertebrados con mayor inteligencia, teniendo éstos un sistema nervioso muy desarrollado. Su capacidad para resolver problemas, sortear obstáculos y memorizar patrones ha sido comprobado en varias oportunidades por científicos de todo el mundo. Son capaces de aprender observando, cosa que queda más que demostrada después de ver al \"pulpo imitador\" en acción, que adopta diferentes formas de animales venenosos para no ser molestado.</p>\n<p>Jacques-Yves Cousteau dijo sobre el pulpo: «La timidez del pulpo es una reacción racional basada sobre todo en la prudencia. [...] Si el buceador es capaz de demostrarle que es inofensivo, perderá la timidez enseguida, más rápido que cualquier otra especie salvaje».</p>\n<h2>Relación con el hombre</h2>\n<p>Los pulpos no representan ninguna amenaza para el hombre. Se los caza por deporte y para el consumo humano, actualmente están distribuidos por todo el mundo y la mayoría se camuflan o se esconden para no ser vistos.</p>\n<p>Los pulpos no son peligrosos, pero hay una única excepción: el pulpo de anillos azules, cuya mordedura es venenosa y puede causar la muerte en al menos una hora.</p>\n<h3>El pulpo en el cine</h3>\n<p>Dentro de la cultura popular, la figura del pulpo ha sido protagonista de varias películas, todas ellas relacionadas en mayor o menor medida con el mito del pulpo gigante o kraken. Por otra parte, el fenómeno mediático del pulpo Paul provocó la realización de una película titulada <i>Kill Octopus Paul</i>, estrenada a finales de agosto de 2010.</p>\n<h3>El Pulpo en la gastronomía humana</h3>\n<p>El pulpo también es conocida en la gastronomía asiática, pero es considerada muy arriesgada porque en Corea, el <i><b>Sannakji</b></i> (산낙지), una variante de <i>hoe</i> donde se come el pulpo vivo entero o a trozos. Da asco a plena vista pero según los que vivieron la experiencia es un manjar delicioso, pero si no se procede con precaución puedes el correr el riesgo de que sus ventosas de sus tentáculos se adhieran a tu garganta, asfixiándote en el proceso.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "octopus2-41f37857.jpg",
+    "tipo": "imagen",
+    "alt": "Un pulpo",
+    "autor": "albert kok",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "octopus2-41f37857.jpg",
+      "tipo": "imagen",
+      "alt": "Un pulpo",
+      "autor": "albert kok",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg"
+    }
+  ],
+  "relacionados": [
+    "abeja",
+    "ballena",
+    "cocodrilo"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Octopoda",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Octopoda&action=history",
+    "revid": 144943,
+    "fecha": "2026-10-14"
+  }
+}

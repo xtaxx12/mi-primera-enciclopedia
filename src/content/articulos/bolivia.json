@@ -1,0 +1,135 @@
+{
+  "slug": "bolivia",
+  "titulo": "Bolivia",
+  "categoria": "paises",
+  "resumen": "Bolivia es un país de América del Sur. Su capital oficial es Sucre, y su sede de gobierno es La Paz. Limita con Brasil, Paraguay, Argentina, Perú y Chile. Su nombre viene de Simón Bolivar.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "bl-map-333d9a89.png",
+      "pie": "Mapa de Bolivia"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Bolivia</b> es un país de América del Sur. Su capital oficial es Sucre, y su sede de gobierno es La Paz. Limita con <a href=\"/articulo/brasil\">Brasil</a>, <a href=\"/articulo/paraguay\">Paraguay</a>, <a href=\"/articulo/argentina\">Argentina</a>, <a href=\"/articulo/peru\">Perú</a> y <a href=\"/articulo/chile\">Chile</a>. Su nombre viene de Simón Bolivar.</p>\n<p>La moneda oficial de Bolivia es el boliviano. Las ciudades más pobladas son: Santa Cruz de la Sierra, La Paz, El Alto, Cochabamba, Oruro, Sucre y Potosí.</p>\n<p>Dentro del Patrimonio de la Humanidad en Bolivia destacan la <i>Ciudad de Potosí</i>, las <i>Misiones Jesuíticas de Chiquitos</i> y la <i>Ciudad Histórica de Sucre</i>.</p>\n<h2>Historia</h2>\n<p>El territorio del actual Bolivia estuvo habitado desde épocas prehispánicas por diversos pueblos indígenas. En el altiplano se desarrollaron culturas como la de Tiwanaku, una de las principales civilizaciones prehispánicas de los Andes, mientras que otras regiones estuvieron habitadas por pueblos como los aymaras, quechuas, guaraníes y chiriguanos. Durante el siglo XV, gran parte del territorio quedó incorporada al Imperio incaico.</p>\n<p>La conquista española comenzó en la década de 1530 y el territorio pasó a formar parte del Imperio español. En 1545 se descubrieron las grandes reservas de plata de Cerro Rico de Potosí, lo que convirtió a Potosí en uno de los principales centros económicos del mundo colonial. La explotación minera se basó en gran medida en sistemas de trabajo indígena, especialmente la mita, y estuvo vinculada al comercio con otras regiones del imperio.</p>\n<p>Durante el periodo colonial, el territorio formó parte inicialmente del Virreinato del Perú y posteriormente del Virreinato del Río de la Plata. La sociedad colonial estuvo caracterizada por una marcada jerarquía social y por la presencia de población indígena, mestiza, europea y africana. A finales del siglo XVIII se produjeron importantes rebeliones indígenas, entre ellas las dirigidas por Túpac Amaru II y Túpac Katari.</p>\n<p>Los movimientos independentistas comenzaron en 1809 con las revoluciones de Chuquisaca y La Paz. La guerra de independencia se prolongó durante más de una década y culminó con la victoria de las fuerzas independentistas. El 6 de agosto de 1825 se proclamó la independencia del Alto Perú, que adoptó el nombre de Bolivia en honor a Simón Bolívar.</p>\n<p>Durante el siglo XIX, Bolivia estuvo marcada por frecuentes conflictos políticos, cambios de gobierno y guerras con países vecinos. En 1879 comenzó la Guerra del Pacífico, durante la cual Bolivia perdió su territorio costero frente a <a href=\"/articulo/chile\">Chile</a>. Posteriormente, la economía boliviana se apoyó principalmente en la explotación de la plata y, desde finales del siglo XIX, del estaño.</p>\n<p>A comienzos del siglo XX, el estaño se convirtió en uno de los principales productos de exportación y favoreció la formación de grandes empresas mineras. Bolivia participó en la Guerra del Chaco contra <a href=\"/articulo/paraguay\">Paraguay</a> entre 1932 y 1935, conflicto que tuvo importantes consecuencias políticas y sociales. En 1952, la Revolución Nacional llevó al poder al Movimiento Nacionalista Revolucionario y produjo transformaciones como la nacionalización de las grandes empresas mineras, la reforma agraria y la ampliación del sufragio.</p>\n<p>Durante la segunda mitad del siglo XX, Bolivia atravesó sucesivos gobiernos militares y civiles. En 1982 se restableció el gobierno democrático. Durante las décadas siguientes se aplicaron reformas económicas y se produjeron importantes movilizaciones sociales relacionadas con los recursos naturales, la desigualdad y las demandas de los pueblos indígenas.</p>\n<p>En 2006, Evo Morales asumió la presidencia y su gobierno impulsó una nueva política de nacionalización de determinados recursos naturales y un proceso de reforma constitucional. La Constitución de 2009 estableció el Estado Plurinacional de Bolivia. En las décadas siguientes, el país continuó experimentando transformaciones políticas, económicas y sociales.</p>\n<h2>Geografía</h2>\n<p>Bolivia tiene un área de 1,098,581 km². Está totalmente rodeado de otros países, así que no tiene mar.</p>\n<h3>Relieve</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "bolivia-topography-0cb1805a.png",
+      "pie": "Mapa de relieve de Bolivia"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Bolivia se puede dividir en tres regiones físicas que son:</p>\n<ul><li><b>Región Andina</b> en el sudoeste: se halla a más de 3.000 msnm, ubicada entre los dos grandes ramales andinos: las cordilleras Occidental y Oriental o Real, las que presentan algunas de las cumbres más elevadas de América como el Nevado Sajama con 6.542 msnm y el Illimani con 6.462 msnm. Aquí se encuentra el Lago Titicaca, el más alto navegable del mundo situado a 3.810 msnm, con una extensión de 8.100&#160;km² y compartido con Perú. También se encuentra en el altiplano el salar de Uyuni, que es el depósito de sal y el reservorio de litio más grande del mundo.</li>\n<li><b>Región Subandina</b> en el centro-sur: región intermedia entre el altiplano y los llanos orientales. Se caracteriza por su actividad agrícola y su clima templado a cálido (15 a 25&#160;°C). Esta región comprende los valles bolivianos y Los Yungas.</li>\n<li><b>Región de los Llanos</b> en el noreste: se extiende desde el pie de los Andes hacia el río Paraguay. Es una tierra de llanuras y bajas mesetas, cubierta por extensas selvas ricas en flora y fauna. La región se caracteriza por estar a una altitud menor de 400 msnm, contar con ríos extensos y la mayor biodiversidad del país. Registra una temperatura media anual de 22 a 25&#160;°C.</li></ul>\n<h3>Hidrografía</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "pie": "Climas de Bolivia"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Bolivia cuenta con tres cuencas que recogen las aguas que desembocan en las vertientes del océano Atlántico, del Altiplano y, en menor medida en el Pacífico como es el caso del río Silala.</p>\n<ul><li>Los ríos de la <b>cuenca del Amazonas o Norte</b> son en general de caudalosos. A ella pertenecen los ríos Mamoré, el río Beni, el Madre de Dios, Orthon, Abuná, Yata e Iténez o Guaporé.</li></ul>\n<ul><li>Los ríos de la <b>cuenca del Plata o Sur</b> son por lo general menos caudalosos que los amazónicos ya que las lluvias son menos intensas. Compuesta principalmente por los ríos Paraguay, Pilcomayo y Bermejo.</li>\n<li>La <b>cuenca Lacustre o Central</b>:  el Altiplano cuenta con gran cantidades de ríos, lagos, lagunas y manantiales que no discurren hacia ningún océano por encontrarse encerradas por la cordillera de los Andes que delimita la región. El río más importante es el Desaguadero que nace en el lago Titicaca</li></ul>\n<h3>Clima</h3>\n<p>Bolivia tiene muy variados climas, yendo desde el clima tropical en la amazonia boliviana, a la tundra en el suroeste, húmedo subtropical en el Chapare, clima de estepa en el Chaco boliviano. Por su cercanía a la línea del Ecuador, las cuatros estaciones del año no son muy marcadas. La estación de lluvias en el país abarca de noviembre a marzo.</p>\n<h3>Biodiversidad</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "bolivia-ecoregiones-feb19baa.png",
+      "pie": "Ecorregiones y áreas protegidas en Bolivia"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li><b><a href=\"/articulo/planta\">Plantas</a></b>: Bolivia es considerada como el lugar de origen de especies como los locotos, ajíes, pimientos, maníes, poroto o alubias, yuca y diversas variedades de palmeras. Por otro lado, en sus tierras se producen más de 4.000 variedades de patatas en una amplia gama de colores, formas y tamaños.</li>\n<li><b>Vertebrados</b>: Bolivia está entre los diez países más diversos del mundo con más de 2.900 especies, distribuidas en: mamíferos, aves (70% de aves conocidas en el mundo), anfibios, de reptiles y de peces de agua dulce, puesto que el país no cuenta con salida al mar. Además se han identificado más de 3.000 especies de <a href=\"/articulo/mariposa\">mariposas</a>. Existen también más de 50 especies de animales domésticos.</li></ul>\n<p>Un alto porcentaje de las especies de flora y fauna son endémicas puesto que sólo habitan en el área delimitada. La mayor concentración de plantas endémicas se encuentran en los Andes. Más específicamente en los yungas y en los valles secos interandinos.</p>\n<h2>Economía</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "plaza-de-armas-de-sucre-decembre-2007-panorama-equirectangul-cbef851c.jpg",
+      "pie": "Plaza de Armas de Sucre, (Bolivia)."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La economía de Bolivia tiene su base principal en la extracción y en la exportación de sus recursos naturales, principalmente mineros y gasísticos.</p>\n<p>En tiempos coloniales, Bolivia era un gran productor mundial de oro y plata, con cuantiosas reservas. Además, hacia mediados del siglo XX, en la época republicana, Bolivia se constituía en uno de los más grandes productores de estaño, llegando a ser el primer productor mundial de este metal.</p>\n<p>Hoy en día, la economía boliviana continua siendo muy dependiente de la agricultura, la ganadería y la minería; aunque se ha producido una leve diversificación de la producción minera como el zinc o el estaño, gas natural y soya.</p>\n<p>El turismo es un sector en crecimiento debido a que Bolivia es un país de contrastes profundos ubicado entre las altas cumbres de los Andes y las selvas tropicales del <a href=\"/articulo/rio-amazonas\">Amazonas</a>.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "bolivia-orthographic-projection-7bef5b3a.png",
+    "tipo": "imagen",
+    "alt": "Bolivia",
+    "autor": "Connormah",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bolivia_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "bolivia-orthographic-projection-7bef5b3a.png",
+      "tipo": "imagen",
+      "alt": "Bolivia",
+      "autor": "Connormah",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bolivia_(orthographic_projection).svg"
+    },
+    {
+      "archivo": "bl-map-333d9a89.png",
+      "tipo": "imagen",
+      "alt": "Mapa de Bolivia",
+      "autor": "United States Central Intelligence Agency",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bl-map.png"
+    },
+    {
+      "archivo": "bolivia-topography-0cb1805a.png",
+      "tipo": "imagen",
+      "alt": "Mapa de relieve de Bolivia",
+      "autor": "Sadalmelik",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bolivia_Topography.png"
+    },
+    {
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "tipo": "imagen",
+      "alt": "Climas de Bolivia",
+      "autor": "Peel, M. C., Finlayson, B. L., and McMahon, T. A. (University of Melbourne)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:South_America_K%C3%B6ppen_Map.png"
+    },
+    {
+      "archivo": "bolivia-ecoregiones-feb19baa.png",
+      "tipo": "imagen",
+      "alt": "Ecorregiones y áreas protegidas en Bolivia",
+      "autor": "Miguel Sevilla-Callejo",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Bolivia_ecoregiones.png"
+    },
+    {
+      "archivo": "plaza-de-armas-de-sucre-decembre-2007-panorama-equirectangul-cbef851c.jpg",
+      "tipo": "imagen",
+      "alt": "Plaza de Armas de Sucre, (Bolivia).",
+      "autor": "Martin St-Amant (S23678)",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas_de_Sucre_D%C3%A9cembre_2007_-_Panorama_%C3%89quirectangulaire.jpg"
+    }
+  ],
+  "relacionados": [
+    "brasil",
+    "paraguay",
+    "argentina",
+    "peru",
+    "chile",
+    "planta"
+  ],
+  "pais": {
+    "adm0": "BOL"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Bolivia",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Bolivia&action=history",
+    "revid": 204121,
+    "fecha": "2026-10-14"
+  }
+}

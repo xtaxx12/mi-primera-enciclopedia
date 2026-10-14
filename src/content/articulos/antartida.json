@@ -1,0 +1,50 @@
+{
+  "slug": "antartida",
+  "titulo": "Antártida",
+  "categoria": "planeta-tierra",
+  "resumen": "La Antártida (conocida en Chile como Antártica) es un continente. Está situada completamente en el hemisferio sur, casi enteramente al sur del círculo polar antártico y está rodeada por el océano Antártico. Contiene el polo sur geográfico. También es llamada el sexto continente. Tiene una…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "keep-watch-land-claim-d916e5aa.png",
+      "pie": ""
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>Antártida</b> (conocida en <a href=\"/articulo/chile\">Chile</a> como <i><b>Antártica</b></i>) es un continente. Está situada completamente en el hemisferio sur, casi enteramente al sur del círculo polar antártico y está rodeada por el océano Antártico. Contiene el polo sur geográfico. También es llamada <i>el sexto continente</i>. Tiene una extensión de 14 millones de km², casi del doble de <a href=\"/articulo/australia\">Australia</a> y además mucho mayor que la de Europa. El continente más cercano es América del Sur a 990 kilómetros de distancia. El 99% de este continente  está cubierto por grandes masas glaciares que alcanzan un volumen de 30 millones de kilómetros cúbicos de hielo.</p>\n<h2>Geografía</h2>\n<p>Este continente tiene el clima más frío, con más vientos y el más seco de la Tierra. La temperatura promedio durante el año es de –50°C. En verano, en cambio, en zonas costeras e islas la temperatura permanece en unos pocos grados bajo cero aunque, recientemente, máximas de 8°C no suelen ser temperaturas excepcionales.</p>\n<p>El mar que circunda la Antártica es conocido como océano Antártico, éste se congela entre marzo y septiembre. Este grueso y pesado manto de hielo se desplaza lentamente desde el centro de la meseta hacia la periferia. Más allá de la costa, la masa helada se desprende de los glaciares transformándose en gigantescos témpanos.</p>\n<p>El viento surge en cualquier momento, con velocidades que sobrepasan los 100&#160;km/h. Temporales de este tipo pueden durar varios días o incluso semanas.</p>\n<p>En este continente no ha existido vida humana autóctona, es decir, pueblos originarios de esas tierras debido a su frío e inhospitalidad. En consecuencia, no hay muchas especies de <a href=\"/articulo/planta\">flora</a> y fauna en la superficie terrestre. Las zonas más ricas en este último son los sectores <a href=\"/articulo/volcan\">volcánicos</a>.</p>\n<p>Sin embargo, las profundidades oceánicas son extremadamente ricas en plancton y peces, cetáceos, focas, otarios y elefantes marinos, que conviven con una gran variedad de aves marinas y de <a href=\"/articulo/pinguino\">pingüinos</a>.</p>\n<p>Este continente, esta protegido por la comunidad mundial. Por ello, mil científicos (en verano son alrededor de cuatro mil) viven en más de cien bases científicas, construidas para conocer este inmenso lugar.</p>\n<h2>¿Antártida o Antártica?</h2>\n<p>Este lugar puede ser denominado de ambas maneras. Lo preferible es hacerlo como \"Antártida\", ya que es el más usado por cartógrafos y geógrafos. Esta palabra proviene del griego y significa \"Sin Oso\". La palabra griega es \"Antarktikos\" compuesta de \"Arti\" (en oposición) y \"Arkticos\" o Ártica.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "keep-watch-land-claim-d916e5aa.png",
+    "tipo": "imagen",
+    "alt": "Antártida",
+    "autor": "KeepWatch",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Keep_watch_land_claim.png"
+  },
+  "medios": [
+    {
+      "archivo": "keep-watch-land-claim-d916e5aa.png",
+      "tipo": "imagen",
+      "alt": "Antártida",
+      "autor": "KeepWatch",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Keep_watch_land_claim.png"
+    }
+  ],
+  "relacionados": [
+    "chile",
+    "australia",
+    "planta",
+    "volcan",
+    "pinguino"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Ant%C3%A1rtida",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Ant%C3%A1rtida&action=history",
+    "revid": 173566,
+    "fecha": "2026-10-14"
+  }
+}

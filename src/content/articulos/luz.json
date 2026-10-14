@@ -1,0 +1,131 @@
+{
+  "slug": "luz",
+  "titulo": "Luz",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "La luz es un tipo de energía. Es una forma de radiación electromagnética de una longitud de onda que puede ser detectada por el ojo humano. También, se puede definir la luz como la radiación conocida como espectro electromagnético. La luz existe en pequeños paquetes de energía llamados fotones.…",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>La <b>luz</b> es un tipo de <a href=\"/articulo/energia\">energía</a>. Es una forma de radiación electromagnética de una longitud de onda que puede ser detectada por el ojo humano. También, se puede definir la luz como la radiación conocida como espectro electromagnético.  La luz existe en pequeños paquetes de energía llamados fotones.\nPensamos que los objetos tienen <a href=\"/articulo/color\">color</a>. Los científicos explican que las moléculas que componen el objeto absorben ciertas ondas de luz, dejando que las otras ondas de luz reboten. El ojo humano ve las longitudes de onda de toda la luz que no fue absorbida, y la combinación de esas deja al cerebro con la impresión de un color.</p>\n<p>El estudio científico de la luz se denomina óptica.</p>\n<p>La palabra <i>luz</i> viene del latín <i>lux, lucis</i>.</p>\n<h2>Refracción</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "prism-rainbow-5de808ed.png",
+      "pie": "En esta ilustración se muestra la descomposición de la luz al atravesar un prisma."
+    },
+    {
+      "tipo": "figura",
+      "archivo": "refraction-with-soda-straw-04afbca0.jpg",
+      "pie": "Ejemplo de la refracción. La pajita parece partida, por la refracción de la luz al paso desde el líquido al aire."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>refracción</b> es la variación brusca de dirección que sufre la luz al cambiar de medio. Este fenómeno se debe a que la luz se propaga a diferentes velocidades según el medio por el que viaja. El cambio de dirección es mayor cuanto mayor es el cambio de velocidad, ya que la luz recorre mayor distancia en su desplazamiento por el medio en que va más rápido. La ley de Snell relaciona el cambio de ángulo con el cambio de velocidad por medio de los índices de refracción de los medios.</p>\n<p>Como la refracción depende de la energía de la luz, cuando se hace pasar luz blanca o policromática a través de un medio con caras no paralelas, como un prisma, se produce la separación de la luz en sus diferentes componentes (colores) según su energía, en un fenómeno denominado dispersión refractiva. Si el medio tiene las caras paralelas, la luz se vuelve a recomponer al salir de él.</p>\n<p>Ejemplos muy comunes de la refracción es la ruptura aparente que se ve en un lápiz al introducirlo en agua o el arcoiris.</p>\n<h3>Teorías de campo unificado</h3>\n<p>Actualmente, se busca una teoría que sea capaz de explicar de forma unificada la relación de la luz, como campo electromagnético, con el resto de las interacciones fundamentales de la naturaleza. Las primeras teorías intentaron representar el electromagnetismo y la gravitación como aspectos de la geometría espacio-tiempo, y aunque existen algunas evidencias experimentales de una conexión entre el electromagnetismo y la gravitación, solo se han aportado teorías especulativas.</p>\n<h2>Espectro electromagnético</h2>\n<p>El espectro electromagnético está constituido por todos los posibles niveles de <a href=\"/articulo/energia\">energía</a> que la luz puede tener. Hablar de energía es equivalente a hablar de longitud de onda; así, el espectro electromagnético abarca también todas las longitudes de onda que la luz pueda tener, desde miles de kilómetros hasta femtómetros. Ese es el motivo de que la mayor parte de las representaciones esquemáticas del espectro suelan tener escala logarítmica.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "electromagnetic-spectrum-es-79670d12.png",
+      "pie": ""
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El espectro electromagnético se divide en regiones espectr\nales, clasificadas según los métodos necesarios para generar y detectar los diversos tipos de radiación. Por eso estas regiones no tienen unos límites definidos y existen algunos solapamientos entre ellas.</p>\n<h2>Propagación y difracción</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "glasmurmel-mit-schatten-auf-kariertem-grund-2007-02-14-5bf81079.jpg",
+      "pie": "Sombra de una canica."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Una de las propiedades de la luz más evidentes a simple vista es que se propaga en línea recta. Lo podemos ver, por ejemplo, en la propagación de un rayo de luz a través de ambientes polvorientos o de atmósferas saturadas. La óptica geométrica parte de esta premisa para predecir la posición de la luz, en un determinado momento, a lo largo de su transmisión.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "persiana-de-la-habitacion-6e733bce.jpg",
+      "pie": "Luz en la persiana."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>De la propagación de la luz y su encuentro con objetos surgen las sombras. Si interponemos un cuerpo opaco en el camino de la luz y a continuación una pantalla, obtendremos sobre ella la sombra del cuerpo. Si el origen de la luz o foco se encuentra lejos del cuerpo, de tal forma que, relativamente, sea más pequeño que el cuerpo, se producirá una sombra definida. Si se acerca el foco al cuerpo surgirá una sombra en la que se distinguen una región más clara denominada <b>penumbra</b> y otra más oscura denominada <b>umbra</b>.</p>\n<p>Sin embargo, la luz no siempre se propaga en línea recta. Cuando la luz atraviesa un obstáculo puntiagudo o una abertura estrecha, el rayo se curva ligeramente. Este fenómeno, denominado <b>difracción</b>, es el responsable de que al mirar a través de un agujero muy pequeño todo se vea distorsionado o de que los telescopios y microscopios tengan un número de aumentos máximo limitado.</p>\n<h2>Efectos químicos</h2>\n<p>Algunas sustancias al absorber luz, sufren cambios químicos; utilizan la <a href=\"/articulo/energia\">energía</a> que la luz les transfiere para alcanzar los niveles energéticos necesarios para reaccionar, para obtener una conformación estructural más adecuada para llevar a cabo una reacción o para romper algún enlace de su estructura (fotólisis).</p>\n<p>La fotosíntesis en las <a href=\"/articulo/planta\">plantas</a>, que generan azúcares a partir de dióxido de carbono, agua y luz; la síntesis de vitamina D en la <a href=\"/articulo/piel\">piel</a>; la ruptura de dihalógenos con luz en las reacciones radicalarias o el proceso de visión en el <a href=\"/articulo/ojo\">ojo</a>, producido por la isomerización del retinol con la luz, son ejemplos de reacciones fotoquímicas. El área de la química encargada del estudio de estos fenómenos es la fotoquímica.</p>\n<h2>Espectro electromagnético</h2>\n<p>El espectro electromagnético está constituido por todos los posibles niveles de <a href=\"/articulo/energia\">energía</a> que la luz puede tener. Hablar de energía es equivalente a hablar de longitud de onda; así, el espectro electromagnético abarca también todas las longitudes de onda que la luz pueda tener, desde miles de kilómetros hasta femtómetros. Ese es el motivo de que la mayor parte de las representaciones esquemáticas del espectro suelan tener escala logarítmica.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "electromagnetic-spectrum-es-79670d12.png",
+      "pie": ""
+    },
+    {
+      "tipo": "html",
+      "html": "<h3>Espectro visible</h3>\n<p>De todo el espectro, la porción que el ser humano es capaz de ver es muy pequeña en comparación con las otras regiones espectrales. Esta región, denominada espectro visible, comprende longitudes de onda desde los 380&#160;nm hasta los 780&#160;nm. El <a href=\"/articulo/ojo\">ojo humano</a> percibe la luz de cada una de estas longitudes de onda como un <a href=\"/articulo/color\">color</a> diferente, por eso, en la descomposición de la luz blanca en todas sus longitudes de onda, por prismas o por la lluvia en el arco iris, el ojo ve todos los colores.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "prism-rainbow-5de808ed.png",
+    "tipo": "imagen",
+    "alt": "En esta ilustración se muestra la descomposición de la luz al atravesar un prisma.",
+    "autor": "Suidroot",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Prism-rainbow.svg"
+  },
+  "medios": [
+    {
+      "archivo": "prism-rainbow-5de808ed.png",
+      "tipo": "imagen",
+      "alt": "En esta ilustración se muestra la descomposición de la luz al atravesar un prisma.",
+      "autor": "Suidroot",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Prism-rainbow.svg"
+    },
+    {
+      "archivo": "refraction-with-soda-straw-04afbca0.jpg",
+      "tipo": "imagen",
+      "alt": "Ejemplo de la refracción. La pajita parece partida, por la refracción de la luz al paso desde el líquido al aire.",
+      "autor": "User Bcrowell on en.wikipedia",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Refraction-with-soda-straw.jpg"
+    },
+    {
+      "archivo": "electromagnetic-spectrum-es-79670d12.png",
+      "tipo": "imagen",
+      "alt": "Luz",
+      "autor": "Horst Frank, Jailbird",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Electromagnetic_spectrum-es.svg"
+    },
+    {
+      "archivo": "glasmurmel-mit-schatten-auf-kariertem-grund-2007-02-14-5bf81079.jpg",
+      "tipo": "imagen",
+      "alt": "Sombra de una canica.",
+      "autor": "Henry Mühlpfordt",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Glasmurmel_mit_Schatten_auf_kariertem_Grund_2007_02_14.JPG"
+    },
+    {
+      "archivo": "persiana-de-la-habitacion-6e733bce.jpg",
+      "tipo": "imagen",
+      "alt": "Luz en la persiana.",
+      "autor": "Adrián Cerón",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Persiana_de_la_habitaci%C3%B3n.JPG"
+    }
+  ],
+  "relacionados": [
+    "energia",
+    "color",
+    "planta",
+    "piel",
+    "ojo"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Luz",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Luz&action=history",
+    "revid": 195873,
+    "fecha": "2026-10-14"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "esqueleto",
+  "titulo": "Esqueleto",
+  "categoria": "cuerpo-humano",
+  "resumen": "El esqueleto humano es el conjunto de huesos que proporciona al cuerpo humano una firme estructura (locomoción, protección, etc.). A excepción del hueso hioides —que se halla separado del esqueleto—, todos los huesos están articulados entre sí y unidos por los ligamentos, tendones, músculos y…",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>esqueleto humano</b> es el conjunto de <a href=\"/articulo/hueso\">huesos</a> que proporciona al cuerpo humano una firme estructura (locomoción, protección, etc.). A excepción del hueso hioides —que se halla separado del esqueleto—, todos los huesos están articulados entre sí y unidos por los ligamentos, tendones, músculos y cartílago.</p>\n<p>El esqueleto de un ser humano adulto tiene, aproximadamente, 206 huesos, sin contar los dientes. Un bebé, al nacer, tiene más o menos 300 huesos, pero al crecer, algunos se unen. El eje del esqueleto lo constituye la columna vertebral. El esqueleto óseo es propio de los animales vertebrados.</p>\n<h2>Funciones</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "grierson-1a-esqueleto-humano-a754f093.jpg",
+      "pie": "Esqueleto humano"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El sistema esquelético tiene varias funciones, entre ellas las más destacadas son:</p>\n<ul><li><b>Sostén mecánico</b> del cuerpo y de sus partes blandas: funcionando como armazón que mantiene la morfología corporal;</li>\n<li><b>Mantenimiento postural</b>: permite posturas como la de andar erguido;</li>\n<li><b>Soporte dinámico</b>: colabora para la marcha, locomoción y movimientos corporales:los huesos  funcionan como palancas y puntos de anclaje para los <a href=\"/articulo/musculo\">músculos</a>;</li>\n<li><b>Contención y protección</b> de las vísceras, ante cualquier presión o golpe del exterior, como, por ejemplo, las costillas al albergar los <a href=\"/articulo/pulmon\">pulmones</a>, órganos delicados que precisan de un espacio para ensancharse,</li>\n<li><b>Almacén metabólico</b>: funciona como moderador (tampón o amortiguador) de la concentración e intercambio de sales de calcio y fosfatos.</li></ul>\n<p>Además, en la corteza esponjosa de algunos huesos, se localiza la médula ósea, la cual lleva a cabo la  formación y diferenciación de las células <a href=\"/articulo/sangre\">sanguíneas</a>.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "human-skeleton-front-es-3943dcf7.png",
+    "tipo": "imagen",
+    "alt": "Esqueleto",
+    "autor": "LadyofHats Mariana Ruiz Villarreal Traducción al castellano por Rastrojo (D•ES)",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Human_skeleton_front_es.svg"
+  },
+  "medios": [
+    {
+      "archivo": "human-skeleton-front-es-3943dcf7.png",
+      "tipo": "imagen",
+      "alt": "Esqueleto",
+      "autor": "LadyofHats Mariana Ruiz Villarreal Traducción al castellano por Rastrojo (D•ES)",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Human_skeleton_front_es.svg"
+    },
+    {
+      "archivo": "human-skeleton-back-es-c1a3aff8.png",
+      "tipo": "imagen",
+      "alt": "Esqueleto",
+      "autor": "LadyofHats Mariana Ruiz Villarreal Traducción al castellano por Rastrojo (D•ES)",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Human_skeleton_back_es.svg"
+    },
+    {
+      "archivo": "grierson-1a-esqueleto-humano-a754f093.jpg",
+      "tipo": "imagen",
+      "alt": "Esqueleto humano",
+      "autor": "Cecilia Grierson",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Grierson_1a_Esqueleto_humano.JPG"
+    }
+  ],
+  "relacionados": [
+    "hueso",
+    "musculo",
+    "pulmon",
+    "sangre"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Sistema_%C3%B3seo",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Sistema_%C3%B3seo&action=history",
+    "revid": 195235,
+    "fecha": "2026-10-14"
+  }
+}

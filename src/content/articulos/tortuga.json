@@ -1,0 +1,72 @@
+{
+  "slug": "tortuga",
+  "titulo": "Tortuga",
+  "categoria": "animales",
+  "resumen": "La tortuga es un reptil que vive tanto en la tierra como en el agua, pero necesita la tierra para poner sus huevos.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>La <b>tortuga</b> es un reptil que vive tanto en la <a href=\"/articulo/tierra\">tierra</a> como en el <a href=\"/articulo/agua\">agua</a>, pero necesita la tierra para poner sus huevos.</p>\n<h2>Anatomía</h2>\n<p>Se caracterizan porque tienen un caparazón duro que les sirve de defensa y del que salen, por delante, la cabeza y las patas delanteras y por detrás las patas traseras y la cola.</p>\n<p>Debido al peso del caparazón, son animales de movimientos lentos y torpes. La boca es córnea y con forma de pico, por lo que los alimentos son cortados gracias a que los bordes están muy afilados o aserrados</p>\n<p>Su tamaño es muy variado, las terrestres miden al menos 13&#160;cm de caparazón y las marinas, que son más grandes pueden llegar a tener un caparazón de 2 metros y pesar 700&#160;kg.</p>\n<p>Son los reptiles que pueden vivir más tiempo. Se sabe de algunas que han vivido más de cien años, sobre todo cuando se les ha tenido como mascotas.</p>\n<p>Algunas especies tienen el caparazón pequeño, blando y recubierto de piel en lugar de escudos córneos. Tienen la nariz muy larga y parecen a cerditos. Se encuentran en ríos de <a href=\"/articulo/estados-unidos\">Estados Unidos</a>, África, Asia: en <a href=\"/articulo/mexico\">México</a> habitan en el norte del país, en estados como Chihuahua, Coahuila, Nuevo León,  Tamaulipas y Baja California Norte.</p>\n<p>Son animales de alimentación generalmente herbívora, aunque también pueden alimentarse de insectos, caracoles, larvas de animales o carroña. Respiran por <a href=\"/articulo/pulmon\">pulmones</a> y se aletargan cuando la temperatura es baja o muy elevada.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "scheme-turtle-anatomy-numbers-d5dd7ab5.png",
+      "pie": "Anatomía de una tortuga 1. Ojo 2. Escama de la nuca 3. Escama vertebral 4. Escama costal 5. Escama marginal 6. Placa pigal 7. Cabeza 8. Pata anterior 9. Caparazón inferior 10. Garra 11. Pata posterior 12. Cola 13. Esófago 14. Tráquea 15. Pulmón 16. Corazón 17. Estómago 18. Hígado 19. Intestino 20. Vejiga 21. Recto 22. Cloaca 23. Ano"
+    },
+    {
+      "tipo": "html",
+      "html": "<h2>Clases</h2>\n<p>Pueden ser de hábitat terrestre, marino y de agua dulce.</p>\n<h3>Tortugas de tierra</h3>\n<p>Los tipos de tortugas de tierra son criaturas se caracterizan por pasar la mayor parte de su tiempo en tierra, aunque algunas especies también pueden mojarse en el agua para refrescarse.</p>\n<p>Algunos ejemplos es la tortuga rusa.</p>\n<h3>Tortugas de agua dulce</h3>\n<p>Las de agua dulce habitan los ríos y zonas húmedas aunque algunas especies son de hábitos exclusivamente terrestres.</p>\n<p>Algunos ejemplos son tortuga caimán, tortuga pintada, tortuga pavorreal o tortuga falsa mapa.</p>\n<h3>Tortugas marinas</h3>\n<p>Las tortugas marinas, habitan los océanos en una franja cercana a los trópicos. Pueden llegar a ser muy grandes y pesadas. Tienen las patas delanteras modificadas en aletas y las posteriores tienen membranas interdigitales, adaptadas para nadar mejor. Las tortugas marinas son fundamentales en el ecosistema marino, ya que ayudan a mantener el equilibrio en las cadenas alimentarias. También influyen en la economía local en muchas áreas donde las tortugas marinas anidan, ya que atraen a turistas interesados en la observación de animales.</p>\n<p>Algunos ejemplos son la tortuga laúd, tortuga verde, tortuga lora, tortuga boba o tortuga carey.</p>\n<h2>Reproducción</h2>\n<p>Todas las tortugas ponen huevos, que depositan en un nido bajo la hojarasca o  excavado por ellas con sus patas traseras. Cuando ponen sus huevos, unas especies se alejan del nido y no vuelven, dejando que el calor del sol los incube y al cabo de unas semanas nazcan las crías. Otras especies permanecen junto a los huevos cuidando del nido.</p>\n<p>Las tortugas ponen una cantidad de huevos que está en relación a su tamaño, las pequeñas pueden poner de 1 a 4, mientras que las marinas que son muy grandes pueden poner 100 huevos en cada puesta.</p>\n<h2>Conservación</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "turtle-entangled-in-marine-debris-ghost-net-ff50895e.jpg",
+      "pie": "Una tortuga atrapada en una red abandonada."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Muchas especies de tortugas están en peligro de extinción. Las terrestres y de agua dulce debido a la contaminación de las aguas o la pérdida del medio donde viven por la invasión de la agricultura o la construcción de casas.</p>\n<p>Todas las especies marinas están en peligro de extinción, fundamentalmente por la pesca con redes, en  las que se  enganchan y mueren sin poder desprenderse de ellas, además de por la contaminación del mar con objetos, como bolas de plástico que confunden con alimentos y que al ser ingeridas les causan la muerte.</p>\n<p>Debido a su disminución en casi todos los lugares del planeta, están protegidas en muchos países por las leyes medioambientales.</p>\n<h2>En la ficción</h2>\n<p>Son muy conocidas las Tortugas Ninja y el Duende Tortuga (de Bola de Dragón) en los dibujos animados. Terry Pratchett sitúa todo su mundo encima de un caparazón de tortuga. Los enemigos de los videojuegos de Mario Bros. (Koopa Troopa y similares) son tortugas con cualidades de hombre.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "scheme-turtle-anatomy-numbers-d5dd7ab5.png",
+    "tipo": "imagen",
+    "alt": "Anatomía de una tortuga 1. Ojo 2. Escama de la nuca 3. Escama vertebral 4. Escama costal 5. Escama marginal 6. Placa pigal 7. Cabeza 8. Pata anterior 9. Caparazón inferior 10. Garra 11. Pata posterior 12. Cola 13. Esófago 14. Tráquea 15. Pulmón 16. Corazón 17. Estómago 18. Hígado 19. Intestino 20. Vejiga 21. Recto 22. Cloaca 23. Ano",
+    "autor": "Titimaster",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Scheme_turtle_anatomy-numbers.svg"
+  },
+  "medios": [
+    {
+      "archivo": "scheme-turtle-anatomy-numbers-d5dd7ab5.png",
+      "tipo": "imagen",
+      "alt": "Anatomía de una tortuga 1. Ojo 2. Escama de la nuca 3. Escama vertebral 4. Escama costal 5. Escama marginal 6. Placa pigal 7. Cabeza 8. Pata anterior 9. Caparazón inferior 10. Garra 11. Pata posterior 12. Cola 13. Esófago 14. Tráquea 15. Pulmón 16. Corazón 17. Estómago 18. Hígado 19. Intestino 20. Vejiga 21. Recto 22. Cloaca 23. Ano",
+      "autor": "Titimaster",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Scheme_turtle_anatomy-numbers.svg"
+    },
+    {
+      "archivo": "turtle-entangled-in-marine-debris-ghost-net-ff50895e.jpg",
+      "tipo": "imagen",
+      "alt": "Una tortuga atrapada en una red abandonada.",
+      "autor": "NOAA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Turtle_entangled_in_marine_debris_(ghost_net).jpg"
+    }
+  ],
+  "relacionados": [
+    "tierra",
+    "agua",
+    "estados-unidos",
+    "mexico",
+    "pulmon"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Testudines",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Testudines&action=history",
+    "revid": 203026,
+    "fecha": "2026-10-14"
+  }
+}

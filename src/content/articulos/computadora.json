@@ -1,0 +1,48 @@
+{
+  "slug": "computadora",
+  "titulo": "Computadora",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "Una computadora, computador u ordenador , es un dispositivo electrónico que procesa datos.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "personal-computer-exploded-7f0e43ec.png",
+      "pie": "Diagrama de una computadora : 1.- Pantalla (monitor); 2.- Tarjeta madre; 3.- CPU (Microprocesador); 4.- Memoria (RAM); 5.- Tarjetas de expansión; 6.- Fuente de poder eléctrica; 7.- Lector de discos ópticos; 8.- Disco duro; 9.- Ratón; 10.- Teclado."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Una <b>computadora</b>, computador u ordenador , es un dispositivo electrónico que procesa datos.</p>\n<p>Está formada por un grupo de componentes: una Unidad Central de Procesamientos (CPU) y una serie de periféricos para la entrada , salida y almacenamiento de la información.</p>\n<h2>Periféricos</h2>\n<ul><li>Disco duro</li>\n<li>Teclado</li>\n<li>Ratón</li>\n<li>Escáner</li>\n<li>Monitor</li>\n<li>Impresora</li>\n<li>Touchpad</li></ul>\n<h2>Historia</h2>\n<p>En el siglo XV, ya se utilizaba la palabra \"ordenador\", pero en el sentido de \"el que establece algo\". Fue en el siglo XX cuando tomó su significado actual. Su  nombre deriva de la palabra latina <i>ordinator</i> (\"el que manda, el que ordena\")</p>\n<p>La computadora se inventó para ayudar a los científicos a calcular. Históricamente se utilizó para descifrar los mensajes interceptados y codificados en la Segunda Guerra Mundial. El principio de la computadora fue creado por dos ingleses: Charles Babbage y Alan Turing. El término  ordenador fue propuesto para reemplazar al de calculadora en 1955, el latinista Jacques Perret (profesor de la Universidad de París la Sorbona), a petición de la empresa IBM.</p>\n<p>Ya no era un nombre adecuado para las computadoras modernas que hacen mucho más que simples cálculos y que pueden tener los programas almacenados. Este término se extendió rápidamente entre los usuarios y en 1965 se convirtió en un nombre común.</p>\n<p>Al inicio de la informática (la ciencia de los ordenadores), la mayoría de las computadoras eran enormes máquinas que ocupaban habitaciones enteras o incluso edificios enteros.</p>\n<p>Se debía introducir la información a través de un sistema de tarjetas perforadas o cintas (sin teclado). Los cálculos del ordenador salían en otros documentos perforados, o también en páginas impresas con los resultados (no existía pantalla).</p>\n<p>En aquellos momentos, los ordenadores no sólo eran complicados, sino también  muy lentos. Hoy en día, son a la vez más pequeños y mucho más rápidos. Todo gracias a la invención del transistor y los circuitos integrados.</p>\n<h2>Aplicaciones</h2>\n<p>Las computadoras tienen hoy en día una gran cantidad de aplicaciones. Están por todas partes, a menudo sin que se les vea. Su uso en el hogar va en constante aumento. Se usan, por ejemplo, para reproducir videojuegos o escribir textos. Han permitido la aparición de <a href=\"/articulo/internet\">Internet</a> y de la World Wide Web.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "personal-computer-exploded-7f0e43ec.png",
+    "tipo": "imagen",
+    "alt": "Diagrama de una computadora : 1.- Pantalla (monitor); 2.- Tarjeta madre; 3.- CPU (Microprocesador); 4.- Memoria (RAM); 5.- Tarjetas de expansión; 6.- Fuente de poder eléctrica; 7.- Lector de discos ópticos; 8.- Disco duro; 9.- Ratón; 10.- Teclado.",
+    "autor": "Gustavb",
+    "licencia": "cc-by",
+    "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Personal_computer,_exploded.svg"
+  },
+  "medios": [
+    {
+      "archivo": "personal-computer-exploded-7f0e43ec.png",
+      "tipo": "imagen",
+      "alt": "Diagrama de una computadora : 1.- Pantalla (monitor); 2.- Tarjeta madre; 3.- CPU (Microprocesador); 4.- Memoria (RAM); 5.- Tarjetas de expansión; 6.- Fuente de poder eléctrica; 7.- Lector de discos ópticos; 8.- Disco duro; 9.- Ratón; 10.- Teclado.",
+      "autor": "Gustavb",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Personal_computer,_exploded.svg"
+    }
+  ],
+  "relacionados": [
+    "internet",
+    "atomo",
+    "automovil"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Computadora",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Computadora&action=history",
+    "revid": 176555,
+    "fecha": "2026-10-14"
+  }
+}

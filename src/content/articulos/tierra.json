@@ -1,0 +1,46 @@
+{
+  "slug": "tierra",
+  "titulo": "Tierra",
+  "categoria": "espacio",
+  "resumen": "La Tierra es el tercer planeta desde el Sol, y donde todos vivimos. Es el mayor de los cuatro planetas terrestres de nuestro sistema solar, lo que significa que es un planeta sólido, y no gaseoso (los otros tres planetas terrestres son Mercurio, Venus y Marte). El volumen de la Tierra es más de un…",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>La <b>Tierra</b> es el tercer <a href=\"/articulo/planeta\">planeta</a> desde el <a href=\"/articulo/sol\">Sol</a>, y donde todos vivimos. Es el mayor de los cuatro <a href=\"/articulo/planeta\">planetas terrestres</a> de nuestro <a href=\"/articulo/sistema-solar\">sistema solar</a>, lo que significa que es un planeta sólido, y no gaseoso (los otros tres planetas terrestres son <a href=\"/articulo/mercurio\">Mercurio</a>, Venus y <a href=\"/articulo/marte\">Marte</a>). El volumen de la Tierra es más de un millón de veces menor al del Sol.</p>\n<p>Al igual que los demás planetas del sistema solar, la Tierra orbita alrededor del Sol, y le da una vuelta completa en aproximadamente 365 días (a esto se le llama <i>un año</i>). También gira alrededor de su propio eje, dando un giro completo en 24 horas (a esto se le llama <i>un día</i>).</p>\n<p>La Tierra tiene un satélite natural: la <a href=\"/articulo/luna\">Luna</a>.</p>\n<p>La Tierra es hogar de millones de especies de <a href=\"/articulo/planta\">plantas</a> y animales, incluido el ser humano. Es el único lugar del universo en el que se conoce la existencia de vida. Algunos cálculos muestran que la Tierra se formó hace unos 4500 millones de años.</p>\n<p>Alrededor de un 71% de la superficie terrestre está cubierta de océanos de <a href=\"/articulo/agua\">agua</a> salada. El otro 29% está conformado de superficies rocosas que forman <a href=\"/articulo/isla\">islas</a> y continentes. La temperatura media en la superficie del planeta es de 15&#160;°C.</p>\n<p>La Tierra tiene forma esférica, aunque no es una esfera perfecta, ya que es ligeramente achatada en los polos (El diámetro polar mide 43&#160;km menos que el ecuatorial, es decir 1/297 menos). También, su eje terrestre está inclinado.</p>\n<p>La estructura de la Tierra está formada por capas. La más superficial es la corteza. La segunda es el manto, que se divide en manto superior e inferior, y la última y más profunda es el núcleo, que se divide en núcleo superior e inferior.</p>\n<h2>Movimientos de la Tierra</h2>\n<p>La Tierra no se encuentra inmóvil, sino que está sometida a movimientos de diversa índole. Los principales movimientos de la Tierra son los siguientes: rotación sobre sí misma en el que tarda un día completo y traslación alrededor del Sol en el que tarda un año y da lugar a las estaciones del año.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "earth-western-hemisphere-ca9f72bb.jpg",
+    "tipo": "imagen",
+    "alt": "Tierra",
+    "autor": "Reto Stöckli (land surface, shallow water, clouds) Robert Simmon (enhancements: ocean color, compositing, 3D globes, animation) Data and technical support: MODIS Land Group; MODIS Science Data Support Team; MODIS Atmosphere Group; MODIS Ocean Group Additional data: USGS EROS Data Center (topography); USGS Terrestrial Remote Sensing Flagstaff Field Center (Antarctica); Defense Meteorological Satellite Program (city lights).",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Earth_Western_Hemisphere.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "earth-western-hemisphere-ca9f72bb.jpg",
+      "tipo": "imagen",
+      "alt": "Tierra",
+      "autor": "Reto Stöckli (land surface, shallow water, clouds) Robert Simmon (enhancements: ocean color, compositing, 3D globes, animation) Data and technical support: MODIS Land Group; MODIS Science Data Support Team; MODIS Atmosphere Group; MODIS Ocean Group Additional data: USGS EROS Data Center (topography); USGS Terrestrial Remote Sensing Flagstaff Field Center (Antarctica); Defense Meteorological Satellite Program (city lights).",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Earth_Western_Hemisphere.jpg"
+    }
+  ],
+  "relacionados": [
+    "planeta",
+    "sol",
+    "sistema-solar",
+    "mercurio",
+    "marte",
+    "luna"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Tierra_(planeta)",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Tierra_(planeta)&action=history",
+    "revid": 198631,
+    "fecha": "2026-10-14"
+  }
+}

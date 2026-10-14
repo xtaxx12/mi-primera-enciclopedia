@@ -1,0 +1,98 @@
+{
+  "slug": "mondrian",
+  "titulo": "Mondrian",
+  "categoria": "arte-y-musica",
+  "resumen": "Pieter Cornelius Mondrian (Amersfoort, 1872- Nueva York, 1944), más conocido como Piet MONDRIAN, fue uno de los pintores de vanguardia que mejor representan el movimiento de la pintura abstracta de comienzos del siglo XX, junto a Wassily KANDINSKY y Kazimir MALÉVICH.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "mondrian-signatur-9e24cffd.png",
+      "pie": "Firma de Mondrian"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "piet-mondrian-2-d4cdbe0e.jpg",
+      "pie": "Pieter Cornelius MONDRIAN"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Pieter Cornelius Mondrian (Amersfoort, 1872- Nueva York, 1944), más conocido como <b>Piet MONDRIAN</b>, fue uno de los pintores de vanguardia que mejor representan el movimiento de la <b>pintura abstracta </b>de comienzos del siglo XX, junto a Wassily KANDINSKY y Kazimir MALÉVICH.</p>\n<p>Mondrian nació en el seno de una familia calvinista y se formó como maestro de educación primaria. Mientras ejercía la enseñanza dedicaba buena parte de su tiempo a la <a href=\"/articulo/pintura\">pintura</a>, principalmente paisajes tradicionales holandeses: molinos de viento, campos, ríos… \nPosteriormente su estilo fue dejándose influir por el <i>fauvismo </i>y el <i>cubismo</i>, para evolucionar progresivamente hasta una pintura no figurativa, sin referencia a objetos y seres del mundo visual, constituida sólo por formas geométricas y colores puros y planos.</p>\n<p>Entre 1911 y 1914 estuvo en París, donde conoció la obra de los pintores cubistas. En 1915, de regreso a Amsterdam, conoce al arquitecto y pintor Theo VAN DOESBURG, con quien fundaría un grupo de artistas abstractos muy influyente. En su revista <i>De Stijl </i>el grupo teorizó mucho sobre el arte nuevo, al que llamaron “<i>neoplasticismo</i>”, pretendiendo que tuviera una validez universal. Los “neoplasticistas” querían que su arte fuera válido y valorado en todas partes y por todo el mundo, independientemente de los gustos particulares de los diferentes pueblos y momentos históricos. Mondrian creía que con sus obras se podría contribuir a alcanzar el conocimiento y felicidad verdaderos.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "mondrian-compositie-10-07601040.jpg",
+      "pie": "Mondrian, Muelle y océano (1914). Mueso de Arte Moderno, Nueva York. Partiendo de la imagen de un árbol (ramas y tronco), el artista fue derivando a una pintura abstracta y geométrica."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un periodo de transición de la figuración a la abstracción lo representan cuadros como <i>Muelle y océano</i> (1914), donde se aprecia una referencia figurativa subyacente: se representa un árbol muy estilizado. De hecho, Mondrian pintó y dibujó numerosos árboles, motivo que fue simplificando formalmente, hasta alcanzar una abstracción totalmente geométrica.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "mondrian-compositie-1921-a07dc6dd.jpg",
+      "pie": "Mondrian, Composición en rojo, azul y amarillo (1921)"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El estilo maduro de Mondrian lo representan obras como <i>Composición con rojo, azul y amarillo</i> (1921939-1942), en la que el artista emplea únicamente los colores “puros” (rojo, amarillo y azul, además de blanco y negro), prescindiendo de mezclar colores. De esta manera pretendía evitar toda expresión subjetiva, toda emoción en el arte.</p>\n<p>La influencia de Mondrian en el arte del siglo XX, y especialmente en el diseño gráfico, es evidente.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "mondrian-signatur-9e24cffd.png",
+    "tipo": "imagen",
+    "alt": "Firma de Mondrian",
+    "autor": "Piet Mondrian",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mondrian_Signatur.png"
+  },
+  "medios": [
+    {
+      "archivo": "mondrian-signatur-9e24cffd.png",
+      "tipo": "imagen",
+      "alt": "Firma de Mondrian",
+      "autor": "Piet Mondrian",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mondrian_Signatur.png"
+    },
+    {
+      "archivo": "piet-mondrian-2-d4cdbe0e.jpg",
+      "tipo": "imagen",
+      "alt": "Pieter Cornelius MONDRIAN",
+      "autor": "Anonymous (photographer)",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian_2.jpg"
+    },
+    {
+      "archivo": "mondrian-compositie-10-07601040.jpg",
+      "tipo": "imagen",
+      "alt": "Mondrian, Muelle y océano (1914). Mueso de Arte Moderno, Nueva York. Partiendo de la imagen de un árbol (ramas y tronco), el artista fue derivando a una pintura abstracta y geométrica.",
+      "autor": "Piet Mondrian",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mondrian_Compositie_10.jpg"
+    },
+    {
+      "archivo": "mondrian-compositie-1921-a07dc6dd.jpg",
+      "tipo": "imagen",
+      "alt": "Mondrian, Composición en rojo, azul y amarillo (1921)",
+      "autor": "Piet Mondrian",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mondrian,_Compositie_1921.jpg"
+    }
+  ],
+  "relacionados": [
+    "pintura",
+    "arte-prehistorico",
+    "color"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Mondrian",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Mondrian&action=history",
+    "revid": 112611,
+    "fecha": "2026-10-14"
+  }
+}

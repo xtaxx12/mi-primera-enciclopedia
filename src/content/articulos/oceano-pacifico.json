@@ -1,0 +1,35 @@
+{
+  "slug": "oceano-pacifico",
+  "titulo": "Océano Pacífico",
+  "categoria": "planeta-tierra",
+  "resumen": "El océano Pacífico es el más grande de todos los océanos y se encuentra entre América, Asia y Oceanía. En él se encuentran las zonas más profundas del mundo, como la Fosa de las Marianas, que alcanza los 11.521 metros bajo el nivel del mar. Tiene una extensión de 166.241.000 km2.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>océano Pacífico</b> es el más grande de todos los océanos y se encuentra entre América, Asia y Oceanía. En él se encuentran las zonas más profundas del mundo, como la Fosa de las Marianas, que alcanza los 11.521 metros bajo el nivel del mar. Tiene una extensión de 166.241.000 km<sup>2</sup>.</p>\n<p>Se une al océano Atlántico en una línea trazada al sur desde el Cabo de Hornos (<a href=\"/articulo/chile\">Chile</a>/<a href=\"/articulo/argentina\">Argentina</a>) hasta la <a href=\"/articulo/antartida\">Antártida</a>, y se une al océano Índico en una línea trazada al sur desde Tasmania (<a href=\"/articulo/australia\">Australia</a>) hasta la Antártida.</p>\n<p>Mientras el Atlántico se ensancha poco a poco, el Pacífico se encoge lentamente. Lo hace plegando el fondo marino hacia el centro de la Tierra, lo que se denomina subducción.</p>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Este choque y trituración es duro, por lo que se producen muchos <a href=\"/articulo/terremoto\">terremotos</a> y <a href=\"/articulo/volcan\">volcanes</a> cuando la presión se acumula y se libera rápidamente en forma de grandes explosiones de rocas calientes y polvo.</p>\n<p>Cuando se produce un terremoto bajo el mar, la rápida sacudida provoca un tsunami. Por este motivo, los tsunamis son más frecuentes en el borde del Pacífico que en cualquier otro lugar. Muchos de los volcanes de la Tierra son islas del Pacífico o se encuentran en continentes situados a unos cientos de kilómetros del borde del océano. La tectónica de placas es otra de las razones por las que el océano Pacífico se va haciendo  más pequeño.</p>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El primer europeo en ver el océano Pacífico desde la orilla americana fue el hidalgo y explorador español Andrés Contero en la expedición de Vasco Núñez de Balboa, quien, tras cruzar el istmo de Panamá, tomó posesión de sus aguas en nombre de los reyes de España el día 25 de septiembre de 1513, y le otorgó el nombre de mar del Sur.</p>\n<p>Unos años más tarde, el navegante de origen portugués Fernando de Magallanes durante su circunnavegación de la Tierra al servicio de la Corona de España, le dio el nombre de <i>Pacífico</i> por encontrarse aguas tranquilas durante la mayor parte de su viaje tras cruzar el estrecho de Magallanes.</p>\n<h3>Golfos</h3>\n<ul><li>Golfo de California</li>\n<li>Golfo de Tehuantepec</li>\n<li>Golfo de Fonseca</li>\n<li>Golfo de Panamá</li>\n<li>Golfo de Guayaquil</li>\n<li>Golfo de Penas</li></ul>\n<h3>Masas de tierra</h3>\n<p>La masa más grande del océano Pacífico es el país de <a href=\"/articulo/australia\">Australia</a>, ubicado en el continente de Oceanía. A unos 3200&#160;km al sureste se encuentra el gran grupo de islas de Nueva Zelanda.</p>\n<p>Casi todas las islas menores del Pacífico están entre los 30ºN y 30ºS, extendiéndose del sureste asiático a la isla de Pascua; el resto de la cuenca Pacífica no tiene prácticamente islas.</p>\n<p>El gran triángulo de Polinesia, que conecta Hawái, la isla de Pascua, y Nueva Zelanda, incluye los archipiélagos de las islas Cook, islas Marquesas, islas Samoa, islas de la Sociedad, islas Gambier, Tokelau, Tonga y Tuamotu.</p>\n<p>Al norte del ecuador y al oeste de la línea internacional de cambio de fecha hay numerosas islas pequeñas de la Micronesia, incluyendo las Islas Carolinas, las Islas Marshall y las Marianas.</p>"
+    }
+  ],
+  "medios": [],
+  "relacionados": [
+    "chile",
+    "argentina",
+    "antartida",
+    "australia",
+    "terremoto",
+    "volcan"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Oc%C3%A9ano_Pac%C3%ADfico",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Oc%C3%A9ano_Pac%C3%ADfico&action=history",
+    "revid": 157583,
+    "fecha": "2026-10-14"
+  }
+}

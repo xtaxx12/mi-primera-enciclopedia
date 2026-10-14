@@ -1,0 +1,48 @@
+{
+  "slug": "volcan",
+  "titulo": "Volcán",
+  "categoria": "planeta-tierra",
+  "resumen": "Un volcán es una abertura o grieta en la corteza terrestre conectada a una cámara magmática y por la cual los materiales incandescentes (en forma de lava, gas y líquidos a altas temperaturas) emergen y se acumulan en la superficie.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "fujisunrisekawaguchiko2025wp-33e1de7a.jpg",
+      "pie": "Monte Fuji es uno de los volcanes más famosos del mundo que representa a Japón en su historia"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>volcán</b> es una abertura o grieta en la corteza terrestre conectada a una cámara magmática y por la cual los materiales incandescentes (en forma de lava, gas y líquidos a altas temperaturas) emergen y se acumulan en la superficie.</p>\n<p>Ejemplos de volcanes son el <b>Monte Etna</b> (Italia), <b>Teide</b> (España) y <b>Monte Fuji</b> (Japón)</p>\n<h2>Tipos de erupciones</h2>\n<h3>Hawaiano</h3>\n<p>Los volcanes tipo hawaianos son los más pequeños. Apenas expulsa vapores y su lava es muy fluida. Ejemplo: Mauna Kea en Hawaii</p>\n<h3>Estromboliano</h3>\n<p>Los volcanes tipo estrombolianos tiene una cámara magmática poco sólida que provoca que expulse muchos materiales de forma violenta. La lava es menos fluida que la hawaiana. Ejemplo: Volcán de La Palma, La Palma, España</p>\n<h3>Vulcaniano</h3>\n<p>Los volcanes tipo vulcaniano (<i>Referenciando al Dios Vulcano</i>) produce mucha ceniza, y la lava expulsada es espesa. Los conos están muy inclinados. Ejemplo: Vulcano<b>,</b> Italia. De ahí viene su nombre</p>\n<h3>Vesubiano</h3>\n<p>Los volcanes vesubianos se caracterizan porque, como en la cámara magmática contiene gases con mucha presión, las explosiones son muy fuertes y violentas. Estos tipos de volcanes son muy altos. Ejemplo: Vesubio, Italia. De ahí viene su nombre</p>\n<h3>Peleano</h3>\n<p>Los volcanes peleanos se caracterizan por tener la lava muy viscosa, haciendo que entapona el cráter y cause grandes erupciones. Ejemplo: Monte Pelee, Martinica. De ahí viene su nombre</p>\n<h3>Volcanes submarinos</h3>\n<p>Son volcanes en atolones, o en mares poco profundos. Las explosiones son muy violentas, ya que la fuerza del volcán añadida a la del agua súbitamente calentada produce mucha energía</p>\n<h3>Estratovolcán</h3>\n<p>Los estratovolcanes son esos tipos de volcanes que van formándose por la superposición de múltiples erupciones a lo largo de su historia. Ejemplo: El Teide, en Tenerife, Islas Canarias, España</p>\n<h3>Supervolcanes</h3>\n<p>Los supervolcanes son unos volcanes gigantescos capaces de expulsar más de 1.000 kilómetros cúbicos de material, como ceniza y roca, en una sola erupción.  Ejemplo:  Yellowstone (EE.UU.), Lago Toba (Indonesia), Lago Taupo (Nueva Zelanda), Valle de Long (EE.UU.), Aira Caldera (Japón), Campi Flegrei (Italia), entre varios más.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "fujisunrisekawaguchiko2025wp-33e1de7a.jpg",
+    "tipo": "imagen",
+    "alt": "Monte Fuji es uno de los volcanes más famosos del mundo que representa a Japón en su historia",
+    "autor": "Public domainPublic domainfalsefalse Yo, el titular de los derechos de autor de esta obra, lo libero al dominio público. Esto aplica en todo el mundo. En algunos países esto puede no ser legalmente factible; si ello ocurriese: Concedo a cualquier persona el derecho de usar este trabajo para cualquier propósito, sin ningún tipo de condición al menos que éstas sean requeridas por la ley.",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:FujiSunriseKawaguchiko2025WP.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "fujisunrisekawaguchiko2025wp-33e1de7a.jpg",
+      "tipo": "imagen",
+      "alt": "Monte Fuji es uno de los volcanes más famosos del mundo que representa a Japón en su historia",
+      "autor": "Public domainPublic domainfalsefalse Yo, el titular de los derechos de autor de esta obra, lo libero al dominio público. Esto aplica en todo el mundo. En algunos países esto puede no ser legalmente factible; si ello ocurriese: Concedo a cualquier persona el derecho de usar este trabajo para cualquier propósito, sin ningún tipo de condición al menos que éstas sean requeridas por la ley.",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:FujiSunriseKawaguchiko2025WP.jpg"
+    }
+  ],
+  "relacionados": [
+    "agua",
+    "antartida",
+    "atmosfera"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Volc%C3%A1n",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Volc%C3%A1n&action=history",
+    "revid": 190842,
+    "fecha": "2026-10-14"
+  }
+}

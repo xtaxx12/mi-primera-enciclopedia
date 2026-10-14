@@ -1,0 +1,65 @@
+{
+  "slug": "asteroide",
+  "titulo": "Asteroide",
+  "categoria": "espacio",
+  "resumen": "Un asteroide es un cuerpo de roca más pequeño que un planeta que orbita alrededor del Sol. Su nombre viene del griego ἀστεροειδής que significa \"de figura de estrella\", porque al verse desde la Tierra los asteroides parecen estrellas. Hasta el momento se conocen cerca de 15.000 asteroides, aunque…",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "galileo-gaspra-mosaic-5d7c72c6.jpg",
+      "pie": "Otro asteroide."
+    },
+    {
+      "tipo": "figura",
+      "archivo": "243-ida-b055128f.jpg",
+      "pie": "Un asteroide, a la derecha la luna."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>asteroide</b> es un cuerpo de roca más pequeño que un <a href=\"/articulo/planeta\">planeta</a> que orbita alrededor del <a href=\"/articulo/sol\">Sol</a>. Su nombre viene del griego <i>ἀστεροειδής </i> que significa \"de figura de <a href=\"/articulo/estrella\">estrella</a>\", porque al verse desde la <a href=\"/articulo/tierra\">Tierra</a> los asteroides parecen estrellas. Hasta el momento se conocen cerca de 15.000 asteroides, aunque seguramente existen muchísimos más.</p>\n<p>El tamaño de los asteroides varía mucho; los más pequeños miden solamente algunos metros de diámetro, mientras que los más grandes tienen más de 300 km de diámetro.</p>\n<p>La mayor parte de los asteroides del <a href=\"/articulo/sistema-solar\">Sistema Solar</a> orbitan entre <a href=\"/articulo/marte\">Marte</a> y Júpiter, en una zona llamada Cinturón de asteroides.</p>\n<p>Su composición es muy variada. Algunos están formados por hielo y otros son de hierro. Se cree que la extinción de los dinosaurios fue causada por un meteorito de 10 km de tamaño que colisionó con la tierra en la Península de Yucatán en <a href=\"/articulo/mexico\">México</a> hace 65 millones de años.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "galileo-gaspra-mosaic-5d7c72c6.jpg",
+    "tipo": "imagen",
+    "alt": "Otro asteroide.",
+    "autor": "NASA",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Galileo_Gaspra_Mosaic.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "galileo-gaspra-mosaic-5d7c72c6.jpg",
+      "tipo": "imagen",
+      "alt": "Otro asteroide.",
+      "autor": "NASA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Galileo_Gaspra_Mosaic.jpg"
+    },
+    {
+      "archivo": "243-ida-b055128f.jpg",
+      "tipo": "imagen",
+      "alt": "Un asteroide, a la derecha la luna.",
+      "autor": "NASA/JPL",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:243_ida.jpg"
+    }
+  ],
+  "relacionados": [
+    "planeta",
+    "sol",
+    "estrella",
+    "tierra",
+    "sistema-solar",
+    "marte"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Asteroide",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Asteroide&action=history",
+    "revid": 120126,
+    "fecha": "2026-10-14"
+  }
+}

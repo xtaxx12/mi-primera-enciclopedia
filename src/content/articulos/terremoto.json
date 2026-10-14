@@ -1,0 +1,66 @@
+{
+  "slug": "terremoto",
+  "titulo": "Terremoto",
+  "categoria": "planeta-tierra",
+  "resumen": "Un sismo (comúnmente llamado temblor si es de magnitud baja o terremoto si la magnitud es mayor a los 7.0 en la escala de Richter) es un movimiento de la tierra que puede tener consecuencias catastróficas, como la destrucción de edificios.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "valdivia-after-earthquake-1960-17984fda.jpg",
+      "pie": "Daños causados por el mayor terremoto de la historia, en Valdivia, Chile, en 1960."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>sismo</b> (comúnmente llamado <b>temblor</b> si es de magnitud baja o <b>terremoto</b> si la magnitud es mayor a los 7.0 en la escala de Richter) es un movimiento de la tierra que puede tener consecuencias catastróficas, como la destrucción de edificios.</p>\n<p>Se produce porque la corteza de la tierra está formada por placas tectónicas que se mueven constantemente; cuando estas placas se rozan, la superficie tiembla. El lugar en donde el sismo es más fuerte por un mayor movimiento de placas se llama epicentro.</p>\n<h2>Lugares propensos a sufrir terremotos</h2>\n<p>No es posible que haya terremotos de intensidad significativa en todos los lugares del planeta. Las zonas sensibles suelen ser las que tienen montañas muy altas, o las islas de origen volcánico. Por ejemplo, la zona de la Cordillera de los Andes, en América del Sur, es una zona propensa a los temblores.</p>\n<h2>Destrucción</h2>\n<p>A veces, los terremotos son temblores de tierra que derrumban edificios y pueden provocar la muerte de las personas que estaban en ellos. Los sobrevivientes, por su parte, deben reconstruir sus viviendas y muchas veces hay escasez de alimentos, se propagan enfermedades por la falta de agua, se extiende la pobreza, etcétera.</p>\n<h2>En el mar</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "terremoto-sumatra-2004-9b6801d3.gif",
+      "pie": "Animación del maremoto de 2004 en Asia."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Cuando un terremoto se produce en el mar, se llama tsunami o maremoto. Los tsunamis forman olas gigantes que avanzan sobre la tierra y destruyen todo a su paso. Un ejemplo de tsunami muy destructor fue el de diciembre de 2004 en el océano Índico: produjo la muerte de más de 300.000 personas y afectó a muchísimos países del sudeste de Asia, principalmente a Indonesia.</p>\n<h2>Medición</h2>\n<p>Para medir un terremoto, se suelen usar diversas escalas. La más común es la escala Richter, que va desde 1 a 9 puntos y mide la magnitud del sismo.</p>\n<h2>Terremotos destructivos</h2>\n<p>En los últimos años, ha habido muchísimos terremotos muy destructivos. Además del ya mencionado tsunami en el Índico, hubo un terremoto muy importante en <a href=\"/articulo/peru\">Perú</a> en 2007, de 7.8 puntos en la escala Richter, que provocó la muerte de mil personas. En enero de 2010 se produjo la mayor catástrofe natural de la historia del Caribe en Haití: un terremoto de 7.3 puntos, que dejó más de doscientos mil muertos.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "valdivia-after-earthquake-1960-17984fda.jpg",
+    "tipo": "imagen",
+    "alt": "Daños causados por el mayor terremoto de la historia, en Valdivia, Chile, en 1960.",
+    "autor": "Pierre St. Amand",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Valdivia_after_earthquake,_1960.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "valdivia-after-earthquake-1960-17984fda.jpg",
+      "tipo": "imagen",
+      "alt": "Daños causados por el mayor terremoto de la historia, en Valdivia, Chile, en 1960.",
+      "autor": "Pierre St. Amand",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Valdivia_after_earthquake,_1960.jpg"
+    },
+    {
+      "archivo": "terremoto-sumatra-2004-9b6801d3.gif",
+      "tipo": "imagen",
+      "alt": "Animación del maremoto de 2004 en Asia.",
+      "autor": "USGS",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Terremoto_Sumatra_2004.gif"
+    }
+  ],
+  "relacionados": [
+    "peru",
+    "agua",
+    "antartida"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Sismo",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Sismo&action=history",
+    "revid": 188817,
+    "fecha": "2026-10-14"
+  }
+}

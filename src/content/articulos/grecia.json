@@ -1,0 +1,190 @@
+{
+  "slug": "grecia",
+  "titulo": "Grecia",
+  "categoria": "paises",
+  "resumen": "Grecia es un país ubicado en Europa oriental. Su capital es Atenas.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p><b>Grecia</b> es un país ubicado en Europa oriental. Su capital es Atenas.</p>\n<p>El país tiene una extensión de 131.957 km², y una población de 11.244.204 habitantes a fecha de 2009.</p>\n<p>Grecia fue una de la primeras civilizaciones del mundo, en la ciudad de Atenas se desarrolló por primera vez la democracia, aunque con mecanismos diferentes a los actuales y gran parte de nuestra lengua procede del griego antiguo, así como nuestro alfabeto. Su cultura es todavía hoy un referente.</p>\n<p>Actualmente, el país se encuentra sumergido en una gravísima crisis económica, con altos niveles de deuda extranjera y desempleo, superando a un cuarto de la población.</p>\n<h2>Historia</h2>\n<p>La historia de Grecia se extiende a lo largo de más de 5.000 años y ha tenido una gran influencia en la cultura, la política y la ciencia de Europa.</p>\n<p>Los primeros habitantes de Grecia se establecieron durante la prehistoria. Entre los años 3000 y 1100 a. C. florecieron importantes civilizaciones como la civilización minoica, en la isla de Creta, y la civilización micénica, en la Grecia continental. Los micénicos construyeron grandes fortalezas y participaron en acontecimientos que inspiraron leyendas como la guerra de Troya.</p>\n<p>Tras el final de la civilización micénica comenzó un período conocido como la Edad Oscura griega. Más tarde surgieron las polis, ciudades-estado independientes como Atenas, Esparta, Corinto y Tebas. Cada una tenía sus propias leyes y forma de gobierno. En Atenas nació una de las primeras formas de democracia, mientras que Esparta era conocida por su organización militar.</p>\n<p>Durante el siglo V a. C., las ciudades griegas derrotaron al Imperio persa en las guerras médicas. Después, Atenas vivió una época de gran desarrollo cultural en la que destacaron filósofos como Sócrates, Platón y Aristóteles, así como dramaturgos, escultores y arquitectos. Sin embargo, las rivalidades entre las polis llevaron a la guerra del Peloponeso, que debilitó a Grecia.</p>\n<p>En el siglo IV a. C., el rey Filipo II de Macedonia unificó gran parte de Grecia. Su hijo, Alejandro Magno, conquistó un enorme imperio que se extendía desde Grecia hasta Egipto y la India. Gracias a sus conquistas, la lengua y la cultura griegas se difundieron por gran parte del mundo conocido, dando origen al período helenístico.</p>\n<p>En el año 146 a. C., Grecia fue conquistada por la República romana. Aunque pasó a formar parte del mundo romano, la cultura griega siguió siendo muy influyente. Tras la división del Imperio romano, Grecia quedó integrada en el Imperio bizantino, donde el cristianismo ortodoxo se convirtió en la religión principal.</p>\n<p>En el siglo XV, el territorio griego fue conquistado por el Imperio otomano, que gobernó la mayor parte de Grecia durante casi cuatro siglos. En 1821 comenzó la Guerra de independencia de Grecia, que terminó con el reconocimiento de la independencia del país en 1830.</p>\n<p>Durante los siglos XIX y XX, Grecia amplió su territorio y participó en las dos guerras mundiales. Entre 1967 y 1974 estuvo gobernada por una dictadura militar. Tras su caída, el país recuperó la democracia.</p>\n<p>Grecia ingresó en la Unión Europea en 1981 y adoptó el euro como moneda en 2001. En el siglo XXI sufrió una grave crisis económica, pero continúa siendo un país democrático y uno de los principales destinos turísticos del mundo gracias a su patrimonio histórico y cultural.</p>\n<h2>Geografía</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "satellite-image-of-greece-in-march-2003-0a5ad5ef.jpg",
+      "pie": "Imagen satelital de Grecia en marzo de 2003."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El territorio griego es esencialmente montañoso y forma una península en el extremo sur de los Balcanes, que termina en otra península más pequeña, la del Peloponeso, separada del resto del continente por el Canal de Corinto, en el istmo de Corinto. Debido a su accidentada línea de costa y a sus numerosas islas, Grecia posee el décimo litoral más largo del mundo, que se extiende a lo largo de 13 676&#160;km. Al norte, limita con Albania, Macedonia del Norte, Bulgaria y <a href=\"/articulo/turquia\">Turquía</a> de oeste a este; por su parte, sus fronteras terrestres se extienden a lo largo de más de 1 160&#160;km.</p>\n<p>El territorio griego comprende entre 1200 y 6000 islas —su número depende de lo que se considere una isla—, de las cuales 227 están habitadas. Entre ellas, Creta es la más grande y la más poblada; Eubea, separada del continente por el estrecho de Euripo, de 60 m de largo, es la segunda isla griega más grande, seguida inmediatamente por Rodas y Lesbos.</p>\n<p>Las islas griegas se agrupan comúnmente en seis archipiélagos: las islas Sarónicas, situadas en el Golfo Sarónico, cerca de Atenas; las Cícladas, un vasto y denso archipiélago que ocupa el centro del Mar Egeo; las islas del Egeo Septentrional, disperses frente a la costa oeste de Turquía; el Dodecaneso, disperso en el sureste del Egeo, entre Creta y Turquía; las Espóradas, un pequeño archipiélago frente a la costa noreste de la isla de Eubea; y, por último, las Islas Jónicas, al oeste de Grecia, en el Mar Jónico.</p>\n<p>Dado que entre el 70 y el 80&#160;% del territorio griego está cubierto de montañas o colinas, se trata de uno de los países más montañosos de Europa. El Monte Olimpo, el hogar mítico de los dioses griegos, es el punto más alto del país, con una cumbre que alcanza los 2917 m de altitud. En el oeste de Grecia, el paisaje, cubierto por numerosos lagos y humedales, está dominado por la cordillera del Pindo. Esta última, una prolongación de los Alpes Dináricos, alcanza los 2637 m en el Smólikas, el segundo punto más alto de Grecia, que desde siempre ha constituido una barrera importante entre Tesalia y Epiro.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "olympus-national-park-30-fc264fcd.jpg",
+      "pie": "Vista del Monte Olimpo."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La cordillera del Pindo continúa su recorrido hacia el sur a través del Peloponeso, las islas de Citera y Anticitera y, finalmente, el suroeste del mar Egeo hasta llegar a la isla de Creta, donde termina. Las islas del mar Egeo son en realidad las cumbres de montañas submarinas que antiguamente formaban la prolongación de las cordilleras continentales. El Pindo se caracteriza por cumbres altas y abruptas, a menudo cortadas por gigantescos barrancos, y presenta una gran diversidad de paisajes kársticos. El <i>Libro Guinness de los récords</i> reconoce la garganta de Vikos, en el parque nacional de Vikos-Aoos, como el cañón más profundo del mundo.</p>\n<p>Otra alta cordillera, los Rodopes, atraviesa la periferia de Macedonia Oriental y Tracia, en el noreste de Grecia. Esta región está cubierta de extensos y exuberantes bosques, especialmente en los alrededores de Dadiá. En cuanto a las llanuras griegas, se encuentran principalmente en Tesalia, Macedonia Central y Tracia. Especialmente fértiles, estas escasas llanuras desempeñan un papel importante en la economía nacional.</p>\n<h3>Clima</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "navagio-01-54a68bfd.jpg",
+      "pie": "Cala en la isla de Zante."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El clima de Grecia es principalmente mediterráneo, con inviernos suaves y húmedos y veranos cálidos y secos. Este clima predomina en todas las regiones costeras del país, especialmente en Atenas, las Cícladas, el Dodecaneso, Creta, el Peloponeso, las islas Jónicas y algunas partes de Grecia central. La cordillera del Pindo afecta en gran medida al clima del país, ya que las zonas situadas al oeste de las montañas son mucho más húmedas que el resto del país, mientras que las zonas orientales sufren un efecto de sombra pluviométrica (la montaña bloquea las masas de aire húmedo, que se estancan en su vertiente occidental y rara vez alcanzan su vertiente oriental).</p>\n<p>Las zonas montañosas del noroeste de Grecia —algunas regiones de Epiro, Grecia central, Tesalia, así como las colinas del interior del Peloponeso (Acaya, Arcadia, Laconia)— presentan un clima alpino con fuertes nevadas. El interior de las regiones del norte, en Macedonia y Tracia, está sujeto a un clima templado con veranos cálidos y secos, pero inviernos fríos, húmedos y con tormentas frecuentes. Las nevadas llegan a las montañas y a las regiones septentrionales todos los años. Con menor frecuencia y mucha menos intensidad, también pueden caer en las regiones de baja altitud del sur, incluida Atenas.</p>\n<h2>Gobierno y política</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "papandreou-papademos-ceremony-for-the-official-handover-11-n-b8a15f53.jpg",
+      "pie": "Palacio Maxímou, residencia oficial del primer ministro griego."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Grecia es una república parlamentaria cuyo jefe de Estado es el presidente de la República, elegido por el Parlamento para un mandato de cinco años. La constitución actualmente en vigor fue redactada y promulgada por el Parlamento en 1975, tras la caída de la dictadura militar que gobernaba el país desde 1967. Desde entonces, se han realizado tres enmiendas en 1986, 2001 y 2008. Compuesta por 120 artículos, la constitución establece la división de los poderes ejecutivo, legislativo y judicial, al tiempo que estipula de manera detallada y específica las garantías de las libertades civiles y los derechos sociales.</p>\n<p>Según la constitución, el poder ejecutivo recae en el presidente de la República. La enmienda constitucional de 1986 limitó gran parte de las atribuciones del presidente, por lo que la mayoría de sus funciones pasaron a ser ceremoniales, quedando gran parte del poder político en manos del primer ministro. El cargo de primer ministro —jefe del Gobierno griego— corresponde al líder del partido político que obtiene el voto de confianza del Parlamento. El presidente nombra formalmente al primer ministro y, basándose en sus recomendaciones, designa o destituye a los demás miembros del gobierno.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "hellenic-parliament-from-high-above-bc5fadf9.jpg",
+      "pie": "El Parlamento Helénico en Atenas."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El poder legislativo está en manos de un parlamento unicameral (de una sola cámara) compuesto por 300 miembros elegidos por el pueblo. Las leyes aprobadas por el Parlamento son posteriormente promulgadas por el presidente de la República. Se celebran elecciones parlamentarias cada cuatro años, pero el presidente está obligado a disolver el Parlamento un poco antes, en el momento de la elección del gabinete, con el fin de abordar un problema nacional de excepcional importancia. El presidente también está obligado a disolver el Parlamento antes de tiempo si la oposición aprueba una moción de censura. Desde el restablecimiento de la democracia, el sistema bipartidista griego ha estado dominado por los liberal-conservadores de Nueva Democracia (ND) y los socialdemócratas del Movimiento Socialista Panhelénico (PASOK).</p>\n<p>El poder judicial es independiente del ejecutivo y del legislativo y recae en tres tribunales supremos: la Corte de Casación, el Consejo de Estado y el Tribunal de Cuentas, las más altas instancias judiciales del país. El sistema judicial también está integrado por tribunales civiles, que juzgan los asuntos civiles y penales, y tribunales administrativos, que resuelven los litigios entre los ciudadanos y las autoridades administrativas.</p>\n<p>La policía griega es un organismo muy grande cuyas responsabilidades van desde el control del tráfico hasta las acciones antiterroristas. Fue creada en 1984 por una ley que fusionó la gendarmería y la policía municipal.</p>\n<h2>Religiones</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "meteora-agios-triadas-img-7632-27c8c882.jpg",
+      "pie": "Monasterio de la Santísima Trinidad en Meteora, Tesalia."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La Constitución reconoce la fe cristiana ortodoxa como la religión «predominante» en el país, al tiempo que garantiza la libertad de culto a sus ciudadanos. El Gobierno griego no publica estadísticas sobre sus comunidades religiosas ni incluye preguntas sobre la afiliación religiosa en los censos. Según el Departamento de Estado de los Estados Unidos, se estima que el 98&#160;% de los griegos se identifican como cristianos ortodoxos, pertenecientes a la Iglesia ortodoxa griega.</p>\n<p>El Eurobarómetro de 2010 demostró que el 79&#160;% de los griegos respondieron «<i>sí</i>» a la pregunta «<i>¿Existe Dios?</i>». Según otras fuentes, el 15,8&#160;% de los griegos se definen a sí mismos como «<i>muy religiosos</i>», lo que representa el porcentaje más alto entre los países europeos. Así, solo el 3,5&#160;% declara no ir nunca a la iglesia, frente al 4,9&#160;% en Polonia o al 59,1&#160;% en la República Checa.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "stavronikita-aug2006-55929e47.jpg",
+      "pie": "Monasterio de Stavronikita, Monte Athos."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Se estima que unos 50 000 ciudadanos griegos son católicos y, junto con los inmigrantes de la misma confesión, representan más de 200 000 personas en el país. Los paleocalendaristas griegos (ortodoxos en desacuerdo con el abandono del calendario juliano) cuentan con más de medio millón de adeptos. Los protestantes, cuyas iglesias evangélicas cuentan con más de 30 000 practicantes en todo el país, están representados, entre otros, por las Asambleas de Dios, la Iglesia del Evangelio Cuadrangular y otras iglesias pentecostales menores que no suman más de 12 000 practicantes. Por su parte, los Testigos de Jehová informan que cuentan con casi 29 000 miembros activos en Grecia.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "chora-di-patmos-con-il-monastero-di-san-giovanni-il-teologo-97058617.jpg",
+      "pie": "Monasterio de San Juan el Teólogo, Patmos."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Las estimaciones sobre la minoría musulmana de Grecia, asentada principalmente en Tracia, varían entre 98 000 y 140 000 personas —aproximadamente el 1&#160;% de la población—, mientras que la comunidad musulmana inmigrante está compuesta por entre 200 000 y 300 000 albaneses. Tras la guerra greco-turca de 1919-1922 y el Tratado de Lausana en 1923, Grecia y Turquía procedieron a un intercambio de población a gran escala basado en la identidad cultural y religiosa de sus habitantes. Alrededor de 500 000 musulmanes de Grecia, principalmente turcos, fueron intercambiados por griegos de Anatolia.</p>\n<p>El judaísmo está presente en Grecia desde hace más de 2000 años. Los judíos sefardíes eran muy numerosos en el pasado en la ciudad de Salónica: en 1900, unas 80 000 personas —es decir, la mitad de la población urbana— eran judías. Sin embargo, hoy en día, la comunidad judía de Grecia se ha visto reducida a 5500 personas a consecuencia de la ocupación alemana y el Holocausto durante la Segunda Guerra Mundial.</p>\n<p>El dodecateísmo, o neopaganismo helénico, una versión moderna de la religión que se practicaba en la <a href=\"/articulo/antigua-grecia\">Antigua Grecia</a> (creencia en los dioses olímpicos), contaría con unos 100 000 adeptos en toda Grecia, según los líderes del movimiento.</p>\n<h2>Lenguas</h2>\n<p>La única lengua oficial de Grecia es el griego moderno, escrito con el alfabeto griego. También es la lengua materna del 87&#160;% de la población del país.</p>\n<p>En Grecia viven varias minorías que hablan otras lenguas. Estas lenguas son:</p>\n<ul><li>el arrumano, una lengua cercana al rumano;</li>\n<li>el meglenorrumano, cercano al anterior;</li>\n<li>el albanés, que incluye el arvanítico (un dialecto albanés de Grecia);</li>\n<li>el romaní, hablado por las comunidades romaníes;</li>\n<li>el búlgaro, una lengua eslava hablada por los búlgaros (cristianos) y los pomacos (musulmanes);</li>\n<li>el macedonio, cercano al anterior;</li>\n<li>el tsaconio, lengua cercana al griego pero descendiente del antiguo dialecto de Esparta;</li>\n<li>el yevánico, lengua cercana al griego pero con rasgos hebreos, hablada por los judíos griegos (romaniotes);</li>\n<li>el turco, lengua hablada por algunas minorías asentadas desde la época del Imperio otomano.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "greece-in-european-union-21d4bac3.png",
+    "tipo": "imagen",
+    "alt": "Grecia",
+    "autor": "TUBS",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Greece_in_European_Union.svg"
+  },
+  "medios": [
+    {
+      "archivo": "greece-in-european-union-21d4bac3.png",
+      "tipo": "imagen",
+      "alt": "Grecia",
+      "autor": "TUBS",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Greece_in_European_Union.svg"
+    },
+    {
+      "archivo": "satellite-image-of-greece-in-march-2003-0a5ad5ef.jpg",
+      "tipo": "imagen",
+      "alt": "Imagen satelital de Grecia en marzo de 2003.",
+      "autor": "Jacques Descloitres, MODIS Rapid Response Team, NASA/GSFC",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Greece_in_March_2003.jpg"
+    },
+    {
+      "archivo": "olympus-national-park-30-fc264fcd.jpg",
+      "tipo": "imagen",
+      "alt": "Vista del Monte Olimpo.",
+      "autor": "kallerna",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Olympus_National_Park_30.jpg"
+    },
+    {
+      "archivo": "navagio-01-54a68bfd.jpg",
+      "tipo": "imagen",
+      "alt": "Cala en la isla de Zante.",
+      "autor": "Sokoban",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Navagio_01.jpg"
+    },
+    {
+      "archivo": "papandreou-papademos-ceremony-for-the-official-handover-11-n-b8a15f53.jpg",
+      "tipo": "imagen",
+      "alt": "Palacio Maxímou, residencia oficial del primer ministro griego.",
+      "autor": "Λουκάς Παπαδήμος Πρωθυπουργός της Ελλάδας",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Papandreou_Papademos_-_Ceremony_for_the_official_handover_-_11_November_2011_(7).jpg"
+    },
+    {
+      "archivo": "hellenic-parliament-from-high-above-bc5fadf9.jpg",
+      "tipo": "imagen",
+      "alt": "El Parlamento Helénico en Atenas.",
+      "autor": "Gerard McGovern",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Hellenic_Parliament_from_high_above.jpg"
+    },
+    {
+      "archivo": "meteora-agios-triadas-img-7632-27c8c882.jpg",
+      "tipo": "imagen",
+      "alt": "Monasterio de la Santísima Trinidad en Meteora, Tesalia.",
+      "autor": "Dido3",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Meteora_Agios_Triadas_IMG_7632.jpg"
+    },
+    {
+      "archivo": "stavronikita-aug2006-55929e47.jpg",
+      "tipo": "imagen",
+      "alt": "Monasterio de Stavronikita, Monte Athos.",
+      "autor": "Photo taken by Thodoris Lakiotis",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Stavronikita_Aug2006.jpg"
+    },
+    {
+      "archivo": "chora-di-patmos-con-il-monastero-di-san-giovanni-il-teologo-97058617.jpg",
+      "tipo": "imagen",
+      "alt": "Monasterio de San Juan el Teólogo, Patmos.",
+      "autor": "Valeria Casali",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Chora_di_Patmos_con_il_Monastero_di_San_Giovanni_%22il_teologo%22.JPG"
+    }
+  ],
+  "relacionados": [
+    "turquia",
+    "antigua-grecia",
+    "alemania"
+  ],
+  "pais": {
+    "adm0": "GRC"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Grecia",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Grecia&action=history",
+    "revid": 187041,
+    "fecha": "2026-10-14"
+  }
+}

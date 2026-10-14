@@ -1,0 +1,61 @@
+{
+  "slug": "celula",
+  "titulo": "Célula",
+  "categoria": "ciencia-y-tecnologia",
+  "resumen": "La célula es la unidad básica de todo ser vivo y es el elemento más pequeño que puede considerarse vivo. Esto significa que todas las funciones vitales provienen del funcionamiento de las células que componen un ser vivo y de las relaciones que las células establecen entre sí.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "plagiomnium-affine-laminazellen-cb100476.jpg",
+      "pie": "Células vegetales con forma hexagonal. Las formas verdes son los cloroplastos, los cuales contienen la clorofila, presentes en una hoja de planta."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>célula</b> es la unidad básica de todo ser vivo y es el elemento más pequeño que puede considerarse vivo. Esto significa que todas las funciones vitales provienen del funcionamiento de las células que componen un ser vivo y de las relaciones que las células establecen entre sí.</p>\n<p>La mayor parte de las células tienen un tamaño de 10&#160;µm (milésimas de milímetro) y una masa de 1&#160;ng (billonésimas de gramo); pero también existen células mucho mayores.</p>\n<p>De acuerdo con el número de células que tienen los seres vivos se clasifican en:</p>\n<ul><li>Unicelulares, si solo tienen una célula; por ejemplo, las bacterias;</li>\n<li>Pluricelulares, si tienen más de una célula; por ejemplo, el ser humano, que tiene cientos de billones (10<sup>14</sup>) de células.</li></ul>\n<p>Dentro de las células está la información genética de los seres vivos, que es la base para que se produzca la herencia entre los seres de la misma familia.</p>\n<h2>Tipos de células</h2>\n<p>Hay dos grandes tipos de células:</p>"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li>Células procariotas, que no tienen núcleo celular (por ejemplo, las de las bacterias). Tienen menor tamaño que las células eucariotas.</li></ul>\n<ul><li>Células eucariotas, que sí tienen núcleo, donde se guarda la información genética. Todos los animales y todas las plantas están formados por este tipo de células. Por tanto, las células eucariotas se dividen en:\n<ul><li>Células vegetales, que tienen una gruesa capa de celulosa a su alrededor y que en su interior tienen clorofila y por eso son verdes.</li>\n<li>Células animales, que tienen una membrana delgada y flexible, y no tienen clorofila.</li></ul></li></ul>\n<h2>Orgánulos celulares</h2>\n<p>Los orgánulos se encuentran en el citoplasma. Algunos están rodeados de membrana y otros no.</p>\n<ul><li><b>Mitocondria</b>: Es un orgánulo ovalado con una doble membrana. La membrana externa es lisa y la interna está replegada hacia el interior formando las crestas mitocondriales. En ella, mediante en proceso de respiración celular, se obtiene la mayor parte de la energía de la célula.</li></ul>\n<ul><li><b>Vesículas</b>: Son sacos membranosos de pequeño tamaño que almacenan, transportan o digieren distintas sustancias celulares. Los <b>lisosomas</b> son también unas vesículas membranosas redondeadas, que se forman en el aparato de Golgi, y contienen enzimas hidrolíticas que participan en la digestión intracelular de sustancias.</li></ul>\n<ul><li><b>Retículo endoplasmático (R.E.)</b>: Es un conjunto de sáculos y canales membranosos interconectados entre sí. Puede ser de dos tipos:</li></ul>\n<ul><li><b>Aparato de Golgi</b>: Es un conjunto de sacos membranosos aplanados y apilados conectados entre sí. En ellos se almacenan y procesan sustancias transferidas desde el retículo. Del aparato de Golgi se emiten <b>vesículas de secreción</b> que contienen productos que se vierten al exterior.</li></ul>\n<ul><li><b>Ribosomas</b>: Son partículas no membranosas formadas por ARN y proteínas. Pueden estar libres en el citoplasma o adheridos al retículo endoplasmático rugoso. Realizan la síntesis de proteínas.</li></ul>\n<ul><li><b>Centrosoma</b>: Está constituido por dos cilindros, formados por microtúbulos proteicos llamados <b>centriolos</b>. Ambos se disponen de forma perpendicular y están rodeados de otros microtúbulos que forman el áster. Participan en la organización del citoesqueleto, la motilidad celular y la formación del huso mitótico cuando la célula se va a dividir.</li></ul>\n<ul><li><b>Cilios y flagelos</b>: Son prolongaciones citoplasmáticas que intervienen en el movimiento celular. Tienen una estructura interna similar, pero los cilios son cortos y abundantes y los flagelos son largos. Una célula suele presentar uno o dos.</li></ul>\n<ul><li><b>Citoesqueleto</b>: Está formado por un conjunto de filamentos proteicos de distinto tipo. Su función es mantener la forma celular, facilitar el movimiento de la célula, de los orgánulos y de las vesículas internas. También participa en la organización de los cromosomas durante la división celular.</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "plagiomnium-affine-laminazellen-cb100476.jpg",
+    "tipo": "imagen",
+    "alt": "Células vegetales con forma hexagonal. Las formas verdes son los cloroplastos, los cuales contienen la clorofila, presentes en una hoja de planta.",
+    "autor": "Kristian Peters -- Fabelfroh",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Plagiomnium_affine_laminazellen.jpeg"
+  },
+  "medios": [
+    {
+      "archivo": "plagiomnium-affine-laminazellen-cb100476.jpg",
+      "tipo": "imagen",
+      "alt": "Células vegetales con forma hexagonal. Las formas verdes son los cloroplastos, los cuales contienen la clorofila, presentes en una hoja de planta.",
+      "autor": "Kristian Peters -- Fabelfroh",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Plagiomnium_affine_laminazellen.jpeg"
+    },
+    {
+      "archivo": "golgi-apparatus-numbers-version-db180684.png",
+      "tipo": "imagen",
+      "alt": "Célula",
+      "autor": "Kelvinsong",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Golgi_apparatus_(numbers_version).svg"
+    }
+  ],
+  "relacionados": [
+    "atomo",
+    "automovil",
+    "computadora"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/C%C3%A9lula",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=C%C3%A9lula&action=history",
+    "revid": 208342,
+    "fecha": "2026-10-14"
+  }
+}

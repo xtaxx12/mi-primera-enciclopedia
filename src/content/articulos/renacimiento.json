@@ -1,0 +1,59 @@
+{
+  "slug": "renacimiento",
+  "titulo": "Renacimiento",
+  "categoria": "historia",
+  "resumen": "El Renacimiento fue un movimiento cultural de enorme importancia para el desarrollo de la humanidad. Nació en Italia hacia el siglo XIV, y en Alemania en el siglo XV y luego en toda Europa en el siglo XVI. Su desarrollo coincidió con el inicio de la Edad moderna",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>Renacimiento</b> fue un movimiento cultural de enorme importancia para el desarrollo de la humanidad. Nació en <a href=\"/articulo/italia\">Italia</a> hacia el siglo XIV, y en Alemania en el siglo XV y luego en toda Europa en el siglo XVI. Su desarrollo coincidió con el inicio de la Edad moderna</p>\n<p>En el Renacimiento se retomaron elementos legados por las culturas clásicas, volviendo a los valores de la cultura de la <a href=\"/articulo/antigua-grecia\">antigua Grecia</a> y la antigua Roma.</p>\n<p>Se le considera un movimiento de renovación y reactivación del conocimiento y el progreso, ambos detenidos debido a la mentalidad que se había venido imponiendo durante la <a href=\"/articulo/edad-media\">Edad media</a>. Sustituyendo el teocentrismo (Dios es el centro del Universo) <a href=\"/articulo/edad-media\">medieval</a> por el antropocentrismo (el hombre es el centro del Universo).</p>\n<h2>Aspectos del Renacimiento</h2>\n<p>El renacimientos tiene varios aspectos:</p>\n<ul><li>El humanismo es un movimiento intelectual que duda de las ideas científicas y filosóficas aceptadas hasta ese momento.</li>\n<li>El renacimiento artístico que se inspira en las obras de arte de la Antigüedad greco-romana</li>\n<li>La reforma religiosa: el protestantismo separa al cristianismo de Europa Occidental en dos confesiones.</li></ul>\n<h2>Causas del Renacimiento</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "printpressmusdf-235693f2.jpg",
+      "pie": "Imprenta antigua en exhibición en el Museo de la Ciudad de México en el centro histórico de Ciudad de México"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Fueron varias las causas que dieron lugar a este movimiento cultural, entre ellas tenemos:</p>\n<ul><li>El desarrollo de la <a href=\"/articulo/imprenta\">imprenta</a>, que permitía una rápida difusión de textos culturales, la gente podía imprimir fácilmente los libros en grandes cantidades.</li>\n<li>La conquista de Constantinopla, actual Estambul, por los turcos en 1453. De hecho, este hecho provocó una interrupción del comercio entre Occidente y Asia por tierra. La búsqueda de una ruta marítima para llegar a Asia por el oeste de Europa  llevó a explorar el mundo y de ahí llegaron los grandes descubrimientos.</li></ul>\n<h2>Las partes de la cultura más renovadas</h2>\n<h3>Las artes plásticas</h3>\n<p>Las artes plásticas (<a href=\"/articulo/pintura\">pintura</a>, arquitectura y <a href=\"/articulo/escultura\">escultura</a>) fueron las más afectadas por el Renacimiento. Surge un nuevo modelo de artista, libre y de personalidad propia, que estudiaba las técnicas de los antiguos, pero a la vez investigaba y probaba nuevos métodos. <a href=\"/articulo/leonardo-da-vinci\">Leonardo da Vinci</a>, Miguel Ángel Buonarroti, Rafael Sanzio, Donato di Betto Bardi y Sandro Botticelli son algunos ejemplos claros de artistas renacentistas.</p>\n<h3>La ciencia</h3>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La ciencia también tuvo importantes cambios durante el Renacimiento. Personas como Galileo Galilei y Nicolás Copérnico, por ejemplo, fueron grandes científicos que destacaron principalmente en la astronomía y la física.</p>\n<h3>La religión</h3>\n<p>La hasta el momento no discutida religión Católica también tuvo cambios dramáticos. Hombres religiosos como Erasmo de Rotterdam y Martín Lutero propusieron reformas a la iglesia. Posteriormente, Lutero publicó sus 95 tesis, donde criticaba la corrupción que en aquel momento reinaba en el Vaticano. La publicación de dichas tesis dio lugar a la Reforma protestante, que dividió completamente a la cristiandad en Europa.</p>\n<h3>La literatura</h3>\n<p>Durante el Renacimiento también hubo interesantes logros en la literatura. Las obras teatrales de entretenimiento volvieron a popularizarse, y grandes dramaturgos como William Shakespeare destacaron en este arte. Adicionalmente, fue publicada la llamada por muchos \"primera novela\", Don Quijote de la Mancha, escrita por Miguel de Cervantes Saavedra.</p>\n<h3>Música y danza</h3>\n<p>La música y la danza estuvieron muy presentes en el Renacimiento. Muchos trovadores montaban un espectáculo con el fin de hacer que la gente bailara, con  instrumentos de percusión diversos y variados, además de utilizar instrumentos tradicionales o no. Espectáculos de malabares, obras y otras puestas en escena hacían las delicias de la gente de aquel tiempo. Estos bailes y fiestas se hacen todavía para mostrar la importancia de estas puestas en escena, como las pavanas que se representan en las celebraciones históricas.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "printpressmusdf-235693f2.jpg",
+    "tipo": "imagen",
+    "alt": "Imprenta antigua en exhibición en el Museo de la Ciudad de México en el centro histórico de Ciudad de México",
+    "autor": "AlejandroLinaresGarcia",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:PrintPressMusDF.JPG"
+  },
+  "medios": [
+    {
+      "archivo": "printpressmusdf-235693f2.jpg",
+      "tipo": "imagen",
+      "alt": "Imprenta antigua en exhibición en el Museo de la Ciudad de México en el centro histórico de Ciudad de México",
+      "autor": "AlejandroLinaresGarcia",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:PrintPressMusDF.JPG"
+    }
+  ],
+  "relacionados": [
+    "italia",
+    "antigua-grecia",
+    "edad-media",
+    "imprenta",
+    "pintura",
+    "escultura"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Renacimiento",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Renacimiento&action=history",
+    "revid": 185443,
+    "fecha": "2026-10-14"
+  }
+}

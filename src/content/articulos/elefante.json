@@ -1,0 +1,58 @@
+{
+  "slug": "elefante",
+  "titulo": "Elefante",
+  "categoria": "animales",
+  "resumen": "El elefante (nombre científico: elephantidae) es un animal herbívoro terrestre, el más grande que existe. Viven en manadas, que a veces tienen cientos de integrantes. Tiene piel gruesa de color gris o amarronado y una muy buena memoria.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>El <b>elefante</b> (nombre científico: <i><b>elephantidae</b></i>) es un animal herbívoro terrestre, el más grande que existe. Viven en manadas, que a veces tienen cientos de integrantes. Tiene piel gruesa de color gris o amarronado y una muy buena memoria.</p>\n<p>Existen hoy en dos géneros distintos: el elefante africano y el elefante asiático. Entre los géneros extintos de esta familia destacan los mamuts.</p>\n<p>Normalmente viven de 50 a 70 años. El elefante más grande que se ha cazado, de los que se tiene registro, pesaba alrededor de 11&#160;000 kg</p>\n<p>Presentan una prolongación nasal muy desarrollada, llamada comúnmente <i>trompa</i>, que gracias a su desarrollada musculatura les permite utilizarla a modo de mano para agarrar objetos y comida.</p>\n<p>También poseen colmillos, grandes <a href=\"/articulo/diente\">dientes</a> que salen de su mandíbula superior. Los colmillos de elefante son una gran fuente de marfil. Los colmillos del elefante pueden pesar hasta 120 kg y tener hasta 3 m. de longitud, aunque lo normal es que midan menos de un metro.</p>\n<p>Otra de las características principales de los elefantes es que poseen unas grandes orejas (mayores en el elefante africano que en el asiático). La principal función de estas orejas es la regulación de la temperatura del animal. Al tener muchas venas permiten un correcto enfriamiento de la <a href=\"/articulo/sangre\">sangre</a>, que en animales de ese volumen sería difícil conseguir por otros medios.</p>\n<h2>Alimentación</h2>\n<p>Los elefantes comen aproximadamente 320 kilogramos de alimento por día. Se alimentan de <a href=\"/articulo/planta\">plantas</a>, hojas, frutos, cortezas y demás hierbas: son herbívoros. Por otra parte, beben entre 70 y 90 litros de <a href=\"/articulo/agua\">agua</a> por día.</p>\n<h2>Hábitat</h2>\n<p>Viven en la selva o en la <a href=\"/articulo/sabana\">sabana</a>. En la actualidad, se encuentran en peligro de extinción porque los seres humanos los cazan y los matan para obtener el marfil de sus colmillos, y porque, además, les destruyen su hábitat. Les gusta estar en manadas. Se revuelcan en el lodo para evitar las picaduras de mosquitos.</p>\n<h2>Especies</h2>\n<p>Existen dos especies de elefantes: elephas (de Asia) y loxodonta (de África).</p>\n<h3>Elefante asiático o elephas</h3>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Este elefante mide más de tres metros de alto y tiene orejas relativamente pequeñas. En sus patas delanteras posee cuatro dedos y uno solo en el extremo de su trompa. Es muy fuerte y los humanos suelen usarlo como animal de carga.</p>\n<h3>Elefante africano o loxodonta</h3>\n<p>Es más grande que el asiático: mide cuatro metros de alto y tiene orejas de gran tamaño. Además, tiene tres dedos en sus patas delanteras y dos en la punta de la trompa.\n<br></p>"
+    }
+  ],
+  "principal": {
+    "archivo": "elephantbeauval-1f0cfaf9.jpg",
+    "tipo": "imagen",
+    "alt": "Elefante",
+    "autor": "BrunodaudBrunodaud",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:El%C3%A9phantBeauval.JPG"
+  },
+  "medios": [
+    {
+      "archivo": "elephantbeauval-1f0cfaf9.jpg",
+      "tipo": "imagen",
+      "alt": "Elefante",
+      "autor": "BrunodaudBrunodaud",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:El%C3%A9phantBeauval.JPG"
+    },
+    {
+      "archivo": "aire-elephant-es-0ca77e28.png",
+      "tipo": "imagen",
+      "alt": "Elefante",
+      "autor": "User:Nataraja, User:Bilou",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Aire-%C3%A9l%C3%A9phant-es.png"
+    }
+  ],
+  "relacionados": [
+    "diente",
+    "sangre",
+    "planta",
+    "agua",
+    "sabana"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Elephantidae",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Elephantidae&action=history",
+    "revid": 171113,
+    "fecha": "2026-10-14"
+  }
+}

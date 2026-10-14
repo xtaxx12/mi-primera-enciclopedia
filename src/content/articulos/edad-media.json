@@ -1,0 +1,24 @@
+{
+  "slug": "edad-media",
+  "titulo": "Edad Media",
+  "categoria": "historia",
+  "resumen": "La Edad Media, también conocida como Medioevo o Medievo, fue una edad histórica que se desarrolló principalmente en Europa entre los años 476 y 1492 o 1453 d.C. De ésta época destacan filósofos como Tomás de Aquino y Pedro Abelardo.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p>La <b>Edad Media</b>, también conocida como <b>Medioevo</b> o <b>Medievo</b>, fue una edad histórica que se desarrolló principalmente en Europa entre los años 476 y 1492 o 1453 d.C. De ésta época destacan filósofos como Tomás de Aquino y Pedro Abelardo.</p>\n<h2>Hechos que marcaron su inicio y fin</h2>\n<p>La Edad Media, según los historiadores que dividieron la historia en edades (Edad Antigua, Edad Media, Edad Moderna y Edad Contemporánea), aunque también puede dividirse en dos períodos principales: Alta Edad Media y Baja Edad Media. Empezó en el año 476, cuando cayó el Imperio Romano de Occidente. Algunos especialistas dicen que duró hasta 1492, año del descubrimiento de América, y otros que terminó en 1453 con la caída del Imperio Bizantino o Imperio Romano de Oriente.</p>\n<ul><li>El islam aparece en el 570.</li></ul>\n<h3>Conquistas</h3>\n<ul><li>En el 632 la Meca, en el 642 oriente medio y Egipto, en el 661 el norte de África, Persia en el 684 y España en 711.</li>\n<li>Los reinos germanicos: los francos en Francia y las actuales Holanda, Alemania y Bélgica.</li>\n<li>Ostrogodos en Italia.</li>\n<li>Suevos en Portugal.</li>\n<li>Visigodos en España.</li>\n<li>Hunos en Rusia, Ucrania, Rumania, Bulgaria, Moldavia.</li>\n<li>Vándalos en Túnez.</li>\n<li>Anglosajones en Inglaterra.</li></ul>\n<h2>Sistema feudal</h2>\n<p>Durante la Edad Media, Europa estuvo bajo un sistema feudal: había un señor feudal, que era un noble (podía ser un duque, un conde o un marqués) que vivía en un castillo y tenía grandes extensiones de tierra. En estas tierras vivían campesinos que se llamaban vasallos, y todos los vasallos formaban la plebe. Para poder vivir allí y recibir la protección del señor feudal (ante los ataques armados, por ejemplo) tenían que trabajar la tierra y darle los mejores productos que obtenían de ella a su señor. Ellos podían conservar sólo lo necesario para vivir. Todos los señores feudales les respondían al rey, la máxima autoridad.</p>\n<h2>La Iglesia</h2>\n<p>La Iglesia y la religión también tuvieron mucho peso en esta época. El obispo tenía casi tanto poder como el rey, y la iglesia influenciaba todas las decisiones del rey. Además, sucedieron hechos como la fundación de la Inquisición —institución dedicada a suprimir la herejía— y las Cruzadas —campañas militares contra los musulmanes para la recuperación de Tierra Santa. Nacen también las Universidades: instituciones educativas dedicadas a la investigación y al debate. En Europa se fundaron 52 universidades durante la Edad Media, de las cuales 29 fueron fundadas por la Iglesia.</p>\n<h2>La música en la Edad Media</h2>\n<p>Actualmente sólo es posible estudiar a profundidad la música medieval que fue escrita y, por ende, sobrevivió hasta ahora. Debido a que escribir manuscritos era muy costoso, la música de esta época que más se conoce actualmente es la que la Iglesia quiso guardar en algún momento —que se limitaba a música religiosa y sagrada—. Sin embargo, también se tiene algún registro de música secular, ya que, en ocasiones, personas adineradas solicitaban la creación de cancioneros que contenían poemas que eran interpretados por trovadores.</p>\n<p>La música de comienzos de medioevo era, al parecer, monofónica y homorítmica, y eran comunes los Cantos Gregorianos. Posteriormente se desarrolló la polifonía, y se crearon notaciones para representar este tipo de música.</p>\n<p>Durante la época, fueron muy populares instrumentos como la flaura de madera, el salterio y el laúd, por ejemplo.</p>"
+    }
+  ],
+  "medios": [],
+  "relacionados": [
+    "antigua-grecia",
+    "antiguo-egipto",
+    "aztecas"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Edad_Media",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Edad_Media&action=history",
+    "revid": 202690,
+    "fecha": "2026-10-14"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "ojo",
+  "titulo": "Ojo",
+  "categoria": "cuerpo-humano",
+  "resumen": "El ojo (plural, los ojos) es la parte del cuerpo que permite ver, es el órgano de la visión.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "human-eye-cross-section-detached-retina-es-fe5fa18f.png",
+      "pie": "Esquema del ojo."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>ojo</b> (plural, los <i>ojos</i>) es la parte del cuerpo que permite ver, es el órgano  de la visión.</p>\n<h2>Anatomía</h2>\n<p>Las personas tenemos dos ojos. La mayoría de los animales también.</p>\n<p>Su forma es aproximadamente esférica, mide 2,5 cm de diámetro y está lleno de un gel transparente llamado humor vítreo que rellena el espacio comprendido entre la retina y el cristalino.</p>\n<p>El ojo está formado por:</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "ojo-humano-356d27a1.png",
+      "pie": ""
+    },
+    {
+      "tipo": "figura",
+      "archivo": "parts-of-the-eye-es-ef8f62fc.png",
+      "pie": "Partes visibles del ojo"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li>Los <b>párpados</b>: son dos membranas exteriores de piel, una superior y otra inferior que protegen el ojo del exterior y ayudan a regular la cantidad de luz que llega, Si esta es excesiva se cierran evitando deslumbramientos.</li>\n<li>La <b>córnea</b>: es una membrana transparente muy resistente que cubre la parte anterior del ojo. Posee forma de lente convexa (concentra los rayos de luz en un punto) que le permite enfocar las imágenes sobre la retina.</li>\n<li><b>Humor acuoso</b>: es un líquido formado en gran parte por agua , que está entre la córnea y el cristalino. Tiene la función de nutrir al cristalino y mantener la forma de la córnea con su presión.</li>\n<li>El <b>iris y la pupila</b>: el iris está situado entre la córnea y el cristalino. Tiene una abertura en el centro, la pupila, cuya función es regular la cantidad de luz que entra en el ojo. La pupila se contrae para permitir que entre menos luz en el ojo cuando la iluminación es excesiva (por la acción del iris), y se dilata en la oscuridad.</li>\n<li>El <b>cristalino</b>: Es un cuerpo transparente en forma de lente, que tiene como función enfocar nítidamente la imagen sobre la retina.</li>\n<li><b>Humor vítreo</b>: es una masa gelatinosa transparente, que rellena la cavidad situada entre el cristalino y la retina.</li>\n<li>La <b>retina</b> es la parte sobre la que se forma la imagen de lo que uno ve. En su superficie se encuentran unas células encargadas de la visión: los conos y los bastoncillos. Los conos nos permiten ver los colores y los bastoncillos ver de noche. Cuando la imagen llega a la retina se envía la señal al <a href=\"/articulo/cerebro\">cerebro</a> que analiza y comprende. Esto le permite reaccionar en un tiempo muy corto. Se pueden ver hasta 25 fotogramas por segundo. El hombre no es el animal que tiene la mejor visión.</li>\n<li>El <b>nervio óptico</b>: se encarga de transportar los impulsos nerviosos producidos en la retina hasta en cerebro.</li></ul>\n<h2>Problemas de la visión</h2>\n<p>El ojo puede ser afectado por varias enfermedades o malformaciones que causan la distorsión de la visión</p>\n<ul><li>Ceguera</li>\n<li>Astigmatismo</li>\n<li>Hipermetropía</li>\n<li>Miopía</li>\n<li>Presbicia</li></ul>"
+    }
+  ],
+  "principal": {
+    "archivo": "human-eye-cross-section-detached-retina-es-fe5fa18f.png",
+    "tipo": "imagen",
+    "alt": "Esquema del ojo.",
+    "autor": "Human eye cross section detached retina.svg: Erin Silversmith from an original by Delta G / obra derivada: RexxS, Aibdescalzo (discusión)",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Human_eye_cross_section_detached_retina-es.svg"
+  },
+  "medios": [
+    {
+      "archivo": "human-eye-cross-section-detached-retina-es-fe5fa18f.png",
+      "tipo": "imagen",
+      "alt": "Esquema del ojo.",
+      "autor": "Human eye cross section detached retina.svg: Erin Silversmith from an original by Delta G / obra derivada: RexxS, Aibdescalzo (discusión)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Human_eye_cross_section_detached_retina-es.svg"
+    },
+    {
+      "archivo": "ojo-humano-356d27a1.png",
+      "tipo": "imagen",
+      "alt": "Ojo",
+      "autor": "Ojo_humano.jpg: Pixel derivative work: Taty2007 (talk)",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Ojo_humano.png"
+    },
+    {
+      "archivo": "parts-of-the-eye-es-ef8f62fc.png",
+      "tipo": "imagen",
+      "alt": "Partes visibles del ojo",
+      "autor": "File:Greeneyes.jpg: Original uploader was Laurinemily at en.wikipedia Later versions were uploaded by Lilallisun, AED at en.wikipedia. obra derivada Luhmann",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Parts_of_the_eye-es.png"
+    }
+  ],
+  "relacionados": [
+    "cerebro",
+    "boca",
+    "corazon"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Ojo_humano",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Ojo_humano&action=history",
+    "revid": 207265,
+    "fecha": "2026-10-14"
+  }
+}

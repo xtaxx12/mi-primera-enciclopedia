@@ -1,0 +1,48 @@
+{
+  "slug": "stonehenge",
+  "titulo": "Stonehenge",
+  "categoria": "historia",
+  "resumen": "Stonehenge es un monumento prehistórico formado por enormes bloques de piedra colocados en círculos concéntricos. Se encuentra en el sur de Inglaterra (Reino Unido) y es uno de los sitios arqueológicos más famosos del mundo.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "stonehenge-condado-de-wiltshire-inglaterra-2014-08-12-dd-06-e7bac437.jpg",
+      "pie": "Vista de algunos de los trilitos de Stonehenge"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Stonehenge</b> es un monumento <a href=\"/articulo/prehistoria\">prehistórico</a> formado por enormes bloques de piedra colocados en círculos concéntricos. Se encuentra en el sur de Inglaterra (<a href=\"/articulo/reino-unido\">Reino Unido</a>) y es uno de los sitios arqueológicos más famosos del mundo.</p>\n<p>Se construyó en varias fases entre aproximadamente 3000 a.C. y 2000 a.C., durante el Neolítico y la Edad del Bronce.</p>\n<p>El monumento está compuesto por dos tipos principales de piedras: <i>Sarsen</i> (piedras grandes de hasta 25 toneladas) y <i>bluestones (</i>más pequeñas, traídas desde Gales, a más de 200 km). Algunas forman estructuras llamadas <i>trilitos</i> (tres piedras: dos piedras verticales y una horizontal encima). El conjunto forma un círculo ceremonial con alineaciones muy precisas.</p>\n<p>No se sabe para qué servía, pero hay varias teorías. Algunos piensan que se trataba de un observatorio astronómico, porque está alineado con el solsticio de verano, cuando el sol sale exactamente por un punto específico del monumento. Otros piensan que es un lugar religioso o ritual que se usaba para ceremonias, culto a los ancestros o rituales funerarios. Finalmente, hay quien piensa que es un centro social o ceremonial, es decir, un punto de reunión para comunidades antiguas.</p>\n<p>La construcción de este monumento es un enigma para los estudiosos. Sabemos que sus constructores no tenían herramientas modernas. Se cree que transportaban las piedras con trineos, rodillos de madera y fuerza humana. Sin embargo, la colocación precisa de las piedras sugiere conocimientos avanzados de ingeniería y astronomía.</p>\n<p>Stonehenge es Patrimonio de la Humanidad por la UNESCO.</p>\n<p>Cada año, miles de personas se reúnen en Stonehenge durante el solsticio de verano para ver el amanecer alineado con las piedras, tal como hace miles de años.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "stonehenge-condado-de-wiltshire-inglaterra-2014-08-12-dd-06-e7bac437.jpg",
+    "tipo": "imagen",
+    "alt": "Vista de algunos de los trilitos de Stonehenge",
+    "autor": "Diego Delso",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Stonehenge,_Condado_de_Wiltshire,_Inglaterra,_2014-08-12,_DD_06.JPG"
+  },
+  "medios": [
+    {
+      "archivo": "stonehenge-condado-de-wiltshire-inglaterra-2014-08-12-dd-06-e7bac437.jpg",
+      "tipo": "imagen",
+      "alt": "Vista de algunos de los trilitos de Stonehenge",
+      "autor": "Diego Delso",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Stonehenge,_Condado_de_Wiltshire,_Inglaterra,_2014-08-12,_DD_06.JPG"
+    }
+  ],
+  "relacionados": [
+    "prehistoria",
+    "reino-unido",
+    "antigua-grecia"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Stonehenge",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Stonehenge&action=history",
+    "revid": 170373,
+    "fecha": "2026-10-14"
+  }
+}

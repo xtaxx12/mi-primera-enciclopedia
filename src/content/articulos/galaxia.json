@@ -1,0 +1,48 @@
+{
+  "slug": "galaxia",
+  "titulo": "Galaxia",
+  "categoria": "espacio",
+  "resumen": "Una galaxia es un componente del Universo. Es un conjunto de gas, polvo, planetas y millones de estrellas. Las galaxias tienen muchas formas y tamaños. Se clasifica. en tres tipos: elípticas, espirales e irregulares.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "messier110-c25127f5.jpg",
+      "pie": "Galaxia elíptica Messier 110"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Una <b>galaxia</b> es un componente del Universo. Es un conjunto de gas, polvo, planetas y millones de <a href=\"/articulo/estrella\">estrellas</a>. Las galaxias tienen muchas formas y tamaños. Se clasifica. en tres tipos: elípticas, espirales e irregulares.</p>\n<p>Las <b>galaxias elípticas</b> son aquellas que tienen forma de elipse y son las más comunes en el universo. Pueden tener diámetros de hasta 100.000 años luz y tener más de 200.000 millones de estrellas.</p>\n<p>Las <b>galaxias espirales</b> son aquellas que tienen una forma que parece una espiral, del centro de las galaxias salen brazos formados por muchas nebulosas y estrellas. Estas galaxias son muy brillantes pero son menos comunes en el universo.</p>\n<p>Debido a la fuerza de la atracción gravitatoria algunas galaxias se van aproximando poco a poco entre sí y cuando se juntan se forman las llamadas supergalaxias. Estas galaxias fusionan sus núcleos centrales y todas las estrellas terminan girando a su alrededor formando la nueva galaxia. Este es un proceso que dura miles de años y durante ese proceso la galaxia va cambiando su forma hasta que el proceso termina con su unión completa.</p>\n<p>Las <b>galaxias irregulares</b> no tienen forma definida y poseen un núcleo como las espirales. Un ejemplo de este tipo de galaxia son las Nubes de Magallanes, que son dos galaxias pequeñas que se pueden ver desde el hemisferio sur.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "messier110-c25127f5.jpg",
+    "tipo": "imagen",
+    "alt": "Galaxia elíptica Messier 110",
+    "autor": "Two Micron All Sky Survey (2MASS)",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Messier110.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "messier110-c25127f5.jpg",
+      "tipo": "imagen",
+      "alt": "Galaxia elíptica Messier 110",
+      "autor": "Two Micron All Sky Survey (2MASS)",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Messier110.jpg"
+    }
+  ],
+  "relacionados": [
+    "estrella",
+    "agujero-negro",
+    "asteroide"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Galaxia",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Galaxia&action=history",
+    "revid": 133696,
+    "fecha": "2026-10-14"
+  }
+}

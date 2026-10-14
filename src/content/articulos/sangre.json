@@ -1,0 +1,80 @@
+{
+  "slug": "sangre",
+  "titulo": "Sangre",
+  "categoria": "cuerpo-humano",
+  "resumen": "La sangre es un tejido (conjunto de células con un objetivo en común) del cuerpo humano que está presente en las arterias, venas y capilares del cuerpo, llamados vasos sanguíneos. Es de color rojo debido a una proteína llamada hemoglobina, la cual le da su color a la sangre.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "grafik-blutkreislauf-c4044a02.jpg",
+      "pie": "Recorrido de la sangre en el sistema circulatorio."
+    },
+    {
+      "tipo": "figura",
+      "archivo": "blood-test-15575812743-20879119.jpg",
+      "pie": "Una gota de sangre"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>sangre</b> es un tejido (conjunto de células con un objetivo en común) del cuerpo humano que está presente en las arterias, venas y capilares del cuerpo, llamados vasos sanguíneos. Es de color rojo debido a una proteína llamada hemoglobina, la cual le da su color a la sangre.</p>\n<h2>Componentes</h2>\n<p>La sangre está compuesta por dos elementos principales:</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "composition-of-blood-es-4ecfb143.png",
+      "pie": "Componentes de la sangre"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li>El plasma, un líquido que sirve de base para todos los otros elementos.</li>\n<li>Los glóbulos rojos (también llamados eritrocitos), los glóbulos blancos (también llamados leucocitos) y las plaquetas.</li></ul>\n<p>Los glóbulos rojos tienen la función de transportar los diferentes gases a través de la sangre, como el oxígeno y el dióxido de carbono. Son los componentes que más aparecen en la sangre (el promedio en un ser humano es de cinco millones de glóbulos rojos por milímetro cúbico, lo cual compone veinticinco billones de eritrocitos).</p>\n<p>Los glóbulos blancos, o leucocitos, son las defensas del organismo. Estas células, que no tienen color y que son más grandes que los glóbulos rojos, protegen al cuerpo de los diferentes virus y enfermedades que pueden amenazarlo.</p>\n<p>Las plaquetas son muy pequeñas y son fragmentos de otras células más grandes, que se encuentran en algunos <a href=\"/articulo/hueso\">huesos</a>. Se encargan de coagular la sangre para evitar que, por ejemplo, el ser humano se desangre al sufrir un ligero corte.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "grafik-blutkreislauf-c4044a02.jpg",
+    "tipo": "imagen",
+    "alt": "Recorrido de la sangre en el sistema circulatorio.",
+    "autor": "User:Sansculotte",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Grafik_blutkreislauf.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "grafik-blutkreislauf-c4044a02.jpg",
+      "tipo": "imagen",
+      "alt": "Recorrido de la sangre en el sistema circulatorio.",
+      "autor": "User:Sansculotte",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Grafik_blutkreislauf.jpg"
+    },
+    {
+      "archivo": "blood-test-15575812743-20879119.jpg",
+      "tipo": "imagen",
+      "alt": "Una gota de sangre",
+      "autor": "Alden Chadwick from Leeds, UK",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Blood_Test_(15575812743).jpg"
+    },
+    {
+      "archivo": "composition-of-blood-es-4ecfb143.png",
+      "tipo": "imagen",
+      "alt": "Componentes de la sangre",
+      "autor": "Aliyu Mohammed Aliyu",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Composition_of_blood-es.png"
+    }
+  ],
+  "relacionados": [
+    "hueso",
+    "boca",
+    "cerebro"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Sangre",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Sangre&action=history",
+    "revid": 204622,
+    "fecha": "2026-10-14"
+  }
+}

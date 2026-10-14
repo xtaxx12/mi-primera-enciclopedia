@@ -1,0 +1,49 @@
+{
+  "slug": "diente",
+  "titulo": "Diente",
+  "categoria": "cuerpo-humano",
+  "resumen": "Los dientes son órganos duros, de color blanquecino y ubicados en la boca en los huesos maxilares (mandíbula).",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "tooth-section-numbered-b8fb143d.png",
+      "pie": "Partes del diente: Esmalte Dentina Pulpa dental Encía Cemento dental Hueso alveolar Vaso sanguíneo Nervio Corona Raíz"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los <b>dientes</b> son órganos duros, de color blanquecino y ubicados en la <a href=\"/articulo/boca\">boca</a> en los huesos maxilares (mandíbula).</p>\n<p>Por lo general, permiten masticar los alimentos para tragarlos y digerirlos con mayor facilidad. Este es el primer paso en la digestión, un paso muy importante porque cuando se hace bien, el resto de la digestión es más fácil, especialmente para el <a href=\"/articulo/estomago\">estómago</a>.</p>\n<p>Cada diente consta de una corona (esmalte), la parte visible; de una capa de dentina y de la raíz que va hasta su <a href=\"/articulo/nervio\">nervio</a> y sus vasos sanguíneos, que \"alimentan\" a los dientes. El diente se implanta en la mandíbula y la base está rodeada por la encía.</p>\n<p>A veces se puede tener una caries, o simplemente un dolor de muelas: entonces se consultará a un dentista.</p>\n<h2>Los dientes en los humanos</h2>\n<p>Se encuentran, desde el centro hacia los lados:</p>\n<ul><li>los 8 <b>incisivos</b>. Estos son los dientes que se ven al sonreír. Son agudos y por lo tanto sirven para cortar la comida en varias partes.</li>\n<li>los 4 <b>caninos</b>. Estos son los dientes más puntiagudos y más largos. Se utilizan para desgarrar. En algunos animales, estos dientes son muy grandes: se les llama entonces <b>colmillos</b>;</li>\n<li>los 8 <b>premolares</b>. Que se utilizan para moler;</li>\n<li>Los <b>molares</b> (de 8 a 12, según la edad, (si las muelas del juicio están ya formadas o no). Estos son los dientes de la masticación, son los más fuertes.</li></ul>\n<p>Hay dos tipos de dentición que se forman una tras otra:</p>\n<ul><li>Los dientes temporales <b>dientes de leche</b>: dientes que. por lo general. comienzan a crecer a los 6 meses y comienzan a caer a los 6 años. El niño llega a tener, poco a poco, hasta 20.</li>\n<li>Los dientes permanentes o <b>dientes de adulto</b>: los primeros en crecer son los molares, alrededor de los 6 años. La última caída tiene lugar alrededor de los 12 años. Se pueden tener 32 dientes, si uno tiene sus cuatro muelas del juicio.</li></ul>\n<h2>Tipos de dientes en animales</h2>\n<p>De acuerdo con el tipo de alimentación de los animales, el número y la forma de los dientes cambia.</p>\n<p>Por ejemplo, los caninos de los carnívoros son muy largos y los molares son muy cortantes (se ve en un <a href=\"/articulo/gato\">gato</a> cuando bosteza), debido a que la carne de que se alimenta debe ser bien triturada.</p>\n<p>En los herbívoros, no hay caninos (excepto en casos especiales como en el caballo o el hipopótamo); y los molares son planos: lo que les sirven para aplastar a la hierba. Los incisivos están muy afilado para cortar la hierba.</p>\n<p>En los omnívoros como el hombre y el mapache, existen varios tipos de dientes, cada uno adaptado a una función; es un poco una mezcla de los dientes de los herbívoros y los carnívoros. \n<br></p>"
+    }
+  ],
+  "principal": {
+    "archivo": "tooth-section-numbered-b8fb143d.png",
+    "tipo": "imagen",
+    "alt": "Partes del diente: Esmalte Dentina Pulpa dental Encía Cemento dental Hueso alveolar Vaso sanguíneo Nervio Corona Raíz",
+    "autor": "Jak",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Tooth_Section_numbered.svg"
+  },
+  "medios": [
+    {
+      "archivo": "tooth-section-numbered-b8fb143d.png",
+      "tipo": "imagen",
+      "alt": "Partes del diente: Esmalte Dentina Pulpa dental Encía Cemento dental Hueso alveolar Vaso sanguíneo Nervio Corona Raíz",
+      "autor": "Jak",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Tooth_Section_numbered.svg"
+    }
+  ],
+  "relacionados": [
+    "boca",
+    "estomago",
+    "nervio",
+    "gato"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Diente",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Diente&action=history",
+    "revid": 184570,
+    "fecha": "2026-10-14"
+  }
+}

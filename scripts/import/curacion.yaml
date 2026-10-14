@@ -1,0 +1,175 @@
+# Lista curada de artículos de Vikidia (es.vikidia.org).
+# "titulo" es el título exacto en Vikidia (las redirecciones se siguen solas).
+# "extras" es multimedia opcional de Wikimedia Commons ("File:Nombre.ext").
+categorias:
+  - slug: animales
+    articulos:
+      - titulo: León
+      - titulo: Elefante
+      - titulo: Ballena
+      - titulo: Delfín
+      - titulo: Tiburón
+      - titulo: Pingüino
+      - titulo: Guacamayo
+      - titulo: Tortuga
+      - titulo: Cocodrilo
+      - titulo: Abeja
+      - titulo: Mariposa
+      - titulo: Lobo
+      - titulo: Gato
+      - titulo: Perro
+      - titulo: Ornitorrinco
+      - titulo: Pulpo
+      - titulo: Dinosaurio
+  - slug: planeta-tierra
+    articulos:
+      - titulo: Volcán
+      - titulo: Terremoto
+      - titulo: Montaña
+      - titulo: Río Amazonas
+      - titulo: Clima
+      - titulo: Agua
+      - titulo: Ciclo del agua
+      - titulo: Isla
+      - titulo: Océano Pacífico
+      - titulo: Glaciar
+      - titulo: Sabana
+      - titulo: Bosque
+      - titulo: Lago
+      - titulo: Antártida
+      - titulo: Atmósfera
+      - titulo: Huracán
+  - slug: espacio
+    articulos:
+      - titulo: Sistema solar
+      - titulo: Sol
+      - titulo: Luna
+      - titulo: Tierra
+      - titulo: Mercurio
+      - titulo: Marte
+      - titulo: Plutón
+      - titulo: Planeta
+      - titulo: Estrella
+      - titulo: Galaxia
+      - titulo: Cometa
+      - titulo: Asteroide
+      - titulo: Agujero negro
+      - titulo: Telescopio
+      - titulo: Conquista del espacio
+  - slug: cuerpo-humano
+    articulos:
+      - titulo: Corazón
+      - titulo: Cerebro
+      - titulo: Esqueleto
+      - titulo: Hueso
+      - titulo: Músculo
+      - titulo: Pulmón
+      - titulo: Sangre
+      - titulo: Ojo
+      - titulo: Oído
+      - titulo: Diente
+      - titulo: Boca
+      - titulo: Piel
+      - titulo: Estómago
+      - titulo: Riñón
+      - titulo: Nervio
+  - slug: historia
+    articulos:
+      - titulo: Prehistoria
+      - titulo: Antiguo Egipto
+      - titulo: Pirámide
+      - titulo: Antigua Grecia
+      - titulo: Imperio romano
+      - titulo: Vikingos
+      - titulo: Edad Media
+      - titulo: Renacimiento
+      - titulo: Marco Polo
+      - titulo: Cristóbal Colón
+      - titulo: Cultura olmeca
+      - titulo: Mayas
+      - titulo: Aztecas
+      - titulo: Incas
+      - titulo: Stonehenge
+      - titulo: Escritura
+  - slug: arte-y-musica
+    articulos:
+      - titulo: Pintura
+      - titulo: Escultura
+      - titulo: Color
+      - titulo: Arte prehistórico
+      - titulo: Leonardo da Vinci
+      - titulo: Diego Velázquez
+      - titulo: Francisco de Goya
+      - titulo: Pablo Picasso
+      - titulo: Mondrian
+      - titulo: Teatro
+      - titulo: Orquesta
+      - titulo: Wolfgang Amadeus Mozart
+      - titulo: Ludwig van Beethoven
+      - titulo: Frédéric Chopin
+      - titulo: Rock
+      - titulo: The Beatles
+  - slug: ciencia-y-tecnologia
+    articulos:
+      - titulo: Rueda
+      - titulo: Imprenta
+      - titulo: Electricidad
+      - titulo: Energía
+      - titulo: Luz
+      - titulo: Sonido
+      - titulo: Gravedad
+      - titulo: Átomo
+      - titulo: Célula
+      - titulo: Planta
+      - titulo: Microscopio
+      - titulo: Isaac Newton
+      - titulo: Computadora
+      - titulo: Internet
+      - titulo: Robot
+      - titulo: Automóvil
+      - titulo: Tren
+
+paises:
+  - { titulo: Argentina, adm0: ARG }
+  - { titulo: Bolivia, adm0: BOL }
+  - { titulo: Chile, adm0: CHL }
+  - { titulo: Colombia, adm0: COL }
+  - { titulo: Costa Rica, adm0: CRI }
+  - { titulo: Cuba, adm0: CUB }
+  - { titulo: Ecuador, adm0: ECU }
+  - { titulo: El Salvador, adm0: SLV }
+  - { titulo: Guatemala, adm0: GTM }
+  - { titulo: Honduras, adm0: HND }
+  - { titulo: México, adm0: MEX }
+  - { titulo: Nicaragua, adm0: NIC }
+  - { titulo: Panamá, adm0: PAN }
+  - { titulo: Paraguay, adm0: PRY }
+  - { titulo: Perú, adm0: PER }
+  - { titulo: Puerto Rico, adm0: PRI }
+  - { titulo: República Dominicana, adm0: DOM }
+  - { titulo: Uruguay, adm0: URY }
+  - { titulo: Venezuela, adm0: VEN }
+  - { titulo: España, adm0: ESP }
+  - { titulo: Guinea Ecuatorial, adm0: GNQ }
+  - { titulo: Estados Unidos, adm0: USA }
+  - { titulo: Canadá, adm0: CAN }
+  - { titulo: Brasil, adm0: BRA }
+  - { titulo: Reino Unido, adm0: GBR }
+  - { titulo: Francia, adm0: FRA }
+  - { titulo: Alemania, adm0: DEU }
+  - { titulo: Italia, adm0: ITA }
+  - { titulo: Portugal, adm0: PRT }
+  - { titulo: Grecia, adm0: GRC }
+  - { titulo: Rusia, adm0: RUS }
+  - { titulo: China, adm0: CHN }
+  - { titulo: Japón, adm0: JPN }
+  - { titulo: India, adm0: IND }
+  - { titulo: Turquía, adm0: TUR }
+  - { titulo: Egipto, adm0: EGY }
+  - { titulo: Sudáfrica, adm0: ZAF }
+  - { titulo: Kenia, adm0: KEN }
+  - { titulo: Marruecos, adm0: MAR }
+  - { titulo: Argelia, adm0: DZA }
+  - { titulo: Australia, adm0: AUS }
+  - { titulo: Nueva Zelanda, adm0: NZL }
+  - { titulo: Papúa Nueva Guinea, adm0: PNG }

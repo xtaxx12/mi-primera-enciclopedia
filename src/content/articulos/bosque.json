@@ -1,0 +1,66 @@
+{
+  "slug": "bosque",
+  "titulo": "Bosque",
+  "categoria": "planeta-tierra",
+  "resumen": "Un bosque es un área con una alta densidad de árboles y plantas. Ocupan gran parte del planeta Tierra y son el hábitat de muchos animales. Los bosques son muy importantes y crecen en muchos lugares del mundo. Son un ecosistema que incluye muchas plantas y animales.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "breil-brigels-richting-val-frisal-d-j-b-33-1a94c38b.jpg",
+      "pie": "Un bosque en Suiza"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Un <b>bosque</b> es un área con una alta densidad de árboles y plantas. Ocupan gran parte del planeta Tierra y son el hábitat de muchos animales. Los bosques son muy importantes y crecen en muchos lugares del mundo. Son un ecosistema que incluye muchas plantas y animales.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "conifer-forest-56369591.jpg",
+      "pie": "Un bosque de coníferas (abetos)"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La temperatura y la lluvia son las dos cosas más importantes para los bosques. Muchos lugares son demasiado fríos o demasiado secos para ellos. Los bosques pueden existir desde el ecuador hasta cerca de las regiones polares, pero los diferentes <a href=\"/articulo/clima\">climas</a> tienen diferentes tipos de bosques.</p>\n<p>En los climas fríos dominan las conífera, como el pino y el abeto, pero en las zonas templadas y en los climas tropicales los bosques se componen principalmente de plantas con flores. Diferentes precipitaciones también producen diferentes tipos de bosques. No existen bosques en los desiertos, sólo unos pocos árboles en lugares donde sus raíces pueden llegar a algunas aguas subterráneas.</p>\n<h2>Beneficios de los bosques</h2>\n<p>Proporcionan multitud de beneficios para los seres humanos ya que regulan la temperatura y los <a href=\"/articulo/ciclo-del-agua\">ciclos del agua</a>, protegen los suelos y suministran madera, <a href=\"/articulo/energia\">energía</a>, frutos, aire limpio así como espacios recreativos y bienestar.</p>\n<p>Los hay de muchos tipos: tropicales, mediterráneos, boreales, templados… y todos son esenciales para proteger la biodiversidad y mitigar los efectos del cambio climático</p>\n<h2>Biomas forestales</h2>\n<p>Los tres principales biomas forestales son los bosques de coníferas, los bosques caducifolios y las selvas tropicales.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "breil-brigels-richting-val-frisal-d-j-b-33-1a94c38b.jpg",
+    "tipo": "imagen",
+    "alt": "Un bosque en Suiza",
+    "autor": "Dominicus Johannes Bergsma",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Breil-Brigels_richting_Val_Frisal._(d.j.b.)_33.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "breil-brigels-richting-val-frisal-d-j-b-33-1a94c38b.jpg",
+      "tipo": "imagen",
+      "alt": "Un bosque en Suiza",
+      "autor": "Dominicus Johannes Bergsma",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Breil-Brigels_richting_Val_Frisal._(d.j.b.)_33.jpg"
+    },
+    {
+      "archivo": "conifer-forest-56369591.jpg",
+      "tipo": "imagen",
+      "alt": "Un bosque de coníferas (abetos)",
+      "autor": "Eric Guinther (discusión · contribs.)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Conifer_forest.jpg"
+    }
+  ],
+  "relacionados": [
+    "clima",
+    "ciclo-del-agua",
+    "energia"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Bosque",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Bosque&action=history",
+    "revid": 190689,
+    "fecha": "2026-10-14"
+  }
+}

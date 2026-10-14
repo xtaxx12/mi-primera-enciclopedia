@@ -1,0 +1,48 @@
+{
+  "slug": "antigua-grecia",
+  "titulo": "Antigua Grecia",
+  "categoria": "historia",
+  "resumen": "La antigua Grecia se refiere a la historia y la evolución del mundo griego durante la Antigüedad.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "akropolis3dreconstruction-12d0a24e.jpg",
+      "pie": "Reconstrucción de la Acrópolis de Atenas en el siglo V a. C., uno de los lugares famosos de la antigua Grecia."
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La  <b>antigua Grecia </b> se refiere a la historia y la evolución del mundo griego durante la Antigüedad.</p>\n<p>La civilización griega en la época de Pericles (siglo V antes de Cristo) se extendía por el sureste de Europa, en el costa de Mediterráneo. Fue en esta época cuando se construyen grandes monumentos (como el Partenón de Atenas), cuando tuvo intelectuales muy conocidos (como Pitágoras, Tales o Platón) y nació la democracia.</p>\n<p>Los griegos eran politeístas (creían en muchos dioses). No estaban unidos, sino divididos en <i>polis</i> (ciudades). Cada ciudad era independiente (dependía de ella solamente) y tenía sus leyes, su territorio... Sin embargo, algunas ciudades como Atenas a menudo trataron de dominar a las demás.</p>\n<p>Esta cultura también conoció una gran época en tiempos de Alejandro Magno, que emprendió importantes conquistas en Oriente Medio. También volvieron a aparecer grandes intelectuales: Aristóteles, Arquímedes, Euclides, etc.</p>\n<p>El mundo griego cayó bajo la dominación romana  en el siglo I a. C.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "akropolis3dreconstruction-12d0a24e.jpg",
+    "tipo": "imagen",
+    "alt": "Reconstrucción de la Acrópolis de Atenas en el siglo V a. C., uno de los lugares famosos de la antigua Grecia.",
+    "autor": "CyberMonk (Richard Couture)",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Akropolis3dReconstruction.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "akropolis3dreconstruction-12d0a24e.jpg",
+      "tipo": "imagen",
+      "alt": "Reconstrucción de la Acrópolis de Atenas en el siglo V a. C., uno de los lugares famosos de la antigua Grecia.",
+      "autor": "CyberMonk (Richard Couture)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Akropolis3dReconstruction.jpg"
+    }
+  ],
+  "relacionados": [
+    "antiguo-egipto",
+    "aztecas",
+    "cristobal-colon"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Antigua_Grecia",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Antigua_Grecia&action=history",
+    "revid": 181130,
+    "fecha": "2026-10-14"
+  }
+}

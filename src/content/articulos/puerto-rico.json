@@ -1,0 +1,121 @@
+{
+  "slug": "puerto-rico",
+  "titulo": "Puerto Rico",
+  "categoria": "paises",
+  "resumen": "Puerto Rico, oficialmente Estado Libre y Asociado de Puerto Rico, es una isla ubicada situada al noreste del mar Caribe, al este de la República Dominicana y al oeste de las Islas Vírgenes.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "puerto-rico-cia-wfb-map-2004-f48d3490.png",
+      "pie": "Mapa de Puerto Rico"
+    },
+    {
+      "tipo": "html",
+      "html": "<p><b>Puerto Rico</b>, oficialmente <b>Estado Libre y Asociado de Puerto Rico</b>, es una <a href=\"/articulo/isla\">isla</a> ubicada situada al noreste del mar Caribe, al este de la <a href=\"/articulo/republica-dominicana\">República Dominicana</a> y al oeste de las Islas Vírgenes.</p>\n<p>El archipiélago de Puerto Rico incluye la isla principal de Puerto Rico, la más pequeña de las Antillas Mayores, y un número de cayos e islas más pequeñas, de las cuales las más grandes son: Mona, Vieques y Culebra.</p>\n<p>Es una isla con clima tropical y, a pesar de su tamaño, posee diversidad de ecosistemas: <a href=\"/articulo/bosque\">bosques</a> secos y lluviosos, áreas montañosas, ecosistemas costeros y marinos, etc.</p>\n<h2>Historia</h2>\n<p>Los primeros seres humanos que llegaron a la isla lo hicieron hace aproximadamente de 4 mil a 5 mil años. Eran cazadores y pescadores.</p>\n<p>En 1493, <a href=\"/articulo/cristobal-colon\">Cristóbal Colón</a> realizo su segundo viaje y descubrió la isla y la llamo <i>Borikén</i>.</p>\n<p>Los <a href=\"/articulo/estados-unidos\">Estados Unidos</a> entraron en la historia puertorriqueña al entrar en guerra con España y ocupar la Isla el 25 de julio de 1898 durante la Guerra hispano-estadounidense. El 10 de diciembre de 1898 se firmó el Tratado de París, por el que Puerto Rico y el resto de los territorios coloniales (<a href=\"/articulo/cuba\">Cuba</a> y Filipinas) del Imperio español se cedieron a los Estados Unidos, el 11 de abril de 1899.</p>\n<h2>Geografía</h2>"
+    },
+    {
+      "tipo": "html",
+      "html": "<h3>Relieve</h3>\n<p>Más de la mitad de la isla está cubierta de montañas, siendo las principales la Cordillera Central (divide a la isla en dos partes), la Sierra de Luquillo y la Sierra de Cayey. Las llanuras están principalmente en la región costera del norte.</p>\n<p>La parte más elevada de la isla se halla en el Cerro de Punta, en la Cordillera Central, con una altura de 1339 metros. A poca distancia de la costa norte, la Fosa de Puerto Rico es la más profunda del océano Atlántico con 9129 metros bajo el nivel del mar.</p>\n<p>La costa norte (Atlántico) es húmeda y verde. La costa sur (Mar Caribe) es propicia para los cactos, yucas y el maguey, que crecen en un paisaje semidesértico.</p>\n<h3>Hidrografía</h3>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "pie": "Puerto Rico tiene un clima tropical"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los ríos de la vertiente norte son caudalosos; los de la vertiente sur cortos y con fuertes estiajes. La mayoría de los ríos de Puerto Rico desembocan en lagos rodeados de exuberante vegetación tropical. Entre los ríos más importantes están:\nrío La Plata, río Guajataca, río Camuy, río Bayamón y río Grande de Arecibo .</p>\n<h3>Clima</h3>\n<p>Puerto Rico tiene un clima tropical. Las temperatura, sin grandes variaciones anuales, registra un promedio diurno de 24 a 27&#160;°C (75.2 a 80.6&#160;°F).</p>\n<p>El sol luce casi siempre y las lluvias son esporádicas, aunque cuando se presentan lo hacen con la fuerza de las tormentas tropicales y las fuertes tormentas eléctricas que se desarrollan en el verano y primavera. De diciembre a abril son los meses más secos y de mayo a septiembre los más lluviosos (verano). Las lluvias del norte contrastan con la sequía del sur, donde suele pasar meses y meses sin llover.</p>\n<h2>Parques nacionales</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "el-yunque-panorama-4feef42b.jpg",
+      "pie": "Vista panorámica de El Yunque"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El más importante es el Bosque Nacional del Caribe (conocido por El Yunque). Es una frondosa selva, hábitat de numerosas especies de plantas y árboles. El Bosque de Guajataca, con decenas de senderos, y el Bosque Nacional de Guánica, bosque seco con gran número de especies de aves, son otras reservas importantes.</p>\n<h2>Economía</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "vieques-playanavio2-3f683a82.jpg",
+      "pie": "Playa en la isla Vieques, (Puerto Rico)"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>A mediados del siglo XX la economía puertorriqueña se hallaba orientada hacia la producción agrícola, especialmente al cultivo de la caña de azúcar.</p>\n<p>En la actualidad la principal exportación de Puerto Rico es la industria farmaceútica. El territorio caribeño goza de la representación de muchas de las mayores corporaciones farmacéuticas del mundo.</p>\n<p>El turismo es una de sus principales fuentes de riqueza. Cerca de 4.9 millones de turistas y excursionistas visitan Puerto Rico anualmente, la mayoría de estos desde territorio estadounidense.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "puerto-rico-orthographic-projection-63310826.png",
+    "tipo": "imagen",
+    "alt": "Puerto Rico",
+    "autor": "Milenioscuro",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Puerto_Rico_(orthographic_projection).svg"
+  },
+  "medios": [
+    {
+      "archivo": "puerto-rico-orthographic-projection-63310826.png",
+      "tipo": "imagen",
+      "alt": "Puerto Rico",
+      "autor": "Milenioscuro",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Puerto_Rico_(orthographic_projection).svg"
+    },
+    {
+      "archivo": "puerto-rico-cia-wfb-map-2004-f48d3490.png",
+      "tipo": "imagen",
+      "alt": "Mapa de Puerto Rico",
+      "autor": "Directorate of Intelligence, CIA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Puerto_Rico-CIA_WFB_Map_(2004).png"
+    },
+    {
+      "archivo": "south-america-koppen-map-2c76fb4c.png",
+      "tipo": "imagen",
+      "alt": "Climas de Bolivia",
+      "autor": "Peel, M. C., Finlayson, B. L., and McMahon, T. A. (University of Melbourne)",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:South_America_K%C3%B6ppen_Map.png"
+    },
+    {
+      "archivo": "el-yunque-panorama-4feef42b.jpg",
+      "tipo": "imagen",
+      "alt": "Vista panorámica de El Yunque",
+      "autor": "Ksaraf",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:El_Yunque_panorama.jpg"
+    },
+    {
+      "archivo": "vieques-playanavio2-3f683a82.jpg",
+      "tipo": "imagen",
+      "alt": "Playa en la isla Vieques, (Puerto Rico)",
+      "autor": "Jaro Nemčok",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Vieques_PlayaNavio2.jpg"
+    }
+  ],
+  "relacionados": [
+    "isla",
+    "republica-dominicana",
+    "bosque",
+    "cristobal-colon",
+    "estados-unidos",
+    "cuba"
+  ],
+  "pais": {
+    "adm0": "PRI"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Puerto_Rico",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Puerto_Rico&action=history",
+    "revid": 204178,
+    "fecha": "2026-10-14"
+  }
+}

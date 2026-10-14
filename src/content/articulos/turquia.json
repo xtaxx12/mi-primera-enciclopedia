@@ -1,0 +1,113 @@
+{
+  "slug": "turquia",
+  "titulo": "Turquía",
+  "categoria": "paises",
+  "resumen": "Turquía es un país ubicado en Asia. Su capital es Ankara. El país tiene una extensión de 779.452 km² y una población de 69.626.000 habitantes.",
+  "bloques": [
+    {
+      "tipo": "html",
+      "html": "<p><b>Turquía</b> es un país ubicado en Asia. Su capital es Ankara. El país tiene una extensión de 779.452 km² y una población de 69.626.000 habitantes.</p>\n<p>Turquía es un país fascinante que conecta Europa y Asia, conocido por su mezcla única de culturas, historia milenaria y paisajes espectaculares.</p>\n<p>El presidente de la república ejerce las funciones del poder ejecutivo. Recep Tayyip Erdoğan es el presidente desde 2014.</p>\n<h2>¿Por qué es especial?</h2>\n<ul><li>Es uno de los pocos países transcontinentales</li>\n<li>Fue el corazón de grandes imperios como el Bizantino y el Otomano</li>\n<li>Tiene una cultura que combina tradiciones orientales y occidentales</li></ul>\n<h2>Lugares famosos</h2>\n<ul><li>Estambul — Mezquitas famosas como Santa Sofía y la Mezquita Azul</li>\n<li>Capadocia — Paisajes volcánicos y globos aerostáticos</li>\n<li>Pamukkale — Terrazas blancas naturales</li>\n<li>Éfeso — Ruinas romanas muy bien conservadas</li>\n<li>Antalya — Playas y resorts</li></ul>\n<h2>Gastronomía</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "kabab-gerash-amin-noubahar-512bceb5.jpg",
+      "pie": "Kebab"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li>Kebab</li>\n<li>Baklava</li>\n<li>Dolma</li>\n<li>Té turco y café fuerte tradicional</li></ul>\n<h2>Geografía</h2>"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Turquía está situada entre <b>Europa y Asia</b>, lo que le da una posición geográfica muy estratégica.</p>\n<h3>Ubicación</h3>\n<ul><li>Limita con:\n<ul><li><a href=\"/articulo/grecia\">Grecia</a> y Bulgaria al oeste</li>\n<li>Georgia al noreste</li>\n<li>Armenia, Azerbaiyán e Irán al este</li>\n<li>Irak y Siria al sur</li></ul></li>\n<li>Está rodeada por varios mares:\n<ul><li>Mar Negro al norte</li>\n<li>Mar Egeo al oeste</li>\n<li>Mar Mediterráneo al sur</li></ul></li></ul>\n<h3>Parte europea y asiática</h3>\n<p>Turquía se divide en:</p>\n<ul><li><b>Tracia oriental</b> → parte europea</li>\n<li><b>Anatolia</b> → gran península asiática</li></ul>\n<p>Ambas están separadas por los estrechos:</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "istanbul-and-bosporus-big-9011a6f1.jpg",
+      "pie": "El estrecho del Bósforo y Estambul"
+    },
+    {
+      "tipo": "html",
+      "html": "<ul><li>Bósforo</li>\n<li>Mar de Mármara</li>\n<li>Dardanelos</li></ul>\n<p>Estos pasos marítimos son fundamentales para el comercio internacional.</p>\n<h2>Relieve</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "turkey-topo-544e3b85.jpg",
+      "pie": "Mapa físico de Turquía"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Gran parte del territorio es montañoso y elevado.</p>\n<h3>Principales sistemas montañosos</h3>\n<ul><li><b>Montes Pónticos</b> → cerca del Mar Negro</li>\n<li><b>Montes Tauro</b> → al sur</li>\n<li>Monte Ararat → montaña más alta (5.137 m)</li></ul>\n<h3>Meseta de Anatolia</h3>\n<p>Ocupa gran parte del centro del país y tiene clima más seco y continental.</p>\n<h2>Ríos y lagos</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "turkey-physiography-ce250866.jpg",
+      "pie": "Mapa de ríos y lagos de Turquía"
+    },
+    {
+      "tipo": "html",
+      "html": "<h3>Ríos importantes</h3>\n<ul><li>Río Éufrates</li>\n<li>Río Tigris  Ambos nacen en Turquía y son fundamentales para Oriente Medio.</li></ul>\n<h3>Lagos</h3>\n<ul><li>Lago Van → el más grande del país</li></ul>\n<h2>Climas</h2>\n<p>Turquía tiene varios tipos de clima:</p>\n<ul><li><b>Mediterráneo</b> → costas sur y oeste</li>\n<li><b>Oceánico húmedo</b> → costa del Mar Negro</li>\n<li><b>Continental</b> → interior y Anatolia</li>\n<li><b>Semiárido</b> → algunas zonas centrales</li></ul>\n<h2>Riesgos naturales</h2>\n<p>Turquía está sobre importantes fallas tectónicas, por lo que los <a href=\"/articulo/terremoto\">terremotos</a> son frecuentes, especialmente cerca de Estambul y el norte del país.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "kabab-gerash-amin-noubahar-512bceb5.jpg",
+    "tipo": "imagen",
+    "alt": "Kebab",
+    "autor": "Amin noubahar",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Kabab_gerash_-_amin_noubahar.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "kabab-gerash-amin-noubahar-512bceb5.jpg",
+      "tipo": "imagen",
+      "alt": "Kebab",
+      "autor": "Amin noubahar",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Kabab_gerash_-_amin_noubahar.jpg"
+    },
+    {
+      "archivo": "istanbul-and-bosporus-big-9011a6f1.jpg",
+      "tipo": "imagen",
+      "alt": "El estrecho del Bósforo y Estambul",
+      "autor": "Astronaut photograph ISS008-E-21752",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Istanbul_and_Bosporus_big.jpg"
+    },
+    {
+      "archivo": "turkey-topo-544e3b85.jpg",
+      "tipo": "imagen",
+      "alt": "Mapa físico de Turquía",
+      "autor": "Captain Blood",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Turkey_topo.jpg"
+    },
+    {
+      "archivo": "turkey-physiography-ce250866.jpg",
+      "tipo": "imagen",
+      "alt": "Mapa de ríos y lagos de Turquía",
+      "autor": "Central Intelligence Agency (CIA).",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Turkey_Physiography.jpg"
+    }
+  ],
+  "relacionados": [
+    "grecia",
+    "terremoto",
+    "alemania"
+  ],
+  "pais": {
+    "adm0": "TUR"
+  },
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Turqu%C3%ADa",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Turqu%C3%ADa&action=history",
+    "revid": 188850,
+    "fecha": "2026-10-14"
+  }
+}

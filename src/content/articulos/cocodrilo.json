@@ -1,0 +1,98 @@
+{
+  "slug": "cocodrilo",
+  "titulo": "Cocodrilo",
+  "categoria": "animales",
+  "resumen": "El cocodrilo es un reptil grande, que vive en las regiones tropicales de África, Asia, América y Australia. Aparecieron por primera vez durante el Eoceno, unos 55 millones de años. Su piel es escamosa, dura y seca. Llegan a vivir unos 50 a 80 años.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "crocodile-psf-d77eef27.png",
+      "pie": "Cocodrilo"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "crocodylus-acutus-mexico-02-edit1-a39616e5.jpg",
+      "pie": "Cocodrilo americano"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>El <b>cocodrilo</b> es un reptil grande, que vive en las regiones tropicales de África, Asia, América y Australia. Aparecieron por primera vez durante el Eoceno, unos 55 millones de años. Su piel es escamosa, dura y seca. Llegan a vivir unos 50 a 80 años.</p>\n<p>Son ovíparos: ponen huevos en nidos que construyen con palos y ramas aunque éstos solo son la parte superior pues los huevos están enterrados.</p>\n<p>Son animales de sangre fría; es decir, que su temperatura corporal varía con la ambiental.</p>\n<p>Respiran mediante los pulmones. Son los animales de respiración pulmonar que más tiempo pueden aguantar bajo el agua; sus pulmones son tan grandes que puede llegar a estar seis horas bajo el agua si están en continuo movimiento; si se mantiene quieto, es decir, consumiendo la cantidad mínima de oxígeno, es capaz de permanecer dos días seguidos bajo el agua.</p>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "croco-eggs-4169da07.jpg",
+      "pie": "Huevos de cocodrilo en una granja"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los cocodrilos viven en hábitats de agua dulce como ríos, <a href=\"/articulo/lago\">lagos</a>, humedales y algunas veces en agua salobre. Se alimentan principalmente de vertebrados (peces, reptiles y mamíferos), y algunas veces de invertebrados (moluscos y crustáceos), según la especie.</p>\n<h2>Tamaño</h2>\n<p>El cocodrilo marino  es el mayor de los cocodrilos de la actualidad (el más grande del que se tiene noticia es de 8,5 metros de longitud y 1.700 kilos de peso, y fue capturado en Queensland (Australia) en el año 1957). Le sigue en tamaño el cocodrilo del Nilo , con ejemplares que sobrepasan los 6 m y casi 750 kg de peso.</p>\n<h2>Alimentación</h2>"
+    },
+    {
+      "tipo": "figura",
+      "archivo": "crocodile-in-broome-western-australia-27a6d6a3.jpg",
+      "pie": "Cocodrilo comiendo un pez"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>Los cocodrilos jóvenes se alimentan de cangrejos, insectos y ranas. Los más grandes cazan peces, se alimentan de animales muertos o permanecen en espera durante horas, listos para engullir presas como mamíferos y aves acuáticas. Aferran a la presa con mandíbulas poderosas y dientes filosos, arrastrándola debajo del agua hasta ahogarla. Los cocodrilos no pueden masticar, de modo que cortan a la presa, sacudiéndola y despedazándola con sus dientes. Nuevos dientes crecen para reemplazar los que se rompen o se pierden. Su mordedura es la más poderosa de todo el Reino Animal, de unos 1.800 kilos de fuerza.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "crocodile-psf-d77eef27.png",
+    "tipo": "imagen",
+    "alt": "Cocodrilo",
+    "autor": "Pearson Scott Foresman",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Crocodile_(PSF).png"
+  },
+  "medios": [
+    {
+      "archivo": "crocodile-psf-d77eef27.png",
+      "tipo": "imagen",
+      "alt": "Cocodrilo",
+      "autor": "Pearson Scott Foresman",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Crocodile_(PSF).png"
+    },
+    {
+      "archivo": "crocodylus-acutus-mexico-02-edit1-a39616e5.jpg",
+      "tipo": "imagen",
+      "alt": "Cocodrilo americano",
+      "autor": "Tomás Castelazo",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Crocodylus_acutus_mexico_02-edit1.jpg"
+    },
+    {
+      "archivo": "croco-eggs-4169da07.jpg",
+      "tipo": "imagen",
+      "alt": "Huevos de cocodrilo en una granja",
+      "autor": "Bilel Hawari",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Croco_eggs.jpg"
+    },
+    {
+      "archivo": "crocodile-in-broome-western-australia-27a6d6a3.jpg",
+      "tipo": "imagen",
+      "alt": "Cocodrilo comiendo un pez",
+      "autor": "Kat Clay from Sydney, Australia",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Crocodile_in_Broome_Western_Australia.jpg"
+    }
+  ],
+  "relacionados": [
+    "lago",
+    "abeja",
+    "ballena"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Crocodylidae",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Crocodylidae&action=history",
+    "revid": 210820,
+    "fecha": "2026-10-14"
+  }
+}

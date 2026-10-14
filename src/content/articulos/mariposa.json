@@ -1,0 +1,84 @@
+{
+  "slug": "mariposa",
+  "titulo": "Mariposa",
+  "categoria": "animales",
+  "resumen": "La mariposa es un insecto perteneciente a la familia de los lepidópteros.",
+  "bloques": [
+    {
+      "tipo": "figura",
+      "archivo": "mariposa-13cbc3d8.jpg",
+      "pie": "Mariposa monarca"
+    },
+    {
+      "tipo": "html",
+      "html": "<p>La <b>mariposa</b> es un insecto perteneciente a la familia de los lepidópteros.</p>\n<p>Las mariposas ponen sus huevos en una <a href=\"/articulo/planta\">planta</a>. Nacen como larvas semejantes a gusanos, llamadas orugas y se alimentan de las hojas de esa <a href=\"/articulo/planta\">planta</a> o tallos tiernos a la vez que crecen rápidamente. Cada especie requiere una o unas pocas especies de plantas para su alimentación, y la extinción de una planta puede arrastrar la de una mariposa.</p>\n<p>En un momento de su desarrollo, la oruga se protege en un lugar resguardado y allí se transforma en crisálida. En este estado no se alimenta, y sufre grandes cambios metabólicos y morfológicos, cuyo conjunto es llamado metamorfosis. La mariposa adulta sale rompiendo el esqueleto externo de la crisálida.</p>\n<p>Existen varias especies de mariposas, como la <i>mariposa monarca</i>, conocida por su larga migración anual. Realiza migraciones masivas hacia el sur de agosto a octubre, mientras que migra hacia el norte en primavera.</p>"
+    }
+  ],
+  "principal": {
+    "archivo": "mariposa-13cbc3d8.jpg",
+    "tipo": "imagen",
+    "alt": "Mariposa monarca",
+    "autor": "LBleye",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mariposa.jpg"
+  },
+  "medios": [
+    {
+      "archivo": "mariposa-13cbc3d8.jpg",
+      "tipo": "imagen",
+      "alt": "Mariposa monarca",
+      "autor": "LBleye",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mariposa.jpg"
+    },
+    {
+      "archivo": "mariposa-macaon-2-2c557be3.jpg",
+      "tipo": "imagen",
+      "alt": "Mariposa",
+      "autor": "Ggimeagui",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mariposa_maca%C3%B3n_2.jpg"
+    },
+    {
+      "archivo": "danaus-plexippus-m-y-f-26f4ee75.jpg",
+      "tipo": "imagen",
+      "alt": "Mariposa",
+      "autor": "Traleo",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Danaus_plexippus_M_y_F.jpg"
+    },
+    {
+      "archivo": "mariposa-lobito-listado-pyronia-bathseba-495a8577.jpg",
+      "tipo": "imagen",
+      "alt": "Mariposa",
+      "autor": "Daniel Capilla",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mariposa_lobito_listado_(Pyronia_bathseba).jpg"
+    },
+    {
+      "archivo": "monarca-descansando-8b03eebb.jpg",
+      "tipo": "imagen",
+      "alt": "Mariposa",
+      "autor": "Jassonfoto",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Monarca_descansando.jpg"
+    }
+  ],
+  "relacionados": [
+    "planta",
+    "abeja",
+    "ballena"
+  ],
+  "fuente": {
+    "url": "https://es.vikidia.org/wiki/Rhopalocera",
+    "historialUrl": "https://es.vikidia.org/w/index.php?title=Rhopalocera&action=history",
+    "revid": 135961,
+    "fecha": "2026-10-14"
+  }
+}
