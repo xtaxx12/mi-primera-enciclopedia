@@ -183,3 +183,61 @@ img {
   background: #ffe28a;
   padding: 0 0.1em;
 }
+
+.atlas .vistas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.atlas .lienzo {
+  position: relative;
+  border: 2px solid #7fa3cf;
+  border-radius: var(--radio);
+  overflow: hidden;
+  background: #9fd3f5;
+}
+
+.atlas svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 960 / 500;
+  touch-action: none;
+}
+
+.atlas .mar {
+  fill: #9fd3f5;
+}
+
+.atlas .pais {
+  fill: #e9e2c8;
+  stroke: #8c7b55;
+  stroke-width: 0.6;
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+  transition: fill 0.15s ease;
+}
+
+.atlas .pais.con-articulo {
+  fill: #ffd27a;
+}
+
+.atlas .pais:hover,
+.atlas .pais:focus-visible {
+  fill: #ff8a3d;
+  outline: none;
+}
+
+.atlas .etiqueta-pais {
+  position: absolute;
+  transform: translate(-50%, -130%);
+  padding: 0.2rem 0.6rem;
+  background: #1d2733;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  pointer-events: none;
+  white-space: nowrap;
+}

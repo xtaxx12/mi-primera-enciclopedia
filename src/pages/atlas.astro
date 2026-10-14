@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Atlas, { type PaisMapa } from '../components/Atlas.tsx';
+import paisesAtlas from '../data/atlas/paises.json';
+import vistasAtlas from '../data/atlas/vistas.json';
+import type { Articulo, Caja, PaisAtlas, VistaAtlas } from '../lib/tipos';
+
+const articulos = (await getCollection('articulos')).map((e) => e.data as Articulo);
+const slugPorPais = new Map(articulos.flatMap((a) => (a.pais ? [[a.pais.adm0, a.slug] as const] : [])));
+const todos = paisesAtlas as PaisAtlas[];
+const href = (adm0: string) => (slugPorPais.has(adm0) ? `/articulo/${slugPorPais.get(adm0)}` : `/pais/${adm0}`);
+const paises: PaisMapa[] = todos.map((p) => ({ adm0: p.adm0, nombre: p.nombre, d: p.d, href: href(p.adm0), tieneArticulo: slugPorPais.has(p.adm0) }));
+const nombresVistas: Record<VistaAtlas, string> = {
+  mundo: 'Mundo',
+  africa: 'África',
+  america: 'América',
+  asia: 'Asia',
+  europa: 'Europa',
+  oceania: 'Oceanía',
+};
+const continentes = [...new Set(todos.map((p) => p.continente))].sort((a, b) => a.localeCompare(b, 'es'));
+---
+<Base titulo="Atlas" pantalla="atlas">
+  <h1>Atlas del mundo</h1>
+  <p>Los países en amarillo tienen artículo. Haz clic en cualquiera para conocerlo.</p>
+  <Atlas client:load paises={paises} vistas={vistasAtlas as Record<VistaAtlas, Caja>} nombresVistas={nombresVistas} />
+  <details class="lista-paises panel">
+    <summary>Lista de países</summary>
+    {
+      continentes.map((c) => (
+        <section>
+          <h2>{c}</h2>
+          <ul>
+            {todos
+              .filter((p) => p.continente === c)
+              .map((p) => (
+                <li>
+                  <a href={href(p.adm0)}>{p.nombre}</a>
+                </li>
+              ))}
+          </ul>
+        </section>
+      ))
+    }
+  </details>
+</Base>
+
+<style>
+  .lista-paises {
+    margin-top: 1.5rem;
+  }
+  .lista-paises ul {
+    columns: 3 12rem;
+  }
+</style>

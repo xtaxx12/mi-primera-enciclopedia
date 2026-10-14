@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import paisesAtlas from '../../data/atlas/paises.json';
+import type { Articulo, PaisAtlas } from '../../lib/tipos';
+
+export async function getStaticPaths() {
+  const articulos = (await getCollection('articulos')).map((e) => e.data as Articulo);
+  const conArticulo = new Set(articulos.flatMap((a) => (a.pais ? [a.pais.adm0] : [])));
+  return (paisesAtlas as PaisAtlas[])
+    .filter((p) => !conArticulo.has(p.adm0))
+    .map((pais) => ({ params: { adm0: pais.adm0 }, props: { pais } }));
+}
+
+const { pais } = Astro.props;
+const poblacion = new Intl.NumberFormat('es').format(pais.poblacion);
+---
+<Base titulo={pais.nombre} pantalla="pais">
+  <h1>{pais.nombre}</h1>
+  <dl class="ficha panel">
+    <dt>Continente</dt>
+    <dd>{pais.continente}</dd>
+    <dt>Población estimada</dt>
+    <dd>{`${poblacion} habitantes`}</dd>
+  </dl>
+  <p class="fuente">Fuente: Natural Earth (dominio público).</p>
+  <a class="boton" href="/atlas">Volver al atlas</a>
+</Base>
+
+<style>
+  .ficha {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.4rem 1rem;
+    max-width: 420px;
+  }
+  .ficha dt {
+    font-weight: bold;
+  }
+  .ficha dd {
+    margin: 0;
+  }
+  .fuente {
+    font-size: 0.85rem;
+    color: var(--texto-suave);
+  }
+</style>
