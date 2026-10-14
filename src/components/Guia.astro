@@ -33,6 +33,12 @@ import { SITIO } from '../config';
 <script>
   import { elegirMensaje, esPantalla, mensajesPara, POSES, type Pose } from '../lib/guia';
 
+  // Si una isla ya habló en esta página, el mensaje por defecto no la pisa.
+  let islaHablo = false;
+  document.addEventListener('astro:before-swap', () => {
+    islaHablo = false;
+  });
+
   function hablar(texto: string, pose: Pose) {
     const guia = document.querySelector<HTMLElement>('.guia');
     const globo = document.getElementById('globo-guia');
@@ -48,13 +54,14 @@ import { SITIO } from '../config';
       boton.setAttribute('aria-expanded', 'false');
     }
     const pantalla = document.querySelector<HTMLElement>('#contenido')?.dataset.pantalla;
-    if (!esPantalla(pantalla)) return;
+    if (!esPantalla(pantalla) || islaHablo) return;
     const extras = JSON.parse(document.getElementById('guia-extras')?.textContent || '[]') as string[];
     hablar(elegirMensaje(mensajesPara(pantalla, extras)), POSES[pantalla]);
   });
 
   document.addEventListener('mpe:guia', (e) => {
     const { texto, pose } = (e as CustomEvent<{ texto: string; pose: Pose }>).detail;
+    islaHablo = true;
     hablar(texto, pose);
   });
 
