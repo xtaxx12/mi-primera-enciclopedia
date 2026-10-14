@@ -87,9 +87,11 @@ npm run import  →  Vikidia API + Commons  →  contenido guardado en el repo
 
 ### Tecnología
 
-- **Astro 5 con TypeScript:** generación estática y colecciones de contenido con esquemas Zod.
+- **Astro 7 con TypeScript (Node ≥ 22.12):** generación estática y colecciones de contenido
+  con esquemas Zod 4 (importados de `astro/zod`).
 - **Navegación con `ClientRouter` de Astro:** la ventana se mantiene con `transition:persist`.
-- **Preact:** solo para las tres islas interactivas (buscador, cuestionario, atlas).
+- **Preact 10** (la versión que admite `@astrojs/preact` 6): solo para las islas interactivas
+  (buscador, resultados de búsqueda, cuestionario y atlas).
 - **MiniSearch:** índice de búsqueda generado al construir el sitio.
 - **d3-geo y d3-geo-projection:** solo en tiempo de build, para dibujar el mapa en SVG.
 - **Vitest:** pruebas unitarias.
@@ -113,6 +115,7 @@ mi-primera-enciclopedia/
 │   │   ├── articulos/       # un JSON por artículo (generado)
 │   │   └── cuestionarios/   # un JSON por cuestionario (escrito a mano)
 │   ├── assets/medios/       # imágenes descargadas (Astro las optimiza)
+│   │                        # (audio y video van en public/medios/)
 │   ├── data/atlas/          # países de Natural Earth y paths SVG generados
 │   ├── components/
 │   │   ├── Ventana.astro
@@ -172,23 +175,33 @@ paises:
    - no existe;
    - pertenece a la categoría `Vikidia:Esbozos`;
    - tiene menos de 150 palabras después de la limpieza.
-4. **Limpiar el HTML:**
-   - Quitar avisos de mantenimiento, enlaces de edición, cajas de navegación,
-     marcadores de referencias y elementos `noprint`.
-   - Dejar solo etiquetas permitidas: `p`, `h2`, `h3`, `ul`, `ol`, `li`, `b`, `i`,
-     `strong`, `em`, `a`, `figure`, `figcaption`, `img`, `table`, `tr`, `td`, `th`.
+4. **Limpiar el HTML y convertirlo en bloques:**
+   - Del contenido principal se conservan solo párrafos (`p`), títulos (`h2`, `h3`),
+     listas (`ul`, `ol`) y figuras (`figure`). Se descartan tablas, fichas laterales
+     (infobox), índice, cajas de navegación, galerías y avisos de mantenimiento.
+   - Se eliminan las secciones Galería, Referencias, Notas, Enlaces externos, Véase también,
+     Bibliografía y Fuentes.
+   - Dentro de los bloques solo quedan las etiquetas `b`, `i`, `strong`, `em`, `a`, `br`,
+     `sub`, `sup` y `li`, sin ningún atributo excepto `href` en los enlaces internos.
+     Se quitan marcadores de referencias y enlaces de edición.
    - Los enlaces a otros artículos de la lista se convierten en enlaces internos;
      el resto de los enlaces queda como texto plano.
+   - Cada figura se convierte en un bloque `figura` que apunta a su archivo local,
+     con su pie de foto. Así las imágenes del texto se sirven desde el sitio,
+     optimizadas, y nunca se enlazan a servidores externos.
    - El `resumen` es el primer párrafo, hasta 300 caracteres.
 5. **Obtener la multimedia** de Commons con `prop=imageinfo&iiprop=url|extmetadata|mime`:
    - Se leen autor, licencia y URL de descripción.
-   - Imágenes: versión reducida de 800 px de ancho.
+   - Imágenes: miniatura de 500 px, un tamaño estándar de Commons de unos 60 KB, y hasta
+     6 imágenes por artículo más las de sus figuras. Así el repositorio pesa decenas de MB
+     y no cientos.
    - Audio: se prefiere MP3. Video: se prefiere WebM o MP4, según lo que ofrezca Commons.
    - Si no hay un formato reproducible en Safari, se registra en el informe.
    - Se descartan los archivos con licencia no permitida (sección 5) y los íconos
      decorativos de las plantillas, como `Question_book.png` o `Searchtool.svg`.
-6. **Guardar** un JSON por artículo en `src/content/articulos/` y los archivos
-   en `src/assets/medios/`.
+6. **Guardar** un JSON por artículo en `src/content/articulos/`, las imágenes en
+   `src/assets/medios/` (Astro las optimiza) y el audio y video en `public/medios/`
+   (se sirven tal cual).
 7. **Generar el informe** en consola y en `scripts/import/informe.md`, con artículos
    aceptados, rechazados (con motivo) y archivos multimedia descartados (con motivo).
 
@@ -213,12 +226,16 @@ interface Medio {
   fuenteUrl: string;      // página del archivo en Commons
 }
 
+type Bloque =
+  | { tipo: 'html'; html: string }                     // p, h2, h3, ul, ol limpios
+  | { tipo: 'figura'; archivo: string; pie: string };  // archivo de un Medio
+
 interface Articulo {
   slug: string;           // p. ej. "leon"
   titulo: string;
   categoria: CategoriaSlug;
   resumen: string;
-  html: string;           // HTML limpio
+  bloques: Bloque[];      // texto limpio y figuras, en orden
   principal?: Medio;
   medios: Medio[];
   relacionados: string[]; // slugs internos
@@ -277,7 +294,8 @@ interface Cuestionario {
 ## 10. Búsqueda
 
 - **Índice:** MiniSearch generado en el build y servido como JSON estático.
-  - Campos y pesos: `titulo` ×3, `resumen` ×2, `texto` ×1 (el texto sale del HTML sin etiquetas).
+  - Campos y pesos: `titulo` ×3, `resumen` ×2, `texto` ×1 (el texto sale de los bloques
+    HTML sin etiquetas).
 - **Normalización (`normalizar.ts`):**
   - minúsculas;
   - descomposición NFD y eliminación de marcas diacríticas (`árbol` → `arbol`, `niño` → `nino`);
