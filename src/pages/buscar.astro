@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import Buscador from '../components/Buscador.tsx';
+import ResultadosBusqueda from '../components/ResultadosBusqueda.tsx';
+import { CATEGORIAS } from '../config';
+
+const categorias = CATEGORIAS.map((c) => ({ slug: c.slug, nombre: c.nombre }));
+---
+<Base titulo="Buscar" pantalla="buscar">
+  <h1>Buscar</h1>
+  <div class="caja-busqueda">
+    <Buscador client:load variante="grande" />
+  </div>
+  <ResultadosBusqueda client:load categorias={categorias} />
+</Base>
+
+<style>
+  .caja-busqueda {
+    margin-bottom: 1.5rem;
+  }
+</style>

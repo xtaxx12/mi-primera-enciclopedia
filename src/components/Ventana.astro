@@ -1,6 +1,7 @@
 ---
 import BarraHerramientas from './BarraHerramientas.astro';
 import BotonSonido from './BotonSonido.astro';
+import Buscador from './Buscador.tsx';
 import Guia from './Guia.astro';
 import Icono from './Icono.astro';
 import { ICONOS, SITIO } from '../config';
@@ -21,6 +22,7 @@ const { pantalla } = Astro.props;
     </header>
     <div class="herramientas" transition:persist="herramientas">
       <BarraHerramientas>
+        <Buscador slot="buscador" client:idle />
         <BotonSonido slot="sonido" />
       </BarraHerramientas>
     </div>

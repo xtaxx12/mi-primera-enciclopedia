@@ -122,3 +122,64 @@ img {
     animation: none !important;
   }
 }
+
+.buscador {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.buscador input {
+  width: 220px;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--boton-borde);
+  border-radius: 999px;
+  font: inherit;
+  background: #fff;
+}
+
+.buscador-grande input {
+  width: min(100%, 480px);
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+}
+
+.sugerencias {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 60;
+  margin: 0;
+  padding: 0.3rem;
+  list-style: none;
+  background: #fff;
+  border: 1px solid var(--boton-borde);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 0.2);
+}
+
+.sugerencias li {
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sugerencias li:hover,
+.sugerencias li.activa {
+  background: var(--activo-1);
+}
+
+.buscador .aviso {
+  position: absolute;
+  top: 100%;
+  margin: 0.2rem 0 0;
+  font-size: 0.85rem;
+  color: #8a1c1c;
+}
+
+.resultados mark {
+  background: #ffe28a;
+  padding: 0 0.1em;
+}
