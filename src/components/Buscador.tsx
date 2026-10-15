@@ -113,8 +113,8 @@ export default function Buscador({ variante = 'barra' }: Props) {
         onKeyDown={alTeclear}
         onBlur={() => setTimeout(() => setAbierto(false), 150)}
       />
-      <button type="submit" class="boton boton-icono" aria-label="Buscar" disabled={deshabilitado}>
-        <img src="/iconos/1F50D.svg" width={20} height={20} alt="" />
+      <button type="submit" class="ir" aria-label="Buscar" disabled={deshabilitado}>
+        <img src="/iconos/27A1.svg" width={22} height={22} alt="" />
       </button>
       {deshabilitado && (
         <p class="aviso" role="status">

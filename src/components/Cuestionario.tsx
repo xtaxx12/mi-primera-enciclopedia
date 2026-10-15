@@ -2,8 +2,15 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import { estrellas, iniciarJuego, preguntaActual, puntaje, responder, siguiente, type EstadoJuego } from '../lib/preguntas';
 import { entraEnTop, guardarPuntaje, leerPuntajes, type RegistroPuntaje } from '../lib/puntajes';
 import { sonido } from '../lib/sonido-sitio';
-import type { Pose } from '../lib/guia';
 import type { Pregunta } from '../lib/tipos';
+
+function Estrella() {
+  return (
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+      <path d="M12 2l3 7h7l-5.5 4.5 2 7.5L12 17l-6.5 4 2-7.5L2 9h7z" />
+    </svg>
+  );
+}
 
 export interface PreguntaVista extends Pregunta {
   imagenSrc: string;
@@ -16,10 +23,6 @@ export interface CuestionarioVista {
   slug: string;
   titulo: string;
   preguntas: PreguntaVista[];
-}
-
-function hablar(texto: string, pose: Pose) {
-  document.dispatchEvent(new CustomEvent('mpe:guia', { detail: { texto, pose } }));
 }
 
 export default function Cuestionario({ cuestionario }: { cuestionario: CuestionarioVista }) {
@@ -43,7 +46,6 @@ export default function Cuestionario({ cuestionario }: { cuestionario: Cuestiona
     if (!actual || juego.elegida !== null) return;
     const acierto = opcion === actual.correcta;
     sonido.reproducir(acierto ? 'acierto' : 'error');
-    hablar(acierto ? '¡Muy bien!' : '¡Casi! Mira cuál era la respuesta.', acierto ? 'celebra' : 'sorprende');
     setJuego(responder(juego, opcion));
   }
 
@@ -52,7 +54,6 @@ export default function Cuestionario({ cuestionario }: { cuestionario: Cuestiona
     setJuego(nuevo);
     if (!nuevo.terminado) return;
     sonido.reproducir('fanfarria');
-    hablar(`¡Terminaste! Conseguiste ${estrellas(nuevo.aciertos)} de 3 estrellas.`, 'celebra');
     if (entraEnTop(cuestionario.slug, puntaje(nuevo.aciertos))) setPideNombre(true);
     else setTabla(leerPuntajes(cuestionario.slug));
   }
@@ -122,7 +123,7 @@ export default function Cuestionario({ cuestionario }: { cuestionario: Cuestiona
           <button type="button" class="boton boton-grande" onClick={otraVez}>
             Jugar otra vez
           </button>
-          <a class="boton boton-grande" href="/juegos">
+          <a class="boton azul boton-grande" href="/juegos">
             Volver a Juegos
           </a>
         </div>
@@ -136,32 +137,47 @@ export default function Cuestionario({ cuestionario }: { cuestionario: Cuestiona
 
   return (
     <div class="cuestionario">
+      <ol class="avance" aria-hidden="true">
+        {juego.preguntas.map((_, i) => (
+          <li class={i < juego.indice ? 'hecha' : i === juego.indice ? 'actual' : ''}>
+            <Estrella />
+          </li>
+        ))}
+      </ol>
       <p class="progreso">{`Pregunta ${juego.indice + 1} de ${juego.preguntas.length}`}</p>
-      <h2 tabIndex={-1} ref={titulo}>
-        {actual.pregunta.texto}
-      </h2>
-      <img class="imagen-pregunta" src={actual.pregunta.imagenSrc} alt={actual.pregunta.imagenAlt} />
-      <p class="credito">
-        Imagen: <a href={actual.pregunta.credito.fuenteUrl}>{actual.pregunta.credito.autor}</a>, {actual.pregunta.credito.licencia}
-        {actual.pregunta.credito.licenciaUrl && (
-          <>
-            {' '}
-            (<a href={actual.pregunta.credito.licenciaUrl}>licencia</a>)
-          </>
-        )}
-      </p>
+      <div class="panel-azul pregunta">
+        <figure class="foto">
+          <img class="imagen-pregunta" src={actual.pregunta.imagenSrc} alt={actual.pregunta.imagenAlt} />
+          <figcaption class="credito">
+            Imagen: <a href={actual.pregunta.credito.fuenteUrl}>{actual.pregunta.credito.autor}</a>, {actual.pregunta.credito.licencia}
+            {actual.pregunta.credito.licenciaUrl && (
+              <>
+                {' '}
+                (<a href={actual.pregunta.credito.licenciaUrl}>licencia</a>)
+              </>
+            )}
+          </figcaption>
+        </figure>
+        <h2 tabIndex={-1} ref={titulo}>
+          {actual.pregunta.texto}
+        </h2>
+      </div>
       <div class="opciones" role="group" aria-label="Opciones">
         {actual.opciones.map((texto, i) => {
-          const estado = !respondida ? '' : i === actual.correcta ? ' correcta' : i === juego.elegida ? ' incorrecta' : '';
+          const estado = !respondida ? '' : i === actual.correcta ? 'correcta' : i === juego.elegida ? 'incorrecta' : '';
           return (
-            <button type="button" class={`opcion${estado}`} disabled={respondida} onClick={() => elegir(i)}>
+            <button type="button" class={`placa opcion${estado ? ` ${estado}` : ''}`} disabled={respondida} onClick={() => elegir(i)}>
+              <span class="marca" aria-hidden="true">
+                {estado === 'correcta' ? '✓' : estado === 'incorrecta' ? '✗' : ''}
+              </span>
               {texto}
+              {estado && <span class="visualmente-oculto">{` (${estado})`}</span>}
             </button>
           );
         })}
       </div>
       {respondida && (
-        <div class="explicacion" role="status">
+        <div class="explicacion recuadro-naranja" role="status">
           <p>
             <strong>
               {juego.elegida === actual.correcta ? '¡Correcto!' : `La respuesta correcta era: ${actual.opciones[actual.correcta]}`}

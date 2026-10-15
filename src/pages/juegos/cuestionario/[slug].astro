@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import { getImage } from 'astro:assets';
 import Base from '../../../layouts/Base.astro';
 import CuestionarioIsla, { type CuestionarioVista } from '../../../components/Cuestionario.tsx';
+import Curvas from '../../../components/Curvas.astro';
 import { imagenDe } from '../../../lib/medios';
 import { textoLicencia } from '../../../lib/articulos';
 import { recortar } from '../../../lib/texto';
@@ -35,8 +36,13 @@ const vista: CuestionarioVista = {
 };
 ---
 <Base titulo={cuestionario.titulo} pantalla="cuestionario">
-  <h1>{cuestionario.titulo}</h1>
-  <CuestionarioIsla client:only="preact" cuestionario={vista}>
-    <p slot="fallback">Cargando el cuestionario…</p>
-  </CuestionarioIsla>
+  <div class="pagina">
+    <Curvas variante="esquina" />
+    <div class="hoja">
+      <h1 class="titulo-pagina">{cuestionario.titulo}</h1>
+      <CuestionarioIsla client:only="preact" cuestionario={vista}>
+        <p slot="fallback">Cargando el cuestionario…</p>
+      </CuestionarioIsla>
+    </div>
+  </div>
 </Base>

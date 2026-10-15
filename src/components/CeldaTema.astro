@@ -1,0 +1,58 @@
+---
+import { Image } from 'astro:assets';
+import Icono from './Icono.astro';
+import type { Celda } from '../lib/tipos';
+
+type Props = Celda;
+const { href, titulo, icono, imagen } = Astro.props;
+---
+<a class="celda-tema" href={href}>
+  {
+    imagen ? (
+      <Image src={imagen} alt="" width={128} class="miniatura" data-respaldo={`/iconos/${icono}.svg`} />
+    ) : (
+      <span class="miniatura vacia"><Icono codigo={icono} tam={48} /></span>
+    )
+  }
+  <span class="titulo">{titulo}</span>
+</a>
+
+<style>
+  .celda-tema {
+    width: 106px;
+    min-height: 124px;
+    display: grid;
+    justify-items: center;
+    align-content: start;
+    gap: 6px;
+    padding: 8px 2px;
+    border-radius: 8px;
+    color: var(--texto);
+    font-size: 0.8125rem;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+  }
+  .celda-tema:hover,
+  .celda-tema:focus-visible {
+    background: linear-gradient(to bottom, #ffd27a 0%, #ffad1f 45%, #ff9500 55%, #ffb640 100%);
+    box-shadow: inset 0 0 0 1px #e07800, var(--sombra);
+  }
+  .celda-tema :global(.miniatura) {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border: 1px solid #000;
+    background: #fff;
+  }
+  .vacia {
+    display: grid;
+    place-items: center;
+    background: var(--recuadro-fondo-activo);
+  }
+  @media (max-width: 767px) {
+    .celda-tema {
+      width: auto;
+    }
+  }
+</style>

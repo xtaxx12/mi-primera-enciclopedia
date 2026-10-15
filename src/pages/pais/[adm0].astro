@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Curvas from '../../components/Curvas.astro';
 import paisesAtlas from '../../data/atlas/paises.json';
 import type { Articulo, PaisAtlas } from '../../lib/tipos';
 
@@ -16,15 +17,20 @@ const { pais } = Astro.props;
 const poblacion = new Intl.NumberFormat('es').format(pais.poblacion);
 ---
 <Base titulo={pais.nombre} pantalla="pais">
-  <h1>{pais.nombre}</h1>
-  <dl class="ficha panel">
-    <dt>Continente</dt>
-    <dd>{pais.continente}</dd>
-    <dt>Población estimada</dt>
-    <dd>{`${poblacion} habitantes`}</dd>
-  </dl>
-  <p class="fuente">Fuente: Natural Earth (dominio público).</p>
-  <a class="boton" href="/atlas">Volver al atlas</a>
+  <div class="pagina">
+    <Curvas variante="franja" />
+    <div class="hoja">
+      <h1 class="titulo-articulo">{pais.nombre}</h1>
+      <dl class="ficha recuadro-naranja">
+        <dt>Continente</dt>
+        <dd>{pais.continente}</dd>
+        <dt>Población estimada</dt>
+        <dd>{`${poblacion} habitantes`}</dd>
+      </dl>
+      <p class="fuente">Fuente: Natural Earth (dominio público).</p>
+      <a class="boton azul" href="/atlas">Volver al atlas</a>
+    </div>
+  </div>
 </Base>
 
 <style>
@@ -33,6 +39,7 @@ const poblacion = new Intl.NumberFormat('es').format(pais.poblacion);
     grid-template-columns: max-content 1fr;
     gap: 0.4rem 1rem;
     max-width: 420px;
+    margin: 16px 0;
   }
   .ficha dt {
     font-weight: bold;

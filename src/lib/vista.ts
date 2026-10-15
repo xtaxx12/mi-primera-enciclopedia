@@ -1,4 +1,4 @@
-import type { Caja } from './tipos';
+import type { Caja, VistaAtlas } from './tipos';
 
 export const MUNDO: Caja = [0, 0, 960, 500];
 export const ANCHO_MINIMO = 60;
@@ -43,4 +43,12 @@ export function aCoordenadasMapa(c: Caja, px: number, py: number, anchoPx: numbe
   const ox = (anchoPx - c[2] * escala) / 2;
   const oy = (altoPx - c[3] * escala) / 2;
   return [c[0] + (px - ox) / escala, c[1] + (py - oy) / escala];
+}
+
+const VISTAS: readonly VistaAtlas[] = ['mundo', 'africa', 'america', 'asia', 'europa', 'oceania'];
+
+/** Vista inicial del atlas a partir de `?vista=`; cualquier otro valor da el mundo. */
+export function vistaDesdeUrl(busqueda: string): VistaAtlas {
+  const vista = new URLSearchParams(busqueda).get('vista');
+  return VISTAS.find((v) => v === vista) ?? 'mundo';
 }

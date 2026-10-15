@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Curvas from '../components/Curvas.astro';
 import Atlas, { type PaisMapa } from '../components/Atlas.tsx';
 import paisesAtlas from '../data/atlas/paises.json';
 import vistasAtlas from '../data/atlas/vistas.json';
@@ -22,31 +23,41 @@ const nombresVistas: Record<VistaAtlas, string> = {
 const continentes = [...new Set(todos.map((p) => p.continente))].sort((a, b) => a.localeCompare(b, 'es'));
 ---
 <Base titulo="Atlas" pantalla="atlas">
-  <h1>Atlas del mundo</h1>
-  <p>Los países en amarillo tienen artículo. Haz clic en cualquiera para conocerlo.</p>
-  <Atlas client:load paises={paises} vistas={vistasAtlas as Record<VistaAtlas, Caja>} nombresVistas={nombresVistas} />
-  <details class="lista-paises panel">
-    <summary>Lista de países</summary>
-    {
-      continentes.map((c) => (
-        <section>
-          <h2>{c}</h2>
-          <ul>
-            {todos
-              .filter((p) => p.continente === c)
-              .map((p) => (
-                <li>
-                  <a href={href(p.adm0)}>{p.nombre}</a>
-                </li>
-              ))}
-          </ul>
-        </section>
-      ))
-    }
-  </details>
+  <div class="pagina">
+    <Curvas variante="esquina" />
+    <div class="hoja">
+      <h1 class="titulo-pagina">Atlas del mundo</h1>
+      <p>Los países en amarillo tienen artículo. Haz clic en cualquiera para conocerlo.</p>
+      <Atlas client:load paises={paises} vistas={vistasAtlas as Record<VistaAtlas, Caja>} nombresVistas={nombresVistas} />
+      <details class="lista-paises recuadro-naranja">
+        <summary>Lista de países</summary>
+        {
+          continentes.map((c) => (
+            <section>
+              <h2>{c}</h2>
+              <ul>
+                {todos
+                  .filter((p) => p.continente === c)
+                  .map((p) => (
+                    <li>
+                      <a href={href(p.adm0)}>{p.nombre}</a>
+                    </li>
+                  ))}
+              </ul>
+            </section>
+          ))
+        }
+      </details>
+    </div>
+  </div>
 </Base>
 
 <style>
+  .lista-paises h2 {
+    margin-top: 0.8em;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
   .lista-paises {
     margin-top: 1.5rem;
   }

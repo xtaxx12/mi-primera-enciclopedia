@@ -3,6 +3,8 @@ import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { Articulo, Cuestionario, Medio } from '../src/lib/tipos';
 import { esHttps } from '../src/lib/urls';
+import { SUBCATEGORIAS, type Subcategoria } from '../src/data/subcategorias';
+import { validarReparto } from '../src/lib/subcategorias';
 
 const LICENCIAS = new Set(['dominio-publico', 'cc0', 'cc-by', 'cc-by-sa']);
 const ETIQUETAS_HTML = new Set(['p', 'h2', 'h3', 'ul', 'ol', 'li', 'b', 'i', 'strong', 'em', 'a', 'br', 'sub', 'sup']);
@@ -28,6 +30,8 @@ export interface DatosValidacion {
   adm0Atlas: Set<string>;
   imagenes: Set<string>;
   publicos: Set<string>;
+  /** Reparto de subcategorías; si falta, no se valida. */
+  reparto?: Record<string, Subcategoria[]>;
 }
 
 function validarMedio(m: Medio, donde: string, d: DatosValidacion): string[] {
@@ -94,6 +98,7 @@ export function validarContenido(d: DatosValidacion): string[] {
       }
     }
   }
+  if (d.reparto) errores.push(...validarReparto(d.articulos.map((a) => a.datos), d.reparto));
   return errores;
 }
 
@@ -112,6 +117,7 @@ async function main() {
     adm0Atlas: new Set(atlas.map((p) => p.adm0)),
     imagenes: new Set(await readdir('src/assets/medios').catch(() => [] as string[])),
     publicos: new Set(await readdir('public/medios').catch(() => [] as string[])),
+    reparto: SUBCATEGORIAS,
   });
   if (errores.length) {
     console.error(`✗ ${errores.length} problemas de contenido:`);
