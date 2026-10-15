@@ -38,18 +38,31 @@ const partes = bloques.map((b) =>
 <style>
   .texto-articulo :global(p),
   .texto-articulo :global(li) {
-    font-size: 1.05rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+  .texto-articulo > :global(p:first-child) {
+    font-size: 1.3125rem;
   }
   .texto-articulo :global(h2) {
-    margin-top: 1.5rem;
-    color: #1f5fbf;
+    margin: 1.2em 0 0.3em;
+    font-size: 1.5rem;
+    color: var(--naranja-titulo);
+  }
+  .texto-articulo :global(h3) {
+    margin: 1em 0 0.3em;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .texto-articulo :global(a) {
+    text-underline-offset: 2px;
   }
   .figura {
     margin: 1rem 0;
-    padding: 0.5rem;
+    padding: 8px;
     background: #fff;
-    border: 1px solid #c9d8ec;
-    border-radius: var(--radio);
+    border: 2px solid var(--recuadro-borde);
+    border-radius: 12px;
     max-width: 500px;
   }
   .figura figcaption {

@@ -2,7 +2,8 @@ export const SITIO = {
   nombre: 'Mi Primera Enciclopedia',
   lema: 'Explora, aprende y juega',
   homenaje: 'Homenaje a Mi Primera Encarta (2009). Proyecto no afiliado a Microsoft.',
-  personaje: 'Lumi',
+  /** El nombre en dos renglones, para el logo. */
+  logo: ['Mi Primera', 'Enciclopedia'],
 } as const;
 
 export const CATEGORIAS = [
@@ -38,4 +39,7 @@ export const ICONOS = {
   estrella: '2B50',
   trofeo: '1F3C6',
   libros: '1F4DA',
+  cuestionarios: '2753',
+  video: '1F3AC',
+  imagenes: '1F5BC',
 } as const;

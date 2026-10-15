@@ -1,37 +1,55 @@
 :root {
-  --fuente-texto: Tahoma, Verdana, 'DejaVu Sans', sans-serif;
-  --fuente-titulos: 'Baloo 2', Tahoma, Verdana, sans-serif;
+  --fuente: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
 
-  --fondo-escritorio: #2f6fd0;
-  --fondo-escritorio-2: #39c6f4;
-  --ventana: #f4f8fd;
-  --ventana-borde: #2b5aa8;
-  --texto: #1d2733;
-  --texto-suave: #45525f;
-  --enlace: #0b57b5;
-  --foco: #ffb000;
+  /* Barra superior */
+  --verde-claro: #c9f56a;
+  --verde: #9be626;
+  --verde-oscuro: #7fd014;
+  --verde-borde: #5cae0c;
+  --verde-texto: #1a5200;
 
-  --barra-titulo-1: #2f6fd0;
-  --barra-titulo-2: #1f5fbf;
-  --boton-1: #ffffff;
-  --boton-2: #d8e6f7;
-  --boton-borde: #7fa3cf;
-  --activo-1: #ffe9a8;
-  --activo-2: #ffc94d;
+  /* Títulos y adornos */
+  --naranja-titulo: #e06a00;
+  --naranja: #ff7800;
+  --naranja-claro: #ffa31a;
+  --boton-naranja-1: #ffb347;
+  --boton-naranja-2: #ff8a00;
 
-  --radio: 14px;
-  --sombra: 0 10px 30px rgb(0 30 80 / 0.35);
-  --brillo: linear-gradient(to bottom, rgb(255 255 255 / 0.55), rgb(255 255 255 / 0.05) 50%, transparent 50%);
-  /* Brillo suave para la barra de título: con el normal, el texto blanco no llega a 3:1. */
-  --brillo-titulo: linear-gradient(to bottom, rgb(255 255 255 / 0.18), rgb(255 255 255 / 0.02) 50%, transparent 50%);
+  /* Placas */
+  --amarillo-1: #fffbb0;
+  --amarillo-2: #fff35a;
+  --amarillo-3: #ffe600;
+  --amarillo-4: #ffd900;
+  --placa-borde: #86cf2c;
+  --placa-texto: #111111;
+  --placa-texto-activo: #0b5fb8;
 
-  /* Un color por categoría; todos con contraste AA contra texto blanco. */
-  --cat-animales: #1f7a3a;
-  --cat-planeta-tierra: #8a4b12;
-  --cat-espacio: #3437a8;
-  --cat-cuerpo-humano: #b42a48;
-  --cat-historia: #7a4f0e;
-  --cat-arte-y-musica: #8a2f9c;
-  --cat-ciencia-y-tecnologia: #0b6874;
-  --cat-paises: #a85400;
+  /* Paneles azules */
+  --azul-panel-1: #1a74d6;
+  --azul-panel-2: #0a5fc8;
+  --azul-elegido: #0a4fa8;
+  --amarillo-elegido: #ffc233;
+  --amarillo-paso: #ffb400;
+
+  /* Texto */
+  --texto: #111111;
+  --texto-suave: #4a4a4a;
+  --enlace: #0033ff;
+  --fondo: #ffffff;
+  --foco: #111111;
+
+  /* Recuadros de imagen */
+  --recuadro-borde: #ff6600;
+  --recuadro-borde-activo: #52c3fc;
+  --recuadro-fondo-activo: #dcf3fe;
+  --recuadro-titulo: #0033cc;
+  --miniatura-borde: #ff9900;
+
+  /* Barras de desplazamiento */
+  --scroll-1: #8ee01e;
+  --scroll-2: #a7ec2b;
+
+  --reflejo: linear-gradient(to bottom, rgb(255 255 255 / 0.55), rgb(255 255 255 / 0.1) 48%, transparent 52%);
+  --sombra: 0 3px 6px rgb(0 0 0 / 0.25);
+  --ancho-max: 1024px;
 }

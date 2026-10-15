@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { validarContenido, type DatosValidacion } from '../../scripts/validar';
 import type { Articulo, Cuestionario, Medio, Pregunta } from '../../src/lib/tipos';
+import type { Subcategoria } from '../../src/data/subcategorias';
 
 const medio = (archivo: string, tipo: Medio['tipo'] = 'imagen'): Medio => ({
   archivo,
@@ -154,5 +155,15 @@ describe('validarContenido', () => {
     expect(e).toContain('el artículo «puma» no existe');
     expect(e).toContain('la imagen «tigre.jpg» no es una imagen del artículo «leon»');
     expect(e).toContain('id repetido');
+  });
+});
+
+describe('validarContenido con reparto', () => {
+  it('incluye los errores del reparto de subcategorías', () => {
+    const reparto: Record<string, Subcategoria[]> = {
+      animales: [{ slug: 'felinos', nombre: 'Felinos', icono: '2B50', articulos: ['leon'] }],
+      paises: [{ slug: 'america', nombre: 'América', icono: '1F30E', articulos: ['mexico'] }],
+    };
+    expect(validarContenido(datos({ reparto }))).toContain('artículo «tigre»: no está en ninguna subcategoría de «animales»');
   });
 });

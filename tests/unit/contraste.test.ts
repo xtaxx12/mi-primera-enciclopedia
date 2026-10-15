@@ -2,7 +2,6 @@ import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 
 const tokens = readFileSync('src/styles/tokens.css', 'utf8');
-const ventana = readFileSync('src/components/Ventana.astro', 'utf8');
 
 function token(nombre: string): string {
   const m = new RegExp(`--${nombre}:\\s*([^;]+);`).exec(tokens);
@@ -23,34 +22,50 @@ function luminancia([r, g, b]: [number, number, number]): number {
   return 0.2126 * canal(r) + 0.7152 * canal(g) + 0.0722 * canal(b);
 }
 
-function contraste(a: [number, number, number], b: [number, number, number]): number {
-  const [l1, l2] = [luminancia(a), luminancia(b)].sort((x, y) => y - x);
+function contraste(a: string, b: string): number {
+  const [l1, l2] = [luminancia(rgb(a)), luminancia(rgb(b))].sort((x, y) => y - x);
   return (l1 + 0.05) / (l2 + 0.05);
 }
 
-/** Mezcla un color con blanco, como lo hace un degradado blanco semitransparente encima. */
-function conBlanco(c: [number, number, number], alfa: number): [number, number, number] {
-  return c.map((v) => v * (1 - alfa) + 255 * alfa) as [number, number, number];
-}
+const BLANCO = '#ffffff';
 
-const BLANCO: [number, number, number] = [255, 255, 255];
-
-describe('contraste AA', () => {
-  it('el título blanco se lee sobre la parte más clara de la barra de título (texto grande, 3:1)', () => {
-    expect(ventana).toMatch(/\.barra-titulo \{[^}]*var\(--brillo-titulo\)/);
-    const alfa = Number(/rgb\(255 255 255 \/ ([\d.]+)\)/.exec(token('brillo-titulo'))![1]);
-    expect(contraste(BLANCO, conBlanco(rgb(token('barra-titulo-1')), alfa))).toBeGreaterThanOrEqual(3);
+describe('contraste de la paleta', () => {
+  it('los títulos naranjas se leen sobre blanco como texto grande (3:1)', () => {
+    expect(contraste(token('naranja-titulo'), BLANCO)).toBeGreaterThanOrEqual(3);
   });
 
-  it('el texto blanco se lee sobre el color de cada categoría (4.5:1)', () => {
-    for (const cat of ['animales', 'planeta-tierra', 'espacio', 'cuerpo-humano', 'historia', 'arte-y-musica', 'ciencia-y-tecnologia', 'paises']) {
-      expect(contraste(BLANCO, rgb(token(`cat-${cat}`))), cat).toBeGreaterThanOrEqual(4.5);
+  it('el texto de la barra se lee sobre sus tres verdes (4.5:1)', () => {
+    for (const v of ['verde-claro', 'verde', 'verde-oscuro']) {
+      expect(contraste(token('verde-texto'), token(v)), v).toBeGreaterThanOrEqual(4.5);
     }
   });
 
-  it('los textos principales se leen sobre fondo claro (4.5:1)', () => {
-    expect(contraste(rgb(token('texto')), rgb(token('ventana')))).toBeGreaterThanOrEqual(4.5);
-    expect(contraste(rgb(token('texto-suave')), BLANCO)).toBeGreaterThanOrEqual(4.5);
-    expect(contraste(rgb(token('enlace')), BLANCO)).toBeGreaterThanOrEqual(4.5);
+  it('el texto blanco se lee sobre los azules (4.5:1)', () => {
+    for (const a of ['azul-panel-1', 'azul-panel-2', 'azul-elegido']) {
+      expect(contraste(BLANCO, token(a)), a).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+
+  it('la subcategoría elegida se lee (4.5:1)', () => {
+    expect(contraste(token('amarillo-elegido'), token('azul-elegido'))).toBeGreaterThanOrEqual(4.5);
+  });
+
+  it('el texto de las placas se lee sobre todo su amarillo, normal y activo (4.5:1)', () => {
+    for (const fondo of ['amarillo-1', 'amarillo-2', 'amarillo-3', 'amarillo-4']) {
+      expect(contraste(token('placa-texto'), token(fondo)), fondo).toBeGreaterThanOrEqual(4.5);
+      expect(contraste(token('placa-texto-activo'), token(fondo)), fondo).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+
+  it('el texto de los botones naranjas se lee (4.5:1)', () => {
+    for (const fondo of ['boton-naranja-1', 'boton-naranja-2']) {
+      expect(contraste(token('texto'), token(fondo)), fondo).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+
+  it('enlaces, títulos de recuadro y textos se leen sobre blanco (4.5:1)', () => {
+    for (const t of ['enlace', 'recuadro-titulo', 'texto', 'texto-suave']) {
+      expect(contraste(token(t), BLANCO), t).toBeGreaterThanOrEqual(4.5);
+    }
   });
 });

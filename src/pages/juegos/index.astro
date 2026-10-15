@@ -1,62 +1,21 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import Icono from '../../components/Icono.astro';
-import { CATEGORIAS, categoriaPorSlug } from '../../config';
-import type { Cuestionario } from '../../lib/tipos';
+import PaginaCategoria from '../../components/PaginaCategoria.astro';
+import { CATEGORIAS, ICONOS, categoriaPorSlug } from '../../config';
+import type { Celda, Cuestionario, EnlaceMenu } from '../../lib/tipos';
 
 const orden = CATEGORIAS.map((c) => c.slug as string);
 const cuestionarios = (await getCollection('cuestionarios'))
   .map((e) => e.data as Cuestionario)
   .sort((a, b) => orden.indexOf(a.categoria) - orden.indexOf(b.categoria));
-const datos = cuestionarios.flatMap((c) => c.preguntas.map((p) => p.explicacion));
+const enlaces: EnlaceMenu[] = [{ nombre: 'Cuestionarios', icono: ICONOS.cuestionarios, href: '/juegos', actual: true }];
+const celdas: Celda[] = cuestionarios.map((c) => ({
+  href: `/juegos/cuestionario/${c.slug}`,
+  titulo: c.titulo,
+  icono: categoriaPorSlug(c.categoria)!.icono,
+}));
 ---
-<Base titulo="Juegos" pantalla="juegos" mensajesGuia={datos}>
-  <h1>Juegos</h1>
-  {
-    cuestionarios.length ? (
-      <ul class="juegos">
-        {cuestionarios.map((c) => (
-          <li>
-            <a class="juego" href={`/juegos/cuestionario/${c.slug}`} style={`--color: var(--cat-${c.categoria})`}>
-              <Icono codigo={categoriaPorSlug(c.categoria)!.icono} tam={56} />
-              <span class="nombre">{c.titulo}</span>
-              <span class="detalle">10 preguntas con imágenes</span>
-            </a>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p>Pronto habrá juegos aquí.</p>
-    )
-  }
+<Base titulo="Juega y aprende" pantalla="juegos">
+  <PaginaCategoria titulo="Juega y aprende" icono={ICONOS.juegos} enlaces={enlaces} celdas={celdas} />
 </Base>
-
-<style>
-  .juegos {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 1rem;
-  }
-  .juego {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.3rem;
-    padding: 1.2rem;
-    border-radius: 20px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    background: var(--brillo), var(--color);
-    box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
-  }
-  .nombre {
-    font-family: var(--fuente-titulos);
-    font-size: 1.3rem;
-    font-weight: 700;
-  }
-</style>

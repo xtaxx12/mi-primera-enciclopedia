@@ -1,0 +1,327 @@
+---
+import Curvas from './Curvas.astro';
+import Icono from './Icono.astro';
+import Logo from './Logo.astro';
+import { SITIO } from '../config';
+import type { PlacaInicio } from '../lib/placas';
+
+interface Props {
+  placas: PlacaInicio[];
+}
+const { placas } = Astro.props;
+const columnas = [
+  { lado: 'izquierda', placas: placas.slice(0, 5) },
+  { lado: 'derecha', placas: placas.slice(5) },
+];
+---
+<section class="inicio">
+  <Curvas variante="inicio" />
+  <div class="escenario">
+    <div class="lienzo" data-elegida="">
+      {
+        columnas.map((c) => (
+          <ul class={`columna ${c.lado}`}>
+            {c.placas.map((p) => (
+              <li>
+                <a class="placa placa-inicio" href={p.href} data-placa={p.id} data-voz={p.nombre}><Icono codigo={p.icono} tam={60} /><span>{p.nombre}</span></a>
+              </li>
+            ))}
+          </ul>
+        ))
+      }
+      <div class="centro">
+        <h1 class="portada"><Logo tam={92} /><small>{SITIO.logo[0]}</small>{' '}<strong>{SITIO.logo[1]}</strong></h1>
+        <div class="panel-azul panel-placas" id="panel-placas" hidden>
+          {
+            placas.map((p) => (
+              <ul class="enlaces-azules enlaces-panel" data-de={p.id} aria-label={p.nombre} hidden>
+                {p.enlaces.map((e) => (
+                  <li>
+                    <a href={e.href}><span class="cuadro"><Icono codigo={e.icono} tam={34} /></span><span>{e.nombre}</span></a>
+                  </li>
+                ))}
+              </ul>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { sonido } from '../lib/sonido-sitio';
+
+  const ANCHO = '(min-width: 768px)';
+
+  function partes() {
+    const lienzo = document.querySelector<HTMLElement>('.inicio .lienzo');
+    if (!lienzo) return null;
+    return {
+      lienzo,
+      panel: lienzo.querySelector<HTMLElement>('#panel-placas')!,
+      placas: [...lienzo.querySelectorAll<HTMLAnchorElement>('.placa-inicio')],
+    };
+  }
+
+  function cerrar(devolverFoco = false) {
+    const p = partes();
+    if (!p) return;
+    const elegida = p.lienzo.dataset.elegida;
+    p.lienzo.dataset.elegida = '';
+    p.lienzo.classList.remove('abierto');
+    p.panel.hidden = true;
+    for (const placa of p.placas) if (placa.hasAttribute('aria-expanded')) placa.setAttribute('aria-expanded', 'false');
+    if (devolverFoco && elegida) p.placas.find((placa) => placa.dataset.placa === elegida)?.focus();
+  }
+
+  function abrir(id: string, enfocar: boolean) {
+    const p = partes();
+    if (!p) return;
+    p.lienzo.dataset.elegida = id;
+    p.lienzo.classList.add('abierto');
+    p.panel.hidden = false;
+    for (const lista of p.panel.querySelectorAll<HTMLElement>('.enlaces-panel')) lista.hidden = lista.dataset.de !== id;
+    for (const placa of p.placas) placa.setAttribute('aria-expanded', String(placa.dataset.placa === id));
+    if (enfocar) p.panel.querySelector<HTMLAnchorElement>(`.enlaces-panel[data-de="${id}"] a`)?.focus();
+  }
+
+  /** En escritorio y tablet las placas abren el panel; en celular son enlaces comunes. */
+  function preparar() {
+    const p = partes();
+    if (!p) return;
+    const ancho = matchMedia(ANCHO).matches;
+    for (const placa of p.placas) {
+      if (ancho) {
+        placa.setAttribute('role', 'button');
+        placa.setAttribute('aria-controls', 'panel-placas');
+        placa.setAttribute('aria-expanded', 'false');
+      } else {
+        placa.removeAttribute('role');
+        placa.removeAttribute('aria-controls');
+        placa.removeAttribute('aria-expanded');
+      }
+    }
+    cerrar();
+  }
+
+  document.addEventListener('astro:page-load', preparar);
+  matchMedia(ANCHO).addEventListener('change', preparar);
+
+  document.addEventListener('click', (e) => {
+    const placa = (e.target as Element).closest('.placa-inicio[role="button"]') as HTMLAnchorElement | null;
+    if (!placa) return;
+    e.preventDefault();
+    if (placa.getAttribute('aria-expanded') === 'true') cerrar();
+    // detail === 0: el clic vino del teclado (Enter), así que el foco pasa al panel.
+    else abrir(placa.dataset.placa!, e.detail === 0);
+    // En captura: el enrutador de Astro escucha en document y navegaría antes de ver el preventDefault.
+  }, true);
+
+  document.addEventListener('keydown', (e) => {
+    const placa = (e.target as Element).closest?.('.placa-inicio[role="button"]') as HTMLAnchorElement | null | undefined;
+    if (placa && e.key === ' ') {
+      e.preventDefault();
+      abrir(placa.dataset.placa!, true);
+      return;
+    }
+    if (e.key === 'Escape' && partes()?.lienzo.dataset.elegida) cerrar(true);
+  });
+
+  let ultima: Element | null = null;
+  document.addEventListener('pointerover', (e) => {
+    const placa = (e.target as Element).closest?.('.placa-inicio') ?? null;
+    if (placa === ultima) return;
+    ultima = placa;
+    if (placa instanceof HTMLElement) sonido.hablar(placa.dataset.voz ?? '');
+  });
+  document.addEventListener('focusin', (e) => {
+    const placa = (e.target as Element).closest?.('.placa-inicio');
+    if (placa instanceof HTMLElement) sonido.hablar(placa.dataset.voz ?? '');
+  });
+</script>
+
+<style>
+  .inicio {
+    position: relative;
+    overflow: hidden;
+  }
+  .escenario {
+    position: relative;
+    z-index: 1;
+    max-width: var(--ancho-max);
+    margin: 0 auto;
+    container-type: inline-size;
+  }
+  /* --u es un píxel del escenario original de 1024×600: todo se escala con el ancho. */
+  .lienzo {
+    --u: calc(100cqw / 1024);
+    position: relative;
+    height: calc(600 * var(--u));
+  }
+  .columna {
+    position: absolute;
+    top: calc(12 * var(--u));
+    width: calc(214 * var(--u));
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: calc(8 * var(--u));
+    perspective: calc(500 * var(--u));
+  }
+  .izquierda {
+    left: calc(116 * var(--u));
+  }
+  .derecha {
+    left: calc(694 * var(--u));
+  }
+  .lienzo .placa-inicio {
+    height: calc(82 * var(--u));
+    min-height: 0;
+    padding: 0 calc(10 * var(--u));
+    gap: calc(8 * var(--u));
+    border-width: calc(3 * var(--u));
+    font-size: calc(17 * var(--u));
+    /* La perspectiva va en la propia placa: la del <ul> no llega al enlace, que es nieto. */
+    transform: perspective(calc(500 * var(--u))) rotateY(-14deg);
+  }
+  .izquierda .placa-inicio {
+    transform-origin: right center;
+  }
+  .derecha .placa-inicio {
+    transform-origin: left center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .lienzo .placa-inicio :global(img) {
+    width: calc(60 * var(--u));
+    height: calc(60 * var(--u));
+    flex: none;
+    filter: drop-shadow(0 2px 2px rgb(0 0 0 / 0.3));
+  }
+  .lienzo .placa-inicio[aria-expanded='true'],
+  .lienzo .placa-inicio[aria-expanded='true']:hover {
+    position: relative;
+    z-index: 2;
+    transform: none;
+    color: #fff;
+    border-color: var(--azul-elegido);
+    background: linear-gradient(to bottom, var(--azul-panel-1), var(--azul-panel-2));
+  }
+  .lienzo .izquierda .placa-inicio[aria-expanded='true']::after,
+  .lienzo .derecha .placa-inicio[aria-expanded='true']::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    border-block: calc(20 * var(--u)) solid transparent;
+  }
+  .lienzo .izquierda .placa-inicio[aria-expanded='true']::after {
+    left: 100%;
+    border-left: calc(18 * var(--u)) solid var(--azul-elegido);
+  }
+  .lienzo .derecha .placa-inicio[aria-expanded='true']::before {
+    right: 100%;
+    border-right: calc(18 * var(--u)) solid var(--azul-elegido);
+  }
+  .centro {
+    position: absolute;
+    left: calc(330 * var(--u));
+    width: calc(364 * var(--u));
+    top: 0;
+    height: calc(470 * var(--u));
+  }
+  .portada {
+    margin: calc(110 * var(--u)) 0 0;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    line-height: 1;
+  }
+  .portada :global(svg) {
+    width: calc(92 * var(--u));
+    height: calc(92 * var(--u));
+  }
+  .portada small {
+    font-size: calc(30 * var(--u));
+    font-weight: bold;
+    color: #222;
+  }
+  .portada strong {
+    font-size: calc(50 * var(--u));
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: calc(-2 * var(--u));
+  }
+  .lienzo.abierto .portada {
+    opacity: 0;
+  }
+  .panel-placas {
+    position: absolute;
+    inset: calc(4 * var(--u)) calc(12 * var(--u)) calc(14 * var(--u));
+    padding: calc(40 * var(--u)) calc(22 * var(--u)) calc(12 * var(--u));
+    overflow-y: auto;
+    border-radius: calc(10 * var(--u)) calc(10 * var(--u)) calc(16 * var(--u)) calc(16 * var(--u));
+  }
+  .panel-placas .enlaces-azules {
+    gap: calc(12 * var(--u));
+  }
+  .panel-placas a {
+    font-size: max(14px, calc(18 * var(--u)));
+  }
+  @media (max-width: 767px) {
+    .lienzo {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 16px;
+    }
+    .centro {
+      position: static;
+      width: auto;
+      height: auto;
+      order: -1;
+    }
+    .portada {
+      margin: 0 0 8px;
+    }
+    .portada :global(svg) {
+      width: 56px;
+      height: 56px;
+    }
+    .portada small {
+      font-size: 1.1rem;
+    }
+    .portada strong {
+      font-size: 1.9rem;
+      letter-spacing: -1px;
+    }
+    .panel-placas {
+      display: none !important;
+    }
+    .columna {
+      position: static;
+      width: auto;
+      gap: 8px;
+      perspective: none;
+    }
+    .lienzo .placa-inicio {
+      height: 64px;
+      padding: 0 12px;
+      gap: 10px;
+      border-width: 3px;
+      font-size: 1.05rem;
+      transform: none;
+    }
+    .derecha .placa-inicio {
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    .lienzo .placa-inicio :global(img) {
+      width: 48px;
+      height: 48px;
+    }
+  }
+</style>

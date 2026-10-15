@@ -1,0 +1,62 @@
+---
+import Icono from './Icono.astro';
+import type { EnlaceMenu } from '../lib/tipos';
+
+interface Props {
+  titulo: string;
+  enlaces: EnlaceMenu[];
+}
+const { titulo, enlaces } = Astro.props;
+---
+<nav class="menu-sub panel-azul" aria-label={`Subcategorías de ${titulo}`}>
+  <ul class="enlaces-azules">
+    {
+      enlaces.map((e) => (
+        <li>
+          <a href={e.href} aria-current={e.actual ? 'page' : undefined}><span class="cuadro"><Icono codigo={e.icono} tam={34} /></span><span>{e.nombre}</span></a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style>
+  .menu-sub {
+    padding: 12px 0;
+  }
+  .menu-sub a {
+    position: relative;
+    padding: 4px 12px;
+  }
+  .menu-sub a[aria-current='page'] {
+    color: var(--amarillo-elegido);
+    background: var(--azul-elegido);
+  }
+  .menu-sub a[aria-current='page']::after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    width: 22px;
+    background: var(--azul-elegido);
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  }
+  @media (max-width: 767px) {
+    .menu-sub {
+      padding: 8px;
+      overflow-x: auto;
+    }
+    .menu-sub ul {
+      display: flex;
+      gap: 8px;
+    }
+    .menu-sub a {
+      white-space: nowrap;
+      border-radius: 8px;
+    }
+    .menu-sub a[aria-current='page']::after {
+      display: none;
+    }
+  }
+</style>

@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import VistaCategoria from '../../../components/VistaCategoria.astro';
+import { CATEGORIAS } from '../../../config';
+import { subcategoriasDe } from '../../../lib/subcategorias';
+import type { Articulo } from '../../../lib/tipos';
+
+export async function getStaticPaths() {
+  const articulos = (await getCollection('articulos')).map((e) => e.data as Articulo);
+  return CATEGORIAS.flatMap((categoria) =>
+    subcategoriasDe(categoria.slug).map((actual) => ({
+      params: { slug: categoria.slug, sub: actual.slug },
+      props: { categoria, actual, articulos },
+    })),
+  );
+}
+
+const { categoria, actual, articulos } = Astro.props;
+---
+<Base titulo={`${actual.nombre} · ${categoria.nombre}`} pantalla="categoria">
+  <VistaCategoria categoria={categoria} actual={actual} articulos={articulos} />
+</Base>

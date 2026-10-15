@@ -3,14 +3,16 @@ import { revisarAccesibilidad } from './ayuda';
 
 test('se juega un cuestionario completo y el nombre se guarda como texto', async ({ page }) => {
   await page.goto('/juegos');
-  await expect(page.locator('.juego')).toHaveCount(8);
-  await page.locator('.juego').first().click();
+  await expect(page.locator('.celda-tema')).toHaveCount(8);
+  await page.locator('.celda-tema').first().click();
   await expect(page).toHaveURL(/\/juegos\/cuestionario\/[a-z-]+$/);
 
   for (let i = 1; i <= 10; i++) {
     await expect(page.getByText(`Pregunta ${i} de 10`)).toBeVisible();
     await page.locator('.opcion').first().click();
     await expect(page.locator('.explicacion')).toBeVisible();
+    await expect(page.locator('.opcion.correcta')).toContainText('✓');
+    await expect(page.locator('.avance li')).toHaveCount(10);
     await expect(page.locator('.opcion').first()).toBeDisabled();
     await page.getByRole('button', { name: i === 10 ? 'Ver resultado' : 'Siguiente' }).click();
   }
@@ -25,7 +27,7 @@ test('se juega un cuestionario completo y el nombre se guarda como texto', async
 
 test('Jugar otra vez reinicia el cuestionario', async ({ page }) => {
   await page.goto('/juegos');
-  await page.locator('.juego').first().click();
+  await page.locator('.celda-tema').first().click();
   for (let i = 1; i <= 10; i++) {
     await page.locator('.opcion').first().click();
     await page.getByRole('button', { name: i === 10 ? 'Ver resultado' : 'Siguiente' }).click();
@@ -36,16 +38,28 @@ test('Jugar otra vez reinicia el cuestionario', async ({ page }) => {
 
 test('el cuestionario no tiene problemas graves de accesibilidad', async ({ page }) => {
   await page.goto('/juegos');
-  await page.locator('.juego').first().click();
+  await page.locator('.celda-tema').first().click();
   await expect(page.locator('.opcion').first()).toBeVisible();
   await revisarAccesibilidad(page);
 });
 
 test('la imagen de cada pregunta muestra autor, licencia y enlace a Commons', async ({ page }) => {
   await page.goto('/juegos');
-  await page.locator('.juego').first().click();
+  await page.locator('.celda-tema').first().click();
   const credito = page.locator('.credito');
   await expect(credito).toBeVisible();
   await expect(credito).toContainText(/CC BY-SA|CC BY|CC0|Dominio público/);
   await expect(credito.getByRole('link').first()).toHaveAttribute('href', /^https:\/\/commons\.wikimedia\.org\//);
+});
+
+test('Juega y aprende no tiene problemas graves de accesibilidad', async ({ page }) => {
+  await page.goto('/juegos');
+  await expect(page.getByRole('heading', { level: 1, name: 'Juega y aprende' })).toBeVisible();
+  await revisarAccesibilidad(page);
+});
+
+test('la pregunta va en el panel azul y las respuestas son placas', async ({ page }) => {
+  await page.goto('/juegos/cuestionario/animales');
+  await expect(page.locator('.panel-azul.pregunta h2')).not.toBeEmpty();
+  await expect(page.locator('.opcion.placa')).toHaveCount(3);
 });

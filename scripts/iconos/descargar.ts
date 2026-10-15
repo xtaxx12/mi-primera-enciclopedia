@@ -1,11 +1,22 @@
-import { access, copyFile, mkdir, writeFile } from 'node:fs/promises';
+import { access, mkdir, writeFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 import { CATEGORIAS, ICONOS } from '../../src/config';
+import { SUBCATEGORIAS } from '../../src/data/subcategorias';
+import { placasInicio } from '../../src/lib/placas';
 
 export const VERSION_OPENMOJI = '17.0.0';
 
 export function codigosIconos(): string[] {
-  return [...new Set([...CATEGORIAS.map((c) => c.icono), ...Object.values(ICONOS)])];
+  return [
+    ...new Set([
+      ...CATEGORIAS.map((c) => c.icono),
+      ...Object.values(ICONOS),
+      ...Object.values(SUBCATEGORIAS)
+        .flat()
+        .map((s) => s.icono),
+      ...placasInicio().flatMap((p) => [p.icono, ...p.enlaces.map((e) => e.icono)]),
+    ]),
+  ];
 }
 
 export function urlIcono(codigo: string): string {
@@ -27,7 +38,6 @@ async function main() {
     await writeFile(destino, await r.text());
     console.log(`✓ ${codigo}`);
   }
-  await copyFile(`public/iconos/${ICONOS.libros}.svg`, 'public/favicon.svg');
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) {

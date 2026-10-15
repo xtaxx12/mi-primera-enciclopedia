@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { navigate } from 'astro:transitions/client';
-import { aCoordenadasMapa, acercar, desplazar, interpolarCaja } from '../lib/vista';
+import { aCoordenadasMapa, acercar, desplazar, interpolarCaja, vistaDesdeUrl } from '../lib/vista';
 import type { Caja, VistaAtlas } from '../lib/tipos';
 
 export interface PaisMapa {
@@ -35,7 +35,12 @@ export default function Atlas({ paises, vistas, nombresVistas }: Props) {
   const inicio = useRef({ x: 0, y: 0 });
   const arrastrado = useRef(false);
 
-  useEffect(() => () => cancelAnimationFrame(animacion.current), []);
+  useEffect(() => {
+    // Se aplica después de hidratar para no desalinear el HTML del servidor (que siempre muestra el mundo).
+    const inicial = vistaDesdeUrl(location.search);
+    if (inicial !== 'mundo') setCaja(vistas[inicial]);
+    return () => cancelAnimationFrame(animacion.current);
+  }, []);
 
   function irAVista(vista: VistaAtlas) {
     cancelAnimationFrame(animacion.current);
@@ -111,7 +116,7 @@ export default function Atlas({ paises, vistas, nombresVistas }: Props) {
     <div class="atlas">
       <div class="vistas" role="group" aria-label="Acercar a un continente">
         {(Object.keys(nombresVistas) as VistaAtlas[]).map((v) => (
-          <button type="button" class="boton" onClick={() => irAVista(v)}>
+          <button type="button" class="placa placa-mini" onClick={() => irAVista(v)}>
             {nombresVistas[v]}
           </button>
         ))}

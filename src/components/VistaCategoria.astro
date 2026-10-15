@@ -1,0 +1,28 @@
+---
+import PaginaCategoria from './PaginaCategoria.astro';
+import { imagenDe } from '../lib/medios';
+import { subcategoriasDe } from '../lib/subcategorias';
+import type { CategoriaSlug } from '../config';
+import type { Subcategoria } from '../data/subcategorias';
+import type { Articulo, Celda, EnlaceMenu } from '../lib/tipos';
+
+interface Props {
+  categoria: { slug: CategoriaSlug; nombre: string; icono: string };
+  actual: Subcategoria;
+  articulos: Articulo[];
+}
+const { categoria, actual, articulos } = Astro.props;
+const porSlug = new Map(articulos.map((a) => [a.slug, a]));
+const enlaces: EnlaceMenu[] = subcategoriasDe(categoria.slug).map((s) => ({
+  nombre: s.nombre,
+  icono: s.icono,
+  href: `/categoria/${categoria.slug}/${s.slug}`,
+  actual: s.slug === actual.slug,
+}));
+const celdas: Celda[] = actual.articulos.flatMap((slug) => {
+  const a = porSlug.get(slug);
+  if (!a) return [];
+  return [{ href: `/articulo/${a.slug}`, titulo: a.titulo, icono: actual.icono, imagen: a.principal ? imagenDe(a.principal.archivo) : undefined }];
+});
+---
+<PaginaCategoria titulo={categoria.nombre} icono={categoria.icono} enlaces={enlaces} celdas={celdas} />
