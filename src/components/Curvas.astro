@@ -1,0 +1,71 @@
+---
+interface Props {
+  variante: 'inicio' | 'esquina' | 'franja' | 'azul';
+}
+const { variante } = Astro.props;
+const id = `curvas-${variante}`;
+const azul = variante === 'azul';
+---
+{
+  variante === 'inicio' ? (
+    <svg class="curvas curvas-inicio" viewBox="0 0 1024 600" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id={`${id}-1`} x1="0" x2="1" y1="0" y2="0.3">
+          <stop offset="0" stop-color="#ff7a00" />
+          <stop offset="0.45" stop-color="#ffa31a" />
+          <stop offset="0.78" stop-color="#ffd9a0" />
+          <stop offset="1" stop-color="#ffffff" />
+        </linearGradient>
+        <linearGradient id={`${id}-2`} x1="0" x2="1">
+          <stop offset="0" stop-color="#ffb000" />
+          <stop offset="0.7" stop-color="#ffcf70" />
+          <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <path d="M0 0H1024V120C840 230 620 300 400 380 250 432 120 462 0 470Z" fill={`url(#${id}-1)`} />
+      <path d="M0 470C180 455 420 400 640 330 800 280 930 240 1024 230V300C900 330 760 400 600 470 420 540 220 560 0 560Z" fill={`url(#${id}-2)`} opacity="0.9" />
+      <path d="M0 330C260 300 560 250 1024 150V175C560 280 260 335 0 365Z" fill="#ffffff" opacity="0.22" />
+      <path d="M0 210C300 190 600 150 1024 60V75C600 170 300 210 0 230Z" fill="#ffffff" opacity="0.18" />
+      <path d="M0 520C300 500 600 470 1024 330V600H0Z" fill="#ffffff" />
+    </svg>
+  ) : (
+    <svg class={`curvas curvas-${variante}`} viewBox="0 0 800 533" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id={`${id}-1`} x1="0" x2="1">
+          <stop offset="0" stop-color={azul ? '#0a7cff' : '#ff8a00'} />
+          <stop offset="0.55" stop-color={azul ? '#7cc4ff' : '#ffc066'} />
+          <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <path d="M0 60C200 40 450 40 680 50 520 70 300 120 140 220 90 250 40 300 0 330Z" fill={`url(#${id}-1)`} />
+      <path d="M0 180C150 140 350 110 600 100 380 140 200 220 60 330 30 360 10 400 0 430Z" fill={`url(#${id}-1)`} opacity="0.7" />
+      <path d="M0 140C200 110 420 95 640 92V98C420 102 200 125 0 160Z" fill="#ffffff" opacity="0.35" />
+    </svg>
+  )
+}
+
+<style>
+  .curvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .curvas-inicio {
+    width: 100%;
+    height: 100%;
+  }
+  .curvas-esquina,
+  .curvas-azul {
+    width: min(800px, 100%);
+    height: 533px;
+  }
+  /* En el artículo, la curva queda debajo del título para no tapar el texto. */
+  .curvas-franja {
+    top: 54px;
+    width: 100%;
+    height: 92px;
+    opacity: 0.55;
+  }
+</style>
