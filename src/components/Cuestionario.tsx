@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import { estrellas, iniciarJuego, preguntaActual, puntaje, responder, siguiente, type EstadoJuego } from '../lib/preguntas';
 import { entraEnTop, guardarPuntaje, leerPuntajes, type RegistroPuntaje } from '../lib/puntajes';
 import { sonido } from '../lib/sonido-sitio';
-import type { Pose } from '../lib/guia';
 import type { Pregunta } from '../lib/tipos';
 
 export interface PreguntaVista extends Pregunta {
@@ -16,10 +15,6 @@ export interface CuestionarioVista {
   slug: string;
   titulo: string;
   preguntas: PreguntaVista[];
-}
-
-function hablar(texto: string, pose: Pose) {
-  document.dispatchEvent(new CustomEvent('mpe:guia', { detail: { texto, pose } }));
 }
 
 export default function Cuestionario({ cuestionario }: { cuestionario: CuestionarioVista }) {
@@ -43,7 +38,6 @@ export default function Cuestionario({ cuestionario }: { cuestionario: Cuestiona
     if (!actual || juego.elegida !== null) return;
     const acierto = opcion === actual.correcta;
     sonido.reproducir(acierto ? 'acierto' : 'error');
-    hablar(acierto ? '¡Muy bien!' : '¡Casi! Mira cuál era la respuesta.', acierto ? 'celebra' : 'sorprende');
     setJuego(responder(juego, opcion));
   }
 
@@ -52,7 +46,6 @@ export default function Cuestionario({ cuestionario }: { cuestionario: Cuestiona
     setJuego(nuevo);
     if (!nuevo.terminado) return;
     sonido.reproducir('fanfarria');
-    hablar(`¡Terminaste! Conseguiste ${estrellas(nuevo.aciertos)} de 3 estrellas.`, 'celebra');
     if (entraEnTop(cuestionario.slug, puntaje(nuevo.aciertos))) setPideNombre(true);
     else setTabla(leerPuntajes(cuestionario.slug));
   }

@@ -23,13 +23,6 @@ export default function ResultadosBusqueda({ categorias }: Props) {
         const encontrados = buscar(indice, q);
         setResultados(encontrados);
         setEstado('listo');
-        if (q.trim() && !encontrados.length) {
-          document.dispatchEvent(
-            new CustomEvent('mpe:guia', {
-              detail: { texto: 'Mmm, no encontré nada. Revisa cómo se escribe o elige una categoría.', pose: 'sorprende' },
-            }),
-          );
-        }
       })
       .catch(() => setEstado('error'));
   }, []);

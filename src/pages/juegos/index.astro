@@ -9,9 +9,8 @@ const orden = CATEGORIAS.map((c) => c.slug as string);
 const cuestionarios = (await getCollection('cuestionarios'))
   .map((e) => e.data as Cuestionario)
   .sort((a, b) => orden.indexOf(a.categoria) - orden.indexOf(b.categoria));
-const datos = cuestionarios.flatMap((c) => c.preguntas.map((p) => p.explicacion));
 ---
-<Base titulo="Juegos" pantalla="juegos" mensajesGuia={datos}>
+<Base titulo="Juegos" pantalla="juegos">
   <h1>Juegos</h1>
   {
     cuestionarios.length ? (

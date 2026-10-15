@@ -32,7 +32,7 @@ const categoria = categoriaPorSlug(articulo.categoria)!;
 const respaldo = `/iconos/${categoria.icono}.svg`;
 const principal = articulo.principal ? imagenDe(articulo.principal.archivo) : undefined;
 ---
-<Base titulo={articulo.titulo} pantalla="articulo" descripcion={articulo.resumen} mensajesGuia={datos}>
+<Base titulo={articulo.titulo} pantalla="articulo" descripcion={articulo.resumen}>
   <article class="articulo">
     <p class="miga"><a href={`/categoria/${categoria.slug}`}>{categoria.nombre}</a></p>
     <h1>{articulo.titulo}</h1>

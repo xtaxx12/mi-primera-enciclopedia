@@ -1,20 +1,17 @@
 ---
-import '@fontsource/baloo-2/700.css';
 import '../styles/tokens.css';
 import '../styles/global.css';
 import { ClientRouter } from 'astro:transitions';
-import Ventana from '../components/Ventana.astro';
+import Barra from '../components/Barra.astro';
 import { SITIO } from '../config';
 import type { Pantalla } from '../lib/tipos';
-import { jsonParaScript } from '../lib/texto';
 
 interface Props {
   titulo: string;
   pantalla: Pantalla;
   descripcion?: string;
-  mensajesGuia?: string[];
 }
-const { titulo, pantalla, descripcion = SITIO.lema, mensajesGuia = [] } = Astro.props;
+const { titulo, pantalla, descripcion = SITIO.lema } = Astro.props;
 ---
 <!doctype html>
 <html lang="es">
@@ -28,10 +25,10 @@ const { titulo, pantalla, descripcion = SITIO.lema, mensajesGuia = [] } = Astro.
   </head>
   <body>
     <a class="saltar" href="#contenido">Saltar al contenido</a>
-    <Ventana pantalla={pantalla}>
+    <Barra />
+    <main id="contenido" class="contenido" data-pantalla={pantalla}>
       <slot />
-    </Ventana>
-    <script type="application/json" id="guia-extras" set:html={jsonParaScript(mensajesGuia)} />
+    </main>
     <script>
       import { sonido } from '../lib/sonido-sitio';
 

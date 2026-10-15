@@ -31,7 +31,6 @@ test('sin resultados muestra el aviso y las categorías', async ({ page }) => {
   await page.goto('/buscar?q=zzzzqqq');
   await expect(page.getByText('No encontré nada para «zzzzqqq»')).toBeVisible();
   await expect(page.locator('.categorias-sugeridas a')).toHaveCount(8);
-  await expect(page.locator('#globo-guia')).toContainText('no encontré nada');
 });
 
 test('la búsqueda no tiene problemas graves de accesibilidad', async ({ page }) => {

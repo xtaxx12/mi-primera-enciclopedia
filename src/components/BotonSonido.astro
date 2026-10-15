@@ -2,9 +2,8 @@
 import Icono from './Icono.astro';
 import { ICONOS } from '../config';
 ---
-<button type="button" class="boton boton-icono boton-sonido" aria-pressed="true" aria-label="Sonido">
-  <span class="con-sonido"><Icono codigo={ICONOS.sonido} /></span>
-  <span class="sin-sonido"><Icono codigo={ICONOS.silencio} /></span>
+<button type="button" class="redondo claro chico boton-sonido" aria-pressed="true" aria-label="Sonido">
+  <span class="centro"><span class="con-sonido"><Icono codigo={ICONOS.sonido} tam={18} /></span><span class="sin-sonido"><Icono codigo={ICONOS.silencio} tam={18} /></span></span>
 </button>
 
 <script>
@@ -22,6 +21,10 @@ import { ICONOS } from '../config';
 </script>
 
 <style>
+  .con-sonido,
+  .sin-sonido {
+    display: grid;
+  }
   .boton-sonido[aria-pressed='true'] .sin-sonido,
   .boton-sonido[aria-pressed='false'] .con-sonido {
     display: none;
