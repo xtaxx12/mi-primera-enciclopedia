@@ -1,10 +1,10 @@
 # Informe de importación
 
-Fecha: 2026-10-14
+Fecha: 2026-10-15
 
 - Artículos aceptados: 146
 - Artículos rechazados: 9
-- Archivos multimedia descartados: 87
+- Archivos multimedia descartados: 80
 
 ## Artículos rechazados
 
@@ -72,10 +72,7 @@ Fecha: 2026-10-14
 | Electricidad | DanishWindTurbines.jpg | licencia no permitida o desconocida |
 | Energía | Crystal Project app energy star.png | licencia no permitida o desconocida |
 | Luz | Luz.jpg | licencia no permitida o desconocida |
-| Sonido | Sound icon.png | descarga fallida: HTTP 429 en https://upload.wikimedia.org/wikipedia/commons/c/c6/Sound_icon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original |
 | Célula | Celulas-eucariotas-procariotas.jpg | licencia no permitida o desconocida |
-| Isaac Newton | Newton-Principia-Mathematica 1-500x700.jpg | descarga fallida: HTTP 429 en https://upload.wikimedia.org/wikipedia/commons/6/60/Newton-Principia-Mathematica_1-500x700.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original |
-| Internet | Internet.JPG | descarga fallida: HTTP 429 en https://upload.wikimedia.org/wikipedia/commons/4/46/Internet.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original |
 | Automóvil | Benz-velo.jpg | licencia no permitida o desconocida |
 | Automóvil | FardierdeCugnot20050111.jpg | sin autor |
 | Automóvil | ModelTFord1913.jpg | sin autor |
@@ -84,14 +81,12 @@ Fecha: 2026-10-14
 | Chile | Condor02 ST 98.jpg | licencia no permitida o desconocida |
 | Colombia | Co-map.png | sin autor |
 | Cuba | Cu-map.png | sin autor |
-| Ecuador | Ecuador-CIA WFB Map.png | descarga fallida: HTTP 429 en https://upload.wikimedia.org/wikipedia/commons/e/e5/Ecuador-CIA_WFB_Map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original |
 | El Salvador | Un-el-salvador.png | sin autor |
 | México | Cabeza olmeca.jpg | licencia no permitida o desconocida |
 | México | Palenque.jpg | licencia no permitida o desconocida |
 | México | States of Mexico.svg | sin autor |
 | México | Charras.jpg | licencia no permitida o desconocida |
 | México | Enchiladas.jpg | licencia no permitida o desconocida |
-| Paraguay | Paraguay-CIA WFB Map (2004).png | descarga fallida: HTTP 429 en https://upload.wikimedia.org/wikipedia/commons/a/a4/Paraguay-CIA_WFB_Map_%282004%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original |
 | Paraguay | Paraguay rel98.jpg | sin autor |
 | Puerto Rico | Karibik 25.png | licencia no permitida o desconocida |
 | Uruguay | Uruguay mapa.png | sin autor |
@@ -103,10 +98,8 @@ Fecha: 2026-10-14
 | Estados Unidos | Yellowstonesteam.jpg | sin autor |
 | Canadá | Canada (orthographic projection).svg | licencia no permitida o desconocida |
 | Francia | France 1154 Eng.jpg | sin autor |
-| Francia | Emmanuel Macron 2017.jpg | descarga fallida: HTTP 429 en https://upload.wikimedia.org/wikipedia/commons/5/57/Emmanuel_Macron_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original |
 | Alemania | Germany (orthographic projection).svg | sin autor |
 | Alemania | Gm-map-es.png | sin autor |
-| Alemania | Oton I.jpg | descarga fallida: HTTP 429 en https://upload.wikimedia.org/wikipedia/commons/5/50/Oton_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original |
 | Turquía | Turkey (orthographic projection).svg | sin autor |
 | Turquía | Turquia-map-es.png | sin autor |
 | Australia | Coat of arms of Australia.svg | sin autor |

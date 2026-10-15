@@ -79,7 +79,7 @@
       "alt": "Mapa de Argentina con su relieve",
       "autor": "Captain Blood",
       "licencia": "cc-by-sa",
-      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Argentina_topo_blank.jpg"
     },
     {
@@ -97,7 +97,7 @@
       "alt": "Sembrado de soya en La Pampa.",
       "autor": "User:Alfonso\"",
       "licencia": "cc-by-sa",
-      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Sembrado_de_soja_en_argentina.jpg"
     }
   ],
@@ -116,6 +116,6 @@
     "url": "https://es.vikidia.org/wiki/Argentina",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Argentina&action=history",
     "revid": 204112,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }

@@ -5,6 +5,11 @@
   "resumen": "El sonido es «el producto de un cuerpo sonoro que vibra». Se trata de una «sensación auditiva» causada por la energía que se produce cuando los objetos vibran (en un medio elástico: el aire, el agua, etc). El sonido viaja en forma de ondas y más o menos rápidamente según los medios en los que…",
   "bloques": [
     {
+      "tipo": "figura",
+      "archivo": "sound-icon-287f26d5.png",
+      "pie": "Ícono de sonido."
+    },
+    {
       "tipo": "html",
       "html": "<p>El <b>sonido</b> es «el producto de un cuerpo sonoro que vibra». Se trata de una «sensación auditiva» causada por la <a href=\"/articulo/energia\">energía</a> que se produce cuando los objetos vibran (en un medio elástico: el aire, el <a href=\"/articulo/agua\">agua</a>, etc). El sonido viaja en forma de ondas y más o menos rápidamente según los medios en los que viaje. Cuando estas ondas llegan a nuestros <a href=\"/articulo/oido\">oídos</a>, vibran nuestros tímpanos. Nuestro <a href=\"/articulo/cerebro\">cerebro</a> descifra estas vibraciones y las reconoce como los sonidos que conocemos. Estos sonidos pueden clasificarse en sonidos musicales y ruidos.</p>\n<p>Las frecuencias de un sonido audible oscilan entre aproximadamente 25 Hertz (número de oscilaciones por segundo) y 16.000 Hertz, que son percibidas por niños pequeños, y menos por personas mayores, entre 5.000 Hertz y 10.000 Hertz , debido a que la audición se deteriora con la edad.</p>\n<p>En música, cada tono o sonido tiene una frecuencia precisa, determinada por la longitud de una cuerda vibrante (piano, violín) o un tubo (flauta, órgano) y por la velocidad del sonido, que determina esta frecuencia según el tiempo que tarda en recorrer esa distancia. Cuanto mayor sea la longitud, menor será la frecuencia.</p>\n<h2>La producción de un sonido</h2>\n<p>Se pueden causar vibraciones en el aire al pulsar las cuerdas de una guitarra o cuando hablamos, entonces vibran nuestras cuerdas vocales. Para saber lo que es una vibración se puede hacer vibrar una regla en el borde de una mesa o agitarla en el aire cerca de nuestro oído. Estos sonidos producidos por la oscilación ( movimiento del objeto que vibra ) son reconocidos por nuestro cerebro como notas de música. También se puede producir un sonido con cualquier objeto que roce contra otro: un lápiz en una hoja de papel, el aire al frotar en un coche en movimiento, el choque de las olas contra un acantilado ... Estos sonidos son percibidos como ruidos no como sonidos musicales.</p>\n<p>En general, el sonido no puede existir sin un cuerpo que vibre y el sonido no se propaga en el vacío.</p>\n<h2>Velocidad del sonido</h2>\n<p>Es la distancia recorrida por el sonido en un tiempo determinado, por ejemplo, en el aire la velocidad del sonido es de aproximadamente 340 metros por segundo. Esto significa que si un ruido se produce a 340 metros de nuestro oído, se tarda 1 segundo entre que se produce el ruido y cuando se le oye. La velocidad del sonido también es muy variable en función del material a través del cual pasa: en el agua  se desplaza a 1.500 metros por segundo (aproximadamente 5 veces más rápido que en el aire) y ¡a más de 5.000 metros por segundo en el acero! Esto significa que los animales que pueden escuchar bajo el agua reciben el sonido mucho antes que nosotros fuera de ella.</p>\n<h2>Los decibeles</h2>\n<p>La intensidad del sonido (la cantidad de energía transmitida por una onda de sonido) se expresa en <b>decibeles (dB)</b>: cuando un sonido va siendo cada vez más intenso decimos que el sonido es más ruidoso. Tenemos que saber que si el sonido aumenta en 10 dB, entonces es diez veces más fuerte. Por ejemplo, un sonido de 40 dB es 10 veces más fuerte que un sonido de 30 dB. Un sonido de 50 dB es cien veces más fuerte que el 30 dB y el sonido de 60dB es mil veces más fuerte que un sonido de 30 dB.</p>\n<ul><li>10 dB: hojas secas que caen</li>\n<li>60 dB: conversación normal</li>\n<li>90 dB: música con un volumen muy alto (<i>umbral de peligro </i>)</li>\n<li>110 dB: conciertos de <a href=\"/articulo/rock\">Rock</a>/discotecas ( riesgo de daño permanente en el oído)</li>\n<li>130 dB: despegue de un avión (<i>umbral del dolor</i>)</li>\n<li>160 dB: despegue de un cohete</li></ul>"
     },
@@ -19,15 +24,24 @@
     }
   ],
   "principal": {
-    "archivo": "jackhammer-7f73a153.jpg",
+    "archivo": "sound-icon-287f26d5.png",
     "tipo": "imagen",
-    "alt": "Contaminación sonora producida por un taladro neumático en unas obras.",
-    "autor": "User Josh Parris on en.wikipedia",
-    "licencia": "dominio-publico",
-    "licenciaUrl": "",
-    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Jackhammer.jpg"
+    "alt": "Ícono de sonido.",
+    "autor": "Original uploader was Nataraja at fr.wikipedia",
+    "licencia": "cc-by-sa",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Sound_icon.png"
   },
   "medios": [
+    {
+      "archivo": "sound-icon-287f26d5.png",
+      "tipo": "imagen",
+      "alt": "Ícono de sonido.",
+      "autor": "Original uploader was Nataraja at fr.wikipedia",
+      "licencia": "cc-by-sa",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Sound_icon.png"
+    },
     {
       "archivo": "jackhammer-7f73a153.jpg",
       "tipo": "imagen",
@@ -49,6 +63,6 @@
     "url": "https://es.vikidia.org/wiki/Sonido",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Sonido&action=history",
     "revid": 188964,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }

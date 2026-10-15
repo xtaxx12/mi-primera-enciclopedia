@@ -65,7 +65,7 @@
       "alt": "Dibujo antiguo de un gato",
       "autor": "Rijksmuseum",
       "licencia": "cc0",
-      "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "licenciaUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:De_Katte_is_Alhier_gewis_Een_visken_wil_zy_eeten_Maar_katten_fel_En_muyzen_snel_Zal_zy_ook_niet_vergeeten_(titel_op_object),_RP-P-1984-421.jpg"
     },
     {
@@ -74,7 +74,7 @@
       "alt": "Anatomía general del gato",
       "autor": "Original bitmap: Persian Poet Gal Vector version: Surachit Afrikaans translation: Winstonza Arabic translation: أبو تائب Azerbaijani translation: Lord Leatherface Bengali translation: Moheen Catalan translation: Leptictidium, AnonMoos Chinese translation: Chongtin Czech translation: RuM Dutch translation: YukiKoKo French translation: Popolon Galician translation: Banjo German translation: Uwe Gille Ido translation: Wyvernoid Latvian translation: Kikos Japanese translation: Hisagi Korean translation: LambdaCorp Malayalam translation: Tux the penguin Polish translation: Patrol110 Portuguese translation: 2(L.L.K.)2 Serbian translation: Мелкијадес, Homo lupus Spanish translation: Erikire, Jcfidy, Angelito7 Sudanese translation: Kandar Ukrainian translation: Router Turkish translation: Lord Leatherface Welsh translation: Llywelyn2000 Multilingual version and Esperanto translation: Whidou",
       "licencia": "cc-by-sa",
-      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Scheme_cat_anatomy.svg"
     },
     {
@@ -97,6 +97,6 @@
     "url": "https://es.vikidia.org/wiki/Felis_catus",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Felis_catus&action=history",
     "revid": 184933,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }

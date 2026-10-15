@@ -31,6 +31,11 @@
       "html": "<p>Francia está dividida en trece regiones, ciento un departamentos y 36&#160;790 comunas. La región metropolitana está rodeada por las costas del Mar del Norte, el canal de la Mancha, el océano Atlántico y el mar Mediterráneo.</p>\n<p>Las principales cordilleras montañosas son los Alpes y los Pirineos, sus más importantes macizos son el Macizo Central, los Vosgos y Ardenas. Entre sus ríos más relevantes figuran el Loira, Ródano, Garona, Sena y Rin.</p>\n<h2>Población</h2>\n<p>La población de Francia era de alrededor de sesenta y seis millones de habitantes en 2013: sesenta y cuatro millones en el sector continental europeo y dos millones en los territorios de ultramar.</p>\n<p>La densidad de población promedio es de unos noventa y cuatro habitantes por kilómetro cuadrado, pero la de las ciudades es de ciento diecisiete habitantes por kilómetro cuadrado, ya que el padrón incluye zonas escasamente pobladas, como Guyana y Nueva Caledonia que añaden casi ciento diez mil kilómetros cuadrados, pero apenas medio millón de habitantes.</p>\n<p>La población está compuesta por varios grupos étnicos que invadieron la región en el transcurso de la historia, como los galos y los celtas, que dieron nombre a la región de Galia, un territorio que comprendía lo que en la actualidad es Francia, Bélgica, el oeste de Suiza y las zonas de Holanda y <a href=\"/articulo/alemania\">Alemania</a> ubicadas al suroeste del Rin.</p>\n<p>Otros grupos que se asentarón en territorio frances fueron los de origen romano, griego, godo y germano. Los árabes y judíos se situaron en el sur del país; mientras que los gitanos, en la frontera con <a href=\"/articulo/espana\">España</a>.</p>\n<p>Actualmente residen <a href=\"/articulo/italia\">italianos</a>, <a href=\"/articulo/alemania\">alemanes</a>, <a href=\"/articulo/espana\">españoles</a> y árabes de diferentes nacionalidades, como los marroquíes, tunecinos, <a href=\"/articulo/argelia\">argelinos</a> y libaneses, entre otros.</p>\n<h3>Religión</h3>\n<p>El estado francés es aconfesional desde 1905, año en que se separó la Iglesia del Estado. Según datos de 2007, la religión católica es la predominante, con un 51&#160; del total. Siguen los ateos y agnósticos con el 31&#160;%, los musulmanes con un 6&#160;%, los protestantes 3&#160;%, los ortodoxos 2&#160;% y el judaísmo 1&#160;%.</p>\n<h2>Política</h2>"
     },
     {
+      "tipo": "figura",
+      "archivo": "emmanuel-macron-2017-c5758134.jpg",
+      "pie": "Emmanuel Macron, presidente francés."
+    },
+    {
       "tipo": "html",
       "html": "<p>La República Francesa fue proclamada tras la Revolución francesa, en 1789. Según el artículo I de la Constitución de 1958, Francia es una república indivisible, laica, democrática y social. Está encabezada por el presidente, elegido por sufragio universal por los ciudadanos franceses, con mandato de cinco años desde la reforma constitucional de 2001. Él está facultado para designar al primer ministro, quien encabeza el gobierno. El parlamento, compuesto por la Asamblea Nacional (577 miembros) y el Senado (331 senadores), vota las leyes y controla las acciones de gobierno. Francia es miembro fundador de la Unión Europea.</p>\n<h2>Turismo</h2>"
     },
@@ -100,12 +105,21 @@
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Carte_France_R%C3%A9gions.svg"
     },
     {
+      "archivo": "emmanuel-macron-2017-c5758134.jpg",
+      "tipo": "imagen",
+      "alt": "Emmanuel Macron, presidente francés.",
+      "autor": "Пресс-служба Президента Российской Федерации",
+      "licencia": "cc-by",
+      "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2017.jpg"
+    },
+    {
       "archivo": "eiffel-trocadero-i-37927e78.jpg",
       "tipo": "imagen",
       "alt": "La Torre Eiffel es el monumento más visitado del mundo.",
       "autor": "J.M. Schomburg",
       "licencia": "cc-by-sa",
-      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Eiffel_trocadero_i.jpg"
     },
     {
@@ -123,7 +137,7 @@
       "alt": "Edith Piaf.",
       "autor": "Eric Koch para Anefo , Nationaal Archief, Den Haag, Rijksfotoarchief: Fotocollectie Algemeen Nederlands Fotopersbureau (ANEFO), 1945-1989 - negatiefstroken zwart/wit, nummer toegang 2.24.01.05, bestanddeelnummer 914-6440",
       "licencia": "cc0",
-      "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "licenciaUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:%C3%89dith_Piaf_914-6440.jpg"
     }
   ],
@@ -142,6 +156,6 @@
     "url": "https://es.vikidia.org/wiki/Francia",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Francia&action=history",
     "revid": 184960,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }
