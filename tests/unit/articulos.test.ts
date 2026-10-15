@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { deCategoria, ordenarPorTitulo, textoLicencia } from '../../src/lib/articulos';
-import type { Articulo } from '../../src/lib/tipos';
+import { deCategoria, mediosDe, ordenarPorTitulo, textoLicencia } from '../../src/lib/articulos';
+import type { Articulo, Medio } from '../../src/lib/tipos';
 
 const art = (slug: string, titulo: string, categoria: Articulo['categoria']): Articulo => ({
   slug,
@@ -32,5 +32,26 @@ describe('articulos', () => {
     expect(textoLicencia('cc0')).toBe('CC0');
     expect(textoLicencia('cc-by')).toBe('CC BY');
     expect(textoLicencia('cc-by-sa')).toBe('CC BY-SA');
+  });
+});
+
+describe('mediosDe', () => {
+  const m = (archivo: string): Medio => ({
+    archivo,
+    tipo: 'imagen',
+    alt: archivo,
+    autor: 'Ana',
+    licencia: 'cc-by',
+    licenciaUrl: '',
+    fuenteUrl: `https://commons.wikimedia.org/wiki/File:${archivo}`,
+  });
+
+  it('pone la principal primero y no repite archivos', () => {
+    expect(mediosDe({ principal: m('a.jpg'), medios: [m('b.jpg'), m('a.jpg'), m('c.jpg')] }).map((x) => x.archivo)).toEqual(['a.jpg', 'b.jpg', 'c.jpg']);
+  });
+
+  it('funciona sin principal y sin medios', () => {
+    expect(mediosDe({ medios: [m('b.jpg')] }).map((x) => x.archivo)).toEqual(['b.jpg']);
+    expect(mediosDe({ medios: [] })).toEqual([]);
   });
 });

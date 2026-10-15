@@ -1,0 +1,29 @@
+---
+interface Props {
+  texto: string;
+}
+const { texto } = Astro.props;
+---
+<aside class="sabias-que">
+  <h2>¿Sabías que…?</h2>
+  <p>{texto}</p>
+</aside>
+
+<style>
+  .sabias-que {
+    width: 100%;
+    max-width: 348px;
+    padding: 12px 16px;
+    border: 2px solid #f0c419;
+    border-radius: 12px;
+    background: #fff6c2;
+  }
+  .sabias-que h2 {
+    margin: 0 0 4px;
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+  .sabias-que p {
+    margin: 0;
+  }
+</style>
