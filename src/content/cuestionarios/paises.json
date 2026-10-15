@@ -1,0 +1,137 @@
+{
+  "slug": "paises",
+  "titulo": "¿Cuánto sabes de los países?",
+  "categoria": "paises",
+  "preguntas": [
+    {
+      "id": "paises-01",
+      "texto": "¿Cuál es la capital de México?",
+      "imagen": "mexico-orthographic-projection-e461385c.png",
+      "opciones": [
+        "Ciudad de México",
+        "Guadalajara",
+        "Monterrey"
+      ],
+      "correcta": 0,
+      "articulo": "mexico",
+      "explicacion": "En México se habla sobre todo español y unas 280 lenguas indígenas; su capital es la Ciudad de México."
+    },
+    {
+      "id": "paises-02",
+      "texto": "¿Cuál es la capital de Argentina?",
+      "imagen": "argentina-including-claimed-territories-orthographic-project-d152fdc4.png",
+      "opciones": [
+        "Córdoba",
+        "Buenos Aires",
+        "Mendoza"
+      ],
+      "correcta": 1,
+      "articulo": "argentina",
+      "explicacion": "Buenos Aires es la capital de Argentina, un país que declaró su independencia de España el 9 de julio de 1816."
+    },
+    {
+      "id": "paises-03",
+      "texto": "¿Qué monumentos antiguos hicieron famoso a Egipto?",
+      "imagen": "egypt-orthographic-projection-a7920de6.png",
+      "opciones": [
+        "La torre Eiffel",
+        "La Gran Muralla",
+        "Las pirámides y la esfinge"
+      ],
+      "correcta": 2,
+      "articulo": "egipto",
+      "explicacion": "Egipto es famoso por las pirámides y la gran esfinge; casi todo su territorio es parte del desierto del Sahara."
+    },
+    {
+      "id": "paises-04",
+      "texto": "¿Cuál es el animal nacional de la India?",
+      "imagen": "bengal-tiger-karnataka-b6936813.jpg",
+      "opciones": [
+        "El tigre de Bengala",
+        "El canguro",
+        "El pingüino"
+      ],
+      "correcta": 0,
+      "articulo": "india",
+      "explicacion": "El tigre de Bengala es el animal nacional de la India; su pájaro nacional es el pavo real y su flor, el loto."
+    },
+    {
+      "id": "paises-05",
+      "texto": "¿Cuál es el idioma oficial de Estados Unidos?",
+      "imagen": "united-states-orthographic-projection-2d3769fb.png",
+      "opciones": [
+        "El portugués",
+        "El inglés",
+        "El japonés"
+      ],
+      "correcta": 1,
+      "articulo": "estados-unidos",
+      "explicacion": "En Estados Unidos el idioma oficial es el inglés, aunque también se hablan otras lenguas como el español."
+    },
+    {
+      "id": "paises-06",
+      "texto": "¿Cómo se llama la montaña más alta de Cuba?",
+      "imagen": "cuba-orthographic-projection-224d76e2.png",
+      "opciones": [
+        "El monte Everest",
+        "El Aconcagua",
+        "El Pico Turquino"
+      ],
+      "correcta": 2,
+      "articulo": "cuba",
+      "explicacion": "El Pico Turquino mide 1974 metros y está en la Sierra Maestra, en el sureste de la isla de Cuba."
+    },
+    {
+      "id": "paises-07",
+      "texto": "Además del español, ¿qué lengua nativa hablan muchos peruanos?",
+      "imagen": "peru-sacred-valley-incan-ruins-238-ollantaytambo-ruins-81150-b279cadd.jpg",
+      "opciones": [
+        "El quechua",
+        "El latín",
+        "El inglés"
+      ],
+      "correcta": 0,
+      "articulo": "peru",
+      "explicacion": "En Perú el idioma oficial es el español, pero muchas personas hablan lenguas nativas, sobre todo el quechua."
+    },
+    {
+      "id": "paises-08",
+      "texto": "¿Cuál es la capital de Australia?",
+      "imagen": "australia-orthographic-projection-5bee1de7.png",
+      "opciones": [
+        "Sídney",
+        "Canberra",
+        "Melbourne"
+      ],
+      "correcta": 1,
+      "articulo": "australia",
+      "explicacion": "La capital de Australia es Canberra, y el país es el sexto más grande del mundo."
+    },
+    {
+      "id": "paises-09",
+      "texto": "¿Qué tiene de especial la ubicación de Turquía?",
+      "imagen": "istanbul-and-bosporus-big-9011a6f1.jpg",
+      "opciones": [
+        "Está en medio del océano",
+        "Está cubierta de hielo",
+        "Está en dos continentes"
+      ],
+      "correcta": 2,
+      "articulo": "turquia",
+      "explicacion": "Turquía es uno de los pocos países que están en dos continentes, y fue el centro de los imperios bizantino y otomano."
+    },
+    {
+      "id": "paises-10",
+      "texto": "¿Con qué moneda se paga en Italia?",
+      "imagen": "leaning-tower-of-pisa-83b6b3c5.jpg",
+      "opciones": [
+        "El dólar",
+        "El euro",
+        "El peso"
+      ],
+      "correcta": 1,
+      "articulo": "italia",
+      "explicacion": "En Italia se paga con euros, y su capital es Roma."
+    }
+  ]
+}

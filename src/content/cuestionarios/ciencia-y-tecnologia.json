@@ -1,0 +1,137 @@
+{
+  "slug": "ciencia-y-tecnologia",
+  "titulo": "¿Cuánto sabes de ciencia y tecnología?",
+  "categoria": "ciencia-y-tecnologia",
+  "preguntas": [
+    {
+      "id": "ciencia-y-tecnologia-01",
+      "texto": "¿Quién creó la imprenta en Europa?",
+      "imagen": "23-druckerei-99a422a8.png",
+      "opciones": [
+        "Johannes Gutenberg",
+        "Isaac Newton",
+        "Cristóbal Colón"
+      ],
+      "correcta": 0,
+      "articulo": "imprenta",
+      "explicacion": "Gutenberg creó la imprenta en Europa en 1453 con letras de plomo; en China ya imprimían libros desde el siglo IX."
+    },
+    {
+      "id": "ciencia-y-tecnologia-02",
+      "texto": "¿Para qué se usó la rueda al principio?",
+      "imagen": "topferscheibe-4159c19b.jpg",
+      "opciones": [
+        "Para hacer carreras",
+        "Para hacer vasijas de barro",
+        "Para mover molinos de viento"
+      ],
+      "correcta": 1,
+      "articulo": "rueda",
+      "explicacion": "La rueda se inventó en Mesopotamia; primero la usaron los alfareros para hacer vasijas y después los carros."
+    },
+    {
+      "id": "ciencia-y-tecnologia-03",
+      "texto": "Según la leyenda, ¿qué vio caer Isaac Newton?",
+      "imagen": "newton-s-apple-c58791d0.jpg",
+      "opciones": [
+        "Una estrella",
+        "Una hoja",
+        "Una manzana"
+      ],
+      "correcta": 2,
+      "articulo": "gravedad",
+      "explicacion": "Dice la leyenda que Newton pensó en la gravedad al ver caer una manzana: los objetos con masa se atraen."
+    },
+    {
+      "id": "ciencia-y-tecnologia-04",
+      "texto": "¿Para qué sirve un microscopio?",
+      "imagen": "microscope-schema-commente-es-68dd14b9.png",
+      "opciones": [
+        "Para ver cosas muy pequeñas",
+        "Para ver estrellas lejanas",
+        "Para oír sonidos débiles"
+      ],
+      "correcta": 0,
+      "articulo": "microscopio",
+      "explicacion": "El microscopio agranda la imagen con lentes; con uno, Robert Hooke vio por primera vez las células del corcho."
+    },
+    {
+      "id": "ciencia-y-tecnologia-05",
+      "texto": "¿Cómo se llaman los seres vivos que tienen una sola célula?",
+      "imagen": "plagiomnium-affine-laminazellen-cb100476.jpg",
+      "opciones": [
+        "Pluricelulares",
+        "Unicelulares",
+        "Vegetales"
+      ],
+      "correcta": 1,
+      "articulo": "celula",
+      "explicacion": "Las bacterias tienen una sola célula, mientras que el cuerpo humano está formado por cientos de billones de ellas."
+    },
+    {
+      "id": "ciencia-y-tecnologia-06",
+      "texto": "¿Qué pasa cuando la luz blanca atraviesa un prisma?",
+      "imagen": "prism-rainbow-5de808ed.png",
+      "opciones": [
+        "Se apaga",
+        "Se vuelve negra",
+        "Se separa en colores"
+      ],
+      "correcta": 2,
+      "articulo": "luz",
+      "explicacion": "Un prisma separa la luz blanca en colores, como en el arcoíris; la ciencia que estudia la luz se llama óptica."
+    },
+    {
+      "id": "ciencia-y-tecnologia-07",
+      "texto": "¿Qué produce un sonido?",
+      "imagen": "jackhammer-7f73a153.jpg",
+      "opciones": [
+        "Un objeto que vibra",
+        "Un objeto que brilla",
+        "Un objeto que se enfría"
+      ],
+      "correcta": 0,
+      "articulo": "sonido",
+      "explicacion": "Lo que vibra mueve el aire en ondas; al llegar al oído hacen vibrar el tímpano y el cerebro las reconoce."
+    },
+    {
+      "id": "ciencia-y-tecnologia-08",
+      "texto": "¿Cómo fabrican las plantas su propio alimento?",
+      "imagen": "diversity-of-plants-streptophyta-version-2-02ff62c5.png",
+      "opciones": [
+        "Cazando insectos",
+        "Con la fotosíntesis",
+        "Comiendo tierra"
+      ],
+      "correcta": 1,
+      "articulo": "planta",
+      "explicacion": "Las plantas hacen su propio alimento con la fotosíntesis y, a diferencia de los animales, no se mueven de lugar."
+    },
+    {
+      "id": "ciencia-y-tecnologia-09",
+      "texto": "¿Qué forman dos átomos de hidrógeno y uno de oxígeno?",
+      "imagen": "stylised-atom-with-three-bohr-model-orbits-and-stylised-nucl-6a2cb1d6.png",
+      "opciones": [
+        "Una molécula de sal",
+        "Un grano de arena",
+        "Una molécula de agua"
+      ],
+      "correcta": 2,
+      "articulo": "atomo",
+      "explicacion": "Los átomos se unen para formar moléculas; con dos de hidrógeno y uno de oxígeno se forma el agua."
+    },
+    {
+      "id": "ciencia-y-tecnologia-10",
+      "texto": "¿Qué controla normalmente a un robot?",
+      "imagen": "honda-asimo-7a37a872.jpg",
+      "opciones": [
+        "Una pila de leña",
+        "Un programa de computadora",
+        "Un animal entrenado"
+      ],
+      "correcta": 1,
+      "articulo": "robot",
+      "explicacion": "Los robots son máquinas que hacen trabajos en lugar de las personas, guiadas por programas o circuitos."
+    }
+  ]
+}

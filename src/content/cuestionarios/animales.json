@@ -1,0 +1,137 @@
+{
+  "slug": "animales",
+  "titulo": "¿Cuánto sabes de animales?",
+  "categoria": "animales",
+  "preguntas": [
+    {
+      "id": "animales-01",
+      "texto": "¿Qué alimento dulce producen algunas abejas con el néctar de las flores?",
+      "imagen": "honey-bee-on-flower-with-pollen-collected-on-rear-leg-51c7d240.jpg",
+      "opciones": [
+        "Miel",
+        "Leche",
+        "Chocolate"
+      ],
+      "correcta": 0,
+      "articulo": "abeja",
+      "explicacion": "Una especie de abeja convierte el néctar de las flores en miel, y los apicultores las cuidan para recogerla."
+    },
+    {
+      "id": "animales-02",
+      "texto": "¿Cómo respiran las ballenas?",
+      "imagen": "humpbackwhale37-6c1cdbf4.jpg",
+      "opciones": [
+        "Con branquias, como los peces",
+        "Con pulmones, tomando aire",
+        "Por la piel, bajo el agua"
+      ],
+      "correcta": 1,
+      "articulo": "ballena",
+      "explicacion": "Las ballenas son mamíferos: suben a la superficie a tomar aire, que llega a sus pulmones."
+    },
+    {
+      "id": "animales-03",
+      "texto": "¿Para qué usa el elefante su trompa?",
+      "imagen": "elephantbeauval-1f0cfaf9.jpg",
+      "opciones": [
+        "Para cavar túneles",
+        "Para nadar más rápido",
+        "Para agarrar objetos y comida"
+      ],
+      "correcta": 2,
+      "articulo": "elefante",
+      "explicacion": "La trompa es la nariz larga y musculosa del elefante, y la mueve como si fuera una mano."
+    },
+    {
+      "id": "animales-04",
+      "texto": "¿Cuántos corazones tiene un pulpo?",
+      "imagen": "octopus2-41f37857.jpg",
+      "opciones": [
+        "Tres",
+        "Uno",
+        "Ocho"
+      ],
+      "correcta": 0,
+      "articulo": "pulpo",
+      "explicacion": "El pulpo tiene tres corazones: dos llevan la sangre a las branquias y el otro al resto del cuerpo."
+    },
+    {
+      "id": "animales-05",
+      "texto": "¿Qué tiene de especial el ornitorrinco entre los mamíferos?",
+      "imagen": "platypus-d01fc0ac.jpg",
+      "opciones": [
+        "Puede volar",
+        "Pone huevos",
+        "Vive en el desierto"
+      ],
+      "correcta": 1,
+      "articulo": "ornitorrinco",
+      "explicacion": "Casi todos los mamíferos tienen crías vivas, pero el ornitorrinco de Australia pone huevos."
+    },
+    {
+      "id": "animales-06",
+      "texto": "¿En qué se convirtieron las alas de los pingüinos?",
+      "imagen": "manchot-royal-king-penguin-ab7efdd8.jpg",
+      "opciones": [
+        "En patas para correr",
+        "En plumas para volar alto",
+        "En aletas para nadar"
+      ],
+      "correcta": 2,
+      "articulo": "pinguino",
+      "explicacion": "Los pingüinos no vuelan: sus alas son aletas planas que los ayudan a nadar en el mar."
+    },
+    {
+      "id": "animales-07",
+      "texto": "¿Cómo se llama la mariposa cuando sale del huevo?",
+      "imagen": "monarca-descansando-8b03eebb.jpg",
+      "opciones": [
+        "Oruga",
+        "Renacuajo",
+        "Pollito"
+      ],
+      "correcta": 0,
+      "articulo": "mariposa",
+      "explicacion": "Del huevo sale una oruga que come hojas; después se vuelve crisálida y al final, mariposa."
+    },
+    {
+      "id": "animales-08",
+      "texto": "¿Qué usan los delfines para comunicarse y orientarse?",
+      "imagen": "dolphins-at-loro-parque-08v2-b8e1449d.jpg",
+      "opciones": [
+        "Luces de colores",
+        "Sonidos y saltos",
+        "Olores fuertes"
+      ],
+      "correcta": 1,
+      "articulo": "delfin",
+      "explicacion": "Los delfines hacen sonidos, bailan y saltan para hablar entre ellos y encontrar comida."
+    },
+    {
+      "id": "animales-09",
+      "texto": "¿Qué le pasa al tiburón cuando pierde un diente?",
+      "imagen": "tiburon-265026f9.jpg",
+      "opciones": [
+        "Ya no le vuelve a salir",
+        "Se le convierte en escama",
+        "Le sale otro nuevo rápido"
+      ],
+      "correcta": 2,
+      "articulo": "tiburon",
+      "explicacion": "El tiburón cambia sus dientes toda la vida: cuando pierde uno, pronto le crece otro."
+    },
+    {
+      "id": "animales-10",
+      "texto": "¿Qué tienen solo los leones machos?",
+      "imagen": "lion-waiting-in-namibia-7834f31c.jpg",
+      "opciones": [
+        "Rayas",
+        "Melena",
+        "Cuernos"
+      ],
+      "correcta": 1,
+      "articulo": "leon",
+      "explicacion": "La melena sirve para distinguir al león macho de la leona, porque ellas no la tienen."
+    }
+  ]
+}

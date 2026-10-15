@@ -1,0 +1,137 @@
+{
+  "slug": "arte-y-musica",
+  "titulo": "¿Cuánto sabes de arte y música?",
+  "categoria": "arte-y-musica",
+  "preguntas": [
+    {
+      "id": "arte-y-musica-01",
+      "texto": "¿Cuál es la obra más famosa de Leonardo da Vinci?",
+      "imagen": "la-gioconda-0079d241.jpg",
+      "opciones": [
+        "La Gioconda",
+        "El Guernica",
+        "Las Meninas"
+      ],
+      "correcta": 0,
+      "articulo": "leonardo-da-vinci",
+      "explicacion": "Leonardo fue pintor, científico y arquitecto del Renacimiento, y La Gioconda es su cuadro más conocido."
+    },
+    {
+      "id": "arte-y-musica-02",
+      "texto": "¿Qué cuadro contra la guerra pintó Pablo Picasso?",
+      "imagen": "juangris-portrait-of-picasso-d30af907.jpg",
+      "opciones": [
+        "La Gioconda",
+        "El Guernica",
+        "La rendición de Breda"
+      ],
+      "correcta": 1,
+      "articulo": "pablo-picasso",
+      "explicacion": "Picasso pintó el Guernica en 1937, durante la guerra civil española, y además ayudó a crear el cubismo."
+    },
+    {
+      "id": "arte-y-musica-03",
+      "texto": "¿En qué ciudad nació el pintor Diego Velázquez?",
+      "imagen": "diego-velazquez-autorretrato-45-x-38-cm-coleccion-real-acade-46f1d99d.jpg",
+      "opciones": [
+        "Roma",
+        "París",
+        "Sevilla"
+      ],
+      "correcta": 2,
+      "articulo": "diego-velazquez",
+      "explicacion": "Velázquez nació en Sevilla en 1599 y fue pintor del rey Felipe IV; su obra más famosa es Las Meninas."
+    },
+    {
+      "id": "arte-y-musica-04",
+      "texto": "¿Qué le pasó a Goya después de una grave enfermedad?",
+      "imagen": "vicente-lopez-portana-el-pintor-francisco-de-goya-ecffbe02.jpg",
+      "opciones": [
+        "Se quedó sordo",
+        "Se quedó ciego",
+        "Dejó de pintar"
+      ],
+      "correcta": 0,
+      "articulo": "francisco-de-goya",
+      "explicacion": "Goya quedó sordo en 1792 y su pintura se volvió más personal; en su honor existen los Premios Goya del cine."
+    },
+    {
+      "id": "arte-y-musica-05",
+      "texto": "¿Qué usaba Mondrian en sus cuadros abstractos?",
+      "imagen": "mondrian-compositie-1921-a07dc6dd.jpg",
+      "opciones": [
+        "Retratos de reyes",
+        "Formas geométricas y colores puros",
+        "Paisajes con muchos animales"
+      ],
+      "correcta": 1,
+      "articulo": "mondrian",
+      "explicacion": "Mondrian empezó pintando paisajes con molinos y terminó pintando solo líneas, rectángulos y colores puros."
+    },
+    {
+      "id": "arte-y-musica-06",
+      "texto": "¿Qué problema tuvo Beethoven desde los 32 años?",
+      "imagen": "dbp-1959-beethoven-halle-bonn-4cccbe89.jpg",
+      "opciones": [
+        "Perdió la vista",
+        "Perdió la voz",
+        "Empezó a quedarse sordo"
+      ],
+      "correcta": 2,
+      "articulo": "ludwig-van-beethoven",
+      "explicacion": "Beethoven compuso gran parte de su música casi sin poder oírla, y aun así escribió nueve sinfonías."
+    },
+    {
+      "id": "arte-y-musica-07",
+      "texto": "¿En qué ciudad nació Mozart?",
+      "imagen": "mozart-by-croce-1780-81-6e3a004c.jpg",
+      "opciones": [
+        "Salzburgo",
+        "Madrid",
+        "Londres"
+      ],
+      "correcta": 0,
+      "articulo": "wolfgang-amadeus-mozart",
+      "explicacion": "Mozart nació en Salzburgo en 1756, componía desde niño y llegó a escribir más de 200 obras."
+    },
+    {
+      "id": "arte-y-musica-08",
+      "texto": "¿Qué instrumento tocaba Chopin con maestría desde niño?",
+      "imagen": "eugene-ferdinand-victor-delacroix-043-c32316f1.jpg",
+      "opciones": [
+        "La trompeta",
+        "El piano",
+        "El tambor"
+      ],
+      "correcta": 1,
+      "articulo": "frederic-chopin",
+      "explicacion": "Chopin compuso su primera obra para piano a los 7 años, y lo llamaban niño prodigio, como a Mozart."
+    },
+    {
+      "id": "arte-y-musica-09",
+      "texto": "¿Quién ayuda a los músicos de una orquesta a tocar juntos?",
+      "imagen": "dohnanyi-orchestra-budafok-51ac1e81.jpg",
+      "opciones": [
+        "El público",
+        "El director",
+        "El escenógrafo"
+      ],
+      "correcta": 1,
+      "articulo": "orquesta",
+      "explicacion": "El director se para frente a la orquesta para que todos los músicos toquen juntos y se oigan bien."
+    },
+    {
+      "id": "arte-y-musica-10",
+      "texto": "¿Dónde se hicieron muchas pinturas del arte prehistórico?",
+      "imagen": "lascaux-01-68f331fc.jpg",
+      "opciones": [
+        "En pantallas de cine",
+        "En hojas de cuaderno",
+        "En paredes de cuevas"
+      ],
+      "correcta": 2,
+      "articulo": "arte-prehistorico",
+      "explicacion": "Los primeros humanos pintaban en paredes y techos de cuevas; a eso se le llama arte rupestre."
+    }
+  ]
+}

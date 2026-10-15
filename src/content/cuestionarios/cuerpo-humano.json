@@ -1,0 +1,137 @@
+{
+  "slug": "cuerpo-humano",
+  "titulo": "¿Cuánto sabes del cuerpo humano?",
+  "categoria": "cuerpo-humano",
+  "preguntas": [
+    {
+      "id": "cuerpo-humano-01",
+      "texto": "¿Cuál es el trabajo del corazón?",
+      "imagen": "human-heart-scheme-corazon-humano-esquema-fb88a061.png",
+      "opciones": [
+        "Enviar la sangre a todo el cuerpo",
+        "Pensar y recordar cosas",
+        "Digerir la comida"
+      ],
+      "correcta": 0,
+      "articulo": "corazon",
+      "explicacion": "En cada latido el corazón se aprieta y se relaja para empujar la sangre por todo el cuerpo."
+    },
+    {
+      "id": "cuerpo-humano-02",
+      "texto": "¿Cuántos huesos tiene el esqueleto de una persona adulta?",
+      "imagen": "human-skeleton-front-es-3943dcf7.png",
+      "opciones": [
+        "Unos 50",
+        "Unos 206",
+        "Unos 1000"
+      ],
+      "correcta": 1,
+      "articulo": "esqueleto",
+      "explicacion": "Un bebé nace con unos 300 huesos, pero algunos se unen al crecer y un adulto tiene unos 206."
+    },
+    {
+      "id": "cuerpo-humano-03",
+      "texto": "¿Cuál es el hueso más largo del cuerpo humano?",
+      "imagen": "bone-cross-section-esp-c5b729bb.jpg",
+      "opciones": [
+        "La rótula",
+        "El cráneo",
+        "El fémur"
+      ],
+      "correcta": 2,
+      "articulo": "hueso",
+      "explicacion": "El fémur está en el muslo y es el hueso más largo; los huesos son tejido vivo y sanan si se rompen."
+    },
+    {
+      "id": "cuerpo-humano-04",
+      "texto": "¿Qué le da el color a la piel?",
+      "imagen": "skin-layers-esp-c92a7c83.jpg",
+      "opciones": [
+        "La melanina",
+        "La saliva",
+        "El calcio"
+      ],
+      "correcta": 0,
+      "articulo": "piel",
+      "explicacion": "La melanina colorea la piel y la protege del Sol; además, la piel es el órgano más grande del cuerpo."
+    },
+    {
+      "id": "cuerpo-humano-05",
+      "texto": "¿Qué hacen los glóbulos blancos de la sangre?",
+      "imagen": "composition-of-blood-es-4ecfb143.png",
+      "opciones": [
+        "Le dan el color rojo",
+        "Defienden al cuerpo de enfermedades",
+        "Llevan la comida al estómago"
+      ],
+      "correcta": 1,
+      "articulo": "sangre",
+      "explicacion": "Los glóbulos blancos son las defensas del cuerpo; los rojos llevan oxígeno y las plaquetas tapan las heridas."
+    },
+    {
+      "id": "cuerpo-humano-06",
+      "texto": "¿Qué recibe la sangre cuando pasa por los pulmones?",
+      "imagen": "diagrama-de-los-pulmones-c2-ee1d9db2.png",
+      "opciones": [
+        "Azúcar de la comida",
+        "Agua de la lluvia",
+        "Oxígeno del aire"
+      ],
+      "correcta": 2,
+      "articulo": "pulmon",
+      "explicacion": "En los pulmones la sangre toma oxígeno del aire y deja el dióxido de carbono, que sale al respirar."
+    },
+    {
+      "id": "cuerpo-humano-07",
+      "texto": "¿Para qué sirven los dientes incisivos?",
+      "imagen": "tooth-section-numbered-b8fb143d.png",
+      "opciones": [
+        "Para cortar la comida",
+        "Para sentir los sabores",
+        "Para respirar mejor"
+      ],
+      "correcta": 0,
+      "articulo": "diente",
+      "explicacion": "Los incisivos de adelante cortan, los caninos desgarran y las muelas trituran la comida al masticar."
+    },
+    {
+      "id": "cuerpo-humano-08",
+      "texto": "¿Qué parte del ojo regula cuánta luz entra?",
+      "imagen": "parts-of-the-eye-es-ef8f62fc.png",
+      "opciones": [
+        "La pestaña",
+        "La pupila",
+        "La ceja"
+      ],
+      "correcta": 1,
+      "articulo": "ojo",
+      "explicacion": "La pupila se hace pequeña cuando hay mucha luz y se agranda en la oscuridad para ver mejor."
+    },
+    {
+      "id": "cuerpo-humano-09",
+      "texto": "¿Qué hacen los riñones?",
+      "imagen": "blausen-0592-kidneyanatomy-01-es-529350fe.png",
+      "opciones": [
+        "Bombean la sangre",
+        "Limpian y filtran la sangre",
+        "Mueven los huesos"
+      ],
+      "correcta": 1,
+      "articulo": "rinon",
+      "explicacion": "Los riñones separan los desechos de la sangre y forman la orina, que se junta en la vejiga."
+    },
+    {
+      "id": "cuerpo-humano-10",
+      "texto": "Además de oír, ¿qué nos ayuda a hacer el oído?",
+      "imagen": "anatomy-of-the-human-ear-e9b74aac.png",
+      "opciones": [
+        "Ver los colores",
+        "Sentir el frío",
+        "Mantener el equilibrio"
+      ],
+      "correcta": 2,
+      "articulo": "oido",
+      "explicacion": "El oído capta los sonidos y los envía al cerebro, y además nos ayuda a no perder el equilibrio."
+    }
+  ]
+}

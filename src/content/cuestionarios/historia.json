@@ -1,0 +1,137 @@
+{
+  "slug": "historia",
+  "titulo": "¿Cuánto sabes de historia?",
+  "categoria": "historia",
+  "preguntas": [
+    {
+      "id": "historia-01",
+      "texto": "¿Junto a qué río nació la civilización del Antiguo Egipto?",
+      "imagen": "egypt-giza-sphinx-01-80b01fb6.jpg",
+      "opciones": [
+        "El Nilo",
+        "El Amazonas",
+        "El Danubio"
+      ],
+      "correcta": 0,
+      "articulo": "antiguo-egipto",
+      "explicacion": "Los antiguos egipcios vivieron a orillas del río Nilo durante más de 3000 años, gobernados por faraones."
+    },
+    {
+      "id": "historia-02",
+      "texto": "¿Para qué construían pirámides los antiguos egipcios?",
+      "imagen": "all-gizah-pyramids-8285966e.jpg",
+      "opciones": [
+        "Para guardar el trigo",
+        "Como tumbas de los faraones",
+        "Para vigilar el mar"
+      ],
+      "correcta": 1,
+      "articulo": "piramide",
+      "explicacion": "Las pirámides egipcias eran enormes tumbas de piedra para los faraones, y algunas siguen en pie hoy."
+    },
+    {
+      "id": "historia-03",
+      "texto": "¿Qué forma de gobierno nació en la antigua Grecia?",
+      "imagen": "akropolis3dreconstruction-12d0a24e.jpg",
+      "opciones": [
+        "El imperio",
+        "La monarquía",
+        "La democracia"
+      ],
+      "correcta": 2,
+      "articulo": "antigua-grecia",
+      "explicacion": "En tiempos de Pericles, los griegos construyeron el Partenón de Atenas y dieron origen a la democracia."
+    },
+    {
+      "id": "historia-04",
+      "texto": "¿Qué idioma se hablaba sobre todo en el Imperio romano?",
+      "imagen": "aqueduct-of-segovia-02-a2bf5a63.jpg",
+      "opciones": [
+        "Latín",
+        "Inglés",
+        "Árabe"
+      ],
+      "correcta": 0,
+      "articulo": "imperio-romano",
+      "explicacion": "El latín era la lengua principal del Imperio romano, cuya capital era Roma; el griego también era importante."
+    },
+    {
+      "id": "historia-05",
+      "texto": "¿Cómo viajaban los vikingos a tierras lejanas?",
+      "imagen": "leif-ericson-on-the-shore-of-vinland-7b686993.gif",
+      "opciones": [
+        "En globos de aire",
+        "En barcos de vela",
+        "En trenes de vapor"
+      ],
+      "correcta": 1,
+      "articulo": "vikingos",
+      "explicacion": "Los vikingos venían de Escandinavia y cruzaban el mar en barcos de vela para comerciar o conquistar."
+    },
+    {
+      "id": "historia-06",
+      "texto": "¿A qué país lejano llegó Marco Polo por la Ruta de la Seda?",
+      "imagen": "marco-polo-traveling-8ab1ec9e.jpg",
+      "opciones": [
+        "A Brasil",
+        "A Australia",
+        "A China"
+      ],
+      "correcta": 2,
+      "articulo": "marco-polo",
+      "explicacion": "Marco Polo salió de Venecia a los 17 años con su padre y su tío, y llegó a China en 1274."
+    },
+    {
+      "id": "historia-07",
+      "texto": "¿Cuántos barcos llevó Cristóbal Colón en su primer viaje?",
+      "imagen": "1893-nina-pinta-santa-maria-replicas-62621143.jpg",
+      "opciones": [
+        "Tres",
+        "Diez",
+        "Uno"
+      ],
+      "correcta": 0,
+      "articulo": "cristobal-colon",
+      "explicacion": "En su primer viaje Colón llevó la Santa María, la Niña y la Pinta, con dinero de la reina Isabel de Castilla."
+    },
+    {
+      "id": "historia-08",
+      "texto": "¿Qué ciudad fundaron los aztecas en el año 1325?",
+      "imagen": "scalemodeltemplomayor-40b3a0bb.jpg",
+      "opciones": [
+        "Cusco",
+        "México-Tenochtitlan",
+        "Chichén Itzá"
+      ],
+      "correcta": 1,
+      "articulo": "aztecas",
+      "explicacion": "Tras una larga peregrinación, los aztecas fundaron México-Tenochtitlan en el lago de Texcoco."
+    },
+    {
+      "id": "historia-09",
+      "texto": "¿En qué cordillera vivió la civilización inca?",
+      "imagen": "machu-picchu-peru-d66ad984.jpg",
+      "opciones": [
+        "Los Alpes",
+        "El Himalaya",
+        "Los Andes"
+      ],
+      "correcta": 2,
+      "articulo": "incas",
+      "explicacion": "Los incas vivieron en los Andes, con su centro en Cusco, y construyeron una gran red de caminos."
+    },
+    {
+      "id": "historia-10",
+      "texto": "¿Qué construyeron los mayas en sus ciudades?",
+      "imagen": "003-el-castillo-o-templo-de-kukulkan-chichen-itza-mexico-mpl-9a0a7a4b.jpg",
+      "opciones": [
+        "Rascacielos de vidrio",
+        "Pirámides y observatorios",
+        "Castillos de hielo"
+      ],
+      "correcta": 1,
+      "articulo": "mayas",
+      "explicacion": "Las ciudades mayas tenían pirámides, templos, juegos de pelota y observatorios para estudiar el cielo."
+    }
+  ]
+}

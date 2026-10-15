@@ -1,0 +1,137 @@
+{
+  "slug": "planeta-tierra",
+  "titulo": "¿Cuánto sabes del planeta Tierra?",
+  "categoria": "planeta-tierra",
+  "preguntas": [
+    {
+      "id": "planeta-tierra-01",
+      "texto": "¿Con qué fórmula química se escribe el agua?",
+      "imagen": "h2o-17aee587.jpg",
+      "opciones": [
+        "H2O",
+        "CO2",
+        "O2"
+      ],
+      "correcta": 0,
+      "articulo": "agua",
+      "explicacion": "Cada molécula de agua tiene dos átomos de hidrógeno y uno de oxígeno: por eso se escribe H2O."
+    },
+    {
+      "id": "planeta-tierra-02",
+      "texto": "¿Qué cubre casi toda la Antártida?",
+      "imagen": "keep-watch-land-claim-d916e5aa.png",
+      "opciones": [
+        "Selvas verdes",
+        "Hielo",
+        "Arena del desierto"
+      ],
+      "correcta": 1,
+      "articulo": "antartida",
+      "explicacion": "Casi toda la Antártida está bajo enormes capas de hielo, y es el lugar más frío y seco de la Tierra."
+    },
+    {
+      "id": "planeta-tierra-03",
+      "texto": "¿De qué está hecho un glaciar?",
+      "imagen": "perito-moreno-glaciar-8f9b4540.jpg",
+      "opciones": [
+        "De arena mojada",
+        "De roca volcánica",
+        "De hielo que se mueve lento"
+      ],
+      "correcta": 2,
+      "articulo": "glaciar",
+      "explicacion": "La nieve acumulada se endurece hasta volverse hielo, que baja muy despacio por los valles."
+    },
+    {
+      "id": "planeta-tierra-04",
+      "texto": "¿Cómo se llama el punto más alto de una montaña?",
+      "imagen": "partes-montana-da9c7983.png",
+      "opciones": [
+        "La cima",
+        "La ladera",
+        "El pie"
+      ],
+      "correcta": 0,
+      "articulo": "montana",
+      "explicacion": "La cima es lo más alto, la ladera es la pendiente y el pie es la parte de abajo de la montaña."
+    },
+    {
+      "id": "planeta-tierra-05",
+      "texto": "¿Qué sale de un volcán cuando hace erupción?",
+      "imagen": "fujisunrisekawaguchiko2025wp-33e1de7a.jpg",
+      "opciones": [
+        "Agua dulce y peces",
+        "Lava y gases muy calientes",
+        "Nieve y granizo"
+      ],
+      "correcta": 1,
+      "articulo": "volcan",
+      "explicacion": "Por la grieta del volcán sube material muy caliente desde dentro de la Tierra: lava, gases y ceniza."
+    },
+    {
+      "id": "planeta-tierra-06",
+      "texto": "¿Cómo se llama un terremoto que ocurre en el mar?",
+      "imagen": "valdivia-after-earthquake-1960-17984fda.jpg",
+      "opciones": [
+        "Tornado",
+        "Huracán",
+        "Tsunami"
+      ],
+      "correcta": 2,
+      "articulo": "terremoto",
+      "explicacion": "Un terremoto bajo el mar puede formar olas gigantes, llamadas tsunamis, que llegan a la costa."
+    },
+    {
+      "id": "planeta-tierra-07",
+      "texto": "¿Cómo se llama el centro tranquilo de un huracán?",
+      "imagen": "cyclone-catarina-from-the-iss-on-march-26-2004-2361e221.jpg",
+      "opciones": [
+        "El ojo",
+        "La boca",
+        "La cola"
+      ],
+      "correcta": 0,
+      "articulo": "huracan",
+      "explicacion": "En el ojo del huracán casi no hay lluvia ni viento, pero a su alrededor está la parte más fuerte."
+    },
+    {
+      "id": "planeta-tierra-08",
+      "texto": "¿Qué abunda en la sabana?",
+      "imagen": "gazelles-3195944437-e1c6ab40.jpg",
+      "opciones": [
+        "Árboles gigantes",
+        "Hierbas altas",
+        "Hielo y nieve"
+      ],
+      "correcta": 1,
+      "articulo": "sabana",
+      "explicacion": "En la sabana crecen muchas hierbas altas y pocos árboles; allí pastan cebras, gacelas y elefantes."
+    },
+    {
+      "id": "planeta-tierra-09",
+      "texto": "¿Qué se forma cuando el vapor de agua sube y se enfría?",
+      "imagen": "el-ciclo-del-agua-49d1a860.jpg",
+      "opciones": [
+        "Los ríos",
+        "Las montañas",
+        "Las nubes"
+      ],
+      "correcta": 2,
+      "articulo": "ciclo-del-agua",
+      "explicacion": "El sol evapora el agua, el vapor se enfría en el cielo y forma nubes que luego dan lluvia o nieve."
+    },
+    {
+      "id": "planeta-tierra-10",
+      "texto": "¿Cómo se llama un lago cuya agua tiene mucha sal?",
+      "imagen": "glenridding-cumbria-england-june-2009-9168b915.jpg",
+      "opciones": [
+        "Lago salado",
+        "Lago dulce",
+        "Lago helado"
+      ],
+      "correcta": 0,
+      "articulo": "lago",
+      "explicacion": "En lugares muy secos el agua se evapora rápido y deja la sal: así se forma un lago salado, como el mar Muerto."
+    }
+  ]
+}

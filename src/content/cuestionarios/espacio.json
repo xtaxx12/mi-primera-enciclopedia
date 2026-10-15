@@ -1,0 +1,137 @@
+{
+  "slug": "espacio",
+  "titulo": "¿Cuánto sabes del espacio?",
+  "categoria": "espacio",
+  "preguntas": [
+    {
+      "id": "espacio-01",
+      "texto": "¿Por qué nada puede escapar de un agujero negro?",
+      "imagen": "mayor-agujero-negro-f7c7fa80.jpg",
+      "opciones": [
+        "Porque su gravedad es enorme",
+        "Porque está muy oscuro",
+        "Porque está lleno de agua"
+      ],
+      "correcta": 0,
+      "articulo": "agujero-negro",
+      "explicacion": "La gravedad de un agujero negro es tan fuerte que atrapa todo lo que se acerca, incluso la luz."
+    },
+    {
+      "id": "espacio-02",
+      "texto": "¿Entre qué planetas está el cinturón de asteroides?",
+      "imagen": "243-ida-b055128f.jpg",
+      "opciones": [
+        "Entre la Tierra y la Luna",
+        "Entre Venus y Mercurio",
+        "Entre Marte y Júpiter"
+      ],
+      "correcta": 2,
+      "articulo": "asteroide",
+      "explicacion": "La mayoría de los asteroides del sistema solar dan vueltas al Sol en una zona entre Marte y Júpiter."
+    },
+    {
+      "id": "espacio-03",
+      "texto": "¿Qué le pasa a un cometa cuando se acerca al Sol?",
+      "imagen": "comet-hale-bopp-29-03-1997-hires-adj-830a8a51.jpg",
+      "opciones": [
+        "Se congela por completo",
+        "Le sale una cola de gas",
+        "Se convierte en planeta"
+      ],
+      "correcta": 1,
+      "articulo": "cometa",
+      "explicacion": "El calor del Sol convierte en gas el hielo del cometa, y así se forma su larga cola brillante."
+    },
+    {
+      "id": "espacio-04",
+      "texto": "¿Cuánto tarda la Luna en dar una vuelta a la Tierra?",
+      "imagen": "atlas-mond-438691023-5076ff49.jpg",
+      "opciones": [
+        "Unos 29 días",
+        "Un solo día",
+        "Un año entero"
+      ],
+      "correcta": 0,
+      "articulo": "luna",
+      "explicacion": "La Luna tarda casi un mes en dar la vuelta a la Tierra, y mientras tanto vemos sus distintas fases."
+    },
+    {
+      "id": "espacio-05",
+      "texto": "¿Por qué Marte se ve de color rojo?",
+      "imagen": "mars-valles-marineris-daa65c85.jpg",
+      "opciones": [
+        "Porque está en llamas",
+        "Por el óxido de hierro de su suelo",
+        "Porque refleja sus océanos"
+      ],
+      "correcta": 1,
+      "articulo": "marte",
+      "explicacion": "El suelo de Marte tiene mucho óxido de hierro, como un clavo oxidado, y por eso se ve rojizo."
+    },
+    {
+      "id": "espacio-06",
+      "texto": "¿Qué planeta es el más cercano al Sol?",
+      "imagen": "messenger-first-photo-of-unseen-side-of-mercury-155de26a.jpg",
+      "opciones": [
+        "Marte",
+        "Neptuno",
+        "Mercurio"
+      ],
+      "correcta": 2,
+      "articulo": "mercurio",
+      "explicacion": "Mercurio es el planeta más pequeño y el más cercano al Sol; donde le da el Sol llega a 430 °C."
+    },
+    {
+      "id": "espacio-07",
+      "texto": "¿Qué es Plutón?",
+      "imagen": "pluto-and-moons-art-54c5d9be.png",
+      "opciones": [
+        "Un planeta enano",
+        "Una estrella",
+        "Un cometa"
+      ],
+      "correcta": 0,
+      "articulo": "pluton",
+      "explicacion": "Plutón mide 2400 km de ancho y es un planeta enano; tarda unos 248 años en dar la vuelta al Sol."
+    },
+    {
+      "id": "espacio-08",
+      "texto": "¿Cómo produce el Sol su luz y su calor?",
+      "imagen": "celestia-sun-72758e90.jpg",
+      "opciones": [
+        "Quemando madera",
+        "Con la fusión nuclear",
+        "Reflejando la luz de la Luna"
+      ],
+      "correcta": 1,
+      "articulo": "sol",
+      "explicacion": "En el centro del Sol el hidrógeno se convierte en helio, y eso libera la luz y el calor que nos llegan."
+    },
+    {
+      "id": "espacio-09",
+      "texto": "¿Qué parte de la superficie de la Tierra cubren los océanos?",
+      "imagen": "earth-western-hemisphere-ca9f72bb.jpg",
+      "opciones": [
+        "Una décima parte",
+        "Casi tres cuartas partes",
+        "Justo la mitad"
+      ],
+      "correcta": 1,
+      "articulo": "tierra",
+      "explicacion": "Cerca del 71 % de la superficie de la Tierra es océano de agua salada; el resto son islas y continentes."
+    },
+    {
+      "id": "espacio-10",
+      "texto": "¿De qué color son las estrellas más grandes y calientes?",
+      "imagen": "pleiades-large-94552186.jpg",
+      "opciones": [
+        "Rojo",
+        "Verde",
+        "Azul"
+      ],
+      "correcta": 2,
+      "articulo": "estrella",
+      "explicacion": "Las estrellas pequeñas y frías se ven rojas, y las grandes y calientes, azules; el Sol es amarillo."
+    }
+  ]
+}
