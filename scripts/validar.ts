@@ -7,14 +7,18 @@ import { esHttps } from '../src/lib/urls';
 const LICENCIAS = new Set(['dominio-publico', 'cc0', 'cc-by', 'cc-by-sa']);
 const ETIQUETAS_HTML = new Set(['p', 'h2', 'h3', 'ul', 'ol', 'li', 'b', 'i', 'strong', 'em', 'a', 'br', 'sub', 'sup']);
 
-/** Etiquetas que no están en la lista permitida o que traen atributos (salvo href a un artículo). */
+const ETIQUETA = /<(\/?)([a-zA-Z][a-zA-Z0-9]*)([^>]*)>/g;
+
+/** Etiquetas fuera de la lista permitida, con atributos (salvo href a un artículo) o sin cerrar. */
 function htmlNoPermitido(html: string): string[] {
   const malas: string[] = [];
-  for (const [etiqueta, cierre, nombre, atributos] of html.matchAll(/<(\/?)([a-zA-Z][a-zA-Z0-9]*)([^>]*)>/g)) {
+  for (const [etiqueta, cierre, nombre, atributos] of html.matchAll(ETIQUETA)) {
     const n = nombre.toLowerCase();
     const atributosOk = atributos === '' || (n === 'a' && !cierre && /^ href="\/articulo\/[a-z0-9-]+"$/.test(atributos));
-    if (!ETIQUETAS_HTML.has(n) || !atributosOk) malas.push(etiqueta);
+    if (!ETIQUETAS_HTML.has(n) || !atributosOk) malas.push(`«${etiqueta}»`);
   }
+  // El texto llega escapado (&lt;): un "<" que sobra es una etiqueta sin cerrar que el HTML siguiente completaría.
+  if (html.replace(ETIQUETA, '').includes('<')) malas.push('«<» suelto');
   return malas;
 }
 
@@ -60,7 +64,7 @@ export function validarContenido(d: DatosValidacion): string[] {
         errores.push(`${donde}: la figura «${b.archivo}» no está entre sus medios`);
       }
       if (b.tipo === 'html') {
-        for (const mala of htmlNoPermitido(b.html)) errores.push(`${donde}: HTML no permitido «${mala}»`);
+        for (const mala of htmlNoPermitido(b.html)) errores.push(`${donde}: HTML no permitido ${mala}`);
         for (const [, slug] of b.html.matchAll(/href="\/articulo\/([^"]+)"/g)) {
           if (!porSlug.has(slug)) errores.push(`${donde}: enlace interno roto a «${slug}»`);
         }

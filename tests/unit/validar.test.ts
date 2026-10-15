@@ -133,6 +133,12 @@ describe('validarContenido', () => {
     expect(e).not.toContain('/articulo/leon');
   });
 
+  it('rechaza etiquetas sin cerrar, que el HTML siguiente de la página completaría', () => {
+    const d = datos();
+    d.articulos[1] = { id: 'tigre', datos: articulo('tigre', { bloques: [{ tipo: 'html', html: '<p>Hola</p><img src=x onerror=alert(1)' }] }) };
+    expect(validarContenido(d).join('\n')).toContain('HTML no permitido «<» suelto');
+  });
+
   it('valida los cuestionarios', () => {
     const malas = [
       pregunta(1, { opciones: ['a', 'b'] as never }),
