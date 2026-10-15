@@ -5,7 +5,7 @@ import { SITIO } from '../config';
   <p id="globo-guia" class="globo" role="status" aria-live="polite"></p>
   <button type="button" class="personaje" aria-label={`${SITIO.personaje}, tu guía: mostrar u ocultar su mensaje`} aria-controls="globo-guia" aria-expanded="true">
     <svg viewBox="0 0 120 124" width="96" height="100" aria-hidden="true">
-      <g class="estrellas">
+      <g class="destellos">
         <path d="M14 18l3 6 6 1-5 4 1 6-5-3-5 3 1-6-5-4 6-1z" fill="#ffc94d" />
         <path d="M104 10l2 5 5 1-4 3 1 5-4-2-4 2 1-5-4-3 5-1z" fill="#ffc94d" />
       </g>
@@ -111,7 +111,7 @@ import { SITIO } from '../config';
   .guia:has(.personaje[aria-expanded='false']) .globo {
     display: none;
   }
-  .estrellas,
+  .destellos,
   .interrogacion {
     display: none;
   }
@@ -138,7 +138,7 @@ import { SITIO } from '../config';
   [data-pose='celebra'] .ala-der {
     transform: rotate(-40deg);
   }
-  [data-pose='celebra'] .estrellas {
+  [data-pose='celebra'] .destellos {
     display: inline;
   }
   [data-pose='celebra'] .cuerpo {

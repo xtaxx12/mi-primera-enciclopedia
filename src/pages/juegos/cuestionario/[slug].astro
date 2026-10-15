@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import { getImage } from 'astro:assets';
+import Base from '../../../layouts/Base.astro';
+import CuestionarioIsla, { type CuestionarioVista } from '../../../components/Cuestionario.tsx';
+import { imagenDe } from '../../../lib/medios';
+import type { Articulo, Cuestionario } from '../../../lib/tipos';
+
+export async function getStaticPaths() {
+  const cuestionarios = (await getCollection('cuestionarios')).map((e) => e.data as Cuestionario);
+  return cuestionarios.map((cuestionario) => ({ params: { slug: cuestionario.slug }, props: { cuestionario } }));
+}
+
+const { cuestionario } = Astro.props;
+const articulos = new Map((await getCollection('articulos')).map((e) => [e.data.slug, e.data as Articulo]));
+const vista: CuestionarioVista = {
+  slug: cuestionario.slug,
+  titulo: cuestionario.titulo,
+  preguntas: await Promise.all(
+    cuestionario.preguntas.map(async (p) => {
+      const articulo = articulos.get(p.articulo)!;
+      const medio = articulo.medios.find((m) => m.archivo === p.imagen)!;
+      const imagen = await getImage({ src: imagenDe(p.imagen)!, width: 480 });
+      return { ...p, imagenSrc: imagen.src, imagenAlt: medio.alt, tituloArticulo: articulo.titulo };
+    }),
+  ),
+};
+---
+<Base titulo={cuestionario.titulo} pantalla="cuestionario">
+  <h1>{cuestionario.titulo}</h1>
+  <CuestionarioIsla client:only="preact" cuestionario={vista}>
+    <p slot="fallback">Cargando el cuestionario…</p>
+  </CuestionarioIsla>
+</Base>
