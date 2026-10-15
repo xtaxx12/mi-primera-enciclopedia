@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { revisarAccesibilidad } from './ayuda';
+import { readFileSync } from 'node:fs';
 
 // Espera a que la isla del atlas termine de hidratarse antes de interactuar con el mapa.
 async function abrirAtlas(page: import('@playwright/test').Page) {
@@ -45,4 +46,17 @@ test('los botones de continente acercan el mapa', async ({ page }) => {
 test('el atlas no tiene problemas graves de accesibilidad', async ({ page }) => {
   await abrirAtlas(page);
   await revisarAccesibilidad(page);
+});
+
+test('?vista=africa abre el atlas acercado a África', async ({ page }) => {
+  const vistas = JSON.parse(readFileSync('src/data/atlas/vistas.json', 'utf8')) as Record<string, number[]>;
+  await page.goto('/atlas?vista=africa');
+  await expect(page.locator('astro-island:has(.atlas)')).not.toHaveAttribute('ssr');
+  await expect(page.getByRole('group', { name: 'Mapa del mundo' })).toHaveAttribute('viewBox', vistas.africa.join(' '));
+});
+
+test('una vista desconocida muestra el mundo', async ({ page }) => {
+  await page.goto('/atlas?vista=marte');
+  await expect(page.locator('astro-island:has(.atlas)')).not.toHaveAttribute('ssr');
+  await expect(page.getByRole('group', { name: 'Mapa del mundo' })).toHaveAttribute('viewBox', '0 0 960 500');
 });

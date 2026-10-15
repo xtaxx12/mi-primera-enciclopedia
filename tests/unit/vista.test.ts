@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { aCoordenadasMapa, acercar, desplazar, interpolarCaja, limitarCaja, MUNDO } from '../../src/lib/vista';
+import { aCoordenadasMapa, acercar, desplazar, interpolarCaja, limitarCaja, MUNDO, vistaDesdeUrl } from '../../src/lib/vista';
 import type { Caja } from '../../src/lib/tipos';
 
 describe('vista del atlas', () => {
@@ -30,5 +30,18 @@ describe('vista del atlas', () => {
     expect(aCoordenadasMapa(MUNDO, 480, 250, 960, 500)).toEqual([480, 250]);
     expect(aCoordenadasMapa(MUNDO, 960, 500, 1920, 1000)).toEqual([480, 250]);
     expect(aCoordenadasMapa([240, 125, 480, 250], 0, 0, 960, 500)).toEqual([240, 125]);
+  });
+});
+
+describe('vistaDesdeUrl', () => {
+  it('lee la vista de la dirección', () => {
+    expect(vistaDesdeUrl('?vista=africa')).toBe('africa');
+    expect(vistaDesdeUrl('?q=1&vista=oceania')).toBe('oceania');
+  });
+
+  it('usa el mundo si falta o es desconocida', () => {
+    expect(vistaDesdeUrl('')).toBe('mundo');
+    expect(vistaDesdeUrl('?vista=marte')).toBe('mundo');
+    expect(vistaDesdeUrl('?vista=')).toBe('mundo');
   });
 });
