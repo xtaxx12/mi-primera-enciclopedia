@@ -1,14 +1,19 @@
 import { defineConfig, devices } from '@playwright/test';
 
+// Puerto propio: así las pruebas siempre usan el build de producción y no un `astro dev` abierto en el 4321.
+const PUERTO = 4329;
+
 export default defineConfig({
   testDir: 'tests/e2e',
   fullyParallel: true,
   reporter: 'list',
-  use: { baseURL: 'http://localhost:4321' },
+  use: { baseURL: `http://localhost:${PUERTO}` },
   webServer: {
-    command: 'npm run build && npm run preview -- --port 4321',
-    url: 'http://localhost:4321',
-    reuseExistingServer: !process.env.CI,
+    // node directo y --ignore-lock: Astro 7 manda preview a segundo plano si detecta un agente, y Playwright no podría cerrarlo.
+    command: `npm run build && node node_modules/astro/bin/astro.mjs preview --port ${PUERTO} --ignore-lock`,
+    url: `http://localhost:${PUERTO}`,
+    // Nunca reutilizar: un servidor viejo haría probar un build desactualizado.
+    reuseExistingServer: false,
     timeout: 300_000,
   },
   projects: [
