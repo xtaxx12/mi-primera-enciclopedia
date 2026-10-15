@@ -567,3 +567,112 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Atlas ---------- */
+
+.atlas .vistas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.atlas .lienzo {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid var(--recuadro-borde);
+  border-radius: 12px;
+  background: #9fd3f5;
+}
+
+.atlas svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 960 / 500;
+  touch-action: none;
+}
+
+.atlas .mar {
+  fill: #9fd3f5;
+}
+
+.atlas .pais {
+  fill: #f3ecd2;
+  stroke: #8c7b55;
+  stroke-width: 0.6;
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+  transition: fill 0.15s ease;
+}
+
+.atlas .pais.con-articulo {
+  fill: var(--amarillo-3);
+}
+
+.atlas .pais:hover,
+.atlas .pais:focus-visible {
+  fill: var(--naranja);
+  outline: none;
+}
+
+.atlas .etiqueta-pais {
+  position: absolute;
+  transform: translate(-50%, -130%);
+  padding: 4px 10px;
+  border: 2px solid var(--recuadro-borde);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--texto);
+  font-weight: bold;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* ---------- Resultados de búsqueda ---------- */
+
+.titulo-resultados {
+  margin: 0 0 4px;
+  font-size: 1.5rem;
+  color: var(--naranja-titulo);
+}
+
+.resultados {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.resultados li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 2px solid var(--amarillo-1);
+}
+
+.resultados .miniatura {
+  flex: none;
+  padding: 6px;
+  border: 1px solid #000;
+  background: var(--recuadro-fondo-activo);
+}
+
+.resultados p {
+  margin: 4px 0 0;
+}
+
+.titulo-resultado {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.categoria-resultado {
+  font-size: 0.8125rem;
+  color: var(--texto-suave);
+}
+
+.resultados mark {
+  background: #ffe28a;
+  padding: 0 0.1em;
+}

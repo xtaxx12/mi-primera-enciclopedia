@@ -116,7 +116,7 @@ export default function Atlas({ paises, vistas, nombresVistas }: Props) {
     <div class="atlas">
       <div class="vistas" role="group" aria-label="Acercar a un continente">
         {(Object.keys(nombresVistas) as VistaAtlas[]).map((v) => (
-          <button type="button" class="boton" onClick={() => irAVista(v)}>
+          <button type="button" class="placa placa-mini" onClick={() => irAVista(v)}>
             {nombresVistas[v]}
           </button>
         ))}

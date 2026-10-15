@@ -1,12 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
+import Curvas from '../components/Curvas.astro';
 import { SITIO } from '../config';
 ---
 <Base titulo="Acerca de" pantalla="acerca">
-  <h1>Acerca de {SITIO.nombre}</h1>
-  <p class="panel aviso">{SITIO.homenaje}</p>
+  <div class="pagina"><Curvas variante="franja" /><div class="hoja">
+  <h1 class="titulo-articulo">{`Acerca de ${SITIO.nombre}`}</h1>
+  <p class="aviso recuadro-naranja">{SITIO.homenaje}</p>
 
-  <h2>Licencias y créditos</h2>
+  <h2 class="subtitulo">Licencias y créditos</h2>
   <!-- Cada elemento en una sola línea: con compressHTML 'jsx' (Astro 7) un salto de línea junto a una etiqueta puede borrar el espacio. -->
   <ul class="creditos">
     <li><strong>Artículos:</strong> basados en <a href="https://es.vikidia.org">Vikidia</a>, la enciclopedia libre para niños, con licencia <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.es">CC BY-SA 3.0</a>. Los textos fueron adaptados y cada artículo enlaza a su original y a su historial de autores.</li>
@@ -16,12 +18,17 @@ import { SITIO } from '../config';
     <li><strong>Mapa:</strong> <a href="https://www.naturalearthdata.com">Natural Earth</a>, dominio público.</li>
     <li><strong>Diseño y código:</strong> originales de este proyecto, dibujados con CSS y SVG propios a partir de la composición de Mi Primera Encarta; el código tiene licencia MIT.</li>
   </ul>
+  </div></div>
 </Base>
 
 <style>
   .aviso {
+    margin: 16px 0;
     font-weight: bold;
-    background: #eef6ff;
+  }
+  .subtitulo {
+    font-size: 1.5rem;
+    color: var(--naranja-titulo);
   }
   .creditos li {
     margin-bottom: 0.6rem;

@@ -39,6 +39,7 @@ test('los botones de continente acercan el mapa', async ({ page }) => {
   await abrirAtlas(page);
   const mapa = page.getByRole('group', { name: 'Mapa del mundo' });
   await expect(mapa).toHaveAttribute('viewBox', '0 0 960 500');
+  await expect(page.getByRole('button', { name: 'Europa' })).toHaveClass(/placa-mini/);
   await page.getByRole('button', { name: 'Europa' }).click();
   await expect(mapa).not.toHaveAttribute('viewBox', '0 0 960 500');
 });

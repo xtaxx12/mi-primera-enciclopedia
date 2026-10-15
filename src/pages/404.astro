@@ -1,17 +1,24 @@
 ---
 import Base from '../layouts/Base.astro';
+import Curvas from '../components/Curvas.astro';
 ---
 <Base titulo="Página no encontrada" pantalla="404">
-  <div class="perdida">
-    <h1>¡Ups! Esta página se perdió</h1>
-    <p>No encontramos lo que buscabas. Volvamos al comienzo.</p>
-    <a class="boton boton-grande" href="/">Ir a Inicio</a>
+  <div class="pagina">
+    <Curvas variante="esquina" />
+    <div class="hoja perdida">
+      <h1 class="titulo-pagina">¡Ups! Esta página se perdió</h1>
+      <p>No encontramos lo que buscabas. Volvamos al comienzo.</p>
+      <a class="boton boton-grande" href="/">Ir a Inicio</a>
+    </div>
   </div>
 </Base>
 
 <style>
   .perdida {
+    padding-top: 2rem;
     text-align: center;
-    padding: 3rem 1rem;
+  }
+  .perdida .titulo-pagina {
+    justify-content: center;
   }
 </style>

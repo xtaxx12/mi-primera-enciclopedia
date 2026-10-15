@@ -25,6 +25,8 @@ test('Enter sin elegir abre los resultados con el término resaltado', async ({ 
   await expect(page).toHaveURL(/\/buscar\?q=mexico$/);
   await expect(page.locator('.resultados li').first()).toBeVisible();
   await expect(page.locator('.resultados mark').first()).toHaveText('México');
+  await expect(page.getByRole('heading', { name: 'Resultados para «mexico»' })).toBeVisible();
+  await expect(page.locator('.resultados li .miniatura').first()).toBeVisible();
 });
 
 test('sin resultados muestra el aviso y las categorías', async ({ page }) => {

@@ -3,7 +3,7 @@ import { buscar, resaltar, type ResultadoBusqueda } from '../lib/busqueda';
 import { obtenerIndice } from '../lib/indice-cliente';
 
 interface Props {
-  categorias: { slug: string; nombre: string }[];
+  categorias: { slug: string; nombre: string; icono: string }[];
 }
 
 function Resaltado({ texto, consulta }: { texto: string; consulta: string }) {
@@ -28,13 +28,14 @@ export default function ResultadosBusqueda({ categorias }: Props) {
   }, []);
 
   const nombre = (slug: string) => categorias.find((c) => c.slug === slug)?.nombre ?? '';
+  const icono = (slug: string) => categorias.find((c) => c.slug === slug)?.icono ?? '1F4DA';
 
   if (estado === 'error') return <p role="status">La búsqueda no está disponible ahora</p>;
   if (estado === 'cargando' || consulta === null) return <p role="status">Buscando…</p>;
   if (!consulta.trim()) return <p>Escribe algo en el buscador para empezar.</p>;
   if (!resultados.length) {
     return (
-      <div class="sin-resultados" role="status">
+      <div class="sin-resultados recuadro-naranja" role="status">
         <p>No encontré nada para «{consulta}». Revisa la ortografía o explora una categoría:</p>
         <ul class="categorias-sugeridas">
           {categorias.map((c) => (
@@ -48,19 +49,21 @@ export default function ResultadosBusqueda({ categorias }: Props) {
   }
   return (
     <div>
-      <p role="status">
-        {resultados.length} resultados para «{consulta}»
-      </p>
+      <h2 class="titulo-resultados">{`Resultados para «${consulta}»`}</h2>
+      <p role="status">{`${resultados.length} resultados`}</p>
       <ol class="resultados">
         {resultados.map((r) => (
           <li>
-            <a href={`/articulo/${r.slug}`} class="titulo-resultado">
-              <Resaltado texto={r.titulo} consulta={consulta} />
-            </a>{' '}
-            <span class="categoria-resultado">{nombre(r.categoria)}</span>
-            <p>
-              <Resaltado texto={r.resumen} consulta={consulta} />
-            </p>
+            <img class="miniatura" src={`/iconos/${icono(r.categoria)}.svg`} width={64} height={64} alt="" />
+            <div>
+              <a href={`/articulo/${r.slug}`} class="titulo-resultado">
+                <Resaltado texto={r.titulo} consulta={consulta} />
+              </a>{' '}
+              <span class="categoria-resultado">{nombre(r.categoria)}</span>
+              <p>
+                <Resaltado texto={r.resumen} consulta={consulta} />
+              </p>
+            </div>
           </li>
         ))}
       </ol>
