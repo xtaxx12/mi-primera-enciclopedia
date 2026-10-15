@@ -19,13 +19,27 @@ export const EFECTOS: Record<Efecto, Nota[]> = {
 
 export const CLAVE_PREFERENCIA = 'mpe:sonido';
 
+export interface VozSistema {
+  lang: string;
+  name: string;
+}
+
+export interface Sintetizador {
+  getVoices(): VozSistema[];
+  cancel(): void;
+  speak(frase: unknown): void;
+}
+
 export interface OpcionesSonido {
   crearContexto?: () => AudioContext | null;
   almacen?: () => Storage | null;
+  sintetizador?: () => Sintetizador | null;
+  crearFrase?: (texto: string, voz: VozSistema) => unknown;
 }
 
 export interface Sonido {
   reproducir(efecto: Efecto): void;
+  hablar(texto: string): void;
   activado(): boolean;
   alternar(): boolean;
   desbloquear(): void;
@@ -49,6 +63,27 @@ function contextoPorDefecto(): AudioContext | null {
   }
 }
 
+function sintetizadorPorDefecto(): Sintetizador | null {
+  try {
+    return (globalThis as unknown as { speechSynthesis?: Sintetizador }).speechSynthesis ?? null;
+  } catch {
+    return null;
+  }
+}
+
+function frasePorDefecto(texto: string, voz: VozSistema): unknown {
+  const Frase = (globalThis as unknown as { SpeechSynthesisUtterance?: typeof SpeechSynthesisUtterance }).SpeechSynthesisUtterance;
+  if (!Frase) return null;
+  const frase = new Frase(texto);
+  frase.lang = voz.lang;
+  try {
+    frase.voice = voz as SpeechSynthesisVoice;
+  } catch {
+    // una voz que no es del navegador (pruebas): basta con el idioma
+  }
+  return frase;
+}
+
 export function crearSonido(op: OpcionesSonido = {}): Sonido {
   const almacen = () => {
     try {
@@ -59,6 +94,14 @@ export function crearSonido(op: OpcionesSonido = {}): Sonido {
   };
   const crearContexto = op.crearContexto ?? contextoPorDefecto;
   let contexto: AudioContext | null = null;
+  const sintetizador = () => {
+    try {
+      return (op.sintetizador ?? sintetizadorPorDefecto)();
+    } catch {
+      return null;
+    }
+  };
+  let desbloqueado = false;
   let encendido = (() => {
     try {
       return almacen()?.getItem(CLAVE_PREFERENCIA) !== '0';
@@ -69,12 +112,14 @@ export function crearSonido(op: OpcionesSonido = {}): Sonido {
 
   return {
     desbloquear() {
+      desbloqueado = true;
       if (!contexto) contexto = crearContexto();
       if (contexto?.state === 'suspended') contexto.resume().catch(() => {});
     },
     activado: () => encendido,
     alternar() {
       encendido = !encendido;
+      if (!encendido) sintetizador()?.cancel();
       try {
         almacen()?.setItem(CLAVE_PREFERENCIA, encendido ? '1' : '0');
       } catch {
@@ -100,6 +145,20 @@ export function crearSonido(op: OpcionesSonido = {}): Sonido {
         }
       } catch {
         // el navegador no pudo reproducir: silencio
+      }
+    },
+    hablar(texto) {
+      if (!encendido || !desbloqueado || !texto) return;
+      try {
+        const s = sintetizador();
+        const voz = s?.getVoices().find((v) => v.lang.toLowerCase().startsWith('es'));
+        if (!s || !voz) return;
+        const frase = (op.crearFrase ?? frasePorDefecto)(texto, voz);
+        if (!frase) return;
+        s.cancel();
+        s.speak(frase);
+      } catch {
+        // sin voz disponible: silencio
       }
     },
   };
