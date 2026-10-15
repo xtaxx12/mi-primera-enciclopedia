@@ -39,3 +39,32 @@ test('la búsqueda no tiene problemas graves de accesibilidad', async ({ page })
   await expect(page.locator('.resultados li').first()).toBeVisible();
   await revisarAccesibilidad(page);
 });
+
+test('lo escrito antes de que cargue el buscador no se pierde', async ({ page }) => {
+  let soltar = () => {};
+  const retenido = new Promise<void>((r) => (soltar = r));
+  await page.route(/\/Buscador\.[^/]*\.js$/, async (ruta) => {
+    await retenido;
+    await ruta.continue();
+  });
+  await page.goto('/');
+  const campo = campoDeLaBarra(page);
+  await campo.click();
+  await campo.fill('mexico');
+  soltar();
+  await expect(page.locator('astro-island:has(.buscador-barra)')).not.toHaveAttribute('ssr');
+  await expect(page.getByRole('option', { name: 'México' })).toBeVisible();
+  await campo.press('Enter');
+  await expect(page).toHaveURL(/\/buscar\?q=mexico$/);
+});
+
+test('sin JavaScript, Enter lleva a los resultados', async ({ browser }) => {
+  const contexto = await browser.newContext({ javaScriptEnabled: false });
+  const pagina = await contexto.newPage();
+  await pagina.goto('/');
+  const campo = campoDeLaBarra(pagina);
+  await campo.fill('mexico');
+  await campo.press('Enter');
+  await expect(pagina).toHaveURL(/\/buscar\?q=mexico$/);
+  await contexto.close();
+});

@@ -1,4 +1,4 @@
-import { useEffect, useId, useState } from 'preact/hooks';
+import { useEffect, useId, useRef, useState } from 'preact/hooks';
 import { navigate } from 'astro:transitions/client';
 import { sugerir, type ResultadoBusqueda } from '../lib/busqueda';
 import { obtenerIndice } from '../lib/indice-cliente';
@@ -14,9 +14,17 @@ export default function Buscador({ variante = 'barra' }: Props) {
   const [activa, setActiva] = useState(-1);
   const [abierto, setAbierto] = useState(false);
   const [estado, setEstado] = useState<'inactivo' | 'cargando' | 'listo' | 'error'>('inactivo');
+  const campo = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (variante === 'grande') setConsulta(new URLSearchParams(location.search).get('q') ?? '');
+    // Si se escribió antes de que la isla cargara, se conserva lo escrito.
+    const escrito = campo.current?.value ?? '';
+    const inicial = escrito || (variante === 'grande' ? (new URLSearchParams(location.search).get('q') ?? '') : '');
+    if (inicial) setConsulta(inicial);
+    if (document.activeElement === campo.current) {
+      prepararIndice();
+      setAbierto(true);
+    }
   }, []);
 
   useEffect(() => {
@@ -75,12 +83,14 @@ export default function Buscador({ variante = 'barra' }: Props) {
   const deshabilitado = estado === 'error';
 
   return (
-    <form class={`buscador buscador-${variante}`} role="search" onSubmit={alEnviar}>
+    <form class={`buscador buscador-${variante}`} role="search" action="/buscar" onSubmit={alEnviar}>
       <label class="visualmente-oculto" for={`${id}-campo`}>
         Buscar en la enciclopedia
       </label>
       <input
+        ref={campo}
         id={`${id}-campo`}
+        name="q"
         type="search"
         role="combobox"
         aria-expanded={mostrarLista}
