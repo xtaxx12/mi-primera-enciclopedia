@@ -407,3 +407,163 @@ img {
     animation: none !important;
   }
 }
+
+/* ---------- Cuestionario ---------- */
+
+.cuestionario {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cuestionario .avance {
+  list-style: none;
+  margin: 0 0 4px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.cuestionario .avance svg {
+  fill: #d6d6d6;
+}
+
+.cuestionario .avance .hecha svg {
+  fill: var(--naranja);
+}
+
+.cuestionario .avance .actual svg {
+  fill: var(--amarillo-elegido);
+}
+
+.cuestionario .progreso {
+  margin: 0 0 8px;
+  font-weight: bold;
+  color: var(--texto-suave);
+}
+
+.cuestionario .pregunta {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 16px;
+  align-items: center;
+  padding: 16px;
+  text-align: left;
+}
+
+.cuestionario .pregunta h2 {
+  margin: 0;
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+
+.cuestionario h2:focus {
+  outline: none;
+}
+
+.cuestionario .foto {
+  margin: 0;
+}
+
+.imagen-pregunta {
+  width: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+.cuestionario .credito {
+  margin: 4px 0 0;
+  font-size: 0.75rem;
+}
+
+.cuestionario .credito a {
+  color: #fff;
+}
+
+.opciones {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.opcion {
+  width: 100%;
+  min-height: 56px;
+  justify-content: center;
+  font-size: 1.125rem;
+}
+
+.opcion:disabled {
+  cursor: default;
+}
+
+.opcion .marca {
+  min-width: 1.2em;
+  font-size: 1.4rem;
+}
+
+.opcion.correcta {
+  border-color: #2e7d1a;
+  background: linear-gradient(to bottom, #e3ffd6, #9fe57a);
+}
+
+.opcion.incorrecta {
+  border-color: #b42a48;
+  background: linear-gradient(to bottom, #ffe6e6, #ffaaaa);
+}
+
+.cuestionario .explicacion {
+  text-align: left;
+}
+
+.cuestionario .estrellas {
+  margin: 8px 0;
+  font-size: 3rem;
+  color: #b07800;
+}
+
+.form-nombre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.form-nombre input {
+  height: 40px;
+  padding: 0 14px;
+  border: 3px solid var(--verde-borde);
+  border-radius: 20px;
+  font: inherit;
+}
+
+.tabla-puntajes {
+  margin: 1rem auto;
+  border-collapse: collapse;
+  min-width: 260px;
+}
+
+.tabla-puntajes th,
+.tabla-puntajes td {
+  padding: 0.3rem 0.8rem;
+  border-bottom: 2px solid var(--amarillo-3);
+}
+
+.cuestionario .acciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+  .cuestionario .pregunta {
+    grid-template-columns: 1fr;
+  }
+}

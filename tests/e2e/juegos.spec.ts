@@ -11,6 +11,8 @@ test('se juega un cuestionario completo y el nombre se guarda como texto', async
     await expect(page.getByText(`Pregunta ${i} de 10`)).toBeVisible();
     await page.locator('.opcion').first().click();
     await expect(page.locator('.explicacion')).toBeVisible();
+    await expect(page.locator('.opcion.correcta')).toContainText('✓');
+    await expect(page.locator('.avance li')).toHaveCount(10);
     await expect(page.locator('.opcion').first()).toBeDisabled();
     await page.getByRole('button', { name: i === 10 ? 'Ver resultado' : 'Siguiente' }).click();
   }
@@ -54,4 +56,10 @@ test('Juega y aprende no tiene problemas graves de accesibilidad', async ({ page
   await page.goto('/juegos');
   await expect(page.getByRole('heading', { level: 1, name: 'Juega y aprende' })).toBeVisible();
   await revisarAccesibilidad(page);
+});
+
+test('la pregunta va en el panel azul y las respuestas son placas', async ({ page }) => {
+  await page.goto('/juegos/cuestionario/animales');
+  await expect(page.locator('.panel-azul.pregunta h2')).not.toBeEmpty();
+  await expect(page.locator('.opcion.placa')).toHaveCount(3);
 });
