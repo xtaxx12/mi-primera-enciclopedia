@@ -15,7 +15,7 @@ const { medio, href, respaldo } = Astro.props;
 const imagen = medio.tipo === 'imagen' ? imagenDe(medio.archivo) : undefined;
 const tipo = medio.tipo === 'audio' ? ICONOS.sonido : medio.tipo === 'video' ? ICONOS.video : ICONOS.buscar;
 ---
-<a class="recuadro" href={href} data-astro-reload>
+<a class="recuadro" href={href}>
   <span class="foto">
     {
       imagen ? (

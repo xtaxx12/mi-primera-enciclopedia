@@ -82,19 +82,30 @@ img {
   padding: 0 16px 32px;
 }
 
+/* Los títulos naranjas van sobre blanco: encima de las curvas de color no se leerían. */
+.titulo-pagina,
+.titulo-articulo,
+.titulo-resultados {
+  width: fit-content;
+  max-width: 100%;
+  padding-inline: 8px;
+  border-radius: 10px;
+  background: #fff;
+}
+
 .titulo-pagina {
   display: flex;
   align-items: center;
   gap: 12px;
   min-height: 66px;
-  margin: 0;
+  margin: 0 -8px;
   font-size: 2.5rem;
   color: var(--naranja-titulo);
   text-shadow: 0 1px 0 #fff;
 }
 
 .titulo-articulo {
-  margin: 0;
+  margin: 0 -8px;
   font-size: 1.75rem;
   color: var(--naranja-titulo);
 }
@@ -632,7 +643,7 @@ img {
 /* ---------- Resultados de búsqueda ---------- */
 
 .titulo-resultados {
-  margin: 0 0 4px;
+  margin: 0 -8px 4px;
   font-size: 1.5rem;
   color: var(--naranja-titulo);
 }

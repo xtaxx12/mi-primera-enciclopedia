@@ -48,3 +48,28 @@ test('la galería no tiene problemas graves de accesibilidad', async ({ page }) 
   await page.goto('/articulo/leon/imagenes');
   await revisarAccesibilidad(page);
 });
+
+test('volver con Atrás a la galería muestra el medio elegido', async ({ page }) => {
+  await page.goto('/articulo/leon/imagenes');
+  await page.locator('.tira .recuadro').nth(1).click();
+  await expect(page.locator('#medio-2')).toBeVisible();
+  await page.getByRole('link', { name: /Lee el artículo/ }).click();
+  await expect(page).toHaveURL(/\/articulo\/leon$/);
+  await page.goBack();
+  await expect(page).toHaveURL(/\/articulo\/leon\/imagenes#medio-2$/);
+  await expect(page.locator('.visor')).toBeVisible();
+  await expect(page.locator('#medio-2')).toBeVisible();
+  await expect(page.locator('#medio-1')).toBeHidden();
+});
+
+test('desde el artículo, el medio elegido sigue visible al volver con Atrás', async ({ page }) => {
+  await page.goto('/articulo/leon');
+  await page.locator('.recuadro').nth(1).click();
+  await expect(page.locator('#medio-2')).toBeVisible();
+  await page.getByRole('link', { name: /Lee el artículo/ }).click();
+  await expect(page).toHaveURL(/\/articulo\/leon$/);
+  await page.goBack();
+  await expect(page.locator('.visor')).toBeVisible();
+  await expect(page.locator('#medio-2')).toBeVisible();
+  await expect(page.locator('#medio-1')).toBeHidden();
+});

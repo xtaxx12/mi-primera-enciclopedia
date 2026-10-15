@@ -60,6 +60,32 @@ const respaldo = `/iconos/${icono}.svg`;
   </div>
 </Base>
 
+<script>
+  function mostrar(hash: string) {
+    const visor = document.querySelector<HTMLElement>('.visor');
+    if (!visor) return;
+    const medios = [...visor.querySelectorAll<HTMLElement>('.medio')];
+    const elegido = medios.find((m) => `#${m.id}` === hash) ?? medios[0];
+    visor.classList.add('con-js');
+    for (const m of medios) m.classList.toggle('actual', m === elegido);
+  }
+
+  document.addEventListener('astro:page-load', () => mostrar(location.hash));
+  document.addEventListener(
+    'click',
+    (e) => {
+      const enlace = (e.target as Element).closest('.tira a.recuadro') as HTMLAnchorElement | null;
+      if (!enlace) return;
+      e.preventDefault();
+      const hash = enlace.getAttribute('href') ?? '';
+      // replaceState conserva el estado de ClientRouter: una entrada sin estado haría que Atrás no cambie la página.
+      history.replaceState(history.state, '', hash);
+      mostrar(hash);
+    },
+    true,
+  );
+</script>
+
 <style>
   .cabecera {
     display: flex;
@@ -99,8 +125,12 @@ const respaldo = `/iconos/${icono}.svg`;
     color: #003366;
   }
   /* Sin JavaScript: se ve el medio del ancla, o el primero si no hay ancla. */
-  .visor:has(.medio:target) .medio:not(:target),
-  .visor:not(:has(.medio:target)) .medio:not(:first-child) {
+  .visor:not(.con-js):has(.medio:target) .medio:not(:target),
+  .visor:not(.con-js):not(:has(.medio:target)) .medio:not(:first-child) {
+    display: none;
+  }
+  /* Con JavaScript manda el script (ClientRouter no actualiza :target). */
+  .visor.con-js .medio:not(.actual) {
     display: none;
   }
   .tira {
