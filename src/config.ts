@@ -38,4 +38,7 @@ export const ICONOS = {
   estrella: '2B50',
   trofeo: '1F3C6',
   libros: '1F4DA',
+  cuestionarios: '2753',
+  video: '1F3AC',
+  imagenes: '1F5BC',
 } as const;
