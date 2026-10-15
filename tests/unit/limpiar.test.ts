@@ -73,6 +73,15 @@ describe('limpiarHtml con HTML de ejemplo', () => {
     expect(r.imagenes).toEqual(['León rugiendo.jpg']);
   });
 
+  it('descarta el contenido de template, svg, iframe y similares sin limpiar', () => {
+    const entrada =
+      '<div class="mw-parser-output"><p>a <template><img src=x onerror=alert(1)></template> b' +
+      '<svg><a href="javascript:alert(2)">x</a></svg><iframe src="https://malo"></iframe><noscript><img src=y></noscript></p></div>';
+    const salida = html(limpiarHtml(entrada, sinEnlaces));
+    expect(salida).not.toMatch(/<img|onerror|javascript:|<svg|<iframe|<template|<noscript/);
+    expect(salida.startsWith('<p>a ')).toBe(true);
+  });
+
   it('ignora imágenes de menos de 100 px', () => {
     const entrada =
       '<div class="mw-parser-output"><p><span typeof="mw:File"><a href="/wiki/Archivo:Icono.svg">' +

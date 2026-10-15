@@ -102,6 +102,43 @@ describe('validarContenido', () => {
     expect(e).toContain('el país «MEX» no existe en Natural Earth');
   });
 
+  it('rechaza URL que no son https', () => {
+    const d = datos();
+    d.articulos[1] = {
+      id: 'tigre',
+      datos: articulo('tigre', {
+        principal: undefined,
+        medios: [{ ...medio('tigre.jpg'), licenciaUrl: 'javascript:alert(1)', fuenteUrl: 'data:text/html,x' }],
+        fuente: { url: 'javascript:alert(2)', historialUrl: 'https://es.vikidia.org/w/index.php?title=X&action=history', revid: 1, fecha: '2026-10-14' },
+      }),
+    };
+    const e = validarContenido(d).join('\n');
+    expect(e).toContain('medio «tigre.jpg»: licenciaUrl no es https');
+    expect(e).toContain('medio «tigre.jpg»: fuenteUrl no es https');
+    expect(e).toContain('artículo «tigre»: la fuente no es https');
+  });
+
+  it('rechaza HTML fuera de la lista permitida', () => {
+    const d = datos();
+    d.articulos[1] = {
+      id: 'tigre',
+      datos: articulo('tigre', {
+        bloques: [{ tipo: 'html', html: '<p onclick="x()">Hola <img src="x"> <a href="https://afuera.test">y</a> <a href="/articulo/leon">león</a></p>' }],
+      }),
+    };
+    const e = validarContenido(d).join('\n');
+    expect(e).toContain('HTML no permitido «<p onclick="x()">»');
+    expect(e).toContain('HTML no permitido «<img src="x">»');
+    expect(e).toContain('HTML no permitido «<a href="https://afuera.test">»');
+    expect(e).not.toContain('/articulo/leon');
+  });
+
+  it('rechaza etiquetas sin cerrar, que el HTML siguiente de la página completaría', () => {
+    const d = datos();
+    d.articulos[1] = { id: 'tigre', datos: articulo('tigre', { bloques: [{ tipo: 'html', html: '<p>Hola</p><img src=x onerror=alert(1)' }] }) };
+    expect(validarContenido(d).join('\n')).toContain('HTML no permitido «<» suelto');
+  });
+
   it('valida los cuestionarios', () => {
     const malas = [
       pregunta(1, { opciones: ['a', 'b'] as never }),

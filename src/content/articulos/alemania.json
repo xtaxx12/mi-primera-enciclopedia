@@ -9,6 +9,11 @@
       "html": "<p>La <b>República Federal de Alemania</b> es un país en Europa Central que limita al norte con el Mar del Norte, Dinamarca y el Mar Báltico; al este con Polonia y la República Checa; al sur con Austria y Suiza, y al oeste con <a href=\"/articulo/francia\">Francia</a>, Luxemburgo, Bélgica y los Países Bajos. Mide 357.021 kilómetros cuadrados y su capital es Berlín.</p>\n<p>Está formada por 16 estados (länder) federados. Cada uno de los dieciséis estados federados tiene su propio gobierno y parlamento (el Landtag) que es elegido cada cuatro o cinco años, como en España, según el caso.</p>\n<p>Todos los estados federados alemanes tienen los mismos poderes y competencias. La Constitución Alemana define las áreas de competencias que pertenecen al Estado federal y las pertenecientes a los estados federados.</p>\n<p>Alemania tiene actualmente un gran peso a la hora de tomar decisiones en la UE.</p>\n<h2>Historia</h2>"
     },
     {
+      "tipo": "figura",
+      "archivo": "oton-i-bef0aa85.jpg",
+      "pie": "Otón I del Sacro Imperio Romano Germánico."
+    },
+    {
       "tipo": "html",
       "html": "<p>Entre los años 300 a.c a 500, una serie de pueblos nómadas que hablaban lenguas germánicas emigraron a la zona de la actual Alemania, donde se encontraron con los pueblos celtas que ya se habían instalado en esas tierras previamente.</p>\n<p>Los germanos sufrieron distintos intentos de los romanos de adentrarse más allá del Rin. No obstante, las victorias germanas sobre los romanos hizo que los romanos no intentaran invadir las tierras situadas más allá del Rin.</p>\n<p>Una serie de pueblos germánicos, como los alamanes, los visigodos, los francos, los turingios, los sajones... realizaron una serie de incursiones en el Imperio romano, lo que se conoce como <b>período de las grandes migraciones</b>.</p>\n<p>Posteriormente, en el año 800 Carlomagno creó un extenso imperio, que tras su muerte se desintegró. El Imperio Carolingio se dividió en tres reinos tras el Tratado de Verdún: Francia, Germania y Lotaringia. El Sacro Imperio Romano Germánico tuvo su origen en el reino de Germania. A pesar de que la autoridad real tenía más poder que en los otros dos reinos, los grandes duques dominaban el poder.</p>\n<p>Enrique 'el Pajarero' era duque de Sajonia. Fue elegido rey en el año 918 e intentó reforzar su autoridad como rey en detrimento de los grandes duques. Durante el reinado de Enrique el Pajarero, el reino de Germania se encontraba amenazado por varios pueblos, como los normandos, u otros del este, como los eslavos o los húngaros, que atacaban e invadían.</p>\n<p>El hijo de Enrique el Pajarero, Otón I 'el Grande' pudo defender su reino contra las invasiones de otros pueblos e imponer su poder real. Así, unos años después de heredar el reino, fue proclamado emperador en el año 962, constituyéndose el <b>Sacro Imperio Romano Germánico</b>, el cual duraría hasta el año 1806.</p>\n<p>El Imperio se convirtió en una de las potencias más importantes de Europa. Las dinastías que han regido el Imperio a lo largo de su historia fueron: la dinastía de Sajonia, la Franconia, la dinastía de Hohenstaufen y la dinastía de Habsburgo.</p>\n<p>Después de la caída del Sacro Imperio Romano, Prusia y Austria convirtieron los países más fuertes en Alemania. Otto von Bismarck, a veces llamado el Canciller de Hierro, fue un político prusiano, y él unió los estados alemanes bajo Rey Guillermo I después de guerras con Dinamarca, Austria, y Francia.</p>\n<p>El último rey de Alemania, Guillermo II, fue el rey durante la Primera Guerra Mundial.</p>\n<h2>Relieve</h2>\n<p>Alemania consta de tres grandes regiones fisiográficas: una llanura de tierras bajas en el norte, la Alemania Media que es un área de mesetas en el centro y una región montañosa en el sur. El extremo oriental de la llanura posee un suelo muy rico para la agricultura.</p>"
     },
@@ -46,22 +51,31 @@
     }
   ],
   "principal": {
-    "archivo": "deutschland-topo-e5b1d3c5.jpg",
+    "archivo": "oton-i-bef0aa85.jpg",
     "tipo": "imagen",
-    "alt": "Mapa de relieve",
-    "autor": "Botaurus-stellaris",
-    "licencia": "cc-by-sa",
-    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Deutschland_topo.jpg"
+    "alt": "Otón I del Sacro Imperio Romano Germánico.",
+    "autor": "DesconocidoUnknown author",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Oton_I.jpg"
   },
   "medios": [
+    {
+      "archivo": "oton-i-bef0aa85.jpg",
+      "tipo": "imagen",
+      "alt": "Otón I del Sacro Imperio Romano Germánico.",
+      "autor": "DesconocidoUnknown author",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Oton_I.jpg"
+    },
     {
       "archivo": "deutschland-topo-e5b1d3c5.jpg",
       "tipo": "imagen",
       "alt": "Mapa de relieve",
       "autor": "Botaurus-stellaris",
       "licencia": "cc-by-sa",
-      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Deutschland_topo.jpg"
     },
     {
@@ -104,6 +118,6 @@
     "url": "https://es.vikidia.org/wiki/Alemania",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Alemania&action=history",
     "revid": 176582,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }

@@ -133,7 +133,7 @@
       "alt": "Mapa topográfico de Chile",
       "autor": "Captain Blood de Wikipedia en alemán",
       "licencia": "cc-by-sa",
-      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Chile_topo.jpg"
     },
     {
@@ -206,6 +206,6 @@
     "url": "https://es.vikidia.org/wiki/Chile",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Chile&action=history",
     "revid": 185539,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }

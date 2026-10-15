@@ -5,6 +5,11 @@
   "resumen": "Paraguay (en guaraní: Paraguái), oficialmente República del Paraguay, es un país de América, situado en la zona central de América del Sur. Su capital es Asunción.",
   "bloques": [
     {
+      "tipo": "figura",
+      "archivo": "paraguay-cia-wfb-map-2004-8693b088.png",
+      "pie": "Mapa de Paraguay"
+    },
+    {
       "tipo": "html",
       "html": "<p><b>Paraguay</b> (en guaraní: Paraguái), oficialmente <b>República del Paraguay</b>, es un país de América, situado en la zona central de América del Sur. Su capital es Asunción.</p>\n<p>Limita con <a href=\"/articulo/argentina\">Argentina</a> al sudeste, sur y sudoeste, con <a href=\"/articulo/bolivia\">Bolivia</a> al norte y con <a href=\"/articulo/brasil\">Brasil</a> al este.</p>\n<p>Su territorio está caracterizado por dos regiones diferentes separadas por el río Paraguay, la Oriental, que es la más poblada, y la Occidental, que forma parte del Chaco Boreal. Si bien es un Estado sin litoral marítimo, cuenta con puertos sobre los ríos Paraguay y Paraná que le dan una salida al océano Atlántico a través de la hidrovía Paraguay-Paraná.</p>\n<h2>Historia</h2>\n<p>En el periodo precolombino estuvo habitado por pueblos indígenas de los grupos tupí-guaraní y mataco-guaicurú.</p>\n<p>Durante la dominación española El Virreinato del Río de la Plata, creado en 1776 con capital en Buenos Aires, integraba en su jurisdicción al Paraguay, desligándolo del Virreinato del Perú.</p>\n<p>La independencia de España fue reconocida el 10 de septiembre de 1880. El actual presidente desde el 15 de agosto de 2023 es Santiago Peña, del Partido Colorado.</p>\n<h2>Geografía</h2>\n<p>El río Paraguay divide al país en dos grandes regiones geográficas, con diferente geología y topografía. Mientras que la Región Oriental o paraneña presenta un paisaje ondulado de colinas con lluvia abundante. la Región Occidental o Chaco,  constituye una llanura semiárida a subhúmeda con sedimentos de los Andes.</p>\n<h3>Relieve</h3>\n<p>La mayor parte del territorio paraguayo tiene pocas elevaciones, las pendientes de los terrenos son suaves. Los puntos altos se ubican en las inmediaciones de Pedro Juan Caballero en el centro norte de la región oriental.</p>"
     },
@@ -60,12 +65,21 @@
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Paraguay_(orthographic_projection).svg"
     },
     {
+      "archivo": "paraguay-cia-wfb-map-2004-8693b088.png",
+      "tipo": "imagen",
+      "alt": "Mapa de Paraguay",
+      "autor": "CIA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Paraguay-CIA_WFB_Map_(2004).png"
+    },
+    {
       "archivo": "ecorregiones-py-6dfc507a.jpg",
       "tipo": "imagen",
       "alt": "Ecorregiones de Paraguay",
       "autor": "Fernandolpd",
       "licencia": "cc0",
-      "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "licenciaUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Ecorregiones_PY.jpg"
     },
     {
@@ -101,6 +115,6 @@
     "url": "https://es.vikidia.org/wiki/Paraguay",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Paraguay&action=history",
     "revid": 204133,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }

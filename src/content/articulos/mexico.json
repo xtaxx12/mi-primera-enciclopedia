@@ -99,7 +99,7 @@
       "alt": "México",
       "autor": "en:User:Sagitario",
       "licencia": "cc-by-sa",
-      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Angel_de_la_Independencia_Mexico_City.jpg"
     },
     {
@@ -108,7 +108,7 @@
       "alt": "Andrés Manuel López Obrador, actual presidente de México.",
       "autor": "Presidencia El Salvador from San Salvador, El Salvador, América Central",
       "licencia": "cc0",
-      "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "licenciaUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador_(agosto_de_2017_cropped).jpg"
     }
   ],
@@ -127,6 +127,6 @@
     "url": "https://es.vikidia.org/wiki/M%C3%A9xico",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=M%C3%A9xico&action=history",
     "revid": 185500,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }

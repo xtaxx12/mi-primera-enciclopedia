@@ -11,7 +11,7 @@
   --enlace: #0b57b5;
   --foco: #ffb000;
 
-  --barra-titulo-1: #5aa3f0;
+  --barra-titulo-1: #2f6fd0;
   --barra-titulo-2: #1f5fbf;
   --boton-1: #ffffff;
   --boton-2: #d8e6f7;
@@ -22,6 +22,8 @@
   --radio: 14px;
   --sombra: 0 10px 30px rgb(0 30 80 / 0.35);
   --brillo: linear-gradient(to bottom, rgb(255 255 255 / 0.55), rgb(255 255 255 / 0.05) 50%, transparent 50%);
+  /* Brillo suave para la barra de título: con el normal, el texto blanco no llega a 3:1. */
+  --brillo-titulo: linear-gradient(to bottom, rgb(255 255 255 / 0.18), rgb(255 255 255 / 0.02) 50%, transparent 50%);
 
   /* Un color por categoría; todos con contraste AA contra texto blanco. */
   --cat-animales: #1f7a3a;

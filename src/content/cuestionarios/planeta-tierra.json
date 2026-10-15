@@ -70,16 +70,16 @@
     },
     {
       "id": "planeta-tierra-06",
-      "texto": "¿Cómo se llama un terremoto que ocurre en el mar?",
+      "texto": "¿Cómo se llaman las olas gigantes que puede causar un terremoto en el mar?",
       "imagen": "valdivia-after-earthquake-1960-17984fda.jpg",
       "opciones": [
-        "Tornado",
-        "Huracán",
-        "Tsunami"
+        "Tornados",
+        "Huracanes",
+        "Tsunamis"
       ],
       "correcta": 2,
       "articulo": "terremoto",
-      "explicacion": "Un terremoto bajo el mar puede formar olas gigantes, llamadas tsunamis, que llegan a la costa."
+      "explicacion": "Cuando la tierra tiembla bajo el mar se forman olas gigantes, los tsunamis, que avanzan sobre la costa."
     },
     {
       "id": "planeta-tierra-07",

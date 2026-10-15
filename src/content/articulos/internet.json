@@ -5,11 +5,35 @@
   "resumen": "Internet es una red de comunicación de ámbito mundial establecida a través de ordenadores. Se creó en 1969, cuando se estableció la primera conexión de computadoras, conocida como ARPANET, entre tres universidades en California y una en Utah, en los Estados Unidos.",
   "bloques": [
     {
+      "tipo": "figura",
+      "archivo": "internet-a69d89d5.jpg",
+      "pie": "Diagrama de red informática que simboliza Internet."
+    },
+    {
       "tipo": "html",
       "html": "<p><b>Internet</b> es una red de comunicación de ámbito mundial establecida a través de ordenadores. Se creó en 1969, cuando se estableció la primera conexión de computadoras, conocida como ARPANET, entre tres universidades en California y una en Utah, en los <a href=\"/articulo/estados-unidos\">Estados Unidos</a>.</p>\n<p>Aunque hoy en día el término se refiere también al conjunto de páginas y archivos que podemos consultar cuando nos conectamos a Internet, en principio se trata de dos cosas diferentes: una cosa es la red de comunicación, Internet, y otra distinta es la posibilidad de utilizar Internet para entrar en esas páginas o archivos; esta posibilidad es un servicio que hay dentro de Internet y que se llama World Wide Web (WWW, o \"la Web\"). Técnicamente, la WWW es un conjunto de protocolos que permite, de forma sencilla, la consulta de esos archivos o páginas; la Web fue creada en 1990.</p>\n<p>Además de la WWW, Internet permite también el uso de otros servicios: envío de correo electrónico, conversaciones en línea (IRC), juegos en línea, wikis, etc.</p>\n<h2>Ventajas</h2>\n<ol><li>Permite el acceso a la información.</li>\n<li>Nos permite entrar en comunicación con otras personas.</li>\n<li>Rompe barreras y facilita el acercamiento de posturas.</li>\n<li>Reduce la necesidad de presencialidad, es decir, ya no es necesario siempre reunirse para discutir un asunto, realizar largas filas para reservar unos boletos de avión,etc.</li>\n<li>Permite la libertad de expresión.</li></ol>\n<h2>Desventajas</h2>\n<ol><li>Ciberacoso y usos fraudulentos</li>\n<li>Sobresaturación de información: es posible encontrar información errónea</li>\n<li>Amenaza a la privacidad</li>\n<li>Depende del estado de la red</li>\n<li>Disminuye la actividad física.</li></ol>"
     }
   ],
-  "medios": [],
+  "principal": {
+    "archivo": "internet-a69d89d5.jpg",
+    "tipo": "imagen",
+    "alt": "Diagrama de red informática que simboliza Internet.",
+    "autor": "User:Yann (01.camille Changed Account)",
+    "licencia": "dominio-publico",
+    "licenciaUrl": "",
+    "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Internet.JPG"
+  },
+  "medios": [
+    {
+      "archivo": "internet-a69d89d5.jpg",
+      "tipo": "imagen",
+      "alt": "Diagrama de red informática que simboliza Internet.",
+      "autor": "User:Yann (01.camille Changed Account)",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Internet.JPG"
+    }
+  ],
   "relacionados": [
     "estados-unidos",
     "atomo",
@@ -19,6 +43,6 @@
     "url": "https://es.vikidia.org/wiki/Internet",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Internet&action=history",
     "revid": 163785,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }

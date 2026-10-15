@@ -5,6 +5,11 @@
   "resumen": "Ecuador, oficialmente República del Ecuador, es un país situado al noroeste de América del Sur. Tiene una extensión de 283 561 km². Su capital es Quito. El idioma oficial y de relación intercultural es el español. Como moneda válida tiene al dólar estadounidense.",
   "bloques": [
     {
+      "tipo": "figura",
+      "archivo": "ecuador-cia-wfb-map-0ce7d268.png",
+      "pie": "Mapa del Ecuador"
+    },
+    {
       "tipo": "html",
       "html": "<p><b>Ecuador</b>, oficialmente <b>República del Ecuador</b>, es un país  situado al noroeste de América del Sur. Tiene una extensión de 283 561&#160;km². Su capital es Quito. El idioma oficial y de relación intercultural es el español. Como moneda válida tiene al dólar estadounidense.</p>\n<p>El país está recorrido de norte a sur por una parte de los Andes, al oeste de la cordillera se encuentra el golfo de Guayaquil y una llanura boscosa; y al este, la Amazonía.</p>\n<p>El territorio ecuatoriano incluye las oceánicas Islas Galápagos a 1000 km de la costa.</p>\n<p>Es el país con la más alta concentración de ríos por kilómetro cuadrado en el mundo y uno de los países con mayor biodiversidad teniendo gran número de especies animales y vegetales.</p>\n<h2>Historia</h2>\n<p>El territorio del actual Ecuador estuvo habitado desde épocas prehispánicas por diversos pueblos y culturas, entre ellos los valdivia, chorrera, manteños, milagro-quechua y cañaris. Durante el siglo XV, gran parte de la región andina fue incorporada al Imperio incaico bajo los gobiernos de Túpac Yupanqui y Huayna Cápac. La conquista española comenzó en la década de 1530 y dio paso a la organización colonial, cuyo principal centro administrativo fue la Real Audiencia de Quito, creada en 1563.</p>\n<p>El proceso de independencia comenzó durante la crisis de la monarquía española. El 10 de agosto de 1809 se estableció en Quito una junta de gobierno, mientras que el 9 de octubre de 1820 Guayaquil proclamó su independencia. La batalla de Pichincha, librada el 24 de mayo de 1822 y dirigida por Antonio José de Sucre, aseguró la independencia de Quito y permitió la incorporación del territorio a la Gran Colombia.</p>\n<p>En 1830, tras la disolución de la Gran Colombia, se constituyó la República del Ecuador. Durante el siglo XIX, el nuevo Estado estuvo marcado por conflictos entre grupos políticos y regionales y por cambios constitucionales. En la segunda mitad del siglo destacaron los gobiernos de Gabriel García Moreno, mientras que la Revolución Liberal de 1895, encabezada por Eloy Alfaro, impulsó la secularización del Estado, la educación laica y otras reformas institucionales.</p>\n<p>Durante el siglo XX, Ecuador experimentó periodos de inestabilidad política, reformas institucionales y cambios en su estructura económica. La producción de cacao, banano y posteriormente petróleo tuvo un papel destacado en la economía nacional. Entre 1972 y 1979 el país estuvo gobernado por regímenes militares y en 1979 retornó al sistema constitucional.</p>\n<p>A finales del siglo XX, Ecuador atravesó una grave crisis económica y financiera que culminó con la adopción del dólar estadounidense como moneda oficial en 2000. En 2008 entró en vigor una nueva Constitución, aprobada mediante referéndum, que definió al país como un Estado constitucional de derechos y justicia, intercultural y plurinacional, y reconoció derechos de la naturaleza.</p>\n<h2>Geografía</h2>\n<p>Ecuador se encuentra sobre la línea ecuatorial terrestre por lo cual su territorio se encuentra en ambos hemisferios.</p>\n<p><b>Límites:</b></p>\n<p>- <b>Norte:</b> <a href=\"/articulo/colombia\">Colombia</a> <br>- <b>Sur y este:</b> <a href=\"/articulo/peru\">Perú</a><br>- <b>Oeste:</b> <a href=\"/articulo/oceano-pacifico\">Océano Pacífico</a><br></p>\n<ul><li>En el Océano Pacífico, el Ecuador posee un territorio soberano: las Islas Galápagos.</li></ul>\n<h3>Relieve</h3>\n<p>Las principales unidades del relieve ecuatoriano son: la llanura costera al norte del Golfo de Guayaquil, la parte de la Cordillera de los Andes en el centro del país y un extenso sector de la llanura amazónica ubicado al este del país.</p>\n<p>Muy cerca de Quito, la capital, sobre la Cordillera de los Andes, se alza el Cotopaxi, el <a href=\"/articulo/volcan\">volcán</a> activo más alto del mundo. El punto más alto del Ecuador es el volcán Chimborazo, con 6313 msnm el punto más alto de la <a href=\"/articulo/tierra\">tierra</a> cuando es visto desde el <a href=\"/articulo/sol\">sol</a>. Otros volcanes cercanos son el Antisana y el Rucu Pichincha.</p>\n<h3>Hidrografía</h3>"
     },
@@ -61,6 +66,15 @@
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Ecuador_(orthographic_projection).svg"
     },
     {
+      "archivo": "ecuador-cia-wfb-map-0ce7d268.png",
+      "tipo": "imagen",
+      "alt": "Mapa del Ecuador",
+      "autor": "CIA",
+      "licencia": "dominio-publico",
+      "licenciaUrl": "",
+      "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Ecuador-CIA_WFB_Map.png"
+    },
+    {
       "archivo": "ecuador-topography-bf65fd15.png",
       "tipo": "imagen",
       "alt": "Mapa del relieve de Ecuador",
@@ -112,6 +126,6 @@
     "url": "https://es.vikidia.org/wiki/Ecuador",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Ecuador&action=history",
     "revid": 204127,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }

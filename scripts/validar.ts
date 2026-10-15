@@ -2,8 +2,25 @@ import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { Articulo, Cuestionario, Medio } from '../src/lib/tipos';
+import { esHttps } from '../src/lib/urls';
 
 const LICENCIAS = new Set(['dominio-publico', 'cc0', 'cc-by', 'cc-by-sa']);
+const ETIQUETAS_HTML = new Set(['p', 'h2', 'h3', 'ul', 'ol', 'li', 'b', 'i', 'strong', 'em', 'a', 'br', 'sub', 'sup']);
+
+const ETIQUETA = /<(\/?)([a-zA-Z][a-zA-Z0-9]*)([^>]*)>/g;
+
+/** Etiquetas fuera de la lista permitida, con atributos (salvo href a un artículo) o sin cerrar. */
+function htmlNoPermitido(html: string): string[] {
+  const malas: string[] = [];
+  for (const [etiqueta, cierre, nombre, atributos] of html.matchAll(ETIQUETA)) {
+    const n = nombre.toLowerCase();
+    const atributosOk = atributos === '' || (n === 'a' && !cierre && /^ href="\/articulo\/[a-z0-9-]+"$/.test(atributos));
+    if (!ETIQUETAS_HTML.has(n) || !atributosOk) malas.push(`«${etiqueta}»`);
+  }
+  // El texto llega escapado (&lt;): un "<" que sobra es una etiqueta sin cerrar que el HTML siguiente completaría.
+  if (html.replace(ETIQUETA, '').includes('<')) malas.push('«<» suelto');
+  return malas;
+}
 
 export interface DatosValidacion {
   articulos: { id: string; datos: Articulo }[];
@@ -19,6 +36,8 @@ function validarMedio(m: Medio, donde: string, d: DatosValidacion): string[] {
   if (!m.autor?.trim()) errores.push(`${nombre}: sin autor`);
   if (!LICENCIAS.has(m.licencia)) errores.push(`${nombre}: licencia no permitida «${m.licencia}»`);
   if (!m.fuenteUrl) errores.push(`${nombre}: sin fuenteUrl`);
+  else if (!esHttps(m.fuenteUrl)) errores.push(`${nombre}: fuenteUrl no es https`);
+  if (m.licenciaUrl && !esHttps(m.licenciaUrl)) errores.push(`${nombre}: licenciaUrl no es https`);
   const existe = m.tipo === 'imagen' ? d.imagenes.has(m.archivo) : d.publicos.has(m.archivo);
   if (!existe) errores.push(`${nombre}: el archivo no existe`);
   return errores;
@@ -34,6 +53,8 @@ export function validarContenido(d: DatosValidacion): string[] {
     if (a.slug !== id) errores.push(`${donde}: el slug «${a.slug}» no coincide con el nombre del archivo`);
     if (!a.fuente?.url || !a.fuente?.historialUrl || !a.fuente?.revid || !a.fuente?.fecha) {
       errores.push(`${donde}: fuente incompleta`);
+    } else if (!esHttps(a.fuente.url) || !esHttps(a.fuente.historialUrl)) {
+      errores.push(`${donde}: la fuente no es https`);
     }
     const medios = new Map([...(a.principal ? [a.principal] : []), ...a.medios].map((m) => [m.archivo, m]));
     for (const m of medios.values()) errores.push(...validarMedio(m, donde, d));
@@ -43,6 +64,7 @@ export function validarContenido(d: DatosValidacion): string[] {
         errores.push(`${donde}: la figura «${b.archivo}» no está entre sus medios`);
       }
       if (b.tipo === 'html') {
+        for (const mala of htmlNoPermitido(b.html)) errores.push(`${donde}: HTML no permitido ${mala}`);
         for (const [, slug] of b.html.matchAll(/href="\/articulo\/([^"]+)"/g)) {
           if (!porSlug.has(slug)) errores.push(`${donde}: enlace interno roto a «${slug}»`);
         }

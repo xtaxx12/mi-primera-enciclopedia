@@ -20,7 +20,7 @@
     "alt": "Mariposa monarca",
     "autor": "LBleye",
     "licencia": "cc-by-sa",
-    "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mariposa.jpg"
   },
   "medios": [
@@ -30,7 +30,7 @@
       "alt": "Mariposa monarca",
       "autor": "LBleye",
       "licencia": "cc-by-sa",
-      "licenciaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "fuenteUrl": "https://commons.wikimedia.org/wiki/File:Mariposa.jpg"
     },
     {
@@ -79,6 +79,6 @@
     "url": "https://es.vikidia.org/wiki/Rhopalocera",
     "historialUrl": "https://es.vikidia.org/w/index.php?title=Rhopalocera&action=history",
     "revid": 135961,
-    "fecha": "2026-10-14"
+    "fecha": "2026-10-15"
   }
 }
