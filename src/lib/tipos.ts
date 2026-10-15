@@ -1,4 +1,5 @@
 import type { CategoriaSlug } from '../config';
+import type { ImageMetadata } from 'astro';
 
 export type Licencia = 'dominio-publico' | 'cc0' | 'cc-by' | 'cc-by-sa';
 export type TipoMedio = 'imagen' | 'audio' | 'video';
@@ -63,3 +64,18 @@ export type Caja = [number, number, number, number];
 export type Pantalla =
   | 'inicio' | 'categoria' | 'articulo' | 'buscar' | 'atlas' | 'pais'
   | 'juegos' | 'cuestionario' | 'acerca' | '404';
+
+export interface EnlaceMenu {
+  nombre: string;
+  icono: string;
+  href: string;
+  actual: boolean;
+}
+
+export interface Celda {
+  href: string;
+  titulo: string;
+  /** Ícono de respaldo (y el que se muestra si no hay imagen). */
+  icono: string;
+  imagen?: ImageMetadata;
+}
