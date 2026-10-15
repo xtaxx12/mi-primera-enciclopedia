@@ -4,6 +4,8 @@ import { getImage } from 'astro:assets';
 import Base from '../../../layouts/Base.astro';
 import CuestionarioIsla, { type CuestionarioVista } from '../../../components/Cuestionario.tsx';
 import { imagenDe } from '../../../lib/medios';
+import { textoLicencia } from '../../../lib/articulos';
+import { recortar } from '../../../lib/texto';
 import type { Articulo, Cuestionario } from '../../../lib/tipos';
 
 export async function getStaticPaths() {
@@ -21,7 +23,13 @@ const vista: CuestionarioVista = {
       const articulo = articulos.get(p.articulo)!;
       const medio = articulo.medios.find((m) => m.archivo === p.imagen)!;
       const imagen = await getImage({ src: imagenDe(p.imagen)!, width: 480 });
-      return { ...p, imagenSrc: imagen.src, imagenAlt: medio.alt, tituloArticulo: articulo.titulo };
+      const credito = {
+        autor: recortar(medio.autor, 80),
+        licencia: textoLicencia(medio.licencia),
+        licenciaUrl: medio.licenciaUrl,
+        fuenteUrl: medio.fuenteUrl,
+      };
+      return { ...p, imagenSrc: imagen.src, imagenAlt: medio.alt, tituloArticulo: articulo.titulo, credito };
     }),
   ),
 };

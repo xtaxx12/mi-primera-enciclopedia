@@ -9,6 +9,7 @@ export interface PreguntaVista extends Pregunta {
   imagenSrc: string;
   imagenAlt: string;
   tituloArticulo: string;
+  credito: { autor: string; licencia: string; licenciaUrl: string; fuenteUrl: string };
 }
 
 export interface CuestionarioVista {
@@ -140,6 +141,15 @@ export default function Cuestionario({ cuestionario }: { cuestionario: Cuestiona
         {actual.pregunta.texto}
       </h2>
       <img class="imagen-pregunta" src={actual.pregunta.imagenSrc} alt={actual.pregunta.imagenAlt} />
+      <p class="credito">
+        Imagen: <a href={actual.pregunta.credito.fuenteUrl}>{actual.pregunta.credito.autor}</a>, {actual.pregunta.credito.licencia}
+        {actual.pregunta.credito.licenciaUrl && (
+          <>
+            {' '}
+            (<a href={actual.pregunta.credito.licenciaUrl}>licencia</a>)
+          </>
+        )}
+      </p>
       <div class="opciones" role="group" aria-label="Opciones">
         {actual.opciones.map((texto, i) => {
           const estado = !respondida ? '' : i === actual.correcta ? ' correcta' : i === juego.elegida ? ' incorrecta' : '';

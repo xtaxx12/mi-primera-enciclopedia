@@ -40,3 +40,12 @@ test('el cuestionario no tiene problemas graves de accesibilidad', async ({ page
   await expect(page.locator('.opcion').first()).toBeVisible();
   await revisarAccesibilidad(page);
 });
+
+test('la imagen de cada pregunta muestra autor, licencia y enlace a Commons', async ({ page }) => {
+  await page.goto('/juegos');
+  await page.locator('.juego').first().click();
+  const credito = page.locator('.credito');
+  await expect(credito).toBeVisible();
+  await expect(credito).toContainText(/CC BY-SA|CC BY|CC0|Dominio público/);
+  await expect(credito.getByRole('link').first()).toHaveAttribute('href', /^https:\/\/commons\.wikimedia\.org\//);
+});
