@@ -14,4 +14,16 @@ con contenido libre. Homenaje a Mi Primera Encarta (2009). Proyecto no afiliado 
 | `npm run dev` | Servidor de desarrollo |
 | `npm run build` | Valida el contenido y genera el sitio en `dist/` |
 | `npm test` | Pruebas unitarias |
-| `npm run test:e2e` | Pruebas de extremo a extremo |
+| `npm run test:e2e` | Pruebas de extremo a extremo (Playwright, sobre el build de producción en el puerto 4329) |
+| `npm run candidatos -- "Mamíferos"` | Lista artículos de una categoría de Vikidia para elegir |
+| `npm run import` | Descarga y limpia los artículos de `scripts/import/curacion.yaml` |
+| `npm run atlas` | Regenera el mapa desde Natural Earth |
+| `npm run iconos` | Descarga los íconos de OpenMoji |
+| `npm run ayuda-cuestionario -- animales` | Muestra datos para redactar un cuestionario |
+| `npm run validar` | Revisa atribuciones, enlaces y cuestionarios |
+
+## Actualizar el contenido
+
+1. Edita `scripts/import/curacion.yaml`.
+2. Corre `npm run import` y revisa `scripts/import/informe.md`.
+3. Corre `npm run validar` y haz commit del contenido.
