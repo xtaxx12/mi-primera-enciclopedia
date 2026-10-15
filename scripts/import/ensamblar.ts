@@ -3,6 +3,7 @@ import type { EntradaCuracion } from './curacion';
 import type { ResultadoLimpieza } from './limpiar';
 import { claveArchivo, elegirDescarga, nombreLocal, tipoDe, type Descarga, type MetadatosArchivo } from './metadatos';
 import { esEsbozo, urlArticulo, urlHistorial, type ArticuloCrudo } from './vikidia';
+import { aHttps, esHttps } from '../../src/lib/urls';
 
 export const PALABRAS_MINIMAS = 150;
 export const IMAGENES_POR_ARTICULO = 6;
@@ -20,6 +21,7 @@ export type ResultadoMedio = { medio: Medio; descarga: Descarga; aviso?: string 
 export function prepararMedio(m: MetadatosArchivo, alt: string): ResultadoMedio {
   if (!m.licencia) return { descartado: 'licencia no permitida o desconocida' };
   if (!m.autor) return { descartado: 'sin autor' };
+  if (!esHttps(m.fuenteUrl)) return { descartado: 'fuente no válida' };
   const tipo = tipoDe(m);
   if (!tipo) return { descartado: `tipo no soportado (${m.mime})` };
   const descarga = elegirDescarga(m);
@@ -31,7 +33,7 @@ export function prepararMedio(m: MetadatosArchivo, alt: string): ResultadoMedio 
       alt,
       autor: m.autor,
       licencia: m.licencia,
-      licenciaUrl: m.licenciaUrl,
+      licenciaUrl: aHttps(m.licenciaUrl),
       fuenteUrl: m.fuenteUrl,
     },
     descarga,

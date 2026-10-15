@@ -22,7 +22,9 @@ const SECCIONES_DESCARTADAS = new Set([
 ]);
 const ETIQUETAS_PERMITIDAS = new Set(['B', 'I', 'STRONG', 'EM', 'A', 'BR', 'SUB', 'SUP', 'LI', 'UL', 'OL']);
 const QUITAR =
-  'sup.reference, .mw-editsection, .reference, .noprint, .mw-cite-backlink, style, script, img, figure, span[typeof^="mw:File"], .gallery';
+  'sup.reference, .mw-editsection, .reference, .noprint, .mw-cite-backlink, style, script, img, figure, span[typeof^="mw:File"], .gallery, ' +
+  // querySelectorAll no entra en <template>: su contenido se saltaría la limpieza si se desenvolviera.
+  'template, iframe, object, embed, noscript, svg, math';
 const ANCHO_MINIMO_IMAGEN = 100;
 
 function escapar(s: string): string {

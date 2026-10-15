@@ -7,14 +7,17 @@ const idDesdeArchivo = ({ entry }: { entry: string }) => entry.replace(/\.json$/
 
 const licencia = z.enum(['dominio-publico', 'cc0', 'cc-by', 'cc-by-sa']);
 
+// z.url() solo acepta también javascript: y data:; se exige https.
+const urlHttps = z.url({ protocol: /^https$/ });
+
 const medio = z.object({
   archivo: z.string().min(1),
   tipo: z.enum(['imagen', 'audio', 'video']),
   alt: z.string(),
   autor: z.string().min(1),
   licencia,
-  licenciaUrl: z.string(),
-  fuenteUrl: z.url(),
+  licenciaUrl: z.union([z.literal(''), urlHttps]),
+  fuenteUrl: urlHttps,
 });
 
 const bloque = z.discriminatedUnion('tipo', [
@@ -34,7 +37,7 @@ const articulos = defineCollection({
     medios: z.array(medio),
     relacionados: z.array(z.string()),
     pais: z.object({ adm0: z.string().regex(/^[A-Z]{3}$/) }).optional(),
-    fuente: z.object({ url: z.url(), historialUrl: z.url(), revid: z.number().int(), fecha: z.string() }),
+    fuente: z.object({ url: urlHttps, historialUrl: urlHttps, revid: z.number().int(), fecha: z.string() }),
   }),
 });
 

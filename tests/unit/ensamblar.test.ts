@@ -61,6 +61,15 @@ describe('prepararMedio', () => {
     expect('medio' in r && r.medio.archivo).toMatch(/^leona-[0-9a-f]{8}\.jpg$/);
   });
 
+  it('solo acepta URL https para la licencia y la fuente', () => {
+    const r = prepararMedio({ ...base, licenciaUrl: 'javascript:alert(1)' }, 'x');
+    expect('medio' in r && r.medio.licenciaUrl).toBe('');
+    expect(prepararMedio({ ...base, fuenteUrl: 'javascript:alert(1)' }, 'x')).toEqual({ descartado: 'fuente no válida' });
+    expect(prepararMedio({ ...base, fuenteUrl: 'data:text/html,hola' }, 'x')).toEqual({ descartado: 'fuente no válida' });
+    const http = prepararMedio({ ...base, licenciaUrl: 'http://creativecommons.org/licenses/by-sa/3.0/' }, 'x');
+    expect('medio' in http && http.medio.licenciaUrl).toBe('https://creativecommons.org/licenses/by-sa/3.0/');
+  });
+
   it('descarta archivos sin licencia, sin autor o de tipo no soportado', () => {
     expect(prepararMedio({ ...base, licencia: null }, 'x')).toEqual({ descartado: 'licencia no permitida o desconocida' });
     expect(prepararMedio({ ...base, autor: '' }, 'x')).toEqual({ descartado: 'sin autor' });
